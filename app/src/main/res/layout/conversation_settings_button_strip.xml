@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:viewBindingIgnore="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/button_strip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/button_strip_add_to_story_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/add_to_story"
+                style="@style/Signal.Widget.ImageView.ActionButton"
+                android:contentDescription="@string/ConversationSettingsFragment__story"
+                app:srcCompat="@drawable/add_to_story_24" />
+
+            <TextView
+                android:id="@+id/add_to_story_label"
+                style="@style/Signal.Widget.TextView.ActionButton"
+                android:hyphenationFrequency="normal"
+                android:text="@string/ConversationSettingsFragment__story" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_strip_message_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/message"
+                style="@style/Signal.Widget.ImageView.ActionButton"
+                android:contentDescription="@string/ConversationSettingsFragment__message"
+                app:srcCompat="@drawable/ic_chat_message_24" />
+
+            <TextView
+                android:id="@+id/message_label"
+                style="@style/Signal.Widget.TextView.ActionButton"
+                android:hyphenationFrequency="normal"
+                android:text="@string/ConversationSettingsFragment__message" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_strip_video_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/start_video"
+                style="@style/Signal.Widget.ImageView.ActionButton"
+                android:contentDescription="@string/ConversationSettingsFragment__start_video_call"
+                app:srcCompat="@drawable/ic_video_call_24" />
+
+            <TextView
+                android:id="@+id/start_video_label"
+                style="@style/Signal.Widget.TextView.ActionButton"
+                android:hyphenationFrequency="normal"
+                android:text="@string/ConversationSettingsFragment__video" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_strip_audio_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/start_audio"
+                style="@style/Signal.Widget.ImageView.ActionButton"
+                android:contentDescription="@string/ConversationSettingsFragment__start_audio_call"
+                app:srcCompat="@drawable/ic_phone_right_24" />
+
+            <TextView
+                android:id="@+id/start_audio_label"
+                style="@style/Signal.Widget.TextView.ActionButton"
+                android:hyphenationFrequency="normal"
+                android:text="@string/ConversationSettingsFragment__audio" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_strip_mute_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/mute"
+                style="@style/Signal.Widget.ImageView.ActionButton"
+                android:contentDescription="@string/ConversationSettingsFragment__mute"
+                app:srcCompat="@drawable/ic_bell_24" />
+
+            <TextView
+                android:id="@+id/mute_label"
+                style="@style/Signal.Widget.TextView.ActionButton"
+                android:hyphenationFrequency="normal"
+                android:text="@string/ConversationSettingsFragment__mute" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_strip_search_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/search"
+                style="@style/Signal.Widget.ImageView.ActionButton"
+                android:contentDescription="@string/ConversationSettingsFragment__search"
+                app:srcCompat="@drawable/ic_search_24" />
+
+            <TextView
+                android:id="@+id/search_label"
+                style="@style/Signal.Widget.TextView.ActionButton"
+                android:hyphenationFrequency="normal"
+                android:text="@string/ConversationSettingsFragment__search" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

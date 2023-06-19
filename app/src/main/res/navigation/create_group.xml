@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_group"
+    app:startDestination="@id/addGroupDetailsFragment">
+
+    <fragment
+        android:id="@+id/addGroupDetailsFragment"
+        android:name="org.thoughtcrime.securesms.groups.ui.creategroup.details.AddGroupDetailsFragment"
+        android:label="add_group_details_fragment"
+        tools:layout="@layout/add_group_details_fragment">
+
+        <argument
+            android:name="recipient_ids"
+            app:argType="org.thoughtcrime.securesms.recipients.RecipientId[]"
+            app:nullable="false" />
+
+        <action
+            android:id="@+id/action_addGroupDetailsFragment_to_avatar_picker"
+            app:destination="@id/avatar_picker"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit"
+            app:popEnterAnim="@anim/fragment_close_enter"
+            app:popExitAnim="@anim/fragment_close_exit">
+
+            <argument
+                android:name="group_id"
+                app:argType="org.thoughtcrime.securesms.groups.ParcelableGroupId"
+                app:nullable="true" />
+
+            <argument
+                android:name="is_new_group"
+                app:argType="boolean"
+                android:defaultValue="false" />
+
+            <argument
+                android:name="group_avatar_media"
+                app:argType="org.thoughtcrime.securesms.mediasend.Media"
+                app:nullable="true" />
+        </action>
+
+    </fragment>
+
+    <include app:graph="@navigation/avatar_picker" />
+
+</navigation>

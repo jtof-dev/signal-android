@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:viewBindingIgnore="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/signal_colorSurface"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/emoji_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal">
+
+        <org.thoughtcrime.securesms.components.emoji.EmojiPageView
+            android:id="@+id/reaction_emoji_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:requiresFadingEdge="horizontal"
+            android:fadingEdgeLength="8dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/any_reaction"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_any_emoji_32"
+            />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/bubble"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_rectangle_surface_variant_32"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/reply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emoji_bar"
+        app:layout_goneMarginTop="0dp"
+        app:layout_goneMarginEnd="16dp"
+        android:orientation="horizontal">
+
+        <org.thoughtcrime.securesms.components.emoji.EmojiToggle
+            android:id="@+id/emoji_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackgroundBorderless"
+            app:force_outline="true"
+            android:layout_gravity="bottom"
+            app:tint="@color/signal_colorOnSurface"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <org.thoughtcrime.securesms.components.ComposeText
+            android:id="@+id/compose_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/StoryViewerPageFragment__reply"
+            android:layout_gravity="center_vertical"
+            android:imeOptions="flagNoEnterAction|actionSend"
+            android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
+            android:maxLength="65536"
+            android:maxLines="3"
+            android:paddingBottom="2dp"
+            android:textAppearance="@style/Signal.Text.Body"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/emoji_toggle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginTop="0dp"
+            tools:text="hello\nasdf" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ImageView
+        android:id="@+id/reply"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/circle_tintable"
+        android:contentDescription="@string/StoryReplyComposer__react_to_this_story"
+        android:padding="8dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"
+        app:backgroundTint="@color/signal_light_colorPrimary"
+        app:srcCompat="@drawable/ic_send_24"
+        app:layout_constraintBottom_toBottomOf="@+id/bubble"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

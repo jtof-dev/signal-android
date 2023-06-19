@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+      android:id="@+id/menu_search"
+      android:icon="@drawable/symbol_search_24"
+      android:title="@string/CameraContacts__menu_search"
+      android:visible="false"
+      app:actionViewClass="org.thoughtcrime.securesms.components.SearchView"
+      app:showAsAction="collapseActionView|always" />
+
+  <item
+      android:id="@+id/menu_edit_log"
+      android:title="@string/SubmitDebugLogActivity_edit"
+      android:visible="false"
+      app:showAsAction="always" />
+
+  <item
+      android:id="@+id/menu_done_editing_log"
+      android:title="@string/SubmitDebugLogActivity_done"
+      android:visible="false"
+      app:showAsAction="always" />
+
+  <item
+      android:id="@+id/menu_save"
+      android:icon="@drawable/symbol_save_android_24"
+      android:title="@string/SubmitDebugLogActivity_save"
+      android:visible="false"
+      app:showAsAction="never" />
+
+</menu>

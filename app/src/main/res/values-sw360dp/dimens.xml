@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="album_total_width">252dp</dimen>
+    <dimen name="album_2_total_height">126dp</dimen>
+    <dimen name="album_2_cell_width">125dp</dimen>
+    <dimen name="album_3_total_height">168dp</dimen>
+    <dimen name="album_3_cell_width_big">167dp</dimen>
+    <dimen name="album_3_cell_size_small">83dp</dimen>
+    <dimen name="album_4_total_height">252dp</dimen>
+    <dimen name="album_4_cell_size">125dp</dimen>
+    <dimen name="album_5_total_height">210dp</dimen>
+    <dimen name="album_5_cell_size_big">125dp</dimen>
+    <dimen name="album_5_cell_size_small">83dp</dimen>
+
+    <dimen name="payment_recovery_phrase_adapter_margin">92dp</dimen>
+    <dimen name="payment_recovery_phrase_outline_margin">48dp</dimen>
+
+    <dimen name="media_bubble_gif_width">260dp</dimen>
+    <dimen name="dsl_settings_gutter">24dp</dimen>
+    <dimen name="media_overview_toggle_gutter">10dp</dimen>
+    <dimen name="wallpaper_selection_gutter">16dp</dimen>
+    <dimen name="safety_number_recipient_row_item_gutter">12dp</dimen>
+    <dimen name="selectable_list_item_margin">16dp</dimen>
+    <dimen name="selectable_list_item_padding">8dp</dimen>
+
+    <dimen name="chat_colors_preview_bubble_max_width">260dp</dimen>
+
+    <dimen name="avatar_picker_image_width">160dp</dimen>
+
+    <dimen name="toolbar_avatar_margin">34dp</dimen>
+
+    <dimen name="verify_identity_vertical_margin">32dp</dimen>
+
+    <dimen name="webrtc_button_size">56dp</dimen>
+</resources>

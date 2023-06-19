@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:viewBindingIgnore="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon"
+        style="@style/Signal.Widget.ImageView.ActionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ic_bell_24" />
+
+    <TextView
+        android:id="@+id/label"
+        style="@style/Signal.Widget.TextView.ActionButton"
+        app:layout_constraintEnd_toEndOf="@id/icon"
+        app:layout_constraintStart_toStartOf="@id/icon"
+        app:layout_constraintTop_toBottomOf="@id/icon"
+        tools:text="@string/ConversationSettingsFragment__mute" />
+
+</merge>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="holder_tag"/>
+    <item type="id" name="contact_info_tag"/>
+    <item type="id" name="motion_view_edittext"/>
+
+    <item name="reminder_action_view_insights" type="id" />
+    <item name="reminder_action_invite" type="id" />
+    <item name="reminder_action_update_now" type="id" />
+    <item name="reminder_action_re_register" type="id" />
+    <item name="reminder_action_review_join_requests" type="id" />
+
+    <item name="reminder_action_gv1_suggestion_no_thanks" type="id" />
+    <item name="reminder_action_gv1_suggestion_add_members" type="id" />
+
+    <item name="reminder_action_bubble_not_now" type="id" />
+    <item name="reminder_action_bubble_turn_off" type="id" />
+
+    <item name="reminder_action_cds_temporary_error_learn_more" type="id" />
+    <item name="reminder_action_cds_permanent_error_learn_more" type="id" />
+
+    <item name="reminder_action_fix_username" type="id" />
+
+    <item name="status_bar_guideline" type="id" />
+    <item name="navigation_bar_guideline" type="id" />
+
+    <item name="reaction_bar" type="id" />
+
+    <item name="edittext_bold" type="id" />
+    <item name="edittext_italic" type="id" />
+    <item name="edittext_strikethrough" type="id" />
+    <item name="edittext_monospace" type="id" />
+    <item name="edittext_spoiler" type="id" />
+</resources>

@@ -1,0 +1,15 @@
+plugins {
+    id 'signal-sample-app'
+}
+
+android {
+    namespace 'org.signal.smsexporter.app'
+
+    defaultConfig {
+        applicationId "org.signal.smsexporter.app"
+    }
+}
+
+dependencies {
+    implementation project(':sms-exporter')
+}

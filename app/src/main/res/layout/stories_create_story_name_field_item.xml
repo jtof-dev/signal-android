@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="96dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_text_wrapper"
+        style="@style/Widget.Signal.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <org.thoughtcrime.securesms.components.emoji.EmojiEditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/CreateStoryWithViewersFragment__story_name_required"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAppearance="@style/Signal.Text.Body" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dsl_settings_gutter"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="@dimen/dsl_settings_gutter"
+        android:layout_marginBottom="20dp"
+        android:text="@string/CreateStoryWithViewersFragment__only_you_can"
+        android:textAppearance="@style/Signal.Text.BodyMedium"
+        android:textColor="@color/signal_colorOnSurfaceVariant" />
+
+</LinearLayout>

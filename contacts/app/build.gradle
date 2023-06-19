@@ -1,0 +1,15 @@
+plugins {
+    id 'signal-sample-app'
+}
+
+android {
+    namespace 'org.signal.contactstest'
+
+    defaultConfig {
+        applicationId "org.signal.contactstest"
+    }
+}
+
+dependencies {
+    implementation project(':contacts')
+}

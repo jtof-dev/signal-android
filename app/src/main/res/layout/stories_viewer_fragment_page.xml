@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/story_page_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    tools:context=".stories.viewer.StoryViewerActivity"
+    tools:viewBindingIgnore="true">
+
+    <org.thoughtcrime.securesms.util.views.TouchInterceptingFrameLayout
+        android:id="@+id/story_content_card_touch_interceptor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="9:16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/story_content_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/story_content_container"
+                android:name="org.thoughtcrime.securesms.stories.viewer.post.StoryPostFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:background="@drawable/test_gradient" />
+
+            <View
+                android:id="@+id/story_gradient_top"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/story_gradient_top" />
+
+            <FrameLayout
+                android:id="@+id/story_bottom_gradient_container"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_gravity="bottom">
+
+                <View
+                    android:id="@+id/story_gradient_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/story_gradient_bottom" />
+
+                <View
+                    android:id="@+id/story_caption_gradient"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/story_caption_gradient"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <org.thoughtcrime.securesms.stories.StorySlateView
+                android:id="@+id/story_slate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <org.thoughtcrime.securesms.stories.StoryVolumeOverlayView
+            android:id="@+id/story_volume_overlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:alpha="0" />
+
+    </org.thoughtcrime.securesms.util.views.TouchInterceptingFrameLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/views_and_replies_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:textAppearance="@style/Signal.Text.Body"
+        android:textColor="@color/signal_colorOnSurface"
+        app:iconGravity="textStart"
+        app:iconSize="20dp"
+        app:iconTint="@color/signal_colorOnSurface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/story_content_card_touch_interceptor"
+        app:layout_constraintVertical_bias="0"
+        tools:icon="@drawable/ic_reply_24_outline"
+        tools:text="6 views 4 replies" />
+
+    <FrameLayout
+        android:id="@+id/sending_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/signal_colorSurface"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/views_and_replies_bar"
+        app:layout_constraintTop_toTopOf="@id/views_and_replies_bar">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/sending_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:text="@string/StoriesLandingItem__sending"
+            android:textAppearance="@style/Signal.Text.Body"
+            app:drawableTint="@color/signal_colorOnSurface" />
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/replies_bar_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="progress, story_content_card_touch_interceptor" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/story_from_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="from,sender_avatar,group_avatar,more" />
+
+    <FrameLayout
+        android:id="@+id/story_caption_container"
+        android:layout_width="0dp"
+        android:layout_height="95sp"
+        android:layout_marginBottom="12dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@id/story_from_barrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            android:id="@+id/story_caption"
+            android:layout_width="match_parent"
+            android:layout_height="95sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="bottom"
+            android:textAppearance="@style/Signal.Text.BodyLarge"
+            android:textColor="@color/core_white"
+            tools:text="Ugh." />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/story_large_caption_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black_40"
+        android:visibility="gone" />
+
+    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        android:id="@+id/story_large_caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:scrollbars="vertical"
+        android:textAppearance="@style/Signal.Text.Body"
+        android:textColor="@color/core_white"
+        android:visibility="gone"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@id/story_from_barrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/close"
+        app:layout_constraintVertical_bias="1"
+        tools:text="Ugh." />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/close"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/story_content_card_touch_interceptor"
+        app:srcCompat="@drawable/ic_x_24"
+        app:tint="@color/core_white" />
+
+    <FrameLayout
+        android:id="@+id/add_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:insetTop="8dp"
+            android:insetBottom="8dp"
+            android:minWidth="0dp"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="@string/StoryViewerPageFragment__add"
+            android:textAllCaps="false"
+            android:textAppearance="@style/Signal.Text.BodyMedium"
+            android:textColor="@color/signal_dark_colorOnSurface"
+            android:visibility="gone"
+            app:backgroundTint="@color/signal_colorSurfaceVariant_64"
+            app:backgroundTintMode="src_in"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/add_to_story_16"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            app:iconSize="16dp"
+            app:iconTint="@color/signal_dark_colorOnSurface"
+            tools:visibility="visible" />
+    </FrameLayout>
+
+    <org.thoughtcrime.securesms.components.AvatarImageView
+        android:id="@+id/sender_avatar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/distribution_list"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/from"
+        app:layout_goneMarginBottom="16dp" />
+
+    <org.thoughtcrime.securesms.components.AvatarImageView
+        android:id="@+id/group_avatar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@id/sender_avatar"
+        app:layout_constraintStart_toStartOf="@id/sender_avatar"
+        app:layout_constraintTop_toTopOf="@id/sender_avatar" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/avatar_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="sender_avatar,group_avatar" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.Signal.Body2.Bold"
+        android:textColor="@color/signal_colorNeutralInverse"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@id/distribution_list"
+        app:layout_constraintEnd_toStartOf="@id/date"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/avatar_barrier"
+        app:layout_goneMarginBottom="20dp"
+        tools:text="Matthew Hall to Crazy Family I only see on Holiday" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="12dp"
+        android:alpha="0.64"
+        android:textAppearance="@style/Signal.Text.MaterialCaption"
+        android:textColor="@color/signal_colorNeutralVariantInverse"
+        app:layout_constraintBottom_toBottomOf="@id/from"
+        app:layout_constraintEnd_toStartOf="@id/more"
+        app:layout_constraintStart_toEndOf="@id/from"
+        tools:text="20m" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/distribution_list"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="14dp"
+        android:drawablePadding="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@style/Signal.Text.MaterialCaption"
+        android:visibility="gone"
+        app:drawableStartCompat="@drawable/symbol_stories_fill_compact_12"
+        app:drawableTint="@color/transparent_white_80"
+        app:layout_constraintBottom_toTopOf="@id/progress"
+        app:layout_constraintEnd_toStartOf="@id/more"
+        app:layout_constraintStart_toStartOf="@id/from"
+        tools:text="My crazy distribution group" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/more"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="4dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/progress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_more_vert_24"
+        app:tint="@color/signal_colorNeutralInverse" />
+
+    <org.thoughtcrime.securesms.components.segmentedprogressbar.SegmentedProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@id/views_and_replies_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:segmentBackgroundColor="@color/transparent_white_40"
+        app:segmentCornerRadius="10dp"
+        app:segmentMargins="2dp"
+        app:segmentSelectedBackgroundColor="@color/signal_colorNeutralInverse"
+        app:segmentSelectedStrokeColor="@color/signal_colorNeutralInverse"
+        app:segmentStrokeColor="@color/signal_colorNeutralInverse"
+        app:totalSegments="0"
+        tools:totalSegments="5" />
+
+    <org.thoughtcrime.securesms.stories.viewer.reply.reaction.OnReactionSentView
+        android:id="@+id/on_reaction_sent_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
