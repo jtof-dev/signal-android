@@ -1,8 +1,12 @@
 # Signal-Android Full Installation Guide
 
+- An older fork of [Signal-Android](https://github.com/signalapp/Signal-Android) that works with [my fork of Signal-Server](https://github.com/JJTofflemire/Signal-Server) 
+  - Running the newest version of signalapp's Android app with my fork of Signal-Server should be fine, but this repository is here as a redundancy
+
 ## Useful Resources
 
 - [Signal-Server installation instructions](https://github.com/JJTofflemire/Signal-Server)
+- [sample-build.gradle](app/sample-build.gradle) (with notes)
 
 ## Dependancies
 
@@ -21,23 +25,17 @@
 
     4.1. Either under `Tools` > `Device Manager` or the small phone icon near the top right of the screen. Hit `Create Device`
 
-    4.2. Select any new-ish phone (Pixel 4xl for example)
+    4.2. Select any new-ish phone (Pixel 4XL for example)
 
     4.3. Select a new-ish system image - one might get automatically highlighted, if so install that one - just avoid the latest one (currently `API 34`)
 
 ## Configuration
 
-5. All configuration that is needed is done in `app/build.gradle`. Currently it is renamed to `sample-build.gradle`, and it has Signal-Android's default config for connecting to Signal's server
+5. All configuration that is needed is done in [`app/build.gradle`](app/sample-build.gradle). Currently it is renamed to `sample-build.gradle`, and it has Signal-Android's default config for connecting to Signal's server
 
 6. Rename and configure the `app/build.gradle` (also located in the `Gradle Scripts` dropdown in Android Studio, with `(Module: Signal Android)` next the the build.gradle)
 
-    6.1. Change lines 181 and 182 to:
-
-`181      buildConfigField "String", "SIGNAL_URL", "\"your-domin\""`
-
-`182      buildConfigField "String", "STORAGE_URL", "\"file:///path/to/storage""`
-
-    6.2. You can use localhost for `SIGNAL_URL` and a local directory for `SIGNAL_STORAGE`
+    6.1. Starting on line 181, follow the comments on changing URL's
 
 ## Running
 
