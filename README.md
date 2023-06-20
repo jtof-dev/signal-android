@@ -37,17 +37,23 @@
 
     6.1. Starting on line 181, follow the comments on changing URL's
 
+7. I am unsure how much more needs to be done, however [aqnouch's guide](https://github.com/aqnouch/Signal-Setup-Guide/tree/master/signal-android) appears to still be relavent
+
+    7.1. Presumably, after following all those steps, the app will connect to the server?
+
 ## Running
 
-7. Start `Signal-Server`
+8. Start `Signal-Server`
 
-8. Select `Signal-Android` and an emulator from the dropdown near the top right and hit the green run button
+9. Select `Signal-Android` and an emulator from the dropdown near the top right and hit the green run button
 
 ## To-Do
 
 - ~~Get Android Studio to run without basically causing a memory leak - the problem was using the AUR to install Android Studio~~
 
 - ~~Get the Android app to run (without any configuration yet)~~
+
+- Follow aqnouch's guide on setting up the app
 
 - Figure out how the `certificate` modifier from Signal-Server ties into the Android app
 
