@@ -13,52 +13,46 @@
 - Android Studio
   - If you are on Linux and Android Studio is buggy, try the [flatpak](https://flathub.org/apps/com.google.AndroidStudio)
 
-## Installation
+## Compilation
 
-1. `git clone https://github.com/JJTofflemire/Signal-Android`
+Clone this repo with:
 
-2. Open Android Studio and hit `Open` or in the top left: `File` > `Open Folder` > select `Signal-Android`
+```
+git clone https://github.com/JJTofflemire/Signal-Android
+```
 
-3. Let Gradle sync
+Open Android Studio and hit `Open` in the new project prompt or in the top left go to `File` > `Open Folder` > select `Signal-Android`
 
-4. Set up an Android emulator
+Let Gradle sync
 
-    4.1. Either under `Tools` > `Device Manager` or the small phone icon near the top right of the screen. Hit `Create Device`
+Set up an Android emulator
 
-    4.2. Select any new-ish phone (Pixel 4XL for example)
+- Either under `Tools` > `Device Manager` or the small phone icon near the top right of the screen. Hit `Create Device`
 
-    4.3. Select a new-ish system image - one might get automatically highlighted, if so install that one - just avoid the latest one (currently `API 34`)
+- Select any new-ish phone (Pixel 4XL for example)
+
+- Select a new-ish system image - one might get automatically highlighted, if so install that one - just avoid the latest one (currently `API 34`)
 
 ## Configuration
 
-5. All configuration that is needed is done in [`app/build.gradle`](app/sample-build.gradle). Currently it is renamed to `sample-build.gradle`, and it has Signal-Android's default config for connecting to Signal's server
+All configuration that is needed is done in [`app/build.gradle`](app/sample-build.gradle). Currently it is renamed to `sample-build.gradle`, and it has Signal-Android's default config for connecting to Signal's server
 
-6. Rename and configure the `app/build.gradle` (also located in the `Gradle Scripts` dropdown in Android Studio, with `(Module: Signal Android)` next the the build.gradle)
+- Starting on line 181, follow the comments on changing URL's
 
-    6.1. Starting on line 181, follow the comments on changing URL's
+## Starting the app
 
-7. I am unsure how much more needs to be done, however [aqnouch's guide](https://github.com/aqnouch/Signal-Setup-Guide/tree/master/signal-android) appears to still be relavent
+Start `Signal-Server`
 
-    7.1. Presumably, after following all those steps, the app will connect to the server?
-
-## Running
-
-8. Start `Signal-Server`
-
-9. Select `Signal-Android` and an emulator from the dropdown near the top right and hit the green run button
+Select `Signal-Android` and an emulator from the dropdown near the top right and hit the green run button
 
 ## To-Do
 
-- ~~Get Android Studio to run without basically causing a memory leak - the problem was using the AUR to install Android Studio~~
+### Configuring the app:
 
-- ~~Get the Android app to run (without any configuration yet)~~
+- Follow [aqnouch's guide](https://github.com/aqnouch/Signal-Setup-Guide/tree/master/signal-android) on setting up the app
 
-- Follow aqnouch's guide on setting up the app
+- Figure out how the `certificate` modifier from Signal-Server ties into the Android app (probably answered in aqnouch's guide)
 
-- Figure out how the `certificate` modifier from Signal-Server ties into the Android app
+- Set all URL paths to lead to localhost and get it to connect to a running Signal-Server instance inside an emulator
 
-- Set all URL paths to lead to localhost and get it to connect to a running Signal-Server instance inside Android Studio
-
-  - Once localhost works, all configuration on transitioning to a website should be done on Signal-Server and just the URLs would need to be updated
-
-- Get two physical Android phones to talk to each other using a private Signal-Server instance
+  - [This stackoverflow post](https://stackoverflow.com/questions/5528850/how-do-you-connect-localhost-in-the-android-emulator) might help
