@@ -39,6 +39,8 @@ All configuration that is needed is done in [`app/build.gradle`](app/sample-buil
 
 - Starting on line 181, follow the comments on changing URL's
 
+Set up firebase
+
 ## Starting the app
 
 Start `Signal-Server`
@@ -56,3 +58,5 @@ Select `Signal-Android` and an emulator from the dropdown near the top right and
 - Set all URL paths to lead to localhost and get it to connect to a running Signal-Server instance inside an emulator
 
   - [This stackoverflow post](https://stackoverflow.com/questions/5528850/how-do-you-connect-localhost-in-the-android-emulator) might help
+
+- Set up Firebase with a different `applicationId` and add documentation
