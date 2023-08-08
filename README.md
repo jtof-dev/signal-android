@@ -41,6 +41,10 @@ All configuration that is needed is done in [`app/build.gradle`](app/sample-buil
 
 Set up firebase
 
+- Follow [this setup guide for now](https://github.com/madeindra/signal-setup-guide/tree/master/signal-android)
+
+- In `app/src/main/res/raw`, you need to add your server's certificates. I renamed `whisper.store` to `sample-whisper.store`
+
 ## Starting the app
 
 Start `Signal-Server`
@@ -50,13 +54,3 @@ Select `Signal-Android` and an emulator from the dropdown near the top right and
 ## To-Do
 
 ### Configuring the app:
-
-- Follow [aqnouch's guide](https://github.com/aqnouch/Signal-Setup-Guide/tree/master/signal-android) on setting up the app
-
-- Figure out how the `certificate` modifier from Signal-Server ties into the Android app (probably answered in aqnouch's guide)
-
-- Set all URL paths to lead to localhost and get it to connect to a running Signal-Server instance inside an emulator
-
-  - [This stackoverflow post](https://stackoverflow.com/questions/5528850/how-do-you-connect-localhost-in-the-android-emulator) might help
-
-- Set up Firebase with a different `applicationId` and add documentation
