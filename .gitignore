@@ -33,3 +33,4 @@ local/
 # My .gitignore
 .vscode
 app/build.gradle
+app/src/main/res/raw/whisper.store
