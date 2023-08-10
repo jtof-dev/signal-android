@@ -8,7 +8,7 @@
 - [Signal-Server installation instructions](https://github.com/JJTofflemire/Signal-Server)
 - [sample-build.gradle](app/sample-build.gradle) (with notes)
 
-## Dependancies
+## Dependencies
 
 - Android Studio
   - If you are on Linux and Android Studio is buggy, try the [flatpak](https://flathub.org/apps/com.google.AndroidStudio)
