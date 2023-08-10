@@ -11,6 +11,7 @@
 ## Dependencies
 
 - Android Studio
+
   - If you are on Linux and Android Studio is buggy, try the [flatpak](https://flathub.org/apps/com.google.AndroidStudio)
 
 ## Compilation
@@ -35,13 +36,13 @@ Set up an Android emulator
 
 ## Configuration
 
+[This guide](https://github.com/madeindra/signal-setup-guide/tree/master/signal-android) by Madeindra is still almost entierly up-to-date and I will be adapting basically word-for-word from here
+
 All configuration that is needed is done in [`app/build.gradle`](app/sample-build.gradle). Currently it is renamed to `sample-build.gradle`, and it has Signal-Android's default config for connecting to Signal's server
 
 - Starting on line 181, follow the comments on changing URL's
 
 Set up firebase
-
-- Follow [this setup guide for now](https://github.com/madeindra/signal-setup-guide/tree/master/signal-android)
 
 - In `app/src/main/res/raw`, you need to add your server's certificates. I renamed `whisper.store` to `sample-whisper.store`
 

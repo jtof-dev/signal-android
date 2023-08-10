@@ -180,7 +180,7 @@ android {
 
         buildConfigField "long", "BUILD_TIMESTAMP", getLastCommitTimestamp() + "L"
         buildConfigField "String", "GIT_HASH", "\"${getGitHash()}\""
-        buildConfigField "String", "SIGNAL_URL", "\"https://chat.signal.org\"" // This is the single most important url to change. It's the main point where the app talks to the server
+        buildConfigField "String", "SIGNAL_URL", "\"https://chat.middleman.foo\"" // This is the single most important url to change. It's the main point where the app talks to the server
         buildConfigField "String", "STORAGE_URL", "\"https://storage.signal.org\"" // Here you can just use "file:///path/to/file" I think
         buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.signal.org\""
         buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn2.signal.org\""
@@ -210,8 +210,8 @@ android {
         buildConfigField "org.thoughtcrime.securesms.KbsEnclave[]", "KBS_FALLBACKS", "new org.thoughtcrime.securesms.KbsEnclave[] { new org.thoughtcrime.securesms.KbsEnclave(\"0cedba03535b41b67729ce9924185f831d7767928a1d1689acb689bc079c375f\", " +
                                                                                                                                                                              "\"187d2739d22be65e74b65f0055e74d31310e4267e5fac2b1246cc8beba81af39\", " +
                                                                                                                                                                              "\"ee19f1965b1eefa3dc4204eb70c04f397755f771b8c1909d080c04dad2a6a9ba\") }"
-        buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BXu6QIKVz5MA8gstzfOgRQGqyLqOwNKHL6INkv3IHWMF\""
-        buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"AMhf5ywVwITZMsff/eCyudZx9JDmkkkbV6PInzG4p8x3VqVJSFiMvnvlEKWuRob/1eaIetR31IYeAbm0NdOuHH8Qi+Rexi1wLlpzIo1gstHWBfZzy1+qHRV5A4TqPp15YzBPm0WSggW6PbSn+F4lf57VCnHF7p8SvzAA2ZZJPYJURt8X7bbg+H3i+PEjH9DXItNEqs2sNcug37xZQDLm7X36nOoGPs54XsEGzPdEV+itQNGUFEjY6X9Uv+Acuks7NpyGvCoKxGwgKgE5XyJ+nNKlyHHOLb6N1NuHyBrZrgtY/JYJHRooo5CEqYKBqdFnmbTVGEkCvJKxLnjwKWf+fEPoWeQFj5ObDjcKMZf2Jm2Ae69x+ikU5gBXsRmoF94GXTLfN0/vLt98KDPnxwAQL9j5V1jGOY8jQl6MLxEs56cwXN0dqCnImzVH3TZT1cJ8SW1BRX6qIVxEzjsSGx3yxF3suAilPMqGRp4ffyopjMD1JXiKR2RwLKzizUe5e8XyGOy9fplzhw3jVzTRyUZTRSZKkMLWcQ/gv0E4aONNqs4P\""
+        buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BfW9mYHVpJt/jVnWWbTksYD32ge59CoUUGKCd/eDCBNn\""
+        buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"AEIUAJEo2RQIRtTu0gTQDZ/p+um2+4U+iUDOtDp4hZwbbr9G/95M8pT/M4sdFEMQk4xM3IKSF3SsHPbNozFzKjxQg9WkwJIWZ9YdqNrz2YsDDN3NL44Py6qS3cQnP+oMVuayYeN9lXKF2r6jGjCiOdIlGp1zMc89W36eZQWirR5vWsGZo0eOxIOkkb1LU5wxiAGk++DOOrcJdn9VIaZBm1X68T0QaeCmnxgTJXQkNjmb62VVBZCRGl5WOy5LkaDHZvQ2r0ZAZMqnVxjfAF9IY3CvqDYErBsyEqVq7wDtd4JHCtlSRmU00hTX16wwlkApbZI3bzVQgVpZt+uhXTG6vCJ+vxjaS18JY51V99zG3+vDM9jqjdsAAvyYDVTN+/HQRb4ydKu01s08mFRNlaMu9o1E8/7kOqaUS1NlXl+/pv1lXHli2xllhQYWIHGK6L6ivLZsaCCBtUP6DsZGo9HMvybMn1HePxew21URCCGCcIW/BWnDnUVe9VqKfM7n37SeYPqg7Bx9NnvUaXtiBeT26BD+QJUmL27P2jcV5zw2DLhm\""
         buildConfigField "String", "GENERIC_SERVER_PUBLIC_PARAMS", "\"AByD873dTilmOSG0TjKrvpeaKEsUmIO8Vx9BeMmftwUs9v7ikPwM8P3OHyT0+X3EUMZrSe9VUp26Wai51Q9I8mdk0hX/yo7CeFGJyzoOqn8e/i4Ygbn5HoAyXJx5eXfIbqpc0bIxzju4H/HOQeOpt6h742qii5u/cbwOhFZCsMIbElZTaeU+BWMBQiZHIGHT5IE0qCordQKZ5iPZom0HeFa8Yq0ShuEyAl0WINBiY6xE3H/9WnvzXBbMuuk//eRxXgzO8ieCeK8FwQNxbfXqZm6Ro1cMhCOF3u7xoX83QhpN\""
         buildConfigField "String[]", "LANGUAGES", "new String[]{\"" + autoResConfig().collect { s -> s.replace('-r', '_') }.join('", "') + '"}'
         buildConfigField "int", "CANONICAL_VERSION_CODE", "$canonicalVersionCode"
