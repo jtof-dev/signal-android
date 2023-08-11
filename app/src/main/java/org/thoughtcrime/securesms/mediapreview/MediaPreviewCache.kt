@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.mycrimes.insecuretests.mediapreview
 
 import android.graphics.drawable.Drawable
 

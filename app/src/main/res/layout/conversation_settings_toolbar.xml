@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/toolbar" />
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <org.mycrimes.insecuretests.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -42,13 +42,13 @@
                 tools:alpha="1"
                 tools:translationY="0dp">
 
-                <org.thoughtcrime.securesms.components.AvatarImageView
+                <org.mycrimes.insecuretests.components.AvatarImageView
                     android:id="@+id/toolbar_avatar"
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     app:fallbackImageSize="small" />
 
-                <org.thoughtcrime.securesms.badges.BadgeImageView
+                <org.mycrimes.insecuretests.badges.BadgeImageView
                     android:id="@+id/toolbar_badge"
                     android:layout_width="16dp"
                     android:layout_height="16dp"
@@ -58,7 +58,7 @@
 
             </FrameLayout>
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.mycrimes.insecuretests.components.emoji.EmojiTextView
                 android:id="@+id/toolbar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -75,5 +75,5 @@
 
         </LinearLayout>
 
-    </org.thoughtcrime.securesms.util.views.DarkOverflowToolbar>
+    </org.mycrimes.insecuretests.util.views.DarkOverflowToolbar>
 </merge>

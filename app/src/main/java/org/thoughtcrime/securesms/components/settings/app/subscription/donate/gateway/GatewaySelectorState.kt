@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway
 
-import org.thoughtcrime.securesms.badges.models.Badge
+import org.mycrimes.insecuretests.badges.models.Badge
 
 data class GatewaySelectorState(
   val loading: Boolean = true,

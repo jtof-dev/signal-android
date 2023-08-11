@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.mycrimes.insecuretests.recipients;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -11,16 +11,16 @@ import androidx.annotation.VisibleForTesting;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.RecipientTable.MissingRecipientException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.database.RecipientTable;
+import org.mycrimes.insecuretests.database.RecipientTable.MissingRecipientException;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.ThreadTable;
+import org.mycrimes.insecuretests.database.model.ThreadRecord;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
 import org.signal.core.util.CursorUtil;
-import org.thoughtcrime.securesms.util.LRUCache;
+import org.mycrimes.insecuretests.util.LRUCache;
 import org.signal.core.util.Stopwatch;
-import org.thoughtcrime.securesms.util.concurrent.FilteredExecutor;
+import org.mycrimes.insecuretests.util.concurrent.FilteredExecutor;
 import org.whispersystems.signalservice.api.push.ACI;
 
 import java.util.ArrayList;

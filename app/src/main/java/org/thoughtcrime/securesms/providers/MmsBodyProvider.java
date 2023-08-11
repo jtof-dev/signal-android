@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.providers;
+package org.mycrimes.insecuretests.providers;
 
 import android.content.ContentUris;
 import android.content.ContentValues;
@@ -27,7 +27,7 @@ import android.os.ParcelFileDescriptor;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
+import org.mycrimes.insecuretests.BuildConfig;
 
 import java.io.File;
 import java.io.FileNotFoundException;

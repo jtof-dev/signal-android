@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.database.model
+package org.mycrimes.insecuretests.database.model
 
 import android.content.ContentValues
 import android.content.Context
 import android.net.Uri
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.SqlUtil
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.database.DatabaseTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.CustomAvatar
-import org.thoughtcrime.securesms.groups.GroupId
+import org.mycrimes.insecuretests.avatar.Avatar
+import org.mycrimes.insecuretests.avatar.Avatars
+import org.mycrimes.insecuretests.database.DatabaseTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.databaseprotos.CustomAvatar
+import org.mycrimes.insecuretests.groups.GroupId
 
 /**
  * Database which manages the record keeping for custom created avatars.

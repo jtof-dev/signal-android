@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.fonts;
+package org.mycrimes.insecuretests.fonts;
 
 import java.util.HashMap;
 import java.util.Locale;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,11 +12,11 @@ import androidx.annotation.Nullable;
 import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.bumptech.glide.load.resource.bitmap.CenterInside;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.mms.Slide;
+import org.mycrimes.insecuretests.mms.SlideClickListener;
+import org.mycrimes.insecuretests.mms.SlidesClickedListener;
 
 public class BorderlessImageView extends FrameLayout {
 

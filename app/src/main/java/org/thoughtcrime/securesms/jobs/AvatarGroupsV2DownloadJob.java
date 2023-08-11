@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.mycrimes.insecuretests.jobs;
 
 import android.content.Context;
 
@@ -9,16 +9,16 @@ import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
 import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.util.ByteUnit;
+import org.mycrimes.insecuretests.database.GroupTable;
+import org.mycrimes.insecuretests.database.model.GroupRecord;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint;
+import org.mycrimes.insecuretests.profiles.AvatarHelper;
+import org.mycrimes.insecuretests.util.ByteUnit;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Operations;
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;

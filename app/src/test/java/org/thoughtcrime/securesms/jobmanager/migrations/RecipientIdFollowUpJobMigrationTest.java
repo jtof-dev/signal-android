@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.mycrimes.insecuretests.jobmanager.migrations;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -6,12 +6,12 @@ import org.mockito.Mock;
 import org.mockito.MockedStatic;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobMigration.JobData;
-import org.thoughtcrime.securesms.jobs.FailingJob;
-import org.thoughtcrime.securesms.jobs.SendDeliveryReceiptJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.JobMigration.JobData;
+import org.mycrimes.insecuretests.jobs.FailingJob;
+import org.mycrimes.insecuretests.jobs.SendDeliveryReceiptJob;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;

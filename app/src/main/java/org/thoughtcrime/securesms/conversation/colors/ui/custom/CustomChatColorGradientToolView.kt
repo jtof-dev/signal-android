@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors.ui.custom
+package org.mycrimes.insecuretests.conversation.colors.ui.custom
 
 import android.content.Context
 import android.graphics.Canvas
@@ -15,8 +15,8 @@ import androidx.annotation.ColorInt
 import androidx.annotation.Dimension
 import androidx.core.content.ContextCompat
 import androidx.core.view.GestureDetectorCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.ViewUtil
 import kotlin.math.abs
 import kotlin.math.atan
 import kotlin.math.atan2

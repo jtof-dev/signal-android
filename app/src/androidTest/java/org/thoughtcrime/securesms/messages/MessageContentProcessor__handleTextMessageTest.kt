@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.mycrimes.insecuretests.database.SignalDatabase
 import org.whispersystems.signalservice.api.messages.SignalServiceContent
 import org.whispersystems.signalservice.internal.serialize.protos.SignalServiceContentProto
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.custom
+package org.mycrimes.insecuretests.stories.settings.custom
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -7,9 +7,9 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class PrivateStorySettingsViewModel(private val distributionListId: DistributionListId, private val repository: PrivateStorySettingsRepository) : ViewModel() {
 

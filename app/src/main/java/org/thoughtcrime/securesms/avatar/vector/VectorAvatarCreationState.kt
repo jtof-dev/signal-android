@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.avatar.vector
+package org.mycrimes.insecuretests.avatar.vector
 
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarColorItem
-import org.thoughtcrime.securesms.avatar.Avatars
+import org.mycrimes.insecuretests.avatar.Avatar
+import org.mycrimes.insecuretests.avatar.AvatarColorItem
+import org.mycrimes.insecuretests.avatar.Avatars
 
 data class VectorAvatarCreationState(
   val currentAvatar: Avatar.Vector

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <org.mycrimes.insecuretests.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
@@ -18,7 +18,7 @@
         app:title="@string/ChatColorSelectionFragment__chat_color"
         app:titleTextAppearance="@style/Signal.Text.Title" />
 
-    <org.thoughtcrime.securesms.conversation.colors.ui.ChatColorPreviewView
+    <org.mycrimes.insecuretests.conversation.colors.ui.ChatColorPreviewView
         android:id="@+id/preview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

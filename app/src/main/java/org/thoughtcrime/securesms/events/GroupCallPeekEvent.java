@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.events;
+package org.mycrimes.insecuretests.events;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 public final class GroupCallPeekEvent {
   private final RecipientId groupRecipientId;

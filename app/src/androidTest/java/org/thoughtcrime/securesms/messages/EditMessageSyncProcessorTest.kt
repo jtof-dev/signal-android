@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import android.database.Cursor
 import android.util.Base64
@@ -11,17 +11,17 @@ import org.signal.core.util.ThreadUtil
 import org.signal.core.util.readToList
 import org.signal.core.util.select
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.model.toBodyRangeList
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testing.MessageContentFuzzer
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.assertIs
-import org.thoughtcrime.securesms.util.MessageTableTestUtils
+import org.mycrimes.insecuretests.database.AttachmentTable
+import org.mycrimes.insecuretests.database.MessageTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.ThreadTable
+import org.mycrimes.insecuretests.database.model.toBodyRangeList
+import org.mycrimes.insecuretests.mms.OutgoingMessage
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.testing.MessageContentFuzzer
+import org.mycrimes.insecuretests.testing.SignalActivityRule
+import org.mycrimes.insecuretests.testing.assertIs
+import org.mycrimes.insecuretests.util.MessageTableTestUtils
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.EditMessage
 import kotlin.time.Duration.Companion.seconds

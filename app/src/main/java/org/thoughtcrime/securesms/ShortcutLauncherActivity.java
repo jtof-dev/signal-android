@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,9 +10,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.TaskStackBuilder;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.CommunicationActions;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.CommunicationActions;
 
 public class ShortcutLauncherActivity extends AppCompatActivity {
 

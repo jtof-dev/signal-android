@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.fragments
+package org.mycrimes.insecuretests.util.fragments
 
 import androidx.fragment.app.Fragment
 

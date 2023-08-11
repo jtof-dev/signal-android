@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.help;
+package org.mycrimes.insecuretests.help;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogRepository;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.logsubmit.SubmitDebugLogRepository;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
 
 import java.util.Optional;
 

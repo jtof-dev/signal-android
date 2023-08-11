@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package org.mycrimes.insecuretests.stories.viewer.reply.group
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -7,11 +7,11 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.conversation.colors.NameColors
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.mycrimes.insecuretests.conversation.colors.NameColors
+import org.mycrimes.insecuretests.database.model.MessageId
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.rx.RxStore
 
 class StoryGroupReplyViewModel(storyId: Long, repository: StoryGroupReplyRepository) : ViewModel() {
 

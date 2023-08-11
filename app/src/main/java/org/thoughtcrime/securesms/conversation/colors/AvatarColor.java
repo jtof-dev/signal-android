@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors;
+package org.mycrimes.insecuretests.conversation.colors;
 
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;

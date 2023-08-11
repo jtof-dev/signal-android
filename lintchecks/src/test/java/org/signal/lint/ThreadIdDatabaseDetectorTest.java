@@ -40,7 +40,7 @@ public final class ThreadIdDatabaseDetectorTest {
         .files(
             threadReferenceStub,
             java("package foo;\n" +
-                 "import org.thoughtcrime.securesms.database.ThreadIdDatabaseReference;\n" +
+                 "import org.mycrimes.insecuretests.database.ThreadIdDatabaseReference;\n" +
                  "public class Example extends Database implements ThreadIdDatabaseReference {\n" +
                  "  private static final String THREAD_ID = \"thread_id\";\n" +
                  "  @Override\n" +

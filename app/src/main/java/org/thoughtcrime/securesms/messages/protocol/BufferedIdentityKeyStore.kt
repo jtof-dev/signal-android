@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.messages.protocol
+package org.mycrimes.insecuretests.messages.protocol
 
 import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.IdentityKeyPair
 import org.signal.libsignal.protocol.SignalProtocolAddress
 import org.signal.libsignal.protocol.state.IdentityKeyStore
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.mycrimes.insecuretests.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.push.ServiceId
 

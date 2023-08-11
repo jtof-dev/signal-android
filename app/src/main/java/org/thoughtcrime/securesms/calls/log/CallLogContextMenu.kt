@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.calls.log
+package org.mycrimes.insecuretests.calls.log
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.links.details.CallLinkDetailsActivity
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.components.settings.conversation.ConversationSettingsActivity
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.calls.links.details.CallLinkDetailsActivity
+import org.mycrimes.insecuretests.components.menu.ActionItem
+import org.mycrimes.insecuretests.components.menu.SignalContextMenu
+import org.mycrimes.insecuretests.components.settings.conversation.ConversationSettingsActivity
+import org.mycrimes.insecuretests.conversation.ConversationIntents
+import org.mycrimes.insecuretests.database.CallTable
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.CommunicationActions
 
 /**
  * Context menu for row items on the Call Log screen.

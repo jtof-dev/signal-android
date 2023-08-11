@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration;
+package org.mycrimes.insecuretests.registration;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,11 +11,11 @@ import androidx.appcompat.app.AppCompatDelegate;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.registration.viewmodel.RegistrationViewModel;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
 
 
 public final class RegistrationNavigationActivity extends AppCompatActivity {

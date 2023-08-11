@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagedetails;
+package org.mycrimes.insecuretests.messagedetails;
 
 import android.view.View;
 import android.widget.TextView;
@@ -6,12 +6,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.badges.BadgeImageView;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.components.FromTextView;
+import org.mycrimes.insecuretests.util.DateUtils;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.util.Locale;
 

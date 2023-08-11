@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.mycrimes.insecuretests.jobmanager;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.JobSpec;
 
 public interface JobPredicate {
   JobPredicate NONE = jobSpec -> true;

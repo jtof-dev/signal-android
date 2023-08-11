@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,7 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 public class LongClickCopySpan extends URLSpan {
   private static final String PREFIX_MAILTO = "mailto:";

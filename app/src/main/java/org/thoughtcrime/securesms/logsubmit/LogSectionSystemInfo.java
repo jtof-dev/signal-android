@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.mycrimes.insecuretests.logsubmit;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -14,23 +14,23 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
 import org.signal.core.util.FontUtil;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.emoji.EmojiFiles;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.webrtc.AndroidTelecomUtil;
-import org.thoughtcrime.securesms.util.AppSignatureUtil;
-import org.thoughtcrime.securesms.util.ByteUnit;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DeviceProperties;
-import org.thoughtcrime.securesms.util.NetworkUtil;
-import org.thoughtcrime.securesms.util.ScreenDensity;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.VersionTracker;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.emoji.EmojiFiles;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.net.StandardUserAgentInterceptor;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.service.webrtc.AndroidTelecomUtil;
+import org.mycrimes.insecuretests.util.AppSignatureUtil;
+import org.mycrimes.insecuretests.util.ByteUnit;
+import org.mycrimes.insecuretests.util.ContextUtil;
+import org.mycrimes.insecuretests.util.DeviceProperties;
+import org.mycrimes.insecuretests.util.NetworkUtil;
+import org.mycrimes.insecuretests.util.ScreenDensity;
+import org.mycrimes.insecuretests.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.VersionTracker;
 import org.whispersystems.signalservice.api.push.ACI;
 
 import java.util.Arrays;

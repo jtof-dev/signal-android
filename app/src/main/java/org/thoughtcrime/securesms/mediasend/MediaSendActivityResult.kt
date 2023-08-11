@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package org.mycrimes.insecuretests.mediasend
 
 import android.content.Intent
 import android.os.Parcel
@@ -7,13 +7,13 @@ import kotlinx.parcelize.Parceler
 import kotlinx.parcelize.Parcelize
 import kotlinx.parcelize.TypeParceler
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender.PreUploadResult
-import org.thoughtcrime.securesms.util.ParcelUtil
+import org.mycrimes.insecuretests.conversation.MessageSendType
+import org.mycrimes.insecuretests.database.model.Mention
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sms.MessageSender.PreUploadResult
+import org.mycrimes.insecuretests.util.ParcelUtil
 
 /**
  * A class that lets us nicely format data that we'll send back to [ConversationActivity].

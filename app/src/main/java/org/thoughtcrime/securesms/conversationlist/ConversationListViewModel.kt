@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package org.mycrimes.insecuretests.conversationlist
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -12,21 +12,21 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfilesRepository
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterSource
-import org.thoughtcrime.securesms.conversationlist.model.Conversation
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.megaphone.Megaphone
-import org.thoughtcrime.securesms.megaphone.MegaphoneRepository
-import org.thoughtcrime.securesms.megaphone.Megaphones
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.mycrimes.insecuretests.components.settings.app.notifications.profiles.NotificationProfilesRepository
+import org.mycrimes.insecuretests.conversationlist.chatfilter.ConversationFilterRequest
+import org.mycrimes.insecuretests.conversationlist.chatfilter.ConversationFilterSource
+import org.mycrimes.insecuretests.conversationlist.model.Conversation
+import org.mycrimes.insecuretests.conversationlist.model.ConversationFilter
+import org.mycrimes.insecuretests.conversationlist.model.ConversationSet
+import org.mycrimes.insecuretests.database.RxDatabaseObserver
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.megaphone.Megaphone
+import org.mycrimes.insecuretests.megaphone.MegaphoneRepository
+import org.mycrimes.insecuretests.megaphone.Megaphones
+import org.mycrimes.insecuretests.notifications.profiles.NotificationProfile
+import org.mycrimes.insecuretests.util.rx.RxStore
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState
 import java.util.concurrent.TimeUnit
 

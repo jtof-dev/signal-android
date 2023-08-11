@@ -8,7 +8,7 @@
     android:paddingHorizontal="4dp"
     android:paddingVertical="8dp">
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.mycrimes.insecuretests.components.emoji.EmojiImageView
         android:id="@+id/inline_query_emoji_image"
         android:layout_width="32dp"
         android:layout_height="32dp"

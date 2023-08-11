@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,20 +13,20 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaController;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner;
-import org.thoughtcrime.securesms.conversationlist.RelinkDevicesReminderBottomSheetFragment;
-import org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferLockedDialog;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.stories.tabs.ConversationListTabRepository;
-import org.thoughtcrime.securesms.stories.tabs.ConversationListTabsViewModel;
-import org.thoughtcrime.securesms.util.AppStartup;
-import org.thoughtcrime.securesms.util.CachedInflater;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.SplashScreenUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import org.mycrimes.insecuretests.components.voice.VoiceNoteMediaController;
+import org.mycrimes.insecuretests.components.voice.VoiceNoteMediaControllerOwner;
+import org.mycrimes.insecuretests.conversationlist.RelinkDevicesReminderBottomSheetFragment;
+import org.mycrimes.insecuretests.devicetransfer.olddevice.OldDeviceTransferLockedDialog;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.stories.tabs.ConversationListTabRepository;
+import org.mycrimes.insecuretests.stories.tabs.ConversationListTabsViewModel;
+import org.mycrimes.insecuretests.util.AppStartup;
+import org.mycrimes.insecuretests.util.CachedInflater;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.SplashScreenUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
 
 public class MainActivity extends PassphraseRequiredActivity implements VoiceNoteMediaControllerOwner {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.os.Bundle
 import android.view.View
@@ -9,10 +9,10 @@ import io.reactivex.rxjava3.disposables.Disposable
 import org.signal.smsexporter.DefaultSmsHelper
 import org.signal.smsexporter.SmsExportProgress
 import org.signal.smsexporter.SmsExportService
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.ExportYourSmsMessagesFragmentBinding
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.databinding.ExportYourSmsMessagesFragmentBinding
+import org.mycrimes.insecuretests.util.Material3OnScrollHelper
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * "Welcome" screen for exporting sms

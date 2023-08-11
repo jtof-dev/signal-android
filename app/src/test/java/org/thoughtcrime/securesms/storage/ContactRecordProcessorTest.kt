@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package org.mycrimes.insecuretests.storage
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -16,11 +16,11 @@ import org.mockito.internal.junit.JUnitRule
 import org.mockito.junit.MockitoRule
 import org.mockito.quality.Strictness
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.keyvalue.AccountValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testutil.EmptyLogger
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.keyvalue.AccountValues
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.testutil.EmptyLogger
+import org.mycrimes.insecuretests.util.FeatureFlags
 import org.whispersystems.signalservice.api.push.ACI
 import org.whispersystems.signalservice.api.push.PNI
 import org.whispersystems.signalservice.api.storage.SignalContactRecord

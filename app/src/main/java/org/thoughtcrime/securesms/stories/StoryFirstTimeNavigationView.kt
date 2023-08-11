@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package org.mycrimes.insecuretests.stories
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -16,11 +16,11 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.blurhash.BlurHash
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.util.ContextUtil
+import org.mycrimes.insecuretests.util.visible
 
 class StoryFirstTimeNavigationView @JvmOverloads constructor(
   context: Context,

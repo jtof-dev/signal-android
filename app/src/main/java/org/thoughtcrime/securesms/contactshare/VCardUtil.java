@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.mycrimes.insecuretests.contactshare;
 
 import android.provider.ContactsContract;
 import android.text.TextUtils;

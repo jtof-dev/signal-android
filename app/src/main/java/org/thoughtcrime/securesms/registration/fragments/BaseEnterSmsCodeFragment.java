@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments;
+package org.mycrimes.insecuretests.registration.fragments;
 
 import android.os.Bundle;
 import android.view.View;
@@ -21,19 +21,19 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.registration.ActionCountDownButton;
-import org.thoughtcrime.securesms.components.registration.VerificationCodeView;
-import org.thoughtcrime.securesms.components.registration.VerificationPinKeyboard;
-import org.thoughtcrime.securesms.registration.ReceivedSmsEvent;
-import org.thoughtcrime.securesms.registration.VerifyAccountRepository;
-import org.thoughtcrime.securesms.registration.VerifyResponseProcessor;
-import org.thoughtcrime.securesms.registration.viewmodel.BaseRegistrationViewModel;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.registration.ActionCountDownButton;
+import org.mycrimes.insecuretests.components.registration.VerificationCodeView;
+import org.mycrimes.insecuretests.components.registration.VerificationPinKeyboard;
+import org.mycrimes.insecuretests.registration.ReceivedSmsEvent;
+import org.mycrimes.insecuretests.registration.VerifyAccountRepository;
+import org.mycrimes.insecuretests.registration.VerifyResponseProcessor;
+import org.mycrimes.insecuretests.registration.viewmodel.BaseRegistrationViewModel;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener;
-import org.thoughtcrime.securesms.util.dualsim.MccMncProducer;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.concurrent.AssertedSuccessListener;
+import org.mycrimes.insecuretests.util.dualsim.MccMncProducer;
 import org.whispersystems.signalservice.internal.push.LockedException;
 
 import java.util.ArrayList;
@@ -43,8 +43,8 @@ import java.util.List;
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.disposables.Disposable;
 
-import static org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView;
-import static org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.showConfirmNumberDialogIfTranslated;
+import static org.mycrimes.insecuretests.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView;
+import static org.mycrimes.insecuretests.registration.fragments.RegistrationViewDelegate.showConfirmNumberDialogIfTranslated;
 
 /**
  * Base fragment used by registration and change number flow to input an SMS verification code or request a

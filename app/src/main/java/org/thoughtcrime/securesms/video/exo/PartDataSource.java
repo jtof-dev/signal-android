@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.mycrimes.insecuretests.video.exo;
 
 
 import android.content.Context;
@@ -11,10 +11,10 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.upstream.TransferListener;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.mms.PartUriParser;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.mms.PartUriParser;
 
 import java.io.EOFException;
 import java.io.IOException;

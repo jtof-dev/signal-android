@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo
+package org.mycrimes.insecuretests.video.exo
 
 import android.content.Context
 import androidx.annotation.MainThread
@@ -10,10 +10,10 @@ import com.google.android.exoplayer2.source.MediaSource
 import com.google.android.exoplayer2.upstream.DataSource
 import com.google.android.exoplayer2.util.MimeTypes
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.net.ContentProxySelector
-import org.thoughtcrime.securesms.util.AppForegroundObserver
-import org.thoughtcrime.securesms.util.DeviceProperties
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.net.ContentProxySelector
+import org.mycrimes.insecuretests.util.AppForegroundObserver
+import org.mycrimes.insecuretests.util.DeviceProperties
 import kotlin.time.Duration.Companion.seconds
 
 /**

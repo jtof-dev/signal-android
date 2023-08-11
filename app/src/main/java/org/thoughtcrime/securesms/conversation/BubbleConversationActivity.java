@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
 
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 /**
  * Activity which encapsulates a conversation for a Bubble window.

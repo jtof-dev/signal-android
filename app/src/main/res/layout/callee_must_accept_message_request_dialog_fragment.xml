@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/avatar"
         android:layout_width="112dp"
         android:layout_height="112dp" />

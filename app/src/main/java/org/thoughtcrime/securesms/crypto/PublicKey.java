@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.crypto;
+package org.mycrimes.insecuretests.crypto;
 
 import org.signal.core.util.Conversions;
 import org.signal.core.util.logging.Log;
@@ -23,7 +23,7 @@ import org.signal.core.util.Hex;
 import org.signal.libsignal.protocol.InvalidKeyException;
 import org.signal.libsignal.protocol.ecc.Curve;
 import org.signal.libsignal.protocol.ecc.ECPublicKey;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

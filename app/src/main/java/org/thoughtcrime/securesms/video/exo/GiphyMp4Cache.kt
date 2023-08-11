@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.video.exo
+package org.mycrimes.insecuretests.video.exo
 
 import android.content.Context
 import android.net.Uri
 import androidx.annotation.WorkerThread
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.storage.FileStorage
+import org.mycrimes.insecuretests.util.storage.FileStorage
 import java.io.IOException
 import java.io.InputStream
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 
 import com.bumptech.glide.request.target.BitmapImageViewTarget;
 
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.mycrimes.insecuretests.util.concurrent.SettableFuture;
 
 public class GlideBitmapListeningTarget extends BitmapImageViewTarget {
 

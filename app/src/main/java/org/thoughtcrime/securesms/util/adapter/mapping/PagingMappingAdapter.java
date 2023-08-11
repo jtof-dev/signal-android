@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter.mapping;
+package org.mycrimes.insecuretests.util.adapter.mapping;
 
 import android.view.View;
 import android.widget.FrameLayout;
@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 /**
  * A specialized {@link MappingAdapter} backed by a {@link PagingController}.

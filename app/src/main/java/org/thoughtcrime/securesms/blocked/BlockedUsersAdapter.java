@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.blocked;
+package org.mycrimes.insecuretests.blocked;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,10 +11,10 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter;
+import org.mycrimes.insecuretests.recipients.Recipient;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 
 import java.util.Objects;

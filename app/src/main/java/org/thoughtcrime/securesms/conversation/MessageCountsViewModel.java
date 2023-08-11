@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.app.Application;
 import android.content.Context;
@@ -11,11 +11,11 @@ import androidx.lifecycle.ViewModel;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor;
+import org.mycrimes.insecuretests.database.DatabaseObserver;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.ThreadRecord;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.util.concurrent.SerialMonoLifoExecutor;
 
 import java.util.concurrent.Executor;
 

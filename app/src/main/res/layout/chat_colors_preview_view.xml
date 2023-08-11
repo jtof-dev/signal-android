@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="@id/preview"
         app:layout_constraintTop_toTopOf="@id/preview" />
 
-    <org.thoughtcrime.securesms.conversation.colors.ColorizerView
+    <org.mycrimes.insecuretests.conversation.colors.ColorizerView
         android:id="@+id/colorizer"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -126,7 +126,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/bubble_2_text" />
 
-            <org.thoughtcrime.securesms.components.DeliveryStatusView
+            <org.mycrimes.insecuretests.components.DeliveryStatusView
                 android:id="@+id/bubble_2_delivery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -207,7 +207,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/bubble_4_text" />
 
-            <org.thoughtcrime.securesms.components.DeliveryStatusView
+            <org.mycrimes.insecuretests.components.DeliveryStatusView
                 android:id="@+id/bubble_4_delivery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

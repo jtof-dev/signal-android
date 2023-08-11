@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts;
+package org.mycrimes.insecuretests.contacts;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -10,13 +10,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.ThreadTable;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.notifications.MarkReadReceiver;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.List;

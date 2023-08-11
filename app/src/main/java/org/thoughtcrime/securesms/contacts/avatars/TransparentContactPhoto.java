@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.mycrimes.insecuretests.contacts.avatars;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -8,8 +8,8 @@ import androidx.core.content.ContextCompat;
 
 import com.makeramen.roundedimageview.RoundedDrawable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor;
 
 public class TransparentContactPhoto implements FallbackContactPhoto {
 

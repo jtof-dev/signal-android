@@ -1,24 +1,24 @@
-package org.thoughtcrime.securesms.badges.self.expired
+package org.mycrimes.insecuretests.badges.self.expired
 
 import androidx.fragment.app.FragmentManager
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.logging.Log
 import org.signal.donations.StripeDeclineCode
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.badges.models.ExpiredBadge
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.mapToErrorStringResource
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.shouldRouteToGooglePay
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.badges.models.ExpiredBadge
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsAdapter
+import org.mycrimes.insecuretests.components.settings.DSLSettingsBottomSheetFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.app.AppSettingsActivity
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.mapToErrorStringResource
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.shouldRouteToGooglePay
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.BottomSheetUtil
+import org.mycrimes.insecuretests.util.CommunicationActions
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 
 /**

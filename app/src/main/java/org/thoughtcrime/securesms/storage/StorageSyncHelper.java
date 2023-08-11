@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage;
+package org.mycrimes.insecuretests.storage;
 
 import android.content.Context;
 
@@ -11,20 +11,20 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.SetUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.RecipientRecord;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob;
-import org.thoughtcrime.securesms.jobs.StorageSyncJob;
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.Entropy;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.subscription.Subscriber;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.database.RecipientTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.RecipientRecord;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.RetrieveProfileAvatarJob;
+import org.mycrimes.insecuretests.jobs.StorageSyncJob;
+import org.mycrimes.insecuretests.keyvalue.PhoneNumberPrivacyValues;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.Entropy;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.subscription.Subscriber;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.Util;
 import org.whispersystems.signalservice.api.storage.SignalAccountRecord;
 import org.whispersystems.signalservice.api.storage.SignalContactRecord;
 import org.whispersystems.signalservice.api.storage.SignalStorageManifest;

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.service.webrtc.state
+package org.mycrimes.insecuretests.service.webrtc.state
 
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipantId
+import org.mycrimes.insecuretests.events.CallParticipant
+import org.mycrimes.insecuretests.events.CallParticipantId
 
 /**
  * The state of the call system which contains data which changes frequently.

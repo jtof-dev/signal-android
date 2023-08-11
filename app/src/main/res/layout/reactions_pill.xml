@@ -12,7 +12,7 @@
     android:paddingEnd="7dp"
     android:gravity="center">
 
-  <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+  <org.mycrimes.insecuretests.components.emoji.EmojiImageView
       android:id="@+id/reactions_pill_emoji"
       android:layout_width="17dp"
       android:layout_height="17dp" />

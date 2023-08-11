@@ -1,26 +1,26 @@
-package org.thoughtcrime.securesms.jobs;
+package org.mycrimes.insecuretests.jobs;
 
 import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.PaymentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.NotPushRegisteredException;
-import org.thoughtcrime.securesms.payments.FailureReason;
-import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
-import org.thoughtcrime.securesms.payments.PaymentSubmissionResult;
-import org.thoughtcrime.securesms.payments.PaymentTransactionId;
-import org.thoughtcrime.securesms.payments.TransactionSubmissionResult;
-import org.thoughtcrime.securesms.payments.Wallet;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.database.PaymentTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.JobManager;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.net.NotPushRegisteredException;
+import org.mycrimes.insecuretests.payments.FailureReason;
+import org.mycrimes.insecuretests.payments.MobileCoinPublicAddress;
+import org.mycrimes.insecuretests.payments.PaymentSubmissionResult;
+import org.mycrimes.insecuretests.payments.PaymentTransactionId;
+import org.mycrimes.insecuretests.payments.TransactionSubmissionResult;
+import org.mycrimes.insecuretests.payments.Wallet;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 import org.signal.core.util.Stopwatch;
 import org.whispersystems.signalservice.api.payments.Money;
 

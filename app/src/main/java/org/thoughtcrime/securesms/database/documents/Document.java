@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.documents;
+package org.mycrimes.insecuretests.database.documents;
 
 import java.util.Set;
 

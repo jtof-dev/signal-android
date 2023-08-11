@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.emoji.search
+package org.mycrimes.insecuretests.keyboard.emoji.search
 
 import android.content.Context
 import android.os.Bundle
@@ -11,15 +11,15 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
-import org.thoughtcrime.securesms.util.ThemedFragment.themedInflate
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.KeyboardAwareLinearLayout
+import org.mycrimes.insecuretests.components.emoji.EmojiEventListener
+import org.mycrimes.insecuretests.components.emoji.EmojiPageView
+import org.mycrimes.insecuretests.components.emoji.EmojiPageViewGridAdapter
+import org.mycrimes.insecuretests.keyboard.emoji.KeyboardPageSearchView
+import org.mycrimes.insecuretests.util.ThemedFragment.themedInflate
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.fragments.requireListener
 
 class EmojiSearchFragment : Fragment(), EmojiPageViewGridAdapter.VariationSelectorListener {
 

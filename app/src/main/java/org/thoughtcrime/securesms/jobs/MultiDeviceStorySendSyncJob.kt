@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.JsonJobData
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint
+import org.mycrimes.insecuretests.recipients.Recipient
 import org.whispersystems.signalservice.api.messages.SignalServiceStoryMessageRecipient
 import org.whispersystems.signalservice.api.messages.multidevice.SentTranscriptMessage
 import org.whispersystems.signalservice.api.messages.multidevice.SignalServiceSyncMessage

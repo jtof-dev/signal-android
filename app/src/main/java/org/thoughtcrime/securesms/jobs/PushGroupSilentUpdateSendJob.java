@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.mycrimes.insecuretests.jobs;
 
 import android.content.Context;
 
@@ -12,21 +12,21 @@ import com.google.protobuf.InvalidProtocolBufferException;
 
 import org.signal.core.util.logging.Log;
 import org.signal.storageservice.protos.groups.local.DecryptedGroup;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.messages.GroupSendUtil;
-import org.thoughtcrime.securesms.mms.MessageGroupContext;
-import org.thoughtcrime.securesms.mms.OutgoingMessage;
-import org.thoughtcrime.securesms.net.NotPushRegisteredException;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.transport.RetryLaterException;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.GroupUtil;
+import org.mycrimes.insecuretests.database.RecipientTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.messages.GroupSendUtil;
+import org.mycrimes.insecuretests.mms.MessageGroupContext;
+import org.mycrimes.insecuretests.mms.OutgoingMessage;
+import org.mycrimes.insecuretests.net.NotPushRegisteredException;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.transport.RetryLaterException;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.GroupUtil;
 import org.whispersystems.signalservice.api.crypto.ContentHint;
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException;
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil;

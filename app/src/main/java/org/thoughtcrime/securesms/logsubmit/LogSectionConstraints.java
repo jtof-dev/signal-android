@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.mycrimes.insecuretests.logsubmit;
 
 import android.content.Context;
 
@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.Constraint;
-import org.thoughtcrime.securesms.jobs.JobManagerFactories;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.Constraint;
+import org.mycrimes.insecuretests.jobs.JobManagerFactories;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.Map;
 

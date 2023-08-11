@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify
+package org.mycrimes.insecuretests.verify
 
 import android.Manifest
 import android.os.Bundle
@@ -9,14 +9,14 @@ import androidx.fragment.app.Fragment
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.getParcelableCompat
 import org.signal.qr.kitkat.ScanListener
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.ServiceUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.WrapperDialogFragment
+import org.mycrimes.insecuretests.crypto.IdentityKeyParcelable
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.permissions.Permissions
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.ServiceUtil
 
 /**
  * Fragment to assist user in verifying recipient identity utilizing keys.

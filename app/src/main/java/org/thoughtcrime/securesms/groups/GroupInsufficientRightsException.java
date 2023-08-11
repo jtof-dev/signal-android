@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package org.mycrimes.insecuretests.groups;
 
 public final class GroupInsufficientRightsException extends GroupChangeException {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc.links
+package org.mycrimes.insecuretests.service.webrtc.links
 
 /**
  * Result type for call link creation.

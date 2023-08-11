@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -28,26 +28,26 @@ import org.signal.libsignal.protocol.message.CiphertextMessage
 import org.signal.libsignal.protocol.message.DecryptionErrorMessage
 import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock
-import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.groups.BadGroupIdException
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.AutomaticSessionResetJob
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
-import org.thoughtcrime.securesms.jobs.SendRetryReceiptJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity
-import org.thoughtcrime.securesms.messages.MessageDecryptor.FollowUpOperation
-import org.thoughtcrime.securesms.messages.protocol.BufferedProtocolStore
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.crypto.ReentrantSessionLock
+import org.mycrimes.insecuretests.crypto.UnidentifiedAccessUtil
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.groups.BadGroupIdException
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobs.AutomaticSessionResetJob
+import org.mycrimes.insecuretests.jobs.PreKeysSyncJob
+import org.mycrimes.insecuretests.jobs.SendRetryReceiptJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.logsubmit.SubmitDebugLogActivity
+import org.mycrimes.insecuretests.messages.MessageDecryptor.FollowUpOperation
+import org.mycrimes.insecuretests.messages.protocol.BufferedProtocolStore
+import org.mycrimes.insecuretests.notifications.NotificationChannels
+import org.mycrimes.insecuretests.notifications.NotificationIds
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.FeatureFlags
 import org.whispersystems.signalservice.api.InvalidMessageStructureException
 import org.whispersystems.signalservice.api.crypto.ContentHint
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
@@ -76,7 +76,7 @@ object MessageDecryptor {
    * Decrypts an envelope and provides a [Result]. This method has side effects, but all of them are limited to [SignalDatabase].
    * That means that this operation should be atomic when performed within a transaction.
    * To keep that property, there may be [Result.followUpOperations] you have to perform after your transaction is committed.
-   * These can vary from enqueueing jobs to inserting items into the [org.thoughtcrime.securesms.database.PendingRetryReceiptCache].
+   * These can vary from enqueueing jobs to inserting items into the [org.mycrimes.insecuretests.database.PendingRetryReceiptCache].
    */
   fun decrypt(
     context: Context,

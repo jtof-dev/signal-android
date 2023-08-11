@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.os.Bundle
 import android.text.format.DateFormat
@@ -12,18 +12,18 @@ import com.google.android.material.datepicker.MaterialDatePicker
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.timepicker.MaterialTimePicker
 import com.google.android.material.timepicker.TimeFormat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.ScheduleMessageTimePickerBottomSheetBinding
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.atMidnight
-import org.thoughtcrime.securesms.util.atUTC
-import org.thoughtcrime.securesms.util.formatHours
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toMillis
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.databinding.ScheduleMessageTimePickerBottomSheetBinding
+import org.mycrimes.insecuretests.util.BottomSheetUtil
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.atMidnight
+import org.mycrimes.insecuretests.util.atUTC
+import org.mycrimes.insecuretests.util.formatHours
+import org.mycrimes.insecuretests.util.fragments.findListener
+import org.mycrimes.insecuretests.util.toLocalDateTime
+import org.mycrimes.insecuretests.util.toMillis
 import java.time.LocalDateTime
 import java.time.LocalTime
 import java.time.ZoneId

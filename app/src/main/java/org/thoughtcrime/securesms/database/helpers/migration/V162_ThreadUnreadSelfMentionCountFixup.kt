@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.mycrimes.insecuretests.database.helpers.migration
 
 import android.app.Application
 import androidx.sqlite.db.SupportSQLiteDatabase
 import net.zetetic.database.sqlcipher.SQLiteDatabase
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
+import org.mycrimes.insecuretests.database.helpers.SignalDatabaseMigrations
 
 /**
  * A bad cherry-pick for a database change requires us to attempt to alter the table again

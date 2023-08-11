@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.search
+package org.mycrimes.insecuretests.components.settings.app.internal.search
 
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 data class InternalSearchResult(
   val name: String,

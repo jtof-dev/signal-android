@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.os.PowerManager
 import androidx.activity.ComponentActivity
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import org.thoughtcrime.securesms.util.WakeLockUtil
+import org.mycrimes.insecuretests.util.WakeLockUtil
 import java.util.concurrent.TimeUnit
 
 /**

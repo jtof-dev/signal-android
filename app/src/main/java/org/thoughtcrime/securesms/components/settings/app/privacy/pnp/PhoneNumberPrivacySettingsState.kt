@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.pnp
+package org.mycrimes.insecuretests.components.settings.app.privacy.pnp
 
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues
+import org.mycrimes.insecuretests.keyvalue.PhoneNumberPrivacyValues
 
 data class PhoneNumberPrivacySettingsState(
   val seeMyPhoneNumber: PhoneNumberPrivacyValues.PhoneNumberSharingMode,

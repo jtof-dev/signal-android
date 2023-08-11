@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package org.mycrimes.insecuretests.components.settings.app.notifications.profiles
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.notifications.profiles.NotificationProfile
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 class AddAllowedMembersViewModel(private val profileId: Long, private val repository: NotificationProfilesRepository) : ViewModel() {
 

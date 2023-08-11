@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.stripe
 
 import android.app.Dialog
 import android.graphics.Color
@@ -21,16 +21,16 @@ import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
 import org.signal.donations.StripeApi
 import org.signal.donations.StripeIntentAccessor
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPaymentComponent
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationProcessorAction
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationProcessorActionResult
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationProcessorStage
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.databinding.DonationInProgressFragmentBinding
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.components.settings.app.subscription.DonationPaymentComponent
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationProcessorAction
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationProcessorActionResult
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationProcessorStage
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.DonationError
+import org.mycrimes.insecuretests.databinding.DonationInProgressFragmentBinding
+import org.mycrimes.insecuretests.util.fragments.requireListener
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 class StripePaymentInProgressFragment : DialogFragment(R.layout.donation_in_progress_fragment) {
 

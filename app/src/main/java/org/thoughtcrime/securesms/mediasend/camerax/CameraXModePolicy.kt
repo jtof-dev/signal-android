@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.mediasend.camerax
+package org.mycrimes.insecuretests.mediasend.camerax
 
 import android.content.Context
 import android.os.Build
 import androidx.camera.view.CameraController
 import androidx.camera.view.video.ExperimentalVideo
 import org.signal.core.util.asListContains
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.util.FeatureFlags
-import org.thoughtcrime.securesms.video.VideoUtil
+import org.mycrimes.insecuretests.mms.MediaConstraints
+import org.mycrimes.insecuretests.util.FeatureFlags
+import org.mycrimes.insecuretests.video.VideoUtil
 
 /**
  * Describes device capabilities

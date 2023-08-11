@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.mycrimes.insecuretests.mediasend;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,13 +22,13 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.InviteActivity;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.mycrimes.insecuretests.InviteActivity;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.ThemeUtil;
 
 import java.util.List;
 

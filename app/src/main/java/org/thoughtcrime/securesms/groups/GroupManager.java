@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package org.mycrimes.insecuretests.groups;
 
 import android.content.Context;
 
@@ -14,15 +14,15 @@ import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
 import org.signal.storageservice.protos.groups.GroupExternalCredential;
 import org.signal.storageservice.protos.groups.local.DecryptedGroup;
 import org.signal.storageservice.protos.groups.local.DecryptedGroupJoinInfo;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkPassword;
-import org.thoughtcrime.securesms.groups.v2.processing.GroupsV2StateProcessor;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.database.GroupTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.GroupRecord;
+import org.mycrimes.insecuretests.groups.v2.GroupInviteLinkUrl;
+import org.mycrimes.insecuretests.groups.v2.GroupLinkPassword;
+import org.mycrimes.insecuretests.groups.v2.processing.GroupsV2StateProcessor;
+import org.mycrimes.insecuretests.profiles.AvatarHelper;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 import org.whispersystems.signalservice.api.groupsv2.GroupLinkNotActiveException;
 import org.whispersystems.signalservice.api.push.ServiceId;
 

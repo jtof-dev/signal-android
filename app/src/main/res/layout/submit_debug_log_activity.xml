@@ -82,7 +82,7 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintBottom_toTopOf="@id/debug_log_submit_button"/>
 
-  <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+  <org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
       android:id="@+id/debug_log_submit_button"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
       app:layout_constraintBottom_toBottomOf="parent"
       tools:visibility="visible"/>
 
-  <org.thoughtcrime.securesms.components.ProgressCard
+  <org.mycrimes.insecuretests.components.ProgressCard
       android:id="@+id/debug_log_progress_card"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

@@ -4,11 +4,11 @@ import android.os.Bundle
 import android.widget.TextView
 import org.signal.benchmark.setup.TestMessages
 import org.signal.benchmark.setup.TestUsers
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.BaseActivity
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord
+import org.mycrimes.insecuretests.mms.QuoteModel
+import org.mycrimes.insecuretests.recipients.Recipient
 
 class BenchmarkSetupActivity : BaseActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util.dynamiclanguage;
+package org.mycrimes.insecuretests.util.dynamiclanguage;
 
 import android.content.Context;
 import android.content.res.Configuration;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.util.Locale;
 

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.sharing;
+package org.mycrimes.insecuretests.sharing;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter;
 
 public class ShareSelectionAdapter extends MappingAdapter {
   public ShareSelectionAdapter() {

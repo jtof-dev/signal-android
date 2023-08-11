@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.reminder
+package org.mycrimes.insecuretests.components.reminder
 
 import android.content.Context
 import android.view.View
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.PlayStoreUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.PlayStoreUtil
 
 /**
  * Banner to update app to the latest version because of enclave failure

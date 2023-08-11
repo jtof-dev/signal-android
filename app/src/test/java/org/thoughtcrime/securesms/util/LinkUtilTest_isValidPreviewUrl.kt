@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import junit.framework.TestCase
 import org.junit.Test

@@ -1,25 +1,25 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch
-import org.thoughtcrime.securesms.database.documents.NetworkFailure
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.payments.Payment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.mycrimes.insecuretests.attachments.AttachmentId
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment
+import org.mycrimes.insecuretests.audio.AudioHash
+import org.mycrimes.insecuretests.blurhash.BlurHash
+import org.mycrimes.insecuretests.contactshare.Contact
+import org.mycrimes.insecuretests.database.documents.IdentityKeyMismatch
+import org.mycrimes.insecuretests.database.documents.NetworkFailure
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord
+import org.mycrimes.insecuretests.database.model.ParentStoryId
+import org.mycrimes.insecuretests.database.model.Quote
+import org.mycrimes.insecuretests.database.model.ReactionRecord
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge
+import org.mycrimes.insecuretests.linkpreview.LinkPreview
+import org.mycrimes.insecuretests.mms.SlideDeck
+import org.mycrimes.insecuretests.payments.Payment
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.stickers.StickerLocator
+import org.mycrimes.insecuretests.util.MediaUtil
 
 /**
  * Builds MessageRecords and related components for direct usage in unit testing. Does not modify the database.

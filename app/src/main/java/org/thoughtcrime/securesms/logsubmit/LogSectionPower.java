@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.mycrimes.insecuretests.logsubmit;
 
 import android.app.usage.UsageStatsManager;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.util.BucketInfo;
+import org.mycrimes.insecuretests.util.BucketInfo;
 
 import java.util.concurrent.TimeUnit;
 

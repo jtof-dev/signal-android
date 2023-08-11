@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.mycrimes.insecuretests.contacts.avatars;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.color.MaterialColor;
+import org.mycrimes.insecuretests.color.MaterialColor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

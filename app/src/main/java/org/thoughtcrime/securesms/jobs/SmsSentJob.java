@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.mycrimes.insecuretests.jobs;
 
 import android.app.Activity;
 import android.telephony.SmsManager;
@@ -7,15 +7,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.service.SmsDeliveryListener;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.NoSuchMessageException;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.notifications.v2.ConversationId;
+import org.mycrimes.insecuretests.service.SmsDeliveryListener;
 
 public class SmsSentJob extends BaseJob {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.mycrimes.insecuretests.mediasend;
 
 import android.net.Uri;
 import android.os.Build;
@@ -15,13 +15,13 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.scribbles.VideoEditorHud;
-import org.thoughtcrime.securesms.util.Throttler;
-import org.thoughtcrime.securesms.video.VideoBitRateCalculator;
-import org.thoughtcrime.securesms.video.VideoPlayer;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.MediaConstraints;
+import org.mycrimes.insecuretests.mms.VideoSlide;
+import org.mycrimes.insecuretests.scribbles.VideoEditorHud;
+import org.mycrimes.insecuretests.util.Throttler;
+import org.mycrimes.insecuretests.video.VideoBitRateCalculator;
+import org.mycrimes.insecuretests.video.VideoPlayer;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

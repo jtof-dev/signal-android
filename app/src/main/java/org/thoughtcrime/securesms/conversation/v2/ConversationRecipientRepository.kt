@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.GroupRecord
+import org.mycrimes.insecuretests.recipients.Recipient
 import java.util.Optional
 
 class ConversationRecipientRepository(threadId: Long) {

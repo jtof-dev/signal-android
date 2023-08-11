@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.messages.protocol
+package org.mycrimes.insecuretests.messages.protocol
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.push.ServiceId
 
 /**

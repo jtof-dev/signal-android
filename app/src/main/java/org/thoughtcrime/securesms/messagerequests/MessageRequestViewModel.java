@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests;
+package org.mycrimes.insecuretests.messagerequests;
 
 import android.content.Context;
 
@@ -12,15 +12,15 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.profiles.spoofing.ReviewUtil;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientForeverObserver;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
-import org.thoughtcrime.securesms.util.livedata.Store;
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason;
+import org.mycrimes.insecuretests.profiles.spoofing.ReviewUtil;
+import org.mycrimes.insecuretests.recipients.LiveRecipient;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientForeverObserver;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.util.livedata.Store;
 
 import java.util.Collections;
 import java.util.List;

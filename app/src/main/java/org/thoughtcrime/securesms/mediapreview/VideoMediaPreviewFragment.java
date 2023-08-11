@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview;
+package org.mycrimes.insecuretests.mediapreview;
 
 import android.app.Activity;
 import android.net.Uri;
@@ -14,12 +14,12 @@ import androidx.lifecycle.ViewModelProvider;
 import com.google.android.exoplayer2.ui.PlayerControlView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner;
-import org.thoughtcrime.securesms.mms.VideoSlide;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.voice.VoiceNoteMediaControllerOwner;
+import org.mycrimes.insecuretests.mms.VideoSlide;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.video.VideoPlayer;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.video.VideoPlayer;
 
 import java.util.concurrent.TimeUnit;
 

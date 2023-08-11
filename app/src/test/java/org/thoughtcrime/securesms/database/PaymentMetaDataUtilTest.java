@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import com.google.protobuf.ByteString;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.payments.proto.PaymentMetaData;
+import org.mycrimes.insecuretests.util.Util;
 
 import static org.junit.Assert.assertArrayEquals;
 

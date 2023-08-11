@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invite;
+package org.mycrimes.insecuretests.groups.ui.invitesandrequests.invite;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -18,14 +18,14 @@ import androidx.lifecycle.ViewModelProvider;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.BadGroupIdException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.recipients.ui.sharablegrouplink.GroupLinkBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.groups.BadGroupIdException;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.recipients.ui.sharablegrouplink.GroupLinkBottomSheetDialogFragment;
+import org.mycrimes.insecuretests.util.BottomSheetUtil;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog;
 
 import java.util.Objects;
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.preferences;
+package org.mycrimes.insecuretests.preferences;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -23,12 +23,12 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.CustomDefaultPreference;
-import org.thoughtcrime.securesms.database.ApnDatabase;
-import org.thoughtcrime.securesms.mms.LegacyMmsConnection;
-import org.thoughtcrime.securesms.util.TelephonyUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.CustomDefaultPreference;
+import org.mycrimes.insecuretests.database.ApnDatabase;
+import org.mycrimes.insecuretests.mms.LegacyMmsConnection;
+import org.mycrimes.insecuretests.util.TelephonyUtil;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.io.IOException;
 

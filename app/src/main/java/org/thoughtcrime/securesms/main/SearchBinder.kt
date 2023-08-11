@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.main
+package org.mycrimes.insecuretests.main
 
 import android.widget.ImageView
-import org.thoughtcrime.securesms.components.Material3SearchToolbar
-import org.thoughtcrime.securesms.util.views.Stub
+import org.mycrimes.insecuretests.components.Material3SearchToolbar
+import org.mycrimes.insecuretests.util.views.Stub
 
 interface SearchBinder {
   fun getSearchAction(): ImageView

@@ -2,7 +2,7 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:parentTag="org.thoughtcrime.securesms.components.webrtc.WebRtcCallView"
+    tools:parentTag="org.mycrimes.insecuretests.components.webrtc.WebRtcCallView"
     tools:viewBindingIgnore="true">
 
     <androidx.constraintlayout.widget.Guideline
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="gone">
 
-        <org.thoughtcrime.securesms.components.webrtc.TextureViewRenderer
+        <org.mycrimes.insecuretests.components.webrtc.TextureViewRenderer
             android:id="@+id/call_screen_large_local_renderer"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
@@ -167,7 +167,7 @@
             tools:listitem="@layout/webrtc_call_participant_recycler_item"
             tools:visibility="visible" />
 
-        <org.thoughtcrime.securesms.util.views.TouchInterceptingFrameLayout
+        <org.mycrimes.insecuretests.util.views.TouchInterceptingFrameLayout
             android:id="@+id/call_screen_pip_area"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -198,7 +198,7 @@
                     android:layout_height="match_parent" />
 
             </com.google.android.material.card.MaterialCardView>
-        </org.thoughtcrime.securesms.util.views.TouchInterceptingFrameLayout>
+        </org.mycrimes.insecuretests.util.views.TouchInterceptingFrameLayout>
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/webrtc_call_view_toolbar_no_text"
@@ -230,7 +230,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/call_screen_status_bar_guideline" />
 
-        <org.thoughtcrime.securesms.components.webrtc.WebRtcAudioOutputToggleButton
+        <org.mycrimes.insecuretests.components.webrtc.WebRtcAudioOutputToggleButton
             android:id="@+id/call_screen_speaker_toggle"
             android:layout_width="@dimen/webrtc_button_size"
             android:layout_height="@dimen/webrtc_button_size"
@@ -265,7 +265,7 @@
             app:srcCompat="@drawable/webrtc_call_screen_camera_toggle"
             tools:visibility="visible" />
 
-        <org.thoughtcrime.securesms.components.AccessibleToggleButton
+        <org.mycrimes.insecuretests.components.AccessibleToggleButton
             android:id="@+id/call_screen_video_toggle"
             style="@style/WebRtcCallV2CompoundButton"
             android:layout_marginStart="8dp"
@@ -282,7 +282,7 @@
             tools:checked="true"
             tools:visibility="visible" />
 
-        <org.thoughtcrime.securesms.components.AccessibleToggleButton
+        <org.mycrimes.insecuretests.components.AccessibleToggleButton
             android:id="@+id/call_screen_audio_mic_toggle"
             style="@style/WebRtcCallV2CompoundButton"
             android:layout_marginStart="8dp"
@@ -298,7 +298,7 @@
             app:layout_constraintStart_toEndOf="@id/call_screen_video_toggle"
             tools:visibility="visible" />
 
-        <org.thoughtcrime.securesms.components.AccessibleToggleButton
+        <org.mycrimes.insecuretests.components.AccessibleToggleButton
             android:id="@+id/call_screen_audio_ring_toggle"
             style="@style/WebRtcCallV2CompoundButton"
             android:layout_marginStart="8dp"

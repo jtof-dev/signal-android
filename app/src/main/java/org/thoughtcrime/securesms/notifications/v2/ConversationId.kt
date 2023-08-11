@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.mycrimes.insecuretests.notifications.v2
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ParentStoryId
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.database.model.ParentStoryId
 
 /**
  * Represents a "thread" that a notification can belong to.

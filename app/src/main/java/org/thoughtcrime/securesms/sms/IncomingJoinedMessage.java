@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.sms;
+package org.mycrimes.insecuretests.sms;
 
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 import java.util.Optional;
 

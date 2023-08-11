@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc
+package org.mycrimes.insecuretests.service.webrtc
 
 import android.net.Uri
 import android.os.Bundle
@@ -9,10 +9,10 @@ import android.telecom.PhoneAccountHandle
 import android.telecom.TelecomManager
 import androidx.annotation.RequiresApi
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 /**
  * Signal implementation of the Android telecom [ConnectionService]. The system binds to this service
@@ -97,9 +97,9 @@ class AndroidCallConnectionService : ConnectionService() {
 
   companion object {
     private val TAG: String = Log.tag(AndroidCallConnectionService::class.java)
-    const val KEY_RECIPIENT_ID = "org.thoughtcrime.securesms.RECIPIENT_ID"
-    const val KEY_CALL_ID = "org.thoughtcrime.securesms.CALL_ID"
-    const val KEY_VIDEO_CALL = "org.thoughtcrime.securesms.VIDEO_CALL"
+    const val KEY_RECIPIENT_ID = "org.mycrimes.insecuretests.RECIPIENT_ID"
+    const val KEY_CALL_ID = "org.mycrimes.insecuretests.CALL_ID"
+    const val KEY_VIDEO_CALL = "org.mycrimes.insecuretests.VIDEO_CALL"
   }
 
   private fun ConnectionRequest.getOurExtras(): ServiceExtras {

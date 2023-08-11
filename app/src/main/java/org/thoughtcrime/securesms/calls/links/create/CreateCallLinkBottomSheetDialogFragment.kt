@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.create
+package org.mycrimes.insecuretests.calls.links.create
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -40,19 +40,19 @@ import org.signal.core.ui.Rows
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.CallLinkState
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.links.CallLinks
-import org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment
-import org.thoughtcrime.securesms.calls.links.SignalCallRow
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.service.webrtc.links.CreateCallLinkResult
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.calls.links.CallLinks
+import org.mycrimes.insecuretests.calls.links.EditCallLinkNameDialogFragment
+import org.mycrimes.insecuretests.calls.links.SignalCallRow
+import org.mycrimes.insecuretests.compose.ComposeBottomSheetDialogFragment
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragment
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import org.mycrimes.insecuretests.database.CallLinkTable
+import org.mycrimes.insecuretests.service.webrtc.links.CreateCallLinkResult
+import org.mycrimes.insecuretests.service.webrtc.links.UpdateCallLinkResult
+import org.mycrimes.insecuretests.sharing.MultiShareArgs
+import org.mycrimes.insecuretests.util.CommunicationActions
+import org.mycrimes.insecuretests.util.Util
 
 /**
  * Bottom sheet for creating call links

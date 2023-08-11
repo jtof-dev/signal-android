@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.conversation.mutiselect
+package org.mycrimes.insecuretests.conversation.mutiselect
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.MessageRecord
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.database.model.MessageRecord
 
 /**
  * Represents a part of a message that can be selected and sent as its own distinct entity.

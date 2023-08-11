@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,12 +14,12 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.BottomSheetUtil
+import org.mycrimes.insecuretests.util.ServiceUtil
+import org.mycrimes.insecuretests.util.fragments.findListener
 
 /**
  * Bottom sheet dialog to prompt user to enable schedule alarms permission for scheduling messages

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.insights;
+package org.mycrimes.insecuretests.insights;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,10 +11,10 @@ import androidx.core.util.Consumer;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.List;

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/paymentsRecoveryStart"
-        android:name="org.thoughtcrime.securesms.payments.backup.PaymentsRecoveryStartFragment"
+        android:name="org.mycrimes.insecuretests.payments.backup.PaymentsRecoveryStartFragment"
         android:label="payments_recovery_start"
         tools:layout="@layout/payments_recovery_start_fragment">
 
@@ -49,7 +49,7 @@
         <argument
             android:name="recovery_phrase_state"
             android:defaultValue="NONE"
-            app:argType="org.thoughtcrime.securesms.payments.backup.RecoveryPhraseStates" />
+            app:argType="org.mycrimes.insecuretests.payments.backup.RecoveryPhraseStates" />
 
         <argument
             android:name="first_time_non_zero_balance"
@@ -70,7 +70,7 @@
 
     <fragment
         android:id="@+id/paymentsRecoveryPhrase"
-        android:name="org.thoughtcrime.securesms.payments.backup.phrase.PaymentsRecoveryPhraseFragment"
+        android:name="org.mycrimes.insecuretests.payments.backup.phrase.PaymentsRecoveryPhraseFragment"
         android:label="payments_recovery_phrase"
         tools:layout="@layout/payments_recovery_phrase_fragment">
 
@@ -96,7 +96,7 @@
 
     <fragment
         android:id="@+id/paymentsRecoveryEntry"
-        android:name="org.thoughtcrime.securesms.payments.backup.entry.PaymentsRecoveryEntryFragment"
+        android:name="org.mycrimes.insecuretests.payments.backup.entry.PaymentsRecoveryEntryFragment"
         android:label="payments_recovery_entry"
         tools:layout="@layout/payments_recovery_entry_fragment">
 
@@ -111,7 +111,7 @@
 
     <fragment
         android:id="@+id/paymentsRecoveryPaste"
-        android:name="org.thoughtcrime.securesms.payments.backup.PaymentsRecoveryPasteFragment"
+        android:name="org.mycrimes.insecuretests.payments.backup.PaymentsRecoveryPasteFragment"
         android:label="payments_recovery_paste"
         tools:layout="@layout/payments_recovery_paste_fragment">
 
@@ -126,7 +126,7 @@
 
     <fragment
         android:id="@+id/paymentsRecoveryPhraseConfirm"
-        android:name="org.thoughtcrime.securesms.payments.backup.confirm.PaymentsRecoveryPhraseConfirmFragment"
+        android:name="org.mycrimes.insecuretests.payments.backup.confirm.PaymentsRecoveryPhraseConfirmFragment"
         android:label="payments_recovery_phrase_confirm"
         tools:layout="@layout/payments_recovery_phrase_confirm_fragment">
 

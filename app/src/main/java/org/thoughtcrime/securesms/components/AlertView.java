@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 public class AlertView extends LinearLayout {
 

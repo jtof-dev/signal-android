@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.mycrimes.insecuretests.service.webrtc;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -8,11 +8,11 @@ import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
+import org.mycrimes.insecuretests.components.webrtc.EglBaseWrapper;
+import org.mycrimes.insecuretests.events.WebRtcViewModel;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.ringrtc.RemotePeer;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceState;
 
 /**
  * Processor which is utilized when the network becomes unavailable during a group call. In general,

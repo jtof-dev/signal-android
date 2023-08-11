@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package org.mycrimes.insecuretests.notifications.profiles
 
 import android.app.Application
 import org.hamcrest.MatcherAssert.assertThat
@@ -9,9 +9,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.SignalStoreRule
-import org.thoughtcrime.securesms.keyvalue.NotificationProfileValues
-import org.thoughtcrime.securesms.util.toMillis
+import org.mycrimes.insecuretests.SignalStoreRule
+import org.mycrimes.insecuretests.keyvalue.NotificationProfileValues
+import org.mycrimes.insecuretests.util.toMillis
 import java.time.DayOfWeek
 import java.time.LocalDateTime
 import java.time.ZoneId

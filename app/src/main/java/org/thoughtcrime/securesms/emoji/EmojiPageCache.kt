@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.emoji
+package org.mycrimes.insecuretests.emoji
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -7,9 +7,9 @@ import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread
 import org.signal.core.util.concurrent.SimpleTask
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.util.ListenableFutureTask
-import org.thoughtcrime.securesms.util.SoftHashMap
+import org.mycrimes.insecuretests.mms.PartAuthority
+import org.mycrimes.insecuretests.util.ListenableFutureTask
+import org.mycrimes.insecuretests.util.SoftHashMap
 import java.io.IOException
 import java.io.InputStream
 

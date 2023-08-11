@@ -8,7 +8,7 @@
     android:background="@drawable/preference_divider"
     android:fillViewport="true"
     android:paddingTop="0dp"
-    tools:context="org.thoughtcrime.securesms.groups.ui.invitesandrequests.invited.PendingMemberInvitesFragment">
+    tools:context="org.mycrimes.insecuretests.groups.ui.invitesandrequests.invited.PendingMemberInvitesFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/pendingmemberinvites"
@@ -51,7 +51,7 @@
                     android:visibility="gone"
                     tools:visibility="visible" />
 
-                <org.thoughtcrime.securesms.groups.ui.GroupMemberListView
+                <org.mycrimes.insecuretests.groups.ui.GroupMemberListView
                     android:id="@+id/members_you_invited"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
                     android:visibility="gone"
                     tools:visibility="visible" />
 
-                <org.thoughtcrime.securesms.groups.ui.GroupMemberListView
+                <org.mycrimes.insecuretests.groups.ui.GroupMemberListView
                     android:id="@+id/members_others_invited"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

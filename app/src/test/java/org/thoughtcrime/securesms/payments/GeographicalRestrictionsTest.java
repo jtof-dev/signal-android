@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package org.mycrimes.insecuretests.payments;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.mockito.Mock;
 import org.mockito.MockedStatic;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
-import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.FeatureFlags;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

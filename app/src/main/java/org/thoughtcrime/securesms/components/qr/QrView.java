@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.qr;
+package org.mycrimes.insecuretests.components.qr;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,9 +11,9 @@ import androidx.annotation.Nullable;
 
 import com.google.zxing.common.BitMatrix;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.SquareImageView;
-import org.thoughtcrime.securesms.qr.QrCodeUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.SquareImageView;
+import org.mycrimes.insecuretests.qr.QrCodeUtil;
 
 /**
  * Generates a bitmap asynchronously for the supplied {@link BitMatrix} data and displays it.

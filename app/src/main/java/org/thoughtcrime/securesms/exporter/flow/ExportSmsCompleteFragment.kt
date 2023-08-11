@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.SmsExportDirections
-import org.thoughtcrime.securesms.databinding.ExportSmsCompleteFragmentBinding
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.SmsExportDirections
+import org.mycrimes.insecuretests.databinding.ExportSmsCompleteFragmentBinding
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * Shown when export sms completes.

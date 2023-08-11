@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.logsubmit
+package org.mycrimes.insecuretests.logsubmit
 
 import android.content.Context
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.DistributionId
 
 /**

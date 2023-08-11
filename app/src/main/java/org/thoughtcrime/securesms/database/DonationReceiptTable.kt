@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.content.Context
 import android.database.Cursor
@@ -6,7 +6,7 @@ import androidx.core.content.contentValuesOf
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.database.model.DonationReceiptRecord
+import org.mycrimes.insecuretests.database.model.DonationReceiptRecord
 import java.math.BigDecimal
 import java.util.Currency
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.Manifest
 import android.content.Context
@@ -16,12 +16,12 @@ import io.reactivex.rxjava3.disposables.Disposable
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.smsexporter.SmsExportProgress
 import org.signal.smsexporter.SmsExportService
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.ExportingSmsMessagesFragmentBinding
-import org.thoughtcrime.securesms.exporter.SignalSmsExportService
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.util.mb
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.databinding.ExportingSmsMessagesFragmentBinding
+import org.mycrimes.insecuretests.exporter.SignalSmsExportService
+import org.mycrimes.insecuretests.permissions.Permissions
+import org.mycrimes.insecuretests.util.mb
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * "Export in progress" fragment which should be displayed

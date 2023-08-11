@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup.confirm;
+package org.mycrimes.insecuretests.payments.backup.confirm;
 
 import androidx.annotation.NonNull;
 

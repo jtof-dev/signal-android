@@ -18,12 +18,12 @@
         android:importantForAccessibility="no"
         android:scaleType="fitCenter" />
 
-    <org.thoughtcrime.securesms.stories.StoryTextPostView
+    <org.mycrimes.insecuretests.stories.StoryTextPostView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <org.thoughtcrime.securesms.video.VideoPlayer
+    <org.mycrimes.insecuretests.video.VideoPlayer
         android:id="@+id/video"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

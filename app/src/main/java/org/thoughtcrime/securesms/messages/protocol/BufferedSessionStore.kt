@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.messages.protocol
+package org.mycrimes.insecuretests.messages.protocol
 
 import org.signal.libsignal.protocol.NoSessionException
 import org.signal.libsignal.protocol.SignalProtocolAddress
 import org.signal.libsignal.protocol.state.SessionRecord
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.mycrimes.insecuretests.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.SignalServiceSessionStore
 import org.whispersystems.signalservice.api.push.ServiceId

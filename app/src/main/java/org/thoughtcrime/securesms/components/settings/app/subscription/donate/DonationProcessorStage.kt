@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate
 
 enum class DonationProcessorStage {
   INIT,

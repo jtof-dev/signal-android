@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.mycrimes.insecuretests.mediasend.v2
 
 import android.net.Uri
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.mediasend.Media
+import org.mycrimes.insecuretests.database.AttachmentTable
+import org.mycrimes.insecuretests.mediasend.Media
 import java.util.Optional
 
 object MediaBuilder {

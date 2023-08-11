@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.phonenumbers;
+package org.mycrimes.insecuretests.phonenumbers;
 
 
 import org.junit.Before;
 import org.junit.Test;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.testutil.EmptyLogger;
+import org.mycrimes.insecuretests.testutil.EmptyLogger;
 
 import static junit.framework.Assert.assertEquals;
 

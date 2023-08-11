@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package org.mycrimes.insecuretests.pin;
 
 import android.app.backup.BackupManager;
 
@@ -9,9 +9,9 @@ import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidKeyException;
 import org.signal.libsignal.svr2.PinHash;
-import org.thoughtcrime.securesms.KbsEnclave;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.KbsEnclave;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
 import org.whispersystems.signalservice.api.KbsPinData;
 import org.whispersystems.signalservice.api.KeyBackupService;
 import org.whispersystems.signalservice.api.KeyBackupServicePinException;

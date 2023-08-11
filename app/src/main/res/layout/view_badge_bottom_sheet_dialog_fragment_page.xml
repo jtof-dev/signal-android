@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:viewBindingIgnore="true">
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/badge"
         android:layout_width="112dp"
         android:layout_height="112dp"

@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.stories.viewer.views
+package org.mycrimes.insecuretests.stories.viewer.views
 
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.AvatarImageView
+import org.mycrimes.insecuretests.components.menu.ActionItem
+import org.mycrimes.insecuretests.components.menu.SignalContextMenu
+import org.mycrimes.insecuretests.components.settings.PreferenceModel
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 import java.util.Locale
 
 /**

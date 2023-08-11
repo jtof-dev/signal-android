@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.settings.story
+package org.mycrimes.insecuretests.stories.settings.story
 
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchData
 
 data class StoriesPrivacySettingsState(
   val areStoriesEnabled: Boolean,

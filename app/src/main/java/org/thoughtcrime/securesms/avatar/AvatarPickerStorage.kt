@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.avatar
+package org.mycrimes.insecuretests.avatar
 
 import android.content.Context
 import android.net.Uri
 import android.webkit.MimeTypeMap
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.storage.FileStorage
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mms.PartAuthority
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.storage.FileStorage
 import java.io.InputStream
 
 object AvatarPickerStorage {

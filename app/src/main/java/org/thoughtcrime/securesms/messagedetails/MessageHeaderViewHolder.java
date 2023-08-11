@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagedetails;
+package org.mycrimes.insecuretests.messagedetails;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -21,21 +21,21 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.exoplayer2.MediaItem;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.ConversationItem;
-import org.thoughtcrime.securesms.conversation.ConversationMessage;
-import org.thoughtcrime.securesms.conversation.colors.Colorizable;
-import org.thoughtcrime.securesms.conversation.colors.Colorizer;
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Playable;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4PlaybackPolicyEnforcer;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ProjectionList;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversation.ConversationItem;
+import org.mycrimes.insecuretests.conversation.ConversationMessage;
+import org.mycrimes.insecuretests.conversation.colors.Colorizable;
+import org.mycrimes.insecuretests.conversation.colors.Colorizer;
+import org.mycrimes.insecuretests.conversation.ConversationItemDisplayMode;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4Playable;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4PlaybackPolicyEnforcer;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.sms.MessageSender;
+import org.mycrimes.insecuretests.util.DateUtils;
+import org.mycrimes.insecuretests.util.ExpirationUtil;
+import org.mycrimes.insecuretests.util.Projection;
+import org.mycrimes.insecuretests.util.ProjectionList;
 
 import java.sql.Date;
 import java.text.SimpleDateFormat;

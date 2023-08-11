@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.identity;
+package org.mycrimes.insecuretests.database.identity;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.database.IdentityTable.VerifiedStatus;
+import org.mycrimes.insecuretests.database.model.IdentityRecord;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.util.ArrayList;
 import java.util.Collection;

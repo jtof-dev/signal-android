@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.mycrimes.insecuretests.mediasend;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,13 +11,13 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.adapter.SectionedRecyclerViewAdapter;
-import org.thoughtcrime.securesms.util.adapter.StableIdGenerator;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.components.FromTextView;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.adapter.SectionedRecyclerViewAdapter;
+import org.mycrimes.insecuretests.util.adapter.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.Collection;

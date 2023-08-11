@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications
+package org.mycrimes.insecuretests.components.settings.app.notifications
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -21,22 +21,22 @@ import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceManager
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.components.settings.PreferenceViewHolder
-import org.thoughtcrime.securesms.components.settings.RadioListPreference
-import org.thoughtcrime.securesms.components.settings.RadioListPreferenceViewHolder
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.util.RingtoneUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.PreferenceModel
+import org.mycrimes.insecuretests.components.settings.PreferenceViewHolder
+import org.mycrimes.insecuretests.components.settings.RadioListPreference
+import org.mycrimes.insecuretests.components.settings.RadioListPreferenceViewHolder
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.notifications.NotificationChannels
+import org.mycrimes.insecuretests.util.RingtoneUtil
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 private const val MESSAGE_SOUND_SELECT: Int = 1
 private const val CALL_RINGTONE_SELECT: Int = 2

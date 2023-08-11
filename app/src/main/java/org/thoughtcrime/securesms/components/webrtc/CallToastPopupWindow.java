@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.mycrimes.insecuretests.components.webrtc;
 
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.widget.PopupWindow;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 import java.util.concurrent.TimeUnit;
 

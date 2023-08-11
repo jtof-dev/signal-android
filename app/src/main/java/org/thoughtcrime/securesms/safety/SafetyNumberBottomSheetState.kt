@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.safety
+package org.mycrimes.insecuretests.safety
 
-import org.thoughtcrime.securesms.database.IdentityTable
+import org.mycrimes.insecuretests.database.IdentityTable
 
 /**
  * Screen state for SafetyNumberBottomSheetFragment and SafetyNumberReviewConnectionsFragment

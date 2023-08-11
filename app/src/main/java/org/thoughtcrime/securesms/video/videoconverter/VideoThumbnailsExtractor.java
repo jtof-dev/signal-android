@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.mycrimes.insecuretests.video.videoconverter;
 
 import android.graphics.Bitmap;
 import android.media.MediaCodec;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.media.MediaInput;
+import org.mycrimes.insecuretests.media.MediaInput;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

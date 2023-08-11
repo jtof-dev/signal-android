@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.payments;
+package org.mycrimes.insecuretests.payments;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.currency.CurrencyExchange;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.currency.CurrencyExchange;
 import org.whispersystems.signalservice.api.payments.CurrencyConversion;
 import org.whispersystems.signalservice.api.payments.CurrencyConversions;
 

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.net.Uri
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import org.mycrimes.insecuretests.attachments.UriAttachment
+import org.mycrimes.insecuretests.audio.AudioHash
+import org.mycrimes.insecuretests.blurhash.BlurHash
+import org.mycrimes.insecuretests.stickers.StickerLocator
 
 object UriAttachmentBuilder {
   fun build(

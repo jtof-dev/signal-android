@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
@@ -7,7 +7,7 @@ import android.os.ParcelFileDescriptor;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
 
 import java.io.FileDescriptor;
 import java.io.IOException;

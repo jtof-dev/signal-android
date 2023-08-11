@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package org.mycrimes.insecuretests.stories.viewer
 
 data class StoryVolumeState(
   val isMuted: Boolean = true,

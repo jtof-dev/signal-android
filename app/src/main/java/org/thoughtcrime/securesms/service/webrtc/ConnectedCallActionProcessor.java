@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.mycrimes.insecuretests.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -8,13 +8,13 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.mycrimes.insecuretests.events.CallParticipant;
+import org.mycrimes.insecuretests.events.CallParticipantId;
+import org.mycrimes.insecuretests.events.WebRtcViewModel;
+import org.mycrimes.insecuretests.ringrtc.RemotePeer;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcEphemeralState;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceState;
+import org.mycrimes.insecuretests.webrtc.locks.LockManager;
 
 import java.util.Collections;
 import java.util.Optional;

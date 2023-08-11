@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.content.res.Configuration;
 import android.net.Uri;

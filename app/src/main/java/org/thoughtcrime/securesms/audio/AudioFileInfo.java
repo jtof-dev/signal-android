@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.audio;
+package org.mycrimes.insecuretests.audio;
 
 import androidx.annotation.NonNull;
 
 import com.google.protobuf.ByteString;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData;
+import org.mycrimes.insecuretests.database.model.databaseprotos.AudioWaveFormData;
 
 import java.util.concurrent.TimeUnit;
 

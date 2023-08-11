@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.groupcall;
+package org.mycrimes.insecuretests.conversation.ui.groupcall;
 
 import android.os.Build;
 
@@ -10,10 +10,10 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.events.GroupCallPeekEvent;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.events.GroupCallPeekEvent;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
 
 import java.util.Objects;
 

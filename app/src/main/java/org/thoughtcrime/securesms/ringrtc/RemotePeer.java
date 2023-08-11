@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ringrtc;
+package org.mycrimes.insecuretests.ringrtc;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -9,8 +9,8 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.Remote;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 /**
  * Container class that represents the remote peer and current state

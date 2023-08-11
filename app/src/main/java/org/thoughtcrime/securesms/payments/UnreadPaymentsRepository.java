@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package org.mycrimes.insecuretests.payments;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
 
 import java.util.UUID;
 import java.util.concurrent.Executor;

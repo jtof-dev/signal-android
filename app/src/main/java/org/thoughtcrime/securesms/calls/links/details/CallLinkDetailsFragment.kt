@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.details
+package org.mycrimes.insecuretests.calls.links.details
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -39,18 +39,18 @@ import org.signal.core.ui.theme.SignalTheme
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.CallLinkState.Restrictions
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.links.CallLinks
-import org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment
-import org.thoughtcrime.securesms.calls.links.SignalCallRow
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.calls.links.CallLinks
+import org.mycrimes.insecuretests.calls.links.EditCallLinkNameDialogFragment
+import org.mycrimes.insecuretests.calls.links.SignalCallRow
+import org.mycrimes.insecuretests.compose.ComposeFragment
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor
+import org.mycrimes.insecuretests.database.CallLinkTable
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.service.webrtc.links.CallLinkCredentials
+import org.mycrimes.insecuretests.service.webrtc.links.SignalCallLinkState
+import org.mycrimes.insecuretests.service.webrtc.links.UpdateCallLinkResult
+import org.mycrimes.insecuretests.util.CommunicationActions
 import java.time.Instant
 
 /**

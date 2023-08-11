@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package org.mycrimes.insecuretests.sharing.interstitial;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,22 +12,22 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.LinkPreviewView;
-import org.thoughtcrime.securesms.components.SelectionAwareEmojiEditText;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewViewModel;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sharing.MultiShareArgs;
-import org.thoughtcrime.securesms.sharing.MultiShareDialogs;
-import org.thoughtcrime.securesms.sharing.ShareFlowConstants;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.mycrimes.insecuretests.PassphraseRequiredActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.LinkPreviewView;
+import org.mycrimes.insecuretests.components.SelectionAwareEmojiEditText;
+import org.mycrimes.insecuretests.linkpreview.LinkPreviewRepository;
+import org.mycrimes.insecuretests.linkpreview.LinkPreviewViewModel;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.sharing.MultiShareArgs;
+import org.mycrimes.insecuretests.sharing.MultiShareDialogs;
+import org.mycrimes.insecuretests.sharing.ShareFlowConstants;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.text.AfterTextChanged;
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton;
 
 import java.util.Objects;
 

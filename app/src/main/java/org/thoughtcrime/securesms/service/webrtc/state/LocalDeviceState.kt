@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.service.webrtc.state
+package org.mycrimes.insecuretests.service.webrtc.state
 
-import org.thoughtcrime.securesms.components.sensors.Orientation
-import org.thoughtcrime.securesms.ringrtc.CameraState
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import org.mycrimes.insecuretests.components.sensors.Orientation
+import org.mycrimes.insecuretests.ringrtc.CameraState
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager
 import org.webrtc.PeerConnection
 
 /**

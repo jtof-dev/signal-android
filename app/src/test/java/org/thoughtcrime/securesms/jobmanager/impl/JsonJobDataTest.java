@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.mycrimes.insecuretests.jobmanager.impl;
 
 import org.junit.Test;
 import org.signal.core.util.StreamUtil;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
 
 import java.io.IOException;
 

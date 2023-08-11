@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import android.os.Build
 import androidx.annotation.RequiresApi
 import org.signal.core.util.concurrent.safeBlockingGet
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.audio.AudioWaveForms
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.mycrimes.insecuretests.attachments.AttachmentId
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment
+import org.mycrimes.insecuretests.audio.AudioWaveForms
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.JsonJobData
+import org.mycrimes.insecuretests.util.MediaUtil
 import kotlin.time.Duration.Companion.days
 
 /**

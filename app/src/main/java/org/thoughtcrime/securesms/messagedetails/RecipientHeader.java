@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.messagedetails;
+package org.mycrimes.insecuretests.messagedetails;
 
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 enum RecipientHeader {
   PENDING(R.string.message_details_recipient_header__pending_send),

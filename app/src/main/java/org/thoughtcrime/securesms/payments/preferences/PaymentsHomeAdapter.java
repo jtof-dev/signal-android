@@ -1,22 +1,22 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.mycrimes.insecuretests.payments.preferences;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.SettingHeader;
-import org.thoughtcrime.securesms.payments.preferences.model.InProgress;
-import org.thoughtcrime.securesms.payments.preferences.model.InfoCard;
-import org.thoughtcrime.securesms.payments.preferences.model.IntroducingPayments;
-import org.thoughtcrime.securesms.payments.preferences.model.NoRecentActivity;
-import org.thoughtcrime.securesms.payments.preferences.model.PaymentItem;
-import org.thoughtcrime.securesms.payments.preferences.model.SeeAll;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.InProgressViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.InfoCardViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.IntroducingPaymentViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.NoRecentActivityViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.PaymentItemViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.SeeAllViewHolder;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.settings.SettingHeader;
+import org.mycrimes.insecuretests.payments.preferences.model.InProgress;
+import org.mycrimes.insecuretests.payments.preferences.model.InfoCard;
+import org.mycrimes.insecuretests.payments.preferences.model.IntroducingPayments;
+import org.mycrimes.insecuretests.payments.preferences.model.NoRecentActivity;
+import org.mycrimes.insecuretests.payments.preferences.model.PaymentItem;
+import org.mycrimes.insecuretests.payments.preferences.model.SeeAll;
+import org.mycrimes.insecuretests.payments.preferences.viewholder.InProgressViewHolder;
+import org.mycrimes.insecuretests.payments.preferences.viewholder.InfoCardViewHolder;
+import org.mycrimes.insecuretests.payments.preferences.viewholder.IntroducingPaymentViewHolder;
+import org.mycrimes.insecuretests.payments.preferences.viewholder.NoRecentActivityViewHolder;
+import org.mycrimes.insecuretests.payments.preferences.viewholder.PaymentItemViewHolder;
+import org.mycrimes.insecuretests.payments.preferences.viewholder.SeeAllViewHolder;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter;
 
 public class PaymentsHomeAdapter extends MappingAdapter {
 

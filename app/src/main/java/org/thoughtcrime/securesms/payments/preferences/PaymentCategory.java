@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.mycrimes.insecuretests.payments.preferences;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

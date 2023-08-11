@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 import org.whispersystems.signalservice.internal.configuration.SignalProxy;
 
 import java.util.Arrays;

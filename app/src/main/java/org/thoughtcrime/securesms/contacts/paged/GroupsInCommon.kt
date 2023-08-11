@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 import android.content.Context
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Groups in common helper class

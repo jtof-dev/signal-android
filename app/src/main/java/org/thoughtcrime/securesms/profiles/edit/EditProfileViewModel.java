@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package org.mycrimes.insecuretests.profiles.edit;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -8,14 +8,14 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.profiles.edit.EditProfileRepository.UploadResult;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.mediasend.Media;
+import org.mycrimes.insecuretests.profiles.ProfileName;
+import org.mycrimes.insecuretests.profiles.edit.EditProfileRepository.UploadResult;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
 
 import java.util.Arrays;
 import java.util.Objects;

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.MessageTypes;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.MessageTypes;
 
 final class StatusUtil {
   private StatusUtil() {}

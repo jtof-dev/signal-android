@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Indicates if we should present an additional review warning banner

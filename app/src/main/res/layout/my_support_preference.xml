@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/subscription_row_item_background">
 
-        <org.thoughtcrime.securesms.badges.BadgeImageView
+        <org.mycrimes.insecuretests.badges.BadgeImageView
             android:id="@+id/my_support_badge"
             android:layout_width="40dp"
             android:layout_height="40dp"

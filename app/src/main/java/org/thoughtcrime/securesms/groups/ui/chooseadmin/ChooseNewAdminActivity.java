@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.chooseadmin;
+package org.mycrimes.insecuretests.groups.ui.chooseadmin;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,19 +14,19 @@ import androidx.lifecycle.ViewModelProvider;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.BadGroupIdException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeResult;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.mycrimes.insecuretests.MainActivity;
+import org.mycrimes.insecuretests.PassphraseRequiredActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.groups.BadGroupIdException;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.ui.GroupChangeResult;
+import org.mycrimes.insecuretests.groups.ui.GroupErrors;
+import org.mycrimes.insecuretests.groups.ui.GroupMemberEntry;
+import org.mycrimes.insecuretests.groups.ui.GroupMemberListView;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton;
 
 import java.util.Objects;
 

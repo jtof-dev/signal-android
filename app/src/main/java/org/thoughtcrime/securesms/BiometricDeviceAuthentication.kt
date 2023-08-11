@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package org.mycrimes.insecuretests
 
 import android.app.Activity
 import android.content.Context
@@ -9,7 +9,7 @@ import androidx.biometric.BiometricManager
 import androidx.biometric.BiometricPrompt
 import androidx.biometric.BiometricPrompt.PromptInfo
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.ServiceUtil
+import org.mycrimes.insecuretests.util.ServiceUtil
 
 /**
  * Authentication using phone biometric (face, fingerprint recognition) or device lock (pattern, pin or passphrase).

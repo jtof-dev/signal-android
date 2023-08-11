@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.currency
+package org.mycrimes.insecuretests.components.settings.app.subscription.currency
 
 import androidx.fragment.app.viewModels
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPaymentComponent
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsAdapter
+import org.mycrimes.insecuretests.components.settings.DSLSettingsBottomSheetFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.app.subscription.DonationPaymentComponent
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.util.fragments.requireListener
 import java.util.Locale
 
 /**

@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.create
+package org.mycrimes.insecuretests.calls.links.create
 
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CreateCallLinkResult
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkManager
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor
+import org.mycrimes.insecuretests.database.CallLinkTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.service.webrtc.links.CallLinkCredentials
+import org.mycrimes.insecuretests.service.webrtc.links.CreateCallLinkResult
+import org.mycrimes.insecuretests.service.webrtc.links.SignalCallLinkManager
 
 /**
  * Repository for creating new call links. This will delegate to the [SignalCallLinkManager]

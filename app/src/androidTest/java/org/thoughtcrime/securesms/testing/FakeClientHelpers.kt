@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package org.mycrimes.insecuretests.testing
 
 import org.signal.libsignal.internal.Native
 import org.signal.libsignal.internal.NativeHandleGuard
@@ -9,7 +9,7 @@ import org.signal.libsignal.protocol.ecc.Curve
 import org.signal.libsignal.protocol.ecc.ECKeyPair
 import org.signal.libsignal.protocol.ecc.ECPublicKey
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
-import org.thoughtcrime.securesms.database.model.toProtoByteString
+import org.mycrimes.insecuretests.database.model.toProtoByteString
 import org.whispersystems.signalservice.api.crypto.ContentHint
 import org.whispersystems.signalservice.api.crypto.EnvelopeContent
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccess

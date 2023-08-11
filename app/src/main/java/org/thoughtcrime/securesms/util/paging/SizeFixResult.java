@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.paging;
+package org.mycrimes.insecuretests.util.paging;
 
 import androidx.annotation.NonNull;
 

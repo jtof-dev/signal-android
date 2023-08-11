@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm
+package org.mycrimes.insecuretests.gcm
 
 import android.app.PendingIntent
 import android.app.Service
@@ -8,10 +8,10 @@ import android.os.IBinder
 import androidx.core.app.NotificationCompat
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
+import org.mycrimes.insecuretests.MainActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.notifications.NotificationChannels
+import org.mycrimes.insecuretests.notifications.NotificationIds
 
 /**
  * Works with {@link FcmFetchManager} to exists as a service that will keep the app process running in the foreground while we fetch messages.

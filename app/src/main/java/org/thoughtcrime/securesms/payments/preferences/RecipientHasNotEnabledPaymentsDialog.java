@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.mycrimes.insecuretests.payments.preferences;
 
 import android.content.Context;
 
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 /**
  * Dialog to display if chosen Recipient has not enabled payments.

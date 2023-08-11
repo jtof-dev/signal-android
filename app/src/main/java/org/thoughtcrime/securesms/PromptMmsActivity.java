@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import org.thoughtcrime.securesms.preferences.MmsPreferencesActivity;
+import org.mycrimes.insecuretests.preferences.MmsPreferencesActivity;
 
 public class PromptMmsActivity extends PassphraseRequiredActivity {
 

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
 
 /**
  * Updates profile sharing flag to true if conversation is pre-message request enable time.

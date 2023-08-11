@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sms;
+package org.mycrimes.insecuretests.sms;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 
 import java.util.List;

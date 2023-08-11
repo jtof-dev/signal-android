@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.contacts.management
+package org.mycrimes.insecuretests.contacts.management
 
 import androidx.annotation.CheckResult
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Completable
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.Recipient
 
 class ContactsManagementViewModel(private val repository: ContactsManagementRepository) : ViewModel() {
 

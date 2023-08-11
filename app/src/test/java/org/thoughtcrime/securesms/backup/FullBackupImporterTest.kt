@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup
+package org.mycrimes.insecuretests.backup
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

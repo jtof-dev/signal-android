@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.animation.LayoutTransition;
 import android.content.Context;
@@ -17,11 +17,11 @@ import com.pnikosis.materialishprogress.ProgressWheel;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.events.PartProgressEvent;
-import org.thoughtcrime.securesms.mms.Slide;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.events.PartProgressEvent;
+import org.mycrimes.insecuretests.mms.Slide;
 
 import java.util.Collections;
 import java.util.HashMap;

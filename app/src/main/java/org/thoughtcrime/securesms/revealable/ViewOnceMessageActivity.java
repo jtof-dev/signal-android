@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package org.mycrimes.insecuretests.revealable;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,15 +17,15 @@ import androidx.appcompat.app.AppCompatDelegate;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.video.VideoPlayer;
+import org.mycrimes.insecuretests.PassphraseRequiredActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.mms.VideoSlide;
+import org.mycrimes.insecuretests.providers.BlobProvider;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.video.VideoPlayer;
 
 import java.util.concurrent.TimeUnit;
 

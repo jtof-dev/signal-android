@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -7,11 +7,11 @@ import androidx.lifecycle.LiveData;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
+import org.mycrimes.insecuretests.groups.LiveGroup;
+import org.mycrimes.insecuretests.groups.ui.GroupMemberEntry;
+import org.mycrimes.insecuretests.groups.ui.GroupMemberListView;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
 
 import java.util.List;
 

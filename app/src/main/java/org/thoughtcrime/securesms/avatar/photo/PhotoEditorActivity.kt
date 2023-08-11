@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.photo
+package org.mycrimes.insecuretests.avatar.photo
 
 import android.app.Activity
 import android.content.Context
@@ -7,9 +7,9 @@ import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarBundler
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
+import org.mycrimes.insecuretests.avatar.Avatar
+import org.mycrimes.insecuretests.avatar.AvatarBundler
+import org.mycrimes.insecuretests.components.FragmentWrapperActivity
 
 class PhotoEditorActivity : FragmentWrapperActivity() {
 

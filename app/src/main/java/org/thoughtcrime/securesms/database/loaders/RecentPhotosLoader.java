@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.mycrimes.insecuretests.database.loaders;
 
 
 import android.Manifest;
@@ -10,7 +10,7 @@ import android.provider.MediaStore;
 
 import androidx.loader.content.CursorLoader;
 
-import org.thoughtcrime.securesms.permissions.Permissions;
+import org.mycrimes.insecuretests.permissions.Permissions;
 
 public class RecentPhotosLoader extends CursorLoader {
 

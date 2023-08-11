@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.CursorUtil;
-import org.thoughtcrime.securesms.util.Base64;
+import org.mycrimes.insecuretests.util.Base64;
 import org.signal.core.util.SqlUtil;
 import org.whispersystems.signalservice.api.storage.SignalStorageRecord;
 import org.whispersystems.signalservice.api.storage.StorageId;

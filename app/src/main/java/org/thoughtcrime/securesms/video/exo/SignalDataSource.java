@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.mycrimes.insecuretests.video.exo;
 
 import android.content.Context;
 import android.net.Uri;
@@ -12,8 +12,8 @@ import com.google.android.exoplayer2.upstream.DefaultDataSource;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.upstream.TransferListener;
 
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.providers.BlobProvider;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.providers.BlobProvider;
 
 import java.io.IOException;
 import java.util.Collections;

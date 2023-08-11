@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import com.google.protobuf.ByteString
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.badges.gifts.Gifts
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
-import org.thoughtcrime.securesms.sharing.MultiShareSender
-import org.thoughtcrime.securesms.sms.MessageSender
+import org.mycrimes.insecuretests.badges.gifts.Gifts
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.JsonJobData
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sharing.MultiShareArgs
+import org.mycrimes.insecuretests.sharing.MultiShareSender
+import org.mycrimes.insecuretests.sms.MessageSender
 import java.util.concurrent.TimeUnit
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -9,8 +9,8 @@ import android.net.Network
 import android.os.Build
 import androidx.annotation.RequiresApi
 import io.reactivex.rxjava3.core.Observable
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint
 
 object InternetConnectionObserver {
   /**

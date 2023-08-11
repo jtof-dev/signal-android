@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package org.mycrimes.insecuretests.util.views;
 
 import android.content.Context;
 
@@ -11,7 +11,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;

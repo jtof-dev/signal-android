@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package org.mycrimes.insecuretests.util.views;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -18,9 +18,9 @@ import androidx.annotation.StringRes;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.ThemeUtil;
 
 /**
  * Appends an optional "Learn more" link to a given piece of text.

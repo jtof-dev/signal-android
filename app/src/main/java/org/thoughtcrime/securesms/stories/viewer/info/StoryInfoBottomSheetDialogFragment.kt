@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.stories.viewer.info
+package org.mycrimes.insecuretests.stories.viewer.info
 
 import android.content.DialogInterface
 import androidx.annotation.StringRes
 import androidx.core.os.bundleOf
 import androidx.fragment.app.viewModels
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.util.fragments.findListener
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsAdapter
+import org.mycrimes.insecuretests.components.settings.DSLSettingsBottomSheetFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.util.fragments.findListener
 
 /**
  * Bottom sheet which displays receipt information to the user for a given story.

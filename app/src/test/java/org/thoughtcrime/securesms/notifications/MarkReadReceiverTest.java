@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.mycrimes.insecuretests.notifications;
 
 import android.content.Context;
 
@@ -15,17 +15,17 @@ import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 import org.mockito.stubbing.Answer;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.database.model.StoryType;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.model.MessageId;
+import org.mycrimes.insecuretests.database.model.StoryType;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.JobManager;
+import org.mycrimes.insecuretests.jobs.MultiDeviceReadUpdateJob;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.HashSet;
 import java.util.LinkedList;

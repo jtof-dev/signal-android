@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.mycrimes.insecuretests.stickers;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -20,18 +20,18 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
-import org.thoughtcrime.securesms.glide.cache.ApngOptions;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.sharing.MultiShareArgs;
-import org.thoughtcrime.securesms.stickers.StickerManifest.Sticker;
-import org.thoughtcrime.securesms.util.DeviceProperties;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.mycrimes.insecuretests.PassphraseRequiredActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragment;
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
+import org.mycrimes.insecuretests.glide.cache.ApngOptions;
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.sharing.MultiShareArgs;
+import org.mycrimes.insecuretests.stickers.StickerManifest.Sticker;
+import org.mycrimes.insecuretests.util.DeviceProperties;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 
 import java.util.Collections;

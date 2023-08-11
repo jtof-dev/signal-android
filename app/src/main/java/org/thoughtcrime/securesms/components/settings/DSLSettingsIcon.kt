@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings
+package org.mycrimes.insecuretests.components.settings
 
 import android.content.Context
 import android.graphics.PorterDuff
@@ -10,7 +10,7 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.Px
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 const val NO_TINT = -1
 

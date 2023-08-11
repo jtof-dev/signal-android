@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -29,7 +29,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 import java.util.List;
 

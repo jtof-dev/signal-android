@@ -13,7 +13,7 @@
         android:background="@color/signal_colorBackground"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <org.mycrimes.insecuretests.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <org.thoughtcrime.securesms.components.AvatarImageView
+            <org.mycrimes.insecuretests.components.AvatarImageView
                 android:id="@+id/toolbar_icon"
                 android:layout_width="@dimen/toolbar_avatar_size"
                 android:layout_height="@dimen/toolbar_avatar_size"
@@ -40,7 +40,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 tools:src="@drawable/ic_contact_picture" />
 
-            <org.thoughtcrime.securesms.badges.BadgeImageView
+            <org.mycrimes.insecuretests.badges.BadgeImageView
                 android:id="@+id/toolbar_badge"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
@@ -128,7 +128,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </org.thoughtcrime.securesms.util.views.DarkOverflowToolbar>
+    </org.mycrimes.insecuretests.util.views.DarkOverflowToolbar>
 
     <ViewStub
         android:id="@+id/toolbar_basic_stub"

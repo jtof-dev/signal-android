@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.badges
+package org.mycrimes.insecuretests.badges
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.content.res.use
 import com.bumptech.glide.load.resource.bitmap.DownsampleStrategy
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.glide.BadgeSpriteTransformation
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.glide.GiftBadgeModel
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.mms.GlideRequests
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.ScreenDensity
-import org.thoughtcrime.securesms.util.ThemeUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.glide.BadgeSpriteTransformation
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge
+import org.mycrimes.insecuretests.glide.GiftBadgeModel
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.mms.GlideRequests
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.ScreenDensity
+import org.mycrimes.insecuretests.util.ThemeUtil
 
 class BadgeImageView @JvmOverloads constructor(
   context: Context,

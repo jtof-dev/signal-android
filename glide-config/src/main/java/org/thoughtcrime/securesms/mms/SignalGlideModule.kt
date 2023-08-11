@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms
+package org.mycrimes.insecuretests.mms
 
 import android.content.Context
 import android.util.Log

@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package org.mycrimes.insecuretests.keyboard.sticker
 
 import android.content.res.ColorStateList
 import android.view.View
 import android.widget.ImageView
 import androidx.core.widget.ImageViewCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.glide.cache.ApngOptions
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri
-import org.thoughtcrime.securesms.mms.GlideRequests
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.glide.cache.ApngOptions
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader.DecryptableUri
+import org.mycrimes.insecuretests.mms.GlideRequests
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 
 class KeyboardStickerPackListAdapter(private val glideRequests: GlideRequests, private val allowApngAnimation: Boolean, private val onTabSelected: (StickerPack) -> Unit) : MappingAdapter() {
 

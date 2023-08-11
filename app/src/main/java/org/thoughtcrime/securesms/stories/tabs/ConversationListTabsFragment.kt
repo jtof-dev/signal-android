@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.tabs
+package org.mycrimes.insecuretests.stories.tabs
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -18,12 +18,12 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.ConversationListTabsBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.databinding.ConversationListTabsBinding
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Displays the "Chats" and "Stories" tab to a user.

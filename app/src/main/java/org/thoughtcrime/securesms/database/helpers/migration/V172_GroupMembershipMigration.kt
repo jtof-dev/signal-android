@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.mycrimes.insecuretests.database.helpers.migration
 
 import android.app.Application
 import androidx.core.content.contentValuesOf

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.mycrimes.insecuretests.contactshare;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -12,12 +12,12 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.UriAttachment;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.util.JsonUtils;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.attachments.UriAttachment;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.util.JsonUtils;
+import org.mycrimes.insecuretests.util.MediaUtil;
 
 import java.io.IOException;
 import java.util.Collections;

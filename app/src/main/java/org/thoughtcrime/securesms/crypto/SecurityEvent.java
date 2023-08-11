@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.crypto;
+package org.mycrimes.insecuretests.crypto;
 
 import android.content.Context;
 import android.content.Intent;
 
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import org.mycrimes.insecuretests.service.KeyCachingService;
 
 /**
  * This class processes key exchange interactions.
@@ -13,7 +13,7 @@ import org.thoughtcrime.securesms.service.KeyCachingService;
 
 public class SecurityEvent {
 
-  public static final String SECURITY_UPDATE_EVENT = "org.thoughtcrime.securesms.KEY_EXCHANGE_UPDATE";
+  public static final String SECURITY_UPDATE_EVENT = "org.mycrimes.insecuretests.KEY_EXCHANGE_UPDATE";
 
   public static void broadcastSecurityUpdateEvent(Context context) {
     Intent intent = new Intent(SECURITY_UPDATE_EVENT);

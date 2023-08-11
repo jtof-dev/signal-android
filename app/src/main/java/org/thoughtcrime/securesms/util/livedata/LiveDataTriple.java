@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util.livedata;
+package org.mycrimes.insecuretests.util.livedata;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MediatorLiveData;
 
-import org.thoughtcrime.securesms.util.Triple;
+import org.mycrimes.insecuretests.util.Triple;
 
 public final class LiveDataTriple<A, B, C> extends MediatorLiveData<Triple<A, B, C>> {
   private A a;

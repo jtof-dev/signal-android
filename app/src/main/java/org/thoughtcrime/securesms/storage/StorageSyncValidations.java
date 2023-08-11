@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage;
+package org.mycrimes.insecuretests.storage;
 
 import androidx.annotation.NonNull;
 
@@ -6,8 +6,8 @@ import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.Base64;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.Base64;
 import org.signal.core.util.SetUtil;
 import org.whispersystems.signalservice.api.storage.SignalContactRecord;
 import org.whispersystems.signalservice.api.storage.SignalStorageManifest;

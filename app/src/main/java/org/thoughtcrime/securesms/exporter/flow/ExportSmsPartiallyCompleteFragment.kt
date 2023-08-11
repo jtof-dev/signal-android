@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.content.Context
 import android.os.Bundle
@@ -10,12 +10,12 @@ import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import org.signal.core.util.concurrent.SimpleTask
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.SmsExportDirections
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.databinding.ExportSmsPartiallyCompleteFragmentBinding
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.SmsExportDirections
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.databinding.ExportSmsPartiallyCompleteFragmentBinding
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * Fragment shown when some messages exported and some failed.

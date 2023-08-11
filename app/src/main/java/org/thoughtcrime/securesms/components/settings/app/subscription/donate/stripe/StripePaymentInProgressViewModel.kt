@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.stripe
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -15,18 +15,18 @@ import org.signal.donations.GooglePayPaymentSource
 import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeApi
 import org.signal.donations.StripeIntentAccessor
-import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.OneTimeDonationRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.StripeRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationProcessorStage
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorSource
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.MultiDeviceSubscriptionSyncRequestJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.mycrimes.insecuretests.components.settings.app.subscription.MonthlyDonationRepository
+import org.mycrimes.insecuretests.components.settings.app.subscription.OneTimeDonationRepository
+import org.mycrimes.insecuretests.components.settings.app.subscription.StripeRepository
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonateToSignalType
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationProcessorStage
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayRequest
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.DonationError
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.DonationErrorSource
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.MultiDeviceSubscriptionSyncRequestJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.rx.RxStore
 import org.whispersystems.signalservice.api.util.Preconditions
 import org.whispersystems.signalservice.internal.push.DonationProcessor
 

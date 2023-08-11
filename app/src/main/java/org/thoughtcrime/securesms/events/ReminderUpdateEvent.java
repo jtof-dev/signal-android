@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.events;
+package org.mycrimes.insecuretests.events;
 
 
 public class ReminderUpdateEvent {

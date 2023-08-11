@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.viewmodel;
+package org.mycrimes.insecuretests.registration.viewmodel;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,18 +11,18 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.pin.KbsRepository;
-import org.thoughtcrime.securesms.pin.TokenData;
-import org.thoughtcrime.securesms.registration.RegistrationSessionProcessor;
-import org.thoughtcrime.securesms.registration.VerifyAccountRepository;
-import org.thoughtcrime.securesms.registration.VerifyAccountRepository.Mode;
-import org.thoughtcrime.securesms.registration.VerifyResponse;
-import org.thoughtcrime.securesms.registration.VerifyResponseProcessor;
-import org.thoughtcrime.securesms.registration.VerifyResponseWithFailedKbs;
-import org.thoughtcrime.securesms.registration.VerifyResponseWithRegistrationLockProcessor;
-import org.thoughtcrime.securesms.registration.VerifyResponseWithSuccessfulKbs;
-import org.thoughtcrime.securesms.registration.VerifyResponseWithoutKbs;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.pin.KbsRepository;
+import org.mycrimes.insecuretests.pin.TokenData;
+import org.mycrimes.insecuretests.registration.RegistrationSessionProcessor;
+import org.mycrimes.insecuretests.registration.VerifyAccountRepository;
+import org.mycrimes.insecuretests.registration.VerifyAccountRepository.Mode;
+import org.mycrimes.insecuretests.registration.VerifyResponse;
+import org.mycrimes.insecuretests.registration.VerifyResponseProcessor;
+import org.mycrimes.insecuretests.registration.VerifyResponseWithFailedKbs;
+import org.mycrimes.insecuretests.registration.VerifyResponseWithRegistrationLockProcessor;
+import org.mycrimes.insecuretests.registration.VerifyResponseWithSuccessfulKbs;
+import org.mycrimes.insecuretests.registration.VerifyResponseWithoutKbs;
 import org.whispersystems.signalservice.internal.ServiceResponse;
 
 import java.util.ArrayList;

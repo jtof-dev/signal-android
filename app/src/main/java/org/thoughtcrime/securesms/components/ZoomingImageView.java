@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,17 +24,17 @@ import com.davemorrissey.labs.subscaleview.decoder.DecoderFactory;
 import com.github.chrisbanes.photoview.PhotoView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.subsampling.AttachmentBitmapDecoder;
-import org.thoughtcrime.securesms.components.subsampling.AttachmentRegionDecoder;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.ActionRequestListener;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.subsampling.AttachmentBitmapDecoder;
+import org.mycrimes.insecuretests.components.subsampling.AttachmentRegionDecoder;
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.util.ActionRequestListener;
+import org.mycrimes.insecuretests.util.BitmapDecodingException;
+import org.mycrimes.insecuretests.util.BitmapUtil;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.io.IOException;

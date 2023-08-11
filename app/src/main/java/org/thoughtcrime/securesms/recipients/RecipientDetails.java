@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.mycrimes.insecuretests.recipients;
 
 import android.content.Context;
 import android.net.Uri;
@@ -7,24 +7,24 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
-import org.thoughtcrime.securesms.badges.models.Badge;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.database.RecipientTable.InsightsBannerTier;
-import org.thoughtcrime.securesms.database.RecipientTable.MentionSetting;
-import org.thoughtcrime.securesms.database.RecipientTable.RegisteredState;
-import org.thoughtcrime.securesms.database.RecipientTable.UnidentifiedAccessMode;
-import org.thoughtcrime.securesms.database.RecipientTable.VibrateState;
-import org.thoughtcrime.securesms.database.model.DistributionListId;
-import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails;
-import org.thoughtcrime.securesms.database.model.RecipientRecord;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
+import org.mycrimes.insecuretests.badges.models.Badge;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor;
+import org.mycrimes.insecuretests.conversation.colors.ChatColors;
+import org.mycrimes.insecuretests.database.RecipientTable.InsightsBannerTier;
+import org.mycrimes.insecuretests.database.RecipientTable.MentionSetting;
+import org.mycrimes.insecuretests.database.RecipientTable.RegisteredState;
+import org.mycrimes.insecuretests.database.RecipientTable.UnidentifiedAccessMode;
+import org.mycrimes.insecuretests.database.RecipientTable.VibrateState;
+import org.mycrimes.insecuretests.database.model.DistributionListId;
+import org.mycrimes.insecuretests.database.model.ProfileAvatarFileDetails;
+import org.mycrimes.insecuretests.database.model.RecipientRecord;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.profiles.ProfileName;
+import org.mycrimes.insecuretests.service.webrtc.links.CallLinkRoomId;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaper;
 import org.whispersystems.signalservice.api.push.PNI;
 import org.whispersystems.signalservice.api.push.ServiceId;
 

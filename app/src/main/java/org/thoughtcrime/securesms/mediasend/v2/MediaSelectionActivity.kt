@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.mycrimes.insecuretests.mediasend.v2
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -25,27 +25,27 @@ import org.signal.core.util.BreakIteratorCompat
 import org.signal.core.util.getParcelableArrayListExtraCompat
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewUtil
-import org.thoughtcrime.securesms.mediasend.CameraDisplay
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaSendActivityResult
-import org.thoughtcrime.securesms.mediasend.v2.review.MediaReviewFragment
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryPostCreationViewModel
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendRepository
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.FullscreenHelper
-import org.thoughtcrime.securesms.util.WindowUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.PassphraseRequiredActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.emoji.EmojiEventListener
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.conversation.MessageSendType
+import org.mycrimes.insecuretests.keyboard.emoji.EmojiKeyboardPageFragment
+import org.mycrimes.insecuretests.keyboard.emoji.search.EmojiSearchFragment
+import org.mycrimes.insecuretests.linkpreview.LinkPreviewUtil
+import org.mycrimes.insecuretests.mediasend.CameraDisplay
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mediasend.MediaSendActivityResult
+import org.mycrimes.insecuretests.mediasend.v2.review.MediaReviewFragment
+import org.mycrimes.insecuretests.mediasend.v2.text.TextStoryPostCreationViewModel
+import org.mycrimes.insecuretests.mediasend.v2.text.send.TextStoryPostSendRepository
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.safety.SafetyNumberBottomSheet
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.FullscreenHelper
+import org.mycrimes.insecuretests.util.WindowUtil
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.util.visible
 
 class MediaSelectionActivity :
   PassphraseRequiredActivity(),

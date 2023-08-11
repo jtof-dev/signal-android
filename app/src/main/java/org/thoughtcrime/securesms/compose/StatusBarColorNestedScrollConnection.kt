@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.compose
+package org.mycrimes.insecuretests.compose
 
 import android.animation.ValueAnimator
 import android.app.Activity
@@ -8,8 +8,8 @@ import androidx.compose.ui.input.nestedscroll.NestedScrollSource
 import androidx.compose.ui.unit.Velocity
 import androidx.core.content.ContextCompat
 import com.google.android.material.animation.ArgbEvaluatorCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.WindowUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.WindowUtil
 import kotlin.math.abs
 
 /**

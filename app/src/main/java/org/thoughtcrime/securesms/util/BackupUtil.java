@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 
 import android.Manifest;
@@ -15,12 +15,12 @@ import androidx.documentfile.provider.DocumentFile;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.util.ByteUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.BackupPassphrase;
-import org.thoughtcrime.securesms.database.NoExternalStorageException;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.permissions.Permissions;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.backup.BackupPassphrase;
+import org.mycrimes.insecuretests.database.NoExternalStorageException;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.permissions.Permissions;
 
 import java.io.File;
 import java.security.SecureRandom;

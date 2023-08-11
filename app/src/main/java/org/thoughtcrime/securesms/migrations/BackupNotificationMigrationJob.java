@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import android.os.Build;
 
@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.backup.BackupFileIOError;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.BackupUtil;
+import org.mycrimes.insecuretests.backup.BackupFileIOError;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.BackupUtil;
 
 import java.io.IOException;
 import java.util.Locale;

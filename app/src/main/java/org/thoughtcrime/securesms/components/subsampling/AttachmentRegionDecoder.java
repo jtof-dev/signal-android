@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.subsampling;
+package org.mycrimes.insecuretests.components.subsampling;
 
 
 import android.content.Context;
@@ -13,7 +13,7 @@ import com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder;
 import com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.mycrimes.insecuretests.mms.PartAuthority;
 
 import java.io.InputStream;
 

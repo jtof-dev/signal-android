@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.animation.Animator;
 import android.app.KeyguardManager;
@@ -51,17 +51,17 @@ import androidx.biometric.BiometricPrompt;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
-import org.thoughtcrime.securesms.components.AnimatingToggle;
-import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.DynamicIntroTheme;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.animation.AnimationCompleteListener;
+import org.mycrimes.insecuretests.components.AnimatingToggle;
+import org.mycrimes.insecuretests.crypto.InvalidPassphraseException;
+import org.mycrimes.insecuretests.crypto.MasterSecret;
+import org.mycrimes.insecuretests.crypto.MasterSecretUtil;
+import org.mycrimes.insecuretests.logsubmit.SubmitDebugLogActivity;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.DynamicIntroTheme;
+import org.mycrimes.insecuretests.util.DynamicLanguage;
+import org.mycrimes.insecuretests.util.SupportEmailUtil;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import kotlin.Unit;
 

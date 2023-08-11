@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.payment
+package org.mycrimes.insecuretests.conversation.ui.payment
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -11,14 +11,14 @@ import androidx.core.view.ViewCompat
 import com.google.android.material.progressindicator.CircularProgressIndicatorSpec
 import com.google.android.material.progressindicator.IndeterminateDrawable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.quotes.QuoteViewColorTheme
-import org.thoughtcrime.securesms.conversation.colors.Colorizer
-import org.thoughtcrime.securesms.databinding.PaymentMessageViewBinding
-import org.thoughtcrime.securesms.payments.Direction
-import org.thoughtcrime.securesms.payments.Payment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.quotes.QuoteViewColorTheme
+import org.mycrimes.insecuretests.conversation.colors.Colorizer
+import org.mycrimes.insecuretests.databinding.PaymentMessageViewBinding
+import org.mycrimes.insecuretests.payments.Direction
+import org.mycrimes.insecuretests.payments.Payment
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Showing payment information in conversation.

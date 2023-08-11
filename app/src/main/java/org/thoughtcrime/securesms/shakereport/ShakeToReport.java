@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.shakereport;
+package org.mycrimes.insecuretests.shakereport;
 
 import android.app.Application;
 import android.widget.TextView;
@@ -14,15 +14,15 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import org.signal.core.util.ShakeDetector;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogRepository;
-import org.thoughtcrime.securesms.sharing.MultiShareArgs;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragment;
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.logsubmit.SubmitDebugLogRepository;
+import org.mycrimes.insecuretests.sharing.MultiShareArgs;
+import org.mycrimes.insecuretests.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog;
 
 import java.lang.ref.WeakReference;
 import java.util.Collections;

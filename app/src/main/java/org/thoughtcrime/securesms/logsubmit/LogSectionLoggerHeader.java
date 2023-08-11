@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.mycrimes.insecuretests.logsubmit;
 
 import android.content.Context;
 

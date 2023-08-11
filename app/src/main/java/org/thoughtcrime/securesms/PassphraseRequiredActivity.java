@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -15,23 +15,23 @@ import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.tracing.Tracer;
 import org.signal.devicetransfer.TransferStatus;
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberLockActivity;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferActivity;
-import org.thoughtcrime.securesms.jobs.PushNotificationReceiveJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
-import org.thoughtcrime.securesms.migrations.ApplicationMigrationActivity;
-import org.thoughtcrime.securesms.migrations.ApplicationMigrations;
-import org.thoughtcrime.securesms.pin.PinRestoreActivity;
-import org.thoughtcrime.securesms.profiles.edit.EditProfileActivity;
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.registration.RegistrationNavigationActivity;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.AppStartup;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberLockActivity;
+import org.mycrimes.insecuretests.crypto.MasterSecretUtil;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.devicetransfer.olddevice.OldDeviceTransferActivity;
+import org.mycrimes.insecuretests.jobs.PushNotificationReceiveJob;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.lock.v2.CreateKbsPinActivity;
+import org.mycrimes.insecuretests.migrations.ApplicationMigrationActivity;
+import org.mycrimes.insecuretests.migrations.ApplicationMigrations;
+import org.mycrimes.insecuretests.pin.PinRestoreActivity;
+import org.mycrimes.insecuretests.profiles.edit.EditProfileActivity;
+import org.mycrimes.insecuretests.push.SignalServiceNetworkAccess;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.registration.RegistrationNavigationActivity;
+import org.mycrimes.insecuretests.service.KeyCachingService;
+import org.mycrimes.insecuretests.util.AppStartup;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.util.Locale;
 

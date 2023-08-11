@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts;
+package org.mycrimes.insecuretests.contacts;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -11,12 +11,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.database.RecipientTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter;
+import org.mycrimes.insecuretests.recipients.Recipient;
 import org.signal.core.util.CursorUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.ArrayList;
 import java.util.HashMap;

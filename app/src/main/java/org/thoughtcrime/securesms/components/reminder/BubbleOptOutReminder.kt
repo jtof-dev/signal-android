@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.reminder
+package org.mycrimes.insecuretests.components.reminder
 
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 class BubbleOptOutReminder : Reminder(R.string.BubbleOptOutTooltip__description) {
 

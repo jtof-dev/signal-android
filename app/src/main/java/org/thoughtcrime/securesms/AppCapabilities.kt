@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms
+package org.mycrimes.insecuretests
 
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.util.FeatureFlags
 import org.whispersystems.signalservice.api.account.AccountAttributes
 
 object AppCapabilities {

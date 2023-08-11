@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.landing
+package org.mycrimes.insecuretests.stories.landing
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.database.model.StoryViewState
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Data required by each row of the Stories Landing Page for proper rendering.

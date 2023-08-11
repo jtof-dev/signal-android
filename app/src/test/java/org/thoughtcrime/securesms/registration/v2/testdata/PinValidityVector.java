@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.v2.testdata;
+package org.mycrimes.insecuretests.registration.v2.testdata;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package org.mycrimes.insecuretests.scribbles;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -30,10 +30,10 @@ import org.signal.imageeditor.core.RendererContext;
 import org.signal.imageeditor.core.SelectableRenderer;
 import org.signal.imageeditor.core.model.EditorElement;
 import org.signal.imageeditor.core.model.EditorModel;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequest;
-import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.mms.GlideRequest;
+import org.mycrimes.insecuretests.util.BitmapUtil;
 
 import java.util.concurrent.ExecutionException;
 

@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.mycrimes.insecuretests.jobmanager.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
-import org.thoughtcrime.securesms.jobs.FailingJob;
+import org.mycrimes.insecuretests.database.GroupTable;
+import org.mycrimes.insecuretests.database.model.GroupRecord;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.JobMigration;
+import org.mycrimes.insecuretests.jobs.FailingJob;
 
 import java.util.Optional;
 

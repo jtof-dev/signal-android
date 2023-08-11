@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.mycrimes.insecuretests.wallpaper;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter;
 
 class ChatWallpaperSelectionAdapter extends MappingAdapter {
   ChatWallpaperSelectionAdapter(@Nullable ChatWallpaperViewHolder.EventListener eventListener) {

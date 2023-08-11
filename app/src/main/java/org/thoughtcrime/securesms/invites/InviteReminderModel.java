@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.invites;
+package org.mycrimes.insecuretests.invites;
 
 import android.content.Context;
 
@@ -6,13 +6,13 @@ import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.components.reminder.FirstInviteReminder;
-import org.thoughtcrime.securesms.components.reminder.Reminder;
-import org.thoughtcrime.securesms.components.reminder.SecondInviteReminder;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.components.reminder.FirstInviteReminder;
+import org.mycrimes.insecuretests.components.reminder.Reminder;
+import org.mycrimes.insecuretests.components.reminder.SecondInviteReminder;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.ThreadTable;
+import org.mycrimes.insecuretests.recipients.LiveRecipient;
+import org.mycrimes.insecuretests.recipients.Recipient;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.Optional;

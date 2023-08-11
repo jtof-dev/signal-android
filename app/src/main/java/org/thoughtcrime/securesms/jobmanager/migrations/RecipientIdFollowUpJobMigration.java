@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.mycrimes.insecuretests.jobmanager.migrations;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.JobMigration;
 
 /**
  * Fixes things that went wrong in {@link RecipientIdJobMigration}. In particular, some jobs didn't

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.create
+package org.mycrimes.insecuretests.stories.settings.create
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -7,8 +7,8 @@ import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.rx.RxStore
 
 class CreateStoryWithViewersViewModel(
   private val repository: CreateStoryWithViewersRepository

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.camerax;
+package org.mycrimes.insecuretests.mediasend.camerax;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -28,8 +28,8 @@ import androidx.camera.core.ImageProxy;
 
 import org.signal.core.util.Stopwatch;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.mycrimes.insecuretests.util.BitmapDecodingException;
+import org.mycrimes.insecuretests.util.BitmapUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

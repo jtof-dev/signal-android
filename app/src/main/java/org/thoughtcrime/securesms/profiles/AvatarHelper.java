@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.mycrimes.insecuretests.profiles;
 
 
 import android.content.Context;
@@ -8,16 +8,16 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ByteUnit;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.crypto.AttachmentSecret;
+import org.mycrimes.insecuretests.crypto.AttachmentSecretProvider;
+import org.mycrimes.insecuretests.crypto.ModernDecryptingPartInputStream;
+import org.mycrimes.insecuretests.crypto.ModernEncryptingPartOutputStream;
+import org.mycrimes.insecuretests.database.model.ProfileAvatarFileDetails;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.ByteUnit;
+import org.mycrimes.insecuretests.util.MediaUtil;
 import org.whispersystems.signalservice.api.util.StreamDetails;
 
 import java.io.File;

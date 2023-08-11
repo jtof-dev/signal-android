@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<org.thoughtcrime.securesms.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mycrimes.insecuretests.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,7 +9,7 @@
     android:layout_marginEnd="12dp"
     app:square_height="true">
 
-    <org.thoughtcrime.securesms.components.ThumbnailView
+    <org.mycrimes.insecuretests.components.ThumbnailView
         android:id="@+id/attachment_keyboard_item_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -47,4 +47,4 @@
         android:visibility="gone"
         app:srcCompat="@drawable/triangle_right" />
 
-</org.thoughtcrime.securesms.components.SquareFrameLayout>
+</org.mycrimes.insecuretests.components.SquareFrameLayout>

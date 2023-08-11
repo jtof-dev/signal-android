@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package org.mycrimes.insecuretests.revealable;
 
 import android.app.Application;
 import android.content.BroadcastReceiver;
@@ -11,11 +11,11 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.service.TimedEventManager;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.service.TimedEventManager;
 
 /**
  * Manages clearing removable message content after they're opened.

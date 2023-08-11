@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.conversation.sounds
+package org.mycrimes.insecuretests.components.settings.conversation.sounds
 
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 data class SoundsAndNotificationsSettingsState(
   val recipientId: RecipientId = Recipient.UNKNOWN.id,

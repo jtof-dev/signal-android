@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Represents metadata about a conversation.

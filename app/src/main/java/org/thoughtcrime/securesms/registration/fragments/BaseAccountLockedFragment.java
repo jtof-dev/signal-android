@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments;
+package org.mycrimes.insecuretests.registration.fragments;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -11,13 +11,13 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.registration.viewmodel.BaseRegistrationViewModel;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.registration.viewmodel.BaseRegistrationViewModel;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView;
+import static org.mycrimes.insecuretests.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView;
 
 /**
  * Base fragment used by registration and change number flow to show an account as locked.

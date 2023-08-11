@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.TimeUnit;

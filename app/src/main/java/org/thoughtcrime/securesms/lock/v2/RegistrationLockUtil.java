@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.mycrimes.insecuretests.lock.v2;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 public final class RegistrationLockUtil {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import android.app.Application;
 import android.text.SpannableString;

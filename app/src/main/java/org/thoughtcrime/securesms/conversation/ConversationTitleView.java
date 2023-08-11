@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -18,16 +18,16 @@ import androidx.core.content.ContextCompat;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.view.AvatarView;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.database.model.StoryViewState;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.avatar.view.AvatarView;
+import org.mycrimes.insecuretests.badges.BadgeImageView;
+import org.mycrimes.insecuretests.database.model.StoryViewState;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.ContextUtil;
+import org.mycrimes.insecuretests.util.DrawableUtil;
+import org.mycrimes.insecuretests.util.ExpirationUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 public class ConversationTitleView extends ConstraintLayout {
 

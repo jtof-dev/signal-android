@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.permissions;
+package org.mycrimes.insecuretests.permissions;
 
 
 import android.app.Activity;
@@ -25,9 +25,9 @@ import com.annimon.stream.function.Consumer;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.LRUCache;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.LRUCache;
+import org.mycrimes.insecuretests.util.ServiceUtil;
 
 import java.lang.ref.WeakReference;
 import java.security.SecureRandom;

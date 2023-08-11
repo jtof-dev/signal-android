@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm;
+package org.mycrimes.insecuretests.gcm;
 
 import android.content.Context;
 import android.text.TextUtils;

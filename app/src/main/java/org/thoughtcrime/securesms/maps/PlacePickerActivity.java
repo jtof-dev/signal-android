@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.mycrimes.insecuretests.maps;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -33,15 +33,15 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.location.SignalMapView;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.location.SignalMapView;
+import org.mycrimes.insecuretests.providers.BlobProvider;
+import org.mycrimes.insecuretests.util.BitmapUtil;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.concurrent.ListenableFuture;
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog;
 
 import java.io.IOException;
 import java.util.List;

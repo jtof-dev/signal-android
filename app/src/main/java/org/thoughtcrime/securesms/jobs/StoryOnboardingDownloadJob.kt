@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import androidx.core.os.LocaleListCompat
 import com.fasterxml.jackson.core.JsonParseException
 import org.json.JSONArray
 import org.json.JSONObject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.releasechannel.ReleaseChannel
-import org.thoughtcrime.securesms.s3.S3
-import org.thoughtcrime.securesms.transport.RetryLaterException
+import org.mycrimes.insecuretests.database.MessageTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.releasechannel.ReleaseChannel
+import org.mycrimes.insecuretests.s3.S3
+import org.mycrimes.insecuretests.transport.RetryLaterException
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import java.util.Locale
 

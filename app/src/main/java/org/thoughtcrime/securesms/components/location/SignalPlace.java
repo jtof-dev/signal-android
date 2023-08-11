@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.location;
+package org.mycrimes.insecuretests.components.location;
 
 import android.net.Uri;
 import android.text.TextUtils;
@@ -12,8 +12,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.android.gms.maps.model.LatLng;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.maps.AddressData;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.mycrimes.insecuretests.maps.AddressData;
+import org.mycrimes.insecuretests.util.JsonUtils;
 
 import java.io.IOException;
 

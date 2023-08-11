@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package org.mycrimes.insecuretests.reactions;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,13 +15,13 @@ import androidx.core.content.ContextCompat;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
-import org.thoughtcrime.securesms.database.model.ReactionRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.EmojiImageView;
+import org.mycrimes.insecuretests.components.emoji.EmojiUtil;
+import org.mycrimes.insecuretests.database.model.ReactionRecord;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments;
+package org.mycrimes.insecuretests.registration.fragments;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModelProvider;
@@ -6,19 +6,19 @@ import androidx.navigation.Navigation;
 
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.NewRegistrationUsernameSyncJob;
-import org.thoughtcrime.securesms.jobs.StorageAccountRestoreJob;
-import org.thoughtcrime.securesms.jobs.StorageSyncJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.registration.viewmodel.BaseRegistrationViewModel;
-import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.NewRegistrationUsernameSyncJob;
+import org.mycrimes.insecuretests.jobs.StorageAccountRestoreJob;
+import org.mycrimes.insecuretests.jobs.StorageSyncJob;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.registration.viewmodel.BaseRegistrationViewModel;
+import org.mycrimes.insecuretests.registration.viewmodel.RegistrationViewModel;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.FeatureFlags;
 import org.signal.core.util.Stopwatch;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.util.SupportEmailUtil;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

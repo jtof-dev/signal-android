@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.conversation.mutiselect.forward
+package org.mycrimes.insecuretests.conversation.mutiselect.forward
 
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.stories.Stories
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.database.model.IdentityRecord
+import org.mycrimes.insecuretests.stories.Stories
 
 data class MultiselectForwardState(
   val stage: Stage = Stage.Selection,

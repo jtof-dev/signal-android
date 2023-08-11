@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.requesting;
+package org.mycrimes.insecuretests.groups.ui.invitesandrequests.requesting;
 
 import android.content.Context;
 
@@ -7,8 +7,8 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 final class RequestConfirmationDialog {
 

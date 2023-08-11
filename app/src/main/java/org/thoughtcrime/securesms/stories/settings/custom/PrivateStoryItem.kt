@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.stories.settings.custom
+package org.mycrimes.insecuretests.stories.settings.custom
 
 import android.view.View
 import android.widget.TextView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.database.model.DistributionListPartialRecord
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.AvatarImageView
+import org.mycrimes.insecuretests.components.settings.PreferenceModel
+import org.mycrimes.insecuretests.database.model.DistributionListPartialRecord
+import org.mycrimes.insecuretests.database.model.DistributionListRecord
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 
 object PrivateStoryItem {
 

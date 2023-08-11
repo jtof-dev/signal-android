@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 import android.app.Service;
 import android.content.Intent;
@@ -6,7 +6,7 @@ import android.os.IBinder;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.contacts.ContactsSyncAdapter;
+import org.mycrimes.insecuretests.contacts.ContactsSyncAdapter;
 
 public class ContactsSyncAdapterService extends Service {
 

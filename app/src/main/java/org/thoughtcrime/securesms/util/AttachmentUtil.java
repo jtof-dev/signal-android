@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 
 import android.content.Context;
@@ -9,13 +9,13 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.jobmanager.impl.NotInCallConstraint;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment;
+import org.mycrimes.insecuretests.database.NoSuchMessageException;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.jobmanager.impl.NotInCallConstraint;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.Set;

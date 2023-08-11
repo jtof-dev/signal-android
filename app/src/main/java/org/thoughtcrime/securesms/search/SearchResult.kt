@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.search
+package org.mycrimes.insecuretests.search
 
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.database.model.ThreadRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.conversationlist.model.ConversationFilter
+import org.mycrimes.insecuretests.database.model.ThreadRecord
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Represents an all-encompassing search result that can contain various result for different

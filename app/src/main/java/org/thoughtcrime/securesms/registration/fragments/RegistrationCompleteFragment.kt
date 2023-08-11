@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments
+package org.mycrimes.insecuretests.registration.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,26 +8,26 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.ActivityNavigator
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.MultiDeviceProfileContentUpdateJob
-import org.thoughtcrime.securesms.jobs.MultiDeviceProfileKeyUpdateJob
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity
-import org.thoughtcrime.securesms.pin.PinRestoreActivity
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.profiles.edit.EditProfileActivity
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.registration.RegistrationUtil
-import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.MainActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.MultiDeviceProfileContentUpdateJob
+import org.mycrimes.insecuretests.jobs.MultiDeviceProfileKeyUpdateJob
+import org.mycrimes.insecuretests.jobs.ProfileUploadJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.lock.v2.CreateKbsPinActivity
+import org.mycrimes.insecuretests.pin.PinRestoreActivity
+import org.mycrimes.insecuretests.profiles.AvatarHelper
+import org.mycrimes.insecuretests.profiles.edit.EditProfileActivity
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.registration.RegistrationUtil
+import org.mycrimes.insecuretests.registration.viewmodel.RegistrationViewModel
 
 /**
  * [RegistrationCompleteFragment] is not visible to the user, but functions as basically a redirect towards one of:
- * - [PIN Restore flow activity](org.thoughtcrime.securesms.pin.PinRestoreActivity)
- * - [Profile](org.thoughtcrime.securesms.profiles.edit.EditProfileActivity) / [PIN creation](org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity) flow activities (this class chains the necessary activities together as an intent)
+ * - [PIN Restore flow activity](org.mycrimes.insecuretests.pin.PinRestoreActivity)
+ * - [Profile](org.mycrimes.insecuretests.profiles.edit.EditProfileActivity) / [PIN creation](org.mycrimes.insecuretests.lock.v2.CreateKbsPinActivity) flow activities (this class chains the necessary activities together as an intent)
  * - Exit registration flow and progress to conversation list
  */
 class RegistrationCompleteFragment : LoggingFragment() {

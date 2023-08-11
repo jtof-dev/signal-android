@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.mutiselect
+package org.mycrimes.insecuretests.conversation.mutiselect
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -6,7 +6,7 @@ import android.animation.ValueAnimator
 import androidx.core.animation.doOnEnd
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationAdapter
+import org.mycrimes.insecuretests.conversation.ConversationAdapter
 
 /**
  * Class for managing the triggering of item animations (here in the form of decoration redraws) whenever

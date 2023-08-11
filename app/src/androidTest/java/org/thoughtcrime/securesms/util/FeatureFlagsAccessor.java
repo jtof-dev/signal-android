@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 /**
  * A class that allows us to inject feature flags during tests.

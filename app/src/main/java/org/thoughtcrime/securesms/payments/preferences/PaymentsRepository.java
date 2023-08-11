@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.mycrimes.insecuretests.payments.preferences;
 
 import android.util.Pair;
 
@@ -9,14 +9,14 @@ import androidx.lifecycle.LiveData;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.PaymentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.Direction;
-import org.thoughtcrime.securesms.payments.MobileCoinLedgerWrapper;
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.payments.reconciliation.LedgerReconcile;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.database.PaymentTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.Direction;
+import org.mycrimes.insecuretests.payments.MobileCoinLedgerWrapper;
+import org.mycrimes.insecuretests.payments.Payment;
+import org.mycrimes.insecuretests.payments.reconciliation.LedgerReconcile;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
 
 import java.util.Collection;
 import java.util.List;

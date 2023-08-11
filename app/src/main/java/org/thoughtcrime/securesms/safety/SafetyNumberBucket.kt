@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.safety
+package org.mycrimes.insecuretests.safety
 
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.recipients.Recipient
 
 sealed class SafetyNumberBucket {
   data class DistributionListBucket(val distributionListId: DistributionListId, val name: String) : SafetyNumberBucket()

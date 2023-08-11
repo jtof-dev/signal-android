@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.graphics.Bitmap
 import android.graphics.Path
@@ -10,8 +10,8 @@ import androidx.core.graphics.withTranslation
 import androidx.core.view.children
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.util.hasNoBubble
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.util.hasNoBubble
 
 object ConversationItemSelection {
 

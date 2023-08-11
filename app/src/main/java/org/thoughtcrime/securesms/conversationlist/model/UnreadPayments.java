@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.conversationlist.model;
+package org.mycrimes.insecuretests.conversationlist.model;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.recipients.Recipient;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 import org.whispersystems.signalservice.api.payments.Money;
 

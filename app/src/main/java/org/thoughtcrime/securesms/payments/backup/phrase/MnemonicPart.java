@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup.phrase;
+package org.mycrimes.insecuretests.payments.backup.phrase;
 
 import androidx.annotation.NonNull;
 

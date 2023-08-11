@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.components.settings.conversation.permissions
+package org.mycrimes.insecuretests.components.settings.conversation.permissions
 
 import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.fragment.app.viewModels
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.groups.ParcelableGroupId
-import org.thoughtcrime.securesms.groups.ui.GroupErrors
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.groups.ParcelableGroupId
+import org.mycrimes.insecuretests.groups.ui.GroupErrors
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 
 class PermissionsSettingsFragment : DSLSettingsFragment(
   titleId = R.string.ConversationSettingsFragment__permissions

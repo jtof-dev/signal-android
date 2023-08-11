@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers;
+package org.mycrimes.insecuretests.database.helpers;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -10,10 +10,10 @@ import androidx.annotation.Nullable;
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.phonenumbers.NumberUtil;
-import org.thoughtcrime.securesms.util.DelimiterUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.phonenumbers.NumberUtil;
+import org.mycrimes.insecuretests.util.DelimiterUtil;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.HashSet;
 import java.util.Set;

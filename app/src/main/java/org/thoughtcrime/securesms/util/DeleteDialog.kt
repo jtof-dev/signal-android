@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.core.SingleEmitter
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.sms.MessageSender
+import org.mycrimes.insecuretests.util.task.ProgressDialogAsyncTask
 
 object DeleteDialog {
 

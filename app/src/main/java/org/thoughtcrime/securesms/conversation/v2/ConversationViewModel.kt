@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import android.content.Context
 import android.net.Uri
@@ -27,35 +27,35 @@ import io.reactivex.rxjava3.subjects.Subject
 import org.signal.core.util.concurrent.subscribeWithSubject
 import org.signal.core.util.orNull
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.components.reminder.Reminder
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.GroupAuthorNameColorHelper
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationElementKey
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.RetrieveProfileJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messagerequests.MessageRequestRepository
-import org.thoughtcrime.securesms.messagerequests.MessageRequestState
-import org.thoughtcrime.securesms.mms.GlideRequests
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.hasGiftBadge
-import org.thoughtcrime.securesms.util.rx.RxStore
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import org.mycrimes.insecuretests.components.reminder.Reminder
+import org.mycrimes.insecuretests.contactshare.Contact
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.conversation.colors.GroupAuthorNameColorHelper
+import org.mycrimes.insecuretests.conversation.colors.NameColor
+import org.mycrimes.insecuretests.conversation.mutiselect.MultiselectPart
+import org.mycrimes.insecuretests.conversation.v2.data.ConversationElementKey
+import org.mycrimes.insecuretests.database.DatabaseObserver
+import org.mycrimes.insecuretests.database.model.IdentityRecord
+import org.mycrimes.insecuretests.database.model.Mention
+import org.mycrimes.insecuretests.database.model.MessageId
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.database.model.Quote
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.RetrieveProfileJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.messagerequests.MessageRequestRepository
+import org.mycrimes.insecuretests.messagerequests.MessageRequestState
+import org.mycrimes.insecuretests.mms.GlideRequests
+import org.mycrimes.insecuretests.mms.QuoteModel
+import org.mycrimes.insecuretests.mms.SlideDeck
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.TextSecurePreferences
+import org.mycrimes.insecuretests.util.hasGiftBadge
+import org.mycrimes.insecuretests.util.rx.RxStore
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaper
 import java.util.Optional
 
 /**

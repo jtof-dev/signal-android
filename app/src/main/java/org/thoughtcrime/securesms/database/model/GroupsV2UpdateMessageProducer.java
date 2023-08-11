@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -26,12 +26,12 @@ import org.signal.storageservice.protos.groups.local.DecryptedPendingMember;
 import org.signal.storageservice.protos.groups.local.DecryptedPendingMemberRemoval;
 import org.signal.storageservice.protos.groups.local.DecryptedRequestingMember;
 import org.signal.storageservice.protos.groups.local.EnabledState;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GV2AccessLevelUtil;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.SpanUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.groups.GV2AccessLevelUtil;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.ExpirationUtil;
+import org.mycrimes.insecuretests.util.SpanUtil;
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.ServiceIds;

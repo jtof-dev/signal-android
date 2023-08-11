@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 /**
  * Different options for sort order of contact search items.

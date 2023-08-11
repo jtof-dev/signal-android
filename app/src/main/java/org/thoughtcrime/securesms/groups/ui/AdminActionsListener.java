@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui;
+package org.mycrimes.insecuretests.groups.ui;
 
 import androidx.annotation.NonNull;
 

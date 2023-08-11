@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package org.mycrimes.insecuretests.groups.ui.invitesandrequests.joining;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,11 +14,11 @@ import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.PlayStoreUtil;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.BottomSheetUtil;
+import org.mycrimes.insecuretests.util.PlayStoreUtil;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
 
 public final class GroupJoinUpdateRequiredBottomSheetDialogFragment extends BottomSheetDialogFragment {
 

@@ -1,24 +1,24 @@
-package org.thoughtcrime.securesms.badges.self.overview
+package org.mycrimes.insecuretests.badges.self.overview
 
 import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeRepository
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.Badges.displayBadges
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.badges.view.ViewBadgeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.BadgeRepository
+import org.mycrimes.insecuretests.badges.Badges
+import org.mycrimes.insecuretests.badges.Badges.displayBadges
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.badges.view.ViewBadgeBottomSheetDialogFragment
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.app.subscription.MonthlyDonationRepository
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * Fragment to allow user to manage options related to the badges they've unlocked.

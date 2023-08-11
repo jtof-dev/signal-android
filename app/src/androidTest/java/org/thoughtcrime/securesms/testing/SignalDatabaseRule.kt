@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.testing
+package org.mycrimes.insecuretests.testing
 
 import org.junit.rules.TestWatcher
 import org.junit.runner.Description
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.push.ACI
 import org.whispersystems.signalservice.api.push.PNI
 import java.util.UUID

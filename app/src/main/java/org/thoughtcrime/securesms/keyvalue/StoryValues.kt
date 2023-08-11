@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.mycrimes.insecuretests.keyvalue
 
 import org.json.JSONObject
 import org.signal.core.util.StringSerializer
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.groups.GroupId
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.groups.GroupId
 
 internal class StoryValues(store: KeyValueStore) : SignalStoreValues(store) {
 

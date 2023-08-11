@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -14,17 +14,17 @@ import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ParcelableGroupId;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.CommunicationActions;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.GroupRecord;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.ParcelableGroupId;
+import org.mycrimes.insecuretests.groups.ui.GroupMemberListView;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.BottomSheetUtil;
+import org.mycrimes.insecuretests.util.CommunicationActions;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
 
 import java.util.Collections;
 import java.util.List;

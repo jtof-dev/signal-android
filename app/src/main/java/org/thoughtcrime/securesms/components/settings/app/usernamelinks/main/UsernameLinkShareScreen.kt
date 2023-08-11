@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package org.mycrimes.insecuretests.components.settings.app.usernamelinks.main
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -31,14 +31,14 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import org.signal.core.ui.Buttons
 import org.signal.core.ui.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeBadge
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
-import org.thoughtcrime.securesms.util.UsernameUtil
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.usernamelinks.QrCodeBadge
+import org.mycrimes.insecuretests.components.settings.app.usernamelinks.QrCodeData
+import org.mycrimes.insecuretests.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import org.mycrimes.insecuretests.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
+import org.mycrimes.insecuretests.util.UsernameUtil
+import org.mycrimes.insecuretests.util.Util
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * A screen that shows all the data around your username link and how to share it, including a QR code.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar
+package org.mycrimes.insecuretests.avatar
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -10,11 +10,11 @@ import androidx.annotation.MainThread
 import androidx.appcompat.content.res.AppCompatResources
 import com.airbnb.lottie.SimpleColorFilter
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mms.PartAuthority
+import org.mycrimes.insecuretests.profiles.AvatarHelper
+import org.mycrimes.insecuretests.providers.BlobProvider
+import org.mycrimes.insecuretests.util.MediaUtil
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.IOException

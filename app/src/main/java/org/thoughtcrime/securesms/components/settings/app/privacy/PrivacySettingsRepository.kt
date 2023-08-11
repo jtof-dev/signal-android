@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy
+package org.mycrimes.insecuretests.components.settings.app.privacy
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.MultiDeviceConfigurationUpdateJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.MultiDeviceConfigurationUpdateJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.storage.StorageSyncHelper
+import org.mycrimes.insecuretests.util.TextSecurePreferences
 
 class PrivacySettingsRepository {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package org.mycrimes.insecuretests.components.settings.app.subscription
 
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
@@ -6,9 +6,9 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.logging.Log
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalConfirmationResult
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.paypal.PayPalConfirmationResult
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.services.DonationsService
 import org.whispersystems.signalservice.api.subscriptions.PayPalConfirmPaymentIntentResponse
 import org.whispersystems.signalservice.api.subscriptions.PayPalCreatePaymentIntentResponse

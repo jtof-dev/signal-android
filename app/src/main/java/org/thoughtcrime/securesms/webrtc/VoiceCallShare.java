@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.mycrimes.insecuretests.webrtc;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,9 +8,9 @@ import android.provider.ContactsContract;
 import android.text.TextUtils;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.WebRtcCallActivity;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.WebRtcCallActivity;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.recipients.Recipient;
 import org.signal.core.util.concurrent.SimpleTask;
 
 public class VoiceCallShare extends Activity {

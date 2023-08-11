@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package org.mycrimes.insecuretests.mediasend.v2.gallery
 
 import android.view.View
 import android.widget.ImageView
 import com.bumptech.glide.Glide
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.util.visible
 
 typealias OnSelectedMediaClicked = (Media) -> Unit
 

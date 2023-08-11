@@ -30,14 +30,14 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <org.thoughtcrime.securesms.groups.ui.GroupMemberListView
+        <org.mycrimes.insecuretests.groups.ui.GroupMemberListView
             android:id="@+id/choose_new_admin_group_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:selectable="true"
             tools:listitem="@layout/group_recipient_list_item" />
 
-        <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+        <org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
             android:id="@+id/choose_new_admin_done"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

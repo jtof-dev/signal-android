@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package org.mycrimes.insecuretests.components.settings.app.privacy.expire
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.livedata.ProcessState
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.livedata.ProcessState
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class ExpireTimerSettingsViewModel(val config: Config, private val repository: ExpireTimerSettingsRepository) : ViewModel() {
 

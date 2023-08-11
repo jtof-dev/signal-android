@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.groups.ui;
+package org.mycrimes.insecuretests.groups.ui;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 public final class GroupErrors {
   private GroupErrors() {

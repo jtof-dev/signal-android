@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.securitysetup
+package org.mycrimes.insecuretests.payments.securitysetup
 
 import android.os.Bundle
 import android.view.View
@@ -6,10 +6,10 @@ import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.PaymentsSecuritySetupFragmentBinding
-import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeFragmentDirections
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.databinding.PaymentsSecuritySetupFragmentBinding
+import org.mycrimes.insecuretests.payments.preferences.PaymentsHomeFragmentDirections
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * Fragment to let user know to enable payment lock to protect their funds

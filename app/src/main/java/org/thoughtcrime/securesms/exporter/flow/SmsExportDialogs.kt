@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.content.Context
 import android.view.View
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.SignalDatabase
 
 object SmsExportDialogs {
   @JvmStatic

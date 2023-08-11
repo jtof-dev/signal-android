@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.events;
+package org.mycrimes.insecuretests.events;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 import java.util.Objects;
 

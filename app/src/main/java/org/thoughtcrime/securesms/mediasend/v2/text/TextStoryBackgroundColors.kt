@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.mycrimes.insecuretests.mediasend.v2.text
 
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
+import org.mycrimes.insecuretests.conversation.colors.ChatColors
 
 object TextStoryBackgroundColors {
 

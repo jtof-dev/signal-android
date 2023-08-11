@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.components.emoji.EmojiUtil;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.ArrayList;
 import java.util.Arrays;

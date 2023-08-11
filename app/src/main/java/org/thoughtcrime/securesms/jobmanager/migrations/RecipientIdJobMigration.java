@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.mycrimes.insecuretests.jobmanager.migrations;
 
 import android.app.Application;
 
@@ -7,11 +7,11 @@ import androidx.annotation.VisibleForTesting;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.JobMigration;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.JsonUtils;
 
 import java.io.IOException;
 import java.io.Serializable;

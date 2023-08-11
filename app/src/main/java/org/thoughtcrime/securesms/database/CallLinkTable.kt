@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -23,16 +23,16 @@ import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
 import org.signal.ringrtc.CallLinkRootKey
 import org.signal.ringrtc.CallLinkState.Restrictions
-import org.thoughtcrime.securesms.calls.log.CallLogRow
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorHash
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.calls.log.CallLogRow
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor
+import org.mycrimes.insecuretests.conversation.colors.AvatarColorHash
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.service.webrtc.links.CallLinkCredentials
+import org.mycrimes.insecuretests.service.webrtc.links.CallLinkRoomId
+import org.mycrimes.insecuretests.service.webrtc.links.SignalCallLinkState
+import org.mycrimes.insecuretests.util.Base64
 import java.time.Instant
 import java.time.temporal.ChronoUnit
 

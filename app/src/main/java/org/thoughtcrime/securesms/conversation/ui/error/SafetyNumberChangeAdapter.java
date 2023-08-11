@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.error;
+package org.mycrimes.insecuretests.conversation.ui.error;
 
 import android.graphics.drawable.Drawable;
 import android.text.TextUtils;
@@ -12,14 +12,14 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.AlwaysChangedDiffUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.components.FromTextView;
+import org.mycrimes.insecuretests.database.model.IdentityRecord;
+import org.mycrimes.insecuretests.util.ContextUtil;
+import org.mycrimes.insecuretests.util.DrawableUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.adapter.AlwaysChangedDiffUtil;
 
 final class SafetyNumberChangeAdapter extends ListAdapter<ChangedRecipient, SafetyNumberChangeAdapter.ViewHolder> {
 

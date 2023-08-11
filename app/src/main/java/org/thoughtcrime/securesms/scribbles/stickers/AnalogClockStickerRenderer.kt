@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles.stickers
+package org.mycrimes.insecuretests.scribbles.stickers
 
 import android.graphics.Rect
 import android.graphics.RectF
@@ -8,7 +8,7 @@ import org.signal.imageeditor.core.Bounds
 import org.signal.imageeditor.core.RendererContext
 import org.signal.imageeditor.core.SelectableRenderer
 import org.signal.imageeditor.core.renderers.InvalidateableRenderer
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
 
 /**
  * Analog clock sticker renderer for the image editor.

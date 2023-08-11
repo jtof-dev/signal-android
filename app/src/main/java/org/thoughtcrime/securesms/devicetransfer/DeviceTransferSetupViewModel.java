@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer;
+package org.mycrimes.insecuretests.devicetransfer;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -7,8 +7,8 @@ import androidx.lifecycle.ViewModel;
 import org.signal.core.util.logging.Log;
 import org.signal.devicetransfer.TransferStatus;
 import org.signal.devicetransfer.WifiDirect;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
-import org.thoughtcrime.securesms.util.livedata.Store;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.util.livedata.Store;
 
 /**
  * Drives and wraps the state of the transfer setup process.

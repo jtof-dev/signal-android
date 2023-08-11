@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.mycrimes.insecuretests.mediapreview
 
 import android.net.Uri
-import org.thoughtcrime.securesms.video.VideoPlayer
+import org.mycrimes.insecuretests.video.VideoPlayer
 
 /**
  * Class to manage video playback in preview screen.

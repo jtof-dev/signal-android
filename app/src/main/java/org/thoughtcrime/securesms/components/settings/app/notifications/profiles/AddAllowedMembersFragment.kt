@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package org.mycrimes.insecuretests.components.settings.app.notifications.profiles
 
 import android.os.Bundle
 import android.view.View
@@ -7,19 +7,19 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.models.NotificationProfileAddMembers
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.models.NotificationProfileRecipient
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.RecipientPreference
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.app.notifications.profiles.models.NotificationProfileAddMembers
+import org.mycrimes.insecuretests.components.settings.app.notifications.profiles.models.NotificationProfileRecipient
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.components.settings.conversation.preferences.RecipientPreference
+import org.mycrimes.insecuretests.notifications.profiles.NotificationProfile
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
 
 /**
  * Show and allow addition of recipients to a profile during the create flow.

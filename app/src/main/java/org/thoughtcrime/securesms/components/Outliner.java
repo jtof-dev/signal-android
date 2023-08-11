@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -7,7 +7,7 @@ import android.graphics.RectF;
 
 import androidx.annotation.ColorInt;
 
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 public class Outliner {
 

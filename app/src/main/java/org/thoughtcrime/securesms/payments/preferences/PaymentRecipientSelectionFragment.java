@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.mycrimes.insecuretests.payments.preferences;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,19 +11,19 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.Navigation;
 
 import org.signal.core.util.concurrent.SimpleTask;
-import org.thoughtcrime.securesms.ContactSelectionListFragment;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ContactFilterView;
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.payments.CanNotSendPaymentDialog;
-import org.thoughtcrime.securesms.payments.preferences.model.PayeeParcelable;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.ContactSelectionListFragment;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.ContactFilterView;
+import org.mycrimes.insecuretests.contacts.ContactSelectionDisplayMode;
+import org.mycrimes.insecuretests.conversation.ConversationIntents;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.payments.CanNotSendPaymentDialog;
+import org.mycrimes.insecuretests.payments.preferences.model.PayeeParcelable;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
 import org.whispersystems.signalservice.api.util.ExpiringProfileCredentialUtil;
 
 import java.util.Optional;

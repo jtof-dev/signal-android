@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.net;
+package org.mycrimes.insecuretests.net;
 
 import org.junit.Test;
 

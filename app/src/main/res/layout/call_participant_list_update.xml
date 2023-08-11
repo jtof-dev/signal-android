@@ -17,7 +17,7 @@
         android:background="@drawable/call_participant_update_window_background"
         android:elevation="4dp">
 
-        <org.thoughtcrime.securesms.components.AvatarImageView
+        <org.mycrimes.insecuretests.components.AvatarImageView
             android:id="@+id/avatar"
             android:layout_width="32dp"
             android:layout_height="32dp"
@@ -31,7 +31,7 @@
             tools:src="@drawable/ic_profile_80"
             tools:visibility="visible" />
 
-        <org.thoughtcrime.securesms.badges.BadgeImageView
+        <org.mycrimes.insecuretests.badges.BadgeImageView
             android:id="@+id/badge"
             android:layout_width="16dp"
             android:layout_height="16dp"

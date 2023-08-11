@@ -7,7 +7,7 @@
     android:layout_height="?attr/listPreferredItemHeight"
     android:background="?attr/selectableItemBackground">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/avatar"
         android:layout_width="48dp"
         android:layout_height="48dp"

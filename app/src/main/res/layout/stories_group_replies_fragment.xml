@@ -62,7 +62,7 @@
             android:textColor="@color/signal_colorOnSurfaceVariant"
             android:visibility="gone" />
 
-        <org.thoughtcrime.securesms.stories.viewer.reply.composer.StoryReplyComposer
+        <org.mycrimes.insecuretests.stories.viewer.reply.composer.StoryReplyComposer
             android:id="@+id/composer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

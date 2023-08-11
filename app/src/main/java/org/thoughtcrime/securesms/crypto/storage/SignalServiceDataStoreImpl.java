@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package org.mycrimes.insecuretests.crypto.storage;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceDataStore;
 import org.whispersystems.signalservice.api.push.ServiceId;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.mycrimes.insecuretests.maps;
 
 import android.content.Context;
 import android.location.Location;
@@ -14,7 +14,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 import java.util.Locale;
 

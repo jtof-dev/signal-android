@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 /**
  * Treating an Enum as a circular list, returns the "next"

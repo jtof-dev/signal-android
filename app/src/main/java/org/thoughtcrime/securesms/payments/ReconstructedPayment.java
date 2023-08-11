@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.payments;
+package org.mycrimes.insecuretests.payments;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
+import org.mycrimes.insecuretests.payments.proto.PaymentMetaData;
 import org.whispersystems.signalservice.api.payments.Money;
 import org.whispersystems.signalservice.api.util.UuidUtil;
 

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings.models
+package org.mycrimes.insecuretests.components.settings.models
 
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.databinding.DslOutlinedLearnMoreBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.PreferenceModel
+import org.mycrimes.insecuretests.databinding.DslOutlinedLearnMoreBinding
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingViewHolder
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 
 /**
  * Show a informational text message in an outlined bubble.

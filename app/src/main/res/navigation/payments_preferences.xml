@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/paymentsHome"
-        android:name="org.thoughtcrime.securesms.payments.preferences.PaymentsHomeFragment"
+        android:name="org.mycrimes.insecuretests.payments.preferences.PaymentsHomeFragment"
         tools:layout="@layout/payments_home_fragment">
 
         <argument
@@ -79,7 +79,7 @@
             <argument
                 android:name="recovery_phrase_state"
                 android:defaultValue="NONE"
-                app:argType="org.thoughtcrime.securesms.payments.backup.RecoveryPhraseStates" />
+                app:argType="org.mycrimes.insecuretests.payments.backup.RecoveryPhraseStates" />
 
             <argument
                 android:name="first_time_non_zero_balance"
@@ -124,30 +124,30 @@
 
     <fragment
         android:id="@+id/paymentsAllActivity"
-        android:name="org.thoughtcrime.securesms.payments.preferences.PaymentsAllActivityFragment"
+        android:name="org.mycrimes.insecuretests.payments.preferences.PaymentsAllActivityFragment"
         tools:layout="@layout/payments_activity_fragment">
 
         <argument
             android:name="paymentType"
-            app:argType="org.thoughtcrime.securesms.payments.preferences.PaymentType" />
+            app:argType="org.mycrimes.insecuretests.payments.preferences.PaymentType" />
 
     </fragment>
 
     <fragment
         android:id="@+id/paymentDetails"
-        android:name="org.thoughtcrime.securesms.payments.preferences.details.PaymentDetailsFragment"
+        android:name="org.mycrimes.insecuretests.payments.preferences.details.PaymentDetailsFragment"
         tools:layout="@layout/payment_details_fragment">
 
         <argument
             android:name="paymentDetails"
-            app:argType="org.thoughtcrime.securesms.payments.preferences.details.PaymentDetailsParcelable"
+            app:argType="org.mycrimes.insecuretests.payments.preferences.details.PaymentDetailsParcelable"
             app:nullable="false" />
 
     </fragment>
 
     <fragment
         android:id="@+id/paymentRecipientSelectionFragment"
-        android:name="org.thoughtcrime.securesms.payments.preferences.PaymentRecipientSelectionFragment"
+        android:name="org.mycrimes.insecuretests.payments.preferences.PaymentRecipientSelectionFragment"
         tools:layout="@layout/payment_recipient_selection_fragment">
 
         <action
@@ -160,7 +160,7 @@
 
             <argument
                 android:name="payee"
-                app:argType="org.thoughtcrime.securesms.payments.preferences.model.PayeeParcelable"
+                app:argType="org.mycrimes.insecuretests.payments.preferences.model.PayeeParcelable"
                 app:nullable="false" />
 
             <argument
@@ -175,17 +175,17 @@
 
     <fragment
         android:id="@+id/paymentsAddMoney"
-        android:name="org.thoughtcrime.securesms.payments.preferences.addmoney.PaymentsAddMoneyFragment"
+        android:name="org.mycrimes.insecuretests.payments.preferences.addmoney.PaymentsAddMoneyFragment"
         tools:layout="@layout/payments_add_money_fragment" />
 
     <fragment
         android:id="@+id/setCurrency"
-        android:name="org.thoughtcrime.securesms.payments.preferences.SetCurrencyFragment"
+        android:name="org.mycrimes.insecuretests.payments.preferences.SetCurrencyFragment"
         tools:layout="@layout/set_currency_fragment" />
 
     <fragment
         android:id="@+id/deactivateWallet"
-        android:name="org.thoughtcrime.securesms.payments.deactivate.DeactivateWalletFragment"
+        android:name="org.mycrimes.insecuretests.payments.deactivate.DeactivateWalletFragment"
         tools:layout="@layout/deactivate_wallet_fragment">
 
         <action
@@ -202,7 +202,7 @@
 
     <fragment
         android:id="@+id/paymentsSecuritySetup"
-        android:name="org.thoughtcrime.securesms.payments.securitysetup.PaymentsSecuritySetupFragment"
+        android:name="org.mycrimes.insecuretests.payments.securitysetup.PaymentsSecuritySetupFragment"
         tools:layout="@layout/payments_security_setup_fragment">
 
         <action
@@ -234,7 +234,7 @@
 
         <argument
             android:name="payee"
-            app:argType="org.thoughtcrime.securesms.payments.preferences.model.PayeeParcelable"
+            app:argType="org.mycrimes.insecuretests.payments.preferences.model.PayeeParcelable"
             app:nullable="false" />
 
         <argument

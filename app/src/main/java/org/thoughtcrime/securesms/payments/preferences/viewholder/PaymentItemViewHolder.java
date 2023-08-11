@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.viewholder;
+package org.mycrimes.insecuretests.payments.preferences.viewholder;
 
 import android.view.View;
 import android.widget.TextView;
@@ -6,14 +6,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeAdapter;
-import org.thoughtcrime.securesms.payments.preferences.model.PaymentItem;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
-import org.thoughtcrime.securesms.util.viewholders.RecipientMappingModel.RecipientIdMappingModel;
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.payments.preferences.PaymentsHomeAdapter;
+import org.mycrimes.insecuretests.payments.preferences.model.PaymentItem;
+import org.mycrimes.insecuretests.util.SpanUtil;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder;
+import org.mycrimes.insecuretests.util.viewholders.RecipientMappingModel.RecipientIdMappingModel;
+import org.mycrimes.insecuretests.util.viewholders.RecipientViewHolder;
 
 public class PaymentItemViewHolder extends MappingViewHolder<PaymentItem> {
 

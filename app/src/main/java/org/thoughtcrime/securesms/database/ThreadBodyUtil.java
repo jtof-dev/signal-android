@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -7,17 +7,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.contactshare.ContactUtil;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.mms.GifSlide;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.StickerSlide;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.EmojiStrings;
+import org.mycrimes.insecuretests.contactshare.Contact;
+import org.mycrimes.insecuretests.contactshare.ContactUtil;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord;
+import org.mycrimes.insecuretests.mms.GifSlide;
+import org.mycrimes.insecuretests.mms.Slide;
+import org.mycrimes.insecuretests.mms.StickerSlide;
+import org.mycrimes.insecuretests.util.MessageRecordUtil;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.Collections;
 import java.util.List;

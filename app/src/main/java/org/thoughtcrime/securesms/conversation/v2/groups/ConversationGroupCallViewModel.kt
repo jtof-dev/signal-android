@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package org.mycrimes.insecuretests.conversation.v2.groups
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -15,11 +15,11 @@ import io.reactivex.rxjava3.subjects.Subject
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.v2.ConversationRecipientRepository
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.events.GroupCallPeekEvent
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.conversation.v2.ConversationRecipientRepository
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.events.GroupCallPeekEvent
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * ViewModel which manages state associated with group calls.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.mycrimes.insecuretests.recipients;
 
 import android.content.Context;
 
@@ -13,15 +13,15 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.CallLinkTable;
-import org.thoughtcrime.securesms.database.DistributionListTables;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.DistributionListRecord;
-import org.thoughtcrime.securesms.database.model.RecipientRecord;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.database.CallLinkTable;
+import org.mycrimes.insecuretests.database.DistributionListTables;
+import org.mycrimes.insecuretests.database.GroupTable;
+import org.mycrimes.insecuretests.database.model.GroupRecord;
+import org.mycrimes.insecuretests.database.RecipientTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.DistributionListRecord;
+import org.mycrimes.insecuretests.database.model.RecipientRecord;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.Objects;

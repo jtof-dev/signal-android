@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.addmembers;
+package org.mycrimes.insecuretests.groups.ui.addmembers;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,15 +12,15 @@ import androidx.lifecycle.ViewModelProvider;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.DimensionUnit;
-import org.thoughtcrime.securesms.ContactSelectionActivity;
-import org.thoughtcrime.securesms.ContactSelectionListFragment;
-import org.thoughtcrime.securesms.PushContactSelectionActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.SelectionLimits;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.ContactSelectionActivity;
+import org.mycrimes.insecuretests.ContactSelectionListFragment;
+import org.mycrimes.insecuretests.PushContactSelectionActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.SelectionLimits;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.ArrayList;
 import java.util.List;

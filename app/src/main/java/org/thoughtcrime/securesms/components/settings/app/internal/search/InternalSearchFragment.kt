@@ -5,7 +5,7 @@
 
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package org.thoughtcrime.securesms.components.settings.app.internal.search
+package org.mycrimes.insecuretests.components.settings.app.internal.search
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.clickable
@@ -28,9 +28,9 @@ import androidx.fragment.app.viewModels
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import org.signal.core.ui.theme.SignalTheme
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment
+import org.mycrimes.insecuretests.compose.ComposeFragment
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment
 import java.util.UUID
 
 class InternalSearchFragment : ComposeFragment() {

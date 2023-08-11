@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist;
+package org.mycrimes.insecuretests.conversationlist;
 
 import android.database.Cursor;
 import android.database.MatrixCursor;
@@ -11,19 +11,19 @@ import androidx.annotation.VisibleForTesting;
 import org.signal.core.util.Stopwatch;
 import org.signal.core.util.logging.Log;
 import org.signal.paging.PagedDataSource;
-import org.thoughtcrime.securesms.conversationlist.model.Conversation;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationReader;
-import org.thoughtcrime.securesms.database.MessageTypes;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.database.model.UpdateDescription;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.SignalTrace;
+import org.mycrimes.insecuretests.conversationlist.model.Conversation;
+import org.mycrimes.insecuretests.conversationlist.model.ConversationFilter;
+import org.mycrimes.insecuretests.conversationlist.model.ConversationReader;
+import org.mycrimes.insecuretests.database.MessageTypes;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.ThreadTable;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.database.model.ThreadRecord;
+import org.mycrimes.insecuretests.database.model.UpdateDescription;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.SignalTrace;
 
 import java.util.ArrayList;
 import java.util.Collections;

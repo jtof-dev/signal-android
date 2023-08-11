@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.spoiler
+package org.mycrimes.insecuretests.components.spoiler
 
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.text.Layout
 import androidx.annotation.ColorInt
 import androidx.annotation.Px
-import org.thoughtcrime.securesms.util.LayoutUtil
+import org.mycrimes.insecuretests.util.LayoutUtil
 
 /**
  * Handles drawing the spoiler sparkles for a TextView.

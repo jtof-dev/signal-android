@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import androidx.annotation.NonNull;
 

@@ -25,14 +25,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <org.thoughtcrime.securesms.conversation.colors.ui.ChatColorPreviewView
+            <org.mycrimes.insecuretests.conversation.colors.ui.ChatColorPreviewView
                 android:id="@+id/chat_color_preview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:ccpv_chat_bubble_count="4" />
         </com.google.android.material.card.MaterialCardView>
 
-        <org.thoughtcrime.securesms.conversation.colors.ui.custom.CustomChatColorGradientToolView
+        <org.mycrimes.insecuretests.conversation.colors.ui.custom.CustomChatColorGradientToolView
             android:id="@+id/gradient_tool"
             android:layout_width="0dp"
             android:layout_height="0dp"

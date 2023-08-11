@@ -6,15 +6,15 @@
     app:startDestination="@id/myStorySettings">
     <fragment
         android:id="@+id/allExceptFragment"
-        android:name="org.thoughtcrime.securesms.stories.settings.privacy.AllExceptFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.privacy.AllExceptFragment"
         android:label="hide_story_from_fragment" />
     <fragment
         android:id="@+id/onlyShareWithFragment"
-        android:name="org.thoughtcrime.securesms.stories.settings.privacy.OnlyShareWithFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.privacy.OnlyShareWithFragment"
         android:label="hide_story_from_fragment" />
     <fragment
         android:id="@+id/myStorySettings"
-        android:name="org.thoughtcrime.securesms.stories.settings.my.MyStorySettingsFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.my.MyStorySettingsFragment"
         android:label="my_story_settings_fragment">
         <action
             android:id="@+id/action_myStorySettings_to_signalConnectionsBottomSheet"
@@ -28,7 +28,7 @@
     </fragment>
     <dialog
         android:id="@+id/signalConnectionsBottomSheet"
-        android:name="org.thoughtcrime.securesms.stories.settings.my.SignalConnectionsBottomSheetDialogFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.my.SignalConnectionsBottomSheetDialogFragment"
         android:label="signal_connections_bottom_sheet"
         tools:layout="@layout/stories_signal_connection_bottom_sheet" />
 </navigation>

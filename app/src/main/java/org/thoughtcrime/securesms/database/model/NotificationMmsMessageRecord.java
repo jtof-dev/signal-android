@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import android.content.Context;
 import android.text.SpannableString;
@@ -22,12 +22,12 @@ import android.text.SpannableString;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.MessageTable.Status;
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.MessageTable.Status;
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge;
+import org.mycrimes.insecuretests.mms.SlideDeck;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.HashSet;

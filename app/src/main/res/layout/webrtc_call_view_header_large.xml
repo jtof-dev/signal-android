@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Signal video call" />
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/call_screen_header_avatar"
         android:layout_width="96dp"
         android:layout_height="96dp"
@@ -41,7 +41,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="?actionBarSize" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/call_screen_recipient_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

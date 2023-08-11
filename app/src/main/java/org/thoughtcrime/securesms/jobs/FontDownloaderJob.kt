@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import android.graphics.Typeface
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.fonts.Fonts
-import org.thoughtcrime.securesms.fonts.SupportedScript
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.util.FutureTaskListener
-import org.thoughtcrime.securesms.util.LocaleUtil
+import org.mycrimes.insecuretests.fonts.Fonts
+import org.mycrimes.insecuretests.fonts.SupportedScript
+import org.mycrimes.insecuretests.fonts.TextFont
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint
+import org.mycrimes.insecuretests.util.FutureTaskListener
+import org.mycrimes.insecuretests.util.LocaleUtil
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.ExecutionException
 import java.util.concurrent.TimeUnit

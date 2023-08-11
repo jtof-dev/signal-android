@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.contacts.SelectedContact
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.ShareContact
+import org.mycrimes.insecuretests.contacts.SelectedContact
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sharing.ShareContact
 
 /**
  * Represents a row in a list of Contact results.

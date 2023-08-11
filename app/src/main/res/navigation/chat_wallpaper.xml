@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/chatWallpaperFragment"
-        android:name="org.thoughtcrime.securesms.wallpaper.ChatWallpaperFragment"
+        android:name="org.mycrimes.insecuretests.wallpaper.ChatWallpaperFragment"
         android:label="chat_wallpaper_fragment"
         tools:layout="@layout/chat_wallpaper_fragment">
 
@@ -29,12 +29,12 @@
     </fragment>
     <fragment
         android:id="@+id/chatWallpaperSelectionFragment"
-        android:name="org.thoughtcrime.securesms.wallpaper.ChatWallpaperSelectionFragment"
+        android:name="org.mycrimes.insecuretests.wallpaper.ChatWallpaperSelectionFragment"
         android:label="chat_wallpaper_selection_fragment"
         tools:layout="@layout/chat_wallpaper_selection_fragment" />
     <fragment
         android:id="@+id/chatColorSelectionFragment"
-        android:name="org.thoughtcrime.securesms.conversation.colors.ui.ChatColorSelectionFragment"
+        android:name="org.mycrimes.insecuretests.conversation.colors.ui.ChatColorSelectionFragment"
         android:label="chat_color_selection_fragment"
         tools:layout="@layout/chat_color_selection_fragment">
         <action
@@ -47,19 +47,19 @@
 
         <argument
             android:name="recipient_id"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId"
+            app:argType="org.mycrimes.insecuretests.recipients.RecipientId"
             app:nullable="true" />
     </fragment>
 
     <fragment
         android:id="@+id/customChatColorCreatorFragment"
-        android:name="org.thoughtcrime.securesms.conversation.colors.ui.custom.CustomChatColorCreatorFragment"
+        android:name="org.mycrimes.insecuretests.conversation.colors.ui.custom.CustomChatColorCreatorFragment"
         android:label="custom_chat_color_creator_fragment"
         tools:layout="@layout/custom_chat_color_creator_fragment">
 
         <argument
             android:name="recipient_id"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId"
+            app:argType="org.mycrimes.insecuretests.recipients.RecipientId"
             app:nullable="true" />
 
         <argument

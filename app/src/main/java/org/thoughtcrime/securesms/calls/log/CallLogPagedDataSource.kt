@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.calls.log
+package org.mycrimes.insecuretests.calls.log
 
 import org.signal.paging.PagedDataSource
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.util.FeatureFlags
 
 class CallLogPagedDataSource(
   private val query: String?,

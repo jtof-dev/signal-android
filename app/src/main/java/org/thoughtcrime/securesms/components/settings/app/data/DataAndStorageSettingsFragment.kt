@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.components.settings.app.data
+package org.mycrimes.insecuretests.components.settings.app.data
 
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import androidx.preference.PreferenceManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.webrtc.CallDataMode
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.mms.SentMediaQuality
+import org.mycrimes.insecuretests.util.Util
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.webrtc.CallDataMode
 import kotlin.math.abs
 
 class DataAndStorageSettingsFragment : DSLSettingsFragment(R.string.preferences__data_and_storage) {

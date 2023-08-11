@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import android.content.Context;
 
@@ -23,9 +23,9 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.LinkedList;
 import java.util.List;

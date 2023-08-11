@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.mycrimes.insecuretests.lock.v2;
 
 import android.content.Context;
 
@@ -7,8 +7,8 @@ import androidx.core.util.Consumer;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidKeyException;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.pin.PinState;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.pin.PinState;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.whispersystems.signalservice.internal.contacts.crypto.UnauthenticatedResponseException;
 

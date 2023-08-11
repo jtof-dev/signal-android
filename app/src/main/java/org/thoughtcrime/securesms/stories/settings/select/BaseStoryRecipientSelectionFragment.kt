@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.select
+package org.mycrimes.insecuretests.stories.settings.select
 
 import android.os.Bundle
 import android.view.View
@@ -11,15 +11,15 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.button.MaterialButton
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.ContactSelectionListFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode
-import org.thoughtcrime.securesms.contacts.HeaderAction
-import org.thoughtcrime.securesms.contacts.selection.ContactSelectionArguments
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.fragments.findListener
+import org.mycrimes.insecuretests.ContactSelectionListFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.ContactSelectionDisplayMode
+import org.mycrimes.insecuretests.contacts.HeaderAction
+import org.mycrimes.insecuretests.contacts.selection.ContactSelectionArguments
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.groups.SelectionLimits
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.fragments.findListener
 import java.util.Optional
 import java.util.function.Consumer
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors
+package org.mycrimes.insecuretests.conversation.colors
 
 import android.graphics.Color
 import android.graphics.ColorFilter
@@ -13,9 +13,9 @@ import androidx.annotation.ColorInt
 import com.google.common.base.Objects
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.components.RotatableGradientDrawable
-import org.thoughtcrime.securesms.database.model.databaseprotos.ChatColor
-import org.thoughtcrime.securesms.util.customizeOnDraw
+import org.mycrimes.insecuretests.components.RotatableGradientDrawable
+import org.mycrimes.insecuretests.database.model.databaseprotos.ChatColor
+import org.mycrimes.insecuretests.util.customizeOnDraw
 import kotlin.math.min
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.boost
+package org.mycrimes.insecuretests.components.settings.app.subscription.boost
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -18,16 +18,16 @@ import androidx.core.text.isDigitsOnly
 import com.google.android.material.button.MaterialButton
 import org.signal.core.util.StringUtil
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.BadgeImageView
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.components.settings.PreferenceModel
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.util.visible
 import java.lang.Integer.min
 import java.text.DecimalFormatSymbols
 import java.text.NumberFormat

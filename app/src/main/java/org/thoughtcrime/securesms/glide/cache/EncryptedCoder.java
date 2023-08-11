@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.glide.cache;
+package org.mycrimes.insecuretests.glide.cache;
 
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.StreamUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.io.Closeable;
 import java.io.File;

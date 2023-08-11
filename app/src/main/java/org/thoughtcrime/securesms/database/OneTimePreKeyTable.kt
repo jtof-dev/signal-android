@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.content.Context
 import androidx.core.content.contentValuesOf
@@ -9,7 +9,7 @@ import org.signal.libsignal.protocol.InvalidKeyException
 import org.signal.libsignal.protocol.ecc.Curve
 import org.signal.libsignal.protocol.ecc.ECKeyPair
 import org.signal.libsignal.protocol.state.PreKeyRecord
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.util.Base64
 import org.whispersystems.signalservice.api.push.ServiceId
 import java.io.IOException
 

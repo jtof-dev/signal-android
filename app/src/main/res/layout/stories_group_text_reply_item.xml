@@ -12,7 +12,7 @@
     android:paddingTop="6dp"
     android:paddingBottom="6dp">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/avatar"
         android:layout_width="28dp"
         android:layout_height="28dp"
@@ -70,7 +70,7 @@
         app:layout_constraintStart_toStartOf="@+id/bubble_start_barrier"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.thoughtcrime.securesms.components.FromTextView
+    <org.mycrimes.insecuretests.components.FromTextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Miles Morales" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/body"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
         tools:text="Not sent, tap for details"
         tools:textColor="@color/signal_text_secondary" />
 
-    <org.thoughtcrime.securesms.components.DeliveryStatusView
+    <org.mycrimes.insecuretests.components.DeliveryStatusView
         android:id="@+id/delivery_status"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -148,7 +148,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/viewed_at_bottom_barrier"
         app:layout_constraintStart_toEndOf="@+id/viewed_at_end_barrier" />
 
-    <org.thoughtcrime.securesms.components.AlertView
+    <org.mycrimes.insecuretests.components.AlertView
         android:id="@+id/alert_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -172,7 +172,7 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toEndOf="@+id/bubble_end_barrier" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.mycrimes.insecuretests.components.emoji.EmojiImageView
         android:id="@+id/reaction"
         android:layout_width="28dp"
         android:layout_height="28dp"

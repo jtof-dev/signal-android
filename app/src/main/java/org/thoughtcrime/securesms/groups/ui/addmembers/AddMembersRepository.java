@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.groups.ui.addmembers;
+package org.mycrimes.insecuretests.groups.ui.addmembers;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.contacts.SelectedContact;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.contacts.SelectedContact;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 final class AddMembersRepository {
 

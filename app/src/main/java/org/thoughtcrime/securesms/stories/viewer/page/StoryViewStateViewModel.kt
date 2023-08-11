@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package org.mycrimes.insecuretests.stories.viewer.page
 
 import androidx.lifecycle.ViewModel
 

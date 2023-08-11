@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.app.Dialog
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import androidx.annotation.LayoutRes
 import androidx.fragment.app.DialogFragment
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Fullscreen Dialog Fragment which will dismiss itself when the keyboard is closed

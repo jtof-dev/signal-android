@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package org.mycrimes.insecuretests.keyboard.emoji
 
 import android.content.Context
 import android.graphics.drawable.Drawable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.emoji.EmojiCategory
-import org.thoughtcrime.securesms.keyboard.KeyboardPageCategoryIconMappingModel
-import org.thoughtcrime.securesms.util.ThemeUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.emoji.RecentEmojiPageModel
+import org.mycrimes.insecuretests.emoji.EmojiCategory
+import org.mycrimes.insecuretests.keyboard.KeyboardPageCategoryIconMappingModel
+import org.mycrimes.insecuretests.util.ThemeUtil
 
 class RecentsMappingModel(override val selected: Boolean) : KeyboardPageCategoryIconMappingModel<RecentsMappingModel> {
   override val key: String = RecentEmojiPageModel.KEY

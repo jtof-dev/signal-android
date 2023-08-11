@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="link_icon,link_share" />
 
-    <org.thoughtcrime.securesms.stories.StoryLinkPreviewView
+    <org.mycrimes.insecuretests.stories.StoryLinkPreviewView
         android:id="@+id/link_preview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.mycrimes.insecuretests.service.webrtc;
 
 import android.app.Notification;
 import android.app.Service;
@@ -20,16 +20,16 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.TelephonyUtil;
-import org.thoughtcrime.securesms.webrtc.CallNotificationBuilder;
-import org.thoughtcrime.securesms.webrtc.UncaughtExceptionHandlerManager;
-import org.thoughtcrime.securesms.webrtc.audio.AudioManagerCommand;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.ForegroundServiceUtil;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.TelephonyUtil;
+import org.mycrimes.insecuretests.webrtc.CallNotificationBuilder;
+import org.mycrimes.insecuretests.webrtc.UncaughtExceptionHandlerManager;
+import org.mycrimes.insecuretests.webrtc.audio.AudioManagerCommand;
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager;
+import org.mycrimes.insecuretests.webrtc.locks.LockManager;
 
 import java.util.Objects;
 import java.util.Set;

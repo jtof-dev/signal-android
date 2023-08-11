@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.mycrimes.insecuretests.components.reminder;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 /**
  * Shown to admins when there are pending group join requests.

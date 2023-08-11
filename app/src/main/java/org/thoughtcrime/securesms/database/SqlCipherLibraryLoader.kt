@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 /**
  * A simple wrapper to load SQLCipher libs exactly once. The exact entry point of database access is non-deterministic because content providers run before

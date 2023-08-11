@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.chooseadmin;
+package org.mycrimes.insecuretests.groups.ui.chooseadmin;
 
 import androidx.annotation.NonNull;
 import androidx.core.util.Consumer;
@@ -9,12 +9,12 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeResult;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.LiveGroup;
+import org.mycrimes.insecuretests.groups.ui.GroupChangeResult;
+import org.mycrimes.insecuretests.groups.ui.GroupMemberEntry;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.Collections;

@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.mycrimes.insecuretests.mediasend.v2
 
 import androidx.annotation.WorkerThread
 import androidx.core.util.Consumer
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.IdentityRecord
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.recipients.Recipient
 import java.util.concurrent.TimeUnit
 
 object UntrustedRecords {

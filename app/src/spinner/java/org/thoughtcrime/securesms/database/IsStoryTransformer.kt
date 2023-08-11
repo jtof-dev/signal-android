@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.database.Cursor
 import org.signal.core.util.requireInt
 import org.signal.spinner.ColumnTransformer
-import org.thoughtcrime.securesms.database.model.StoryType.Companion.fromCode
+import org.mycrimes.insecuretests.database.model.StoryType.Companion.fromCode
 
 object IsStoryTransformer : ColumnTransformer {
   override fun matches(tableName: String?, columnName: String): Boolean {

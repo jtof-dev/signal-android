@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.addmoney;
+package org.mycrimes.insecuretests.payments.preferences.addmoney;
 
 import android.net.Uri;
 

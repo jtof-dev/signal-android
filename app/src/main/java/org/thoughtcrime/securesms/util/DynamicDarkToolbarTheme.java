@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import androidx.annotation.StyleRes;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 public class DynamicDarkToolbarTheme extends DynamicTheme {
 

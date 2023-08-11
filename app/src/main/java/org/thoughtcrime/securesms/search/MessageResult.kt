@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.search
+package org.mycrimes.insecuretests.search
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Represents a search result for a message.

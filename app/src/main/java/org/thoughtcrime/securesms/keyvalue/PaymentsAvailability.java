@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 public enum PaymentsAvailability {
   NOT_IN_REGION(false, false),

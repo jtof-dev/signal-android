@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -10,8 +10,8 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.database.model.Mention;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 import org.signal.core.util.CursorUtil;
 import org.signal.core.util.SqlUtil;
 

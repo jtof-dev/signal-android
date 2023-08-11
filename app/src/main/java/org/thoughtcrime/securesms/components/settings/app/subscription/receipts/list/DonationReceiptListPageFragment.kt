@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package org.mycrimes.insecuretests.components.settings.app.subscription.receipts.list
 
 import android.os.Bundle
 import android.view.View
@@ -7,15 +7,15 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.TextPreference
-import org.thoughtcrime.securesms.database.model.DonationReceiptRecord
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.TextPreference
+import org.mycrimes.insecuretests.database.model.DonationReceiptRecord
+import org.mycrimes.insecuretests.util.StickyHeaderDecoration
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.util.visible
 
 class DonationReceiptListPageFragment : Fragment(R.layout.donation_receipt_list_page_fragment) {
 

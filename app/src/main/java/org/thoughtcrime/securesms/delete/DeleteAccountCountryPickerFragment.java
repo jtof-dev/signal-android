@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.delete;
+package org.mycrimes.insecuretests.delete;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -15,8 +15,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.text.AfterTextChanged;
 
 public class DeleteAccountCountryPickerFragment extends DialogFragment {
 

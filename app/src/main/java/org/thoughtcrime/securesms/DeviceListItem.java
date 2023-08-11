@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -6,8 +6,8 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.devicelist.Device;
-import org.thoughtcrime.securesms.util.DateUtils;
+import org.mycrimes.insecuretests.devicelist.Device;
+import org.mycrimes.insecuretests.util.DateUtils;
 
 import java.util.Locale;
 

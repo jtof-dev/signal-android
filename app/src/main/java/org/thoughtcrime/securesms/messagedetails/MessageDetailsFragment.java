@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagedetails;
+package org.mycrimes.insecuretests.messagedetails;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -11,24 +11,24 @@ import androidx.fragment.app.DialogFragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.FullScreenDialogFragment;
-import org.thoughtcrime.securesms.conversation.colors.Colorizer;
-import org.thoughtcrime.securesms.conversation.colors.RecyclerViewColorizer;
-import org.thoughtcrime.securesms.conversation.ui.edit.EditMessageHistoryDialog;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4PlaybackController;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4ProjectionPlayerHolder;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4ProjectionRecycler;
-import org.thoughtcrime.securesms.messagedetails.MessageDetailsAdapter.MessageDetailsViewState;
-import org.thoughtcrime.securesms.messagedetails.MessageDetailsViewModel.Factory;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet;
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.FullScreenDialogFragment;
+import org.mycrimes.insecuretests.conversation.colors.Colorizer;
+import org.mycrimes.insecuretests.conversation.colors.RecyclerViewColorizer;
+import org.mycrimes.insecuretests.conversation.ui.edit.EditMessageHistoryDialog;
+import org.mycrimes.insecuretests.database.model.MessageId;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4PlaybackController;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4ProjectionPlayerHolder;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4ProjectionRecycler;
+import org.mycrimes.insecuretests.messagedetails.MessageDetailsAdapter.MessageDetailsViewState;
+import org.mycrimes.insecuretests.messagedetails.MessageDetailsViewModel.Factory;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.safety.SafetyNumberBottomSheet;
+import org.mycrimes.insecuretests.util.Material3OnScrollHelper;
+import org.mycrimes.insecuretests.util.MessageRecordUtil;
 
 import java.util.ArrayList;
 import java.util.Collection;

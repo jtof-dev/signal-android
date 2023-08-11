@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.components.emoji.EmojiEditText;
+import org.mycrimes.insecuretests.components.emoji.EmojiEditText;
 
 /**
  * Selection aware {@link EmojiEditText}. This view allows the developer to provide an

@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.crypto;
+package org.mycrimes.insecuretests.crypto;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -30,8 +30,8 @@ import org.signal.libsignal.protocol.ecc.Curve;
 import org.signal.libsignal.protocol.ecc.ECKeyPair;
 import org.signal.libsignal.protocol.ecc.ECPrivateKey;
 import org.signal.libsignal.protocol.ecc.ECPublicKey;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;

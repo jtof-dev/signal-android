@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import android.content.Context;
 
@@ -11,12 +11,12 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.stickers.BlessedPacks;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.VersionTracker;
+import org.mycrimes.insecuretests.jobmanager.JobManager;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.stickers.BlessedPacks;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.VersionTracker;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.mycrimes.insecuretests.components.settings.conversation
 
 import android.app.Activity
 import android.content.Context
@@ -9,14 +9,14 @@ import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.util.Pair
 import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.ParcelableGroupId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DynamicConversationSettingsTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLSettingsActivity
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.groups.ParcelableGroupId
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.DynamicConversationSettingsTheme
+import org.mycrimes.insecuretests.util.DynamicTheme
 
 open class ConversationSettingsActivity : DSLSettingsActivity(), ConversationSettingsFragment.Callback {
 

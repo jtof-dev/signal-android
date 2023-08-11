@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings;
+package org.mycrimes.insecuretests.components.settings;
 
 import android.view.View;
 import android.widget.TextView;
@@ -6,9 +6,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder;
 
 import java.util.Objects;
 

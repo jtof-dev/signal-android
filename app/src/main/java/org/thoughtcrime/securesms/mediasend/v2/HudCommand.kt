@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.mycrimes.insecuretests.mediasend.v2
 
 import android.view.KeyEvent
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.text.Annotation;
 import android.text.Spannable;
@@ -13,7 +13,7 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.StringUtil;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation;
+import org.mycrimes.insecuretests.components.spoiler.SpoilerAnnotation;
 
 import java.security.InvalidParameterException;
 import java.util.Collections;

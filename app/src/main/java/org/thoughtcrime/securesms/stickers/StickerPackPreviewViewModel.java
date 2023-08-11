@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.mycrimes.insecuretests.stickers;
 
 import android.app.Application;
 import android.text.TextUtils;
@@ -9,9 +9,9 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.stickers.StickerPackPreviewRepository.StickerManifestResult;
+import org.mycrimes.insecuretests.database.DatabaseObserver;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.stickers.StickerPackPreviewRepository.StickerManifestResult;
 
 import java.util.Optional;
 

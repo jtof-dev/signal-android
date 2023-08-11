@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.contacts;
+package org.mycrimes.insecuretests.contacts;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 /**
  * Model for a contact and the various ways it could be represented. Used in situations where we

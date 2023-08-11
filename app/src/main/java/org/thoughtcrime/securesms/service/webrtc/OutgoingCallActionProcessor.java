@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.mycrimes.insecuretests.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -10,31 +10,31 @@ import org.signal.libsignal.protocol.InvalidKeyException;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.recipients.RecipientUtil;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.WebRtcData.CallMetadata;
-import org.thoughtcrime.securesms.service.webrtc.state.CallSetupState;
-import org.thoughtcrime.securesms.service.webrtc.state.VideoState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
-import org.thoughtcrime.securesms.util.NetworkUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
+import org.mycrimes.insecuretests.components.webrtc.EglBaseWrapper;
+import org.mycrimes.insecuretests.database.CallTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.events.CallParticipant;
+import org.mycrimes.insecuretests.events.WebRtcViewModel;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.recipients.RecipientUtil;
+import org.mycrimes.insecuretests.ringrtc.RemotePeer;
+import org.mycrimes.insecuretests.service.webrtc.WebRtcData.CallMetadata;
+import org.mycrimes.insecuretests.service.webrtc.state.CallSetupState;
+import org.mycrimes.insecuretests.service.webrtc.state.VideoState;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceState;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceStateBuilder;
+import org.mycrimes.insecuretests.util.NetworkUtil;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager;
 import org.webrtc.PeerConnection;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;
 
 import java.util.List;
 import java.util.Objects;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
+import static org.mycrimes.insecuretests.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
 
 /**
  * Responsible for setting up and managing the start of an outgoing 1:1 call. Transitioned

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package org.mycrimes.insecuretests.video;
 
 import android.content.Context;
 import android.media.MediaDataSource;
@@ -11,11 +11,11 @@ import androidx.annotation.RequiresApi;
 import com.google.android.exoplayer2.util.MimeTypes;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.media.MediaInput;
-import org.thoughtcrime.securesms.mms.MediaStream;
-import org.thoughtcrime.securesms.util.MemoryFileDescriptor;
-import org.thoughtcrime.securesms.video.videoconverter.EncodingException;
-import org.thoughtcrime.securesms.video.videoconverter.MediaConverter;
+import org.mycrimes.insecuretests.media.MediaInput;
+import org.mycrimes.insecuretests.mms.MediaStream;
+import org.mycrimes.insecuretests.util.MemoryFileDescriptor;
+import org.mycrimes.insecuretests.video.videoconverter.EncodingException;
+import org.mycrimes.insecuretests.video.videoconverter.MediaConverter;
 
 import java.io.Closeable;
 import java.io.FileDescriptor;

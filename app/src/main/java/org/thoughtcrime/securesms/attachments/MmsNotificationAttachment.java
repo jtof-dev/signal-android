@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.attachments;
+package org.mycrimes.insecuretests.attachments;
 
 
 import android.net.Uri;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.MessageTable;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.MessageTable;
 
 public class MmsNotificationAttachment extends Attachment {
 

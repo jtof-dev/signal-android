@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.StringStringSerializer;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.mycrimes.insecuretests.util.JsonUtils;
 import org.whispersystems.signalservice.api.KbsPinData;
 import org.whispersystems.signalservice.api.kbs.MasterKey;
 import org.whispersystems.signalservice.api.kbs.PinHashUtil;
@@ -47,7 +47,7 @@ public final class KbsValues extends SignalStoreValues {
   /**
    * Deliberately does not clear the {@link #MASTER_KEY}.
    *
-   * Should only be called by {@link org.thoughtcrime.securesms.pin.PinState}
+   * Should only be called by {@link org.mycrimes.insecuretests.pin.PinState}
    */
   public void clearRegistrationLockAndPin() {
     getStore().beginWrite()
@@ -62,7 +62,7 @@ public final class KbsValues extends SignalStoreValues {
               .commit();
   }
 
-  /** Should only be set by {@link org.thoughtcrime.securesms.pin.PinState}. */
+  /** Should only be set by {@link org.mycrimes.insecuretests.pin.PinState}. */
   public synchronized void setKbsMasterKey(@NonNull KbsPinData pinData, @NonNull String pin) {
     MasterKey masterKey     = pinData.getMasterKey();
     String    tokenResponse;
@@ -88,7 +88,7 @@ public final class KbsValues extends SignalStoreValues {
     }
   }
 
-  /** Should only be set by {@link org.thoughtcrime.securesms.pin.PinState}. */
+  /** Should only be set by {@link org.mycrimes.insecuretests.pin.PinState}. */
   public synchronized void setV2RegistrationLockEnabled(boolean enabled) {
     putBoolean(V2_LOCK_ENABLED, enabled);
   }
@@ -100,7 +100,7 @@ public final class KbsValues extends SignalStoreValues {
     return getBoolean(V2_LOCK_ENABLED, false);
   }
 
-  /** Should only be set by {@link org.thoughtcrime.securesms.pin.PinState}. */
+  /** Should only be set by {@link org.mycrimes.insecuretests.pin.PinState}. */
   public synchronized void onPinCreateFailure() {
     putLong(LAST_CREATE_FAILED_TIMESTAMP, System.currentTimeMillis());
   }
@@ -217,7 +217,7 @@ public final class KbsValues extends SignalStoreValues {
     return false;
   }
 
-  /** Should only be called by {@link org.thoughtcrime.securesms.pin.PinState}. */
+  /** Should only be called by {@link org.mycrimes.insecuretests.pin.PinState}. */
   public synchronized void optOut() {
     getStore().beginWrite()
               .putBoolean(OPTED_OUT, true)

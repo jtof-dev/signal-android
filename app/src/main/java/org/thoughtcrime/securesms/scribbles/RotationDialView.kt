@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles
+package org.mycrimes.insecuretests.scribbles
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -16,7 +16,7 @@ import android.view.View
 import androidx.annotation.ColorInt
 import androidx.annotation.Dimension
 import androidx.annotation.Px
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.mycrimes.insecuretests.util.ViewUtil
 import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.math.floor

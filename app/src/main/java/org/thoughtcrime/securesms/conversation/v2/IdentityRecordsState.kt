@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList
+import org.mycrimes.insecuretests.database.identity.IdentityRecordList
 
 /**
  * Current state for all participants identity keys in a conversation excluding self.

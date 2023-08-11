@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments
+package org.mycrimes.insecuretests.payments
 
 import com.mobilecoin.lib.Verifier
 import com.mobilecoin.lib.exceptions.AttestationException

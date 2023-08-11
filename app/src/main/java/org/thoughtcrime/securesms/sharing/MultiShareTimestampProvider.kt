@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing
+package org.mycrimes.insecuretests.sharing
 
 import androidx.annotation.Discouraged
 import org.signal.core.util.ThreadUtil

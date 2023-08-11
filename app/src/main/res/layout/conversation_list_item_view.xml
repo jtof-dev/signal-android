@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.conversationlist.ConversationListItem xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mycrimes.insecuretests.conversationlist.ConversationListItem xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -46,7 +46,7 @@
 
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/conversation_list_item_avatar"
         android:layout_width="@dimen/conversation_list_avatar_size"
         android:layout_height="@dimen/conversation_list_avatar_size"
@@ -59,7 +59,7 @@
         app:layout_goneMarginStart="0dp"
         tools:src="@drawable/ic_contact_picture" />
 
-    <org.thoughtcrime.securesms.components.FromTextView
+    <org.mycrimes.insecuretests.components.FromTextView
         android:id="@+id/conversation_list_item_name"
         style="@style/Signal.Text.BodyLarge"
         android:layout_width="0dp"
@@ -78,7 +78,7 @@
         app:layout_constraintVertical_chainStyle="packed"
         tools:text="Long Chat name for testing purposes" />
 
-    <org.thoughtcrime.securesms.components.AlertView
+    <org.mycrimes.insecuretests.components.AlertView
         android:id="@+id/conversation_list_item_alert"
         android:layout_width="18dp"
         android:layout_height="18dp"
@@ -90,7 +90,7 @@
         app:useSmallIcon="true"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.components.emoji.SimpleEmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.SimpleEmojiTextView
         android:id="@+id/conversation_list_item_summary"
         style="@style/Signal.Text.BodyMedium"
         android:layout_width="0dp"
@@ -106,7 +106,7 @@
         app:layout_constraintTop_toBottomOf="@id/conversation_list_item_name"
         tools:text="I'll send those photos over to the Bugle ASAP." />
 
-    <org.thoughtcrime.securesms.components.TypingIndicatorView
+    <org.mycrimes.insecuretests.components.TypingIndicatorView
         android:id="@+id/conversation_list_item_typing_indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/conversation_list_item_date">
 
-        <org.thoughtcrime.securesms.components.DeliveryStatusView
+        <org.mycrimes.insecuretests.components.DeliveryStatusView
             android:id="@+id/conversation_list_item_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -196,7 +196,7 @@
 
     </LinearLayout>
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/conversation_list_item_badge"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -207,4 +207,4 @@
         app:layout_constraintStart_toStartOf="@id/conversation_list_item_avatar"
         app:layout_constraintTop_toTopOf="@id/conversation_list_item_avatar" />
 
-</org.thoughtcrime.securesms.conversationlist.ConversationListItem>
+</org.mycrimes.insecuretests.conversationlist.ConversationListItem>

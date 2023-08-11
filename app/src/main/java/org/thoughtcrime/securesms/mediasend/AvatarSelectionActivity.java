@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.mycrimes.insecuretests.mediasend;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,13 +16,13 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import org.signal.imageeditor.core.model.EditorModel;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.v2.gallery.MediaGalleryFragment;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.scribbles.ImageEditorFragment;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mediasend.v2.gallery.MediaGalleryFragment;
+import org.mycrimes.insecuretests.mms.MediaConstraints;
+import org.mycrimes.insecuretests.profiles.AvatarHelper;
+import org.mycrimes.insecuretests.providers.BlobProvider;
+import org.mycrimes.insecuretests.scribbles.ImageEditorFragment;
+import org.mycrimes.insecuretests.util.MediaUtil;
 
 import java.io.FileDescriptor;
 import java.util.Collections;

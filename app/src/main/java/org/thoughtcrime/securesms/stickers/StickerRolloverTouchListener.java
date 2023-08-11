@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.mycrimes.insecuretests.stickers;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -10,10 +10,10 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyboard.sticker.KeyboardStickerListAdapter;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyboard.sticker.KeyboardStickerListAdapter;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 import java.lang.ref.WeakReference;
 

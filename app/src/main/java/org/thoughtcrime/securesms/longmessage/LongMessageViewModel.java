@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.mycrimes.insecuretests.longmessage;
 
 import android.app.Application;
 
@@ -8,8 +8,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.database.DatabaseObserver;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
 
 import java.util.Optional;
 

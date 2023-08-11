@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.mycrimes.insecuretests.giph.mp4;
 
 import android.view.ViewGroup;
 
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 
 import com.google.android.exoplayer2.MediaItem;
 
-import org.thoughtcrime.securesms.util.Projection;
+import org.mycrimes.insecuretests.util.Projection;
 
 public interface GiphyMp4Playable {
   /**

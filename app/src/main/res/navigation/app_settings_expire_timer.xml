@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/expireTimerSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.expire.ExpireTimerSettingsFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.privacy.expire.ExpireTimerSettingsFragment"
         android:label="disappearing_messages_timer_select_fragment">
 
         <argument
             android:name="recipient_id"
             android:defaultValue="@null"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId"
+            app:argType="org.mycrimes.insecuretests.recipients.RecipientId"
             app:nullable="true" />
 
         <argument
@@ -34,7 +34,7 @@
 
     <dialog
         android:id="@+id/customExpireTimerSelectDialog"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.expire.CustomExpireTimerSelectDialog"
+        android:name="org.mycrimes.insecuretests.components.settings.app.privacy.expire.CustomExpireTimerSelectDialog"
         tools:layout="@layout/custom_expire_timer_select_dialog" />
 
 </navigation>

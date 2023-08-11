@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.megaphone
+package org.mycrimes.insecuretests.megaphone
 
 import android.content.Context
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.SmsExportPhase
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.keyvalue.SmsExportPhase
+import org.mycrimes.insecuretests.util.Util
 import kotlin.time.Duration.Companion.days
 
 class SmsExportReminderSchedule(private val context: Context) : MegaphoneSchedule {

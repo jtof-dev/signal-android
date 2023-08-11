@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package org.mycrimes.insecuretests.video;
 
 import android.media.MediaDataSource;
 import android.media.MediaMetadataRetriever;
@@ -8,9 +8,9 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.media.MediaInput;
-import org.thoughtcrime.securesms.video.videoconverter.EncodingException;
-import org.thoughtcrime.securesms.video.videoconverter.MediaConverter;
+import org.mycrimes.insecuretests.media.MediaInput;
+import org.mycrimes.insecuretests.video.videoconverter.EncodingException;
+import org.mycrimes.insecuretests.video.videoconverter.MediaConverter;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;

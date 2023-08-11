@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import android.text.TextUtils;
 
@@ -7,12 +7,12 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidKeyException;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.jobs.BaseJob;
-import org.thoughtcrime.securesms.pin.PinState;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint;
+import org.mycrimes.insecuretests.jobs.BaseJob;
+import org.mycrimes.insecuretests.pin.PinState;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 import org.whispersystems.signalservice.internal.contacts.crypto.UnauthenticatedResponseException;
 
 import java.io.IOException;

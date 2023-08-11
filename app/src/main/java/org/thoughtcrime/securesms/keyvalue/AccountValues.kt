@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.mycrimes.insecuretests.keyvalue
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,18 +10,18 @@ import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.IdentityKeyPair
 import org.signal.libsignal.protocol.ecc.Curve
 import org.signal.libsignal.protocol.util.Medium
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
-import org.thoughtcrime.securesms.crypto.MasterCipher
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.crypto.storage.PreKeyMetadataStore
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.Base64
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.crypto.IdentityKeyUtil
+import org.mycrimes.insecuretests.crypto.MasterCipher
+import org.mycrimes.insecuretests.crypto.ProfileKeyUtil
+import org.mycrimes.insecuretests.crypto.storage.PreKeyMetadataStore
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.PreKeysSyncJob
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.service.KeyCachingService
+import org.mycrimes.insecuretests.util.Base64
+import org.mycrimes.insecuretests.util.TextSecurePreferences
+import org.mycrimes.insecuretests.util.Util
 import org.whispersystems.signalservice.api.push.ACI
 import org.whispersystems.signalservice.api.push.PNI
 import org.whispersystems.signalservice.api.push.ServiceIds

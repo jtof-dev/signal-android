@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.text
+package org.mycrimes.insecuretests.avatar.text
 
 import android.os.Bundle
 import android.view.View
@@ -17,18 +17,18 @@ import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
 import com.google.android.material.tabs.TabLayout
 import org.signal.core.util.EditTextUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarBundler
-import org.thoughtcrime.securesms.avatar.AvatarColorItem
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.avatar.picker.AvatarPickerItem
-import org.thoughtcrime.securesms.components.BoldSelectionTabItem
-import org.thoughtcrime.securesms.components.ControllableTabLayout
-import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout
-import org.thoughtcrime.securesms.components.recyclerview.GridDividerDecoration
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.avatar.Avatar
+import org.mycrimes.insecuretests.avatar.AvatarBundler
+import org.mycrimes.insecuretests.avatar.AvatarColorItem
+import org.mycrimes.insecuretests.avatar.Avatars
+import org.mycrimes.insecuretests.avatar.picker.AvatarPickerItem
+import org.mycrimes.insecuretests.components.BoldSelectionTabItem
+import org.mycrimes.insecuretests.components.ControllableTabLayout
+import org.mycrimes.insecuretests.components.KeyboardAwareLinearLayout
+import org.mycrimes.insecuretests.components.recyclerview.GridDividerDecoration
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 
 /**
  * Fragment to create an avatar based off of a Vector or Text (via a pager)
@@ -147,6 +147,6 @@ class TextAvatarCreationFragment : Fragment(R.layout.text_avatar_creation_fragme
   }
 
   companion object {
-    const val REQUEST_KEY_TEXT = "org.thoughtcrime.securesms.avatar.text.TEXT"
+    const val REQUEST_KEY_TEXT = "org.mycrimes.insecuretests.avatar.text.TEXT"
   }
 }

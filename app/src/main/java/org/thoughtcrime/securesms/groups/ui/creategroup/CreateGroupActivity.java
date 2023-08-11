@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.creategroup;
+package org.mycrimes.insecuretests.groups.ui.creategroup;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,19 +15,19 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.ContactSelectionActivity;
-import org.thoughtcrime.securesms.ContactSelectionListFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.groups.ui.creategroup.details.AddGroupDetailsActivity;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.mycrimes.insecuretests.ContactSelectionActivity;
+import org.mycrimes.insecuretests.ContactSelectionListFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.contacts.ContactSelectionDisplayMode;
+import org.mycrimes.insecuretests.contacts.sync.ContactDiscovery;
+import org.mycrimes.insecuretests.database.RecipientTable;
+import org.mycrimes.insecuretests.groups.ui.creategroup.details.AddGroupDetailsActivity;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.FeatureFlags;
 import org.signal.core.util.Stopwatch;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog;
 
 import java.io.IOException;
 import java.util.List;

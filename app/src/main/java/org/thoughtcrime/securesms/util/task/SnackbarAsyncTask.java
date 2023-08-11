@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.task;
+package org.mycrimes.insecuretests.util.task;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -10,7 +10,7 @@ import androidx.lifecycle.Lifecycle;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.SignalProgressDialog;
+import org.mycrimes.insecuretests.components.SignalProgressDialog;
 
 public abstract class SnackbarAsyncTask<Params>
     extends AsyncTask<Params, Void, Void>

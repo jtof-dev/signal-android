@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mediasend.v2.review
+package org.mycrimes.insecuretests.mediasend.v2.review
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
 import android.animation.ValueAnimator
 import android.view.View
 import androidx.core.animation.doOnEnd
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.util.ContextUtil
+import org.mycrimes.insecuretests.util.visible
 
 object MediaReviewAnimatorController {
 

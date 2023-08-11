@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.mycrimes.insecuretests.keyvalue
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -14,9 +14,9 @@ import org.mockito.junit.MockitoJUnit
 import org.mockito.junit.MockitoRule
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.dependencies.MockApplicationDependencyProvider
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.dependencies.MockApplicationDependencyProvider
+import org.mycrimes.insecuretests.util.FeatureFlags
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

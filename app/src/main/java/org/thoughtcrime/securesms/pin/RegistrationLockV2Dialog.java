@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package org.mycrimes.insecuretests.pin;
 
 import android.content.Context;
 import android.view.View;
@@ -12,7 +12,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.io.IOException;

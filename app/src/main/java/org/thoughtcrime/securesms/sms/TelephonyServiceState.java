@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sms;
+package org.mycrimes.insecuretests.sms;
 
 import android.content.Context;
 import android.os.Looper;

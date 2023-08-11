@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.gif
+package org.mycrimes.insecuretests.mediasend.v2.gif
 
 import android.net.Uri
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.MediaSendGifFragment
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.mediasend.MediaSendGifFragment
+import org.mycrimes.insecuretests.mediasend.v2.HudCommand
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel
 
 private const val GIF_TAG = "media.send.gif.fragment"
 

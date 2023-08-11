@@ -1,9 +1,9 @@
 @file:JvmName("DatabaseProtosUtil")
 
-package org.thoughtcrime.securesms.database.model
+package org.mycrimes.insecuretests.database.model
 
 import com.google.protobuf.ByteString
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.BodyRange
 
 /**

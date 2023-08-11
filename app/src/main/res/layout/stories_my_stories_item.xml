@@ -35,7 +35,7 @@
         app:shapeAppearance="@style/ShapeAppearanceOverlay.Signal.Story.Preview"
         tools:src="@drawable/test_gradient" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/view_count"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

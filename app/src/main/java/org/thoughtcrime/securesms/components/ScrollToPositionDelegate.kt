@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.view.View
 import androidx.annotation.AnyThread
@@ -12,7 +12,7 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.doAfterNextLayout
+import org.mycrimes.insecuretests.util.doAfterNextLayout
 import kotlin.math.abs
 import kotlin.math.max
 

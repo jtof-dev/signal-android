@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.messagerequests.MessageRequestState
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.database.GroupTable
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.database.model.GroupRecord
+import org.mycrimes.insecuretests.messagerequests.MessageRequestState
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Information necessary for rendering compose input.

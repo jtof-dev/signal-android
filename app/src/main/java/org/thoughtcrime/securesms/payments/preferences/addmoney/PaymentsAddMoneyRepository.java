@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.payments.preferences.addmoney;
+package org.mycrimes.insecuretests.payments.preferences.addmoney;
 
 import android.net.Uri;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.MobileCoinPublicAddress;
+import org.mycrimes.insecuretests.util.AsynchronousCallback;
 
 final class PaymentsAddMoneyRepository {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package org.mycrimes.insecuretests.ratelimit;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,15 +13,15 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.PassphraseRequiredActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.Util;
 import org.signal.core.util.concurrent.SimpleTask;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
 
 import java.io.IOException;

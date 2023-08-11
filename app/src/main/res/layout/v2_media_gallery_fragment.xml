@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="@id/media_gallery_selected"
         app:layout_constraintTop_toTopOf="@id/media_gallery_selected" />
 
-    <org.thoughtcrime.securesms.mediasend.v2.MediaCountIndicatorButton
+    <org.mycrimes.insecuretests.mediasend.v2.MediaCountIndicatorButton
         android:id="@+id/media_gallery_count_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

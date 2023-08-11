@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.audio;
+package org.mycrimes.insecuretests.webrtc.audio;
 
 
 import android.content.Context;
@@ -14,8 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.RingtoneUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.RingtoneUtil;
+import org.mycrimes.insecuretests.util.ServiceUtil;
 
 import java.io.IOException;
 

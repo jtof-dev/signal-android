@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.mycrimes.insecuretests.preferences;
 
 import android.Manifest;
 import android.app.Activity;
@@ -30,19 +30,19 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.BackupDialog;
-import org.thoughtcrime.securesms.backup.BackupEvent;
-import org.thoughtcrime.securesms.database.NoExternalStorageException;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.service.LocalBackupListener;
-import org.thoughtcrime.securesms.util.BackupUtil;
-import org.thoughtcrime.securesms.util.JavaTimeExtensionsKt;
-import org.thoughtcrime.securesms.util.StorageUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.backup.BackupDialog;
+import org.mycrimes.insecuretests.backup.BackupEvent;
+import org.mycrimes.insecuretests.database.NoExternalStorageException;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.LocalBackupJob;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.permissions.Permissions;
+import org.mycrimes.insecuretests.service.LocalBackupListener;
+import org.mycrimes.insecuretests.util.BackupUtil;
+import org.mycrimes.insecuretests.util.JavaTimeExtensionsKt;
+import org.mycrimes.insecuretests.util.StorageUtil;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.text.NumberFormat;
 import java.time.LocalTime;

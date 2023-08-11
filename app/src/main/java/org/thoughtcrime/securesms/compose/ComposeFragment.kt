@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.compose
+package org.mycrimes.insecuretests.compose
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,8 +9,8 @@ import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import org.signal.core.ui.theme.SignalTheme
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.util.DynamicTheme
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.util.DynamicTheme
 
 /**
  * Generic ComposeFragment which can be subclassed to build UI with compose.

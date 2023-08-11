@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.managegroup.dialogs;
+package org.mycrimes.insecuretests.groups.ui.managegroup.dialogs;
 
 import android.content.Context;
 
@@ -9,8 +9,8 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupAccessControl;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.groups.GroupAccessControl;
 
 public final class GroupRightsDialog {
 

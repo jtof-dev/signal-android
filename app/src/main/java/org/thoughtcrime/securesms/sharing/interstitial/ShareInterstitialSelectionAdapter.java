@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package org.mycrimes.insecuretests.sharing.interstitial;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter;
+import org.mycrimes.insecuretests.util.viewholders.RecipientViewHolder;
 
 class ShareInterstitialSelectionAdapter extends MappingAdapter {
   ShareInterstitialSelectionAdapter() {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.storage;
+package org.mycrimes.insecuretests.util.storage;
 
 import android.content.Context;
 
@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.StreamUtil;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
+import org.mycrimes.insecuretests.crypto.AttachmentSecret;
+import org.mycrimes.insecuretests.crypto.AttachmentSecretProvider;
+import org.mycrimes.insecuretests.crypto.ModernDecryptingPartInputStream;
+import org.mycrimes.insecuretests.crypto.ModernEncryptingPartOutputStream;
 
 import java.io.File;
 import java.io.IOException;

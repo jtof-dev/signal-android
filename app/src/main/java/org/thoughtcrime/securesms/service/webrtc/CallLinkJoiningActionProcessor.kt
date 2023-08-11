@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package org.mycrimes.insecuretests.service.webrtc
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceState
 
 /**
  * Process actions to go from lobby to a joined call link.

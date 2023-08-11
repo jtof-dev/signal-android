@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage;
+package org.mycrimes.insecuretests.storage;
 
 import androidx.annotation.NonNull;
 

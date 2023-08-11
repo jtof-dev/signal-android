@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.mycrimes.insecuretests.wallpaper;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,20 +14,20 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.FullscreenHelper;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.mycrimes.insecuretests.PassphraseRequiredActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversation.colors.ChatColors;
+import org.mycrimes.insecuretests.conversation.colors.ColorizerView;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.FullscreenHelper;
+import org.mycrimes.insecuretests.util.Projection;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel;
 
 import java.util.Collections;
 

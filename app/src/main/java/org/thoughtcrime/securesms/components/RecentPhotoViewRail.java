@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 
 import android.annotation.TargetApi;
@@ -29,10 +29,10 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.bumptech.glide.signature.MediaStoreSignature;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
-import org.thoughtcrime.securesms.database.loaders.RecentPhotosLoader;
-import org.thoughtcrime.securesms.mms.GlideApp;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.CursorRecyclerViewAdapter;
+import org.mycrimes.insecuretests.database.loaders.RecentPhotosLoader;
+import org.mycrimes.insecuretests.mms.GlideApp;
 
 public class RecentPhotoViewRail extends FrameLayout implements LoaderManager.LoaderCallbacks<Cursor> {
 

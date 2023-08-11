@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.contacts.paged.collections
+package org.mycrimes.insecuretests.contacts.paged.collections
 
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchData
 
 /**
  * Search collection specifically for stories.

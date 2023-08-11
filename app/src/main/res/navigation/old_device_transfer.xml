@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/oldDeviceTransferInstructions"
-        android:name="org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferInstructionsFragment"
+        android:name="org.mycrimes.insecuretests.devicetransfer.olddevice.OldDeviceTransferInstructionsFragment"
         tools:layout="@layout/old_device_transfer_instructions_fragment">
 
         <action
@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/oldDeviceTransferSetup"
-        android:name="org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferSetupFragment"
+        android:name="org.mycrimes.insecuretests.devicetransfer.olddevice.OldDeviceTransferSetupFragment"
         tools:layout="@layout/device_transfer_setup_fragment">
 
         <action
@@ -36,7 +36,7 @@
 
     <fragment
         android:id="@+id/oldDeviceTransfer"
-        android:name="org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferFragment"
+        android:name="org.mycrimes.insecuretests.devicetransfer.olddevice.OldDeviceTransferFragment"
         tools:layout="@layout/device_transfer_fragment">
 
         <action
@@ -52,7 +52,7 @@
 
     <fragment
         android:id="@+id/oldDeviceTransferComplete"
-        android:name="org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferCompleteFragment"
+        android:name="org.mycrimes.insecuretests.devicetransfer.olddevice.OldDeviceTransferCompleteFragment"
         tools:layout="@layout/old_device_transfer_complete_fragment" />
 
     <action

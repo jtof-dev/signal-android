@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.video;
+package org.mycrimes.insecuretests.video;
 
 import android.media.MediaDataSource;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.ClassicDecryptingPartInputStream;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.crypto.AttachmentSecret;
+import org.mycrimes.insecuretests.crypto.ClassicDecryptingPartInputStream;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.io.File;
 import java.io.IOException;

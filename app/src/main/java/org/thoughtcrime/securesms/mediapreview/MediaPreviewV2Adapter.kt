@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.mycrimes.insecuretests.mediapreview
 
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.adapter.StableIdGenerator
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.adapter.StableIdGenerator
 
 class MediaPreviewV2Adapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
   private var items: List<Attachment> = listOf()

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.payments;
+package org.mycrimes.insecuretests.payments;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.Arrays;
 import java.util.List;

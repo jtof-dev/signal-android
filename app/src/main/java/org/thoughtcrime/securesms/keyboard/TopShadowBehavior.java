@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard;
+package org.mycrimes.insecuretests.keyboard;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 
 @SuppressWarnings("unused")

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package org.mycrimes.insecuretests.stories.viewer.post
 
 import android.app.Activity
 import android.os.Bundle
@@ -6,16 +6,16 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner
-import org.thoughtcrime.securesms.databinding.StoriesPostFragmentBinding
-import org.thoughtcrime.securesms.mediapreview.VideoControlsDelegate
-import org.thoughtcrime.securesms.stories.viewer.page.StoryDisplay
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageViewModel
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.visible
-import org.thoughtcrime.securesms.video.VideoPlayer.PlayerCallback
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.components.voice.VoiceNoteMediaControllerOwner
+import org.mycrimes.insecuretests.databinding.StoriesPostFragmentBinding
+import org.mycrimes.insecuretests.mediapreview.VideoControlsDelegate
+import org.mycrimes.insecuretests.stories.viewer.page.StoryDisplay
+import org.mycrimes.insecuretests.stories.viewer.page.StoryViewerPageViewModel
+import org.mycrimes.insecuretests.util.fragments.requireListener
+import org.mycrimes.insecuretests.util.visible
+import org.mycrimes.insecuretests.video.VideoPlayer.PlayerCallback
 
 /**
  * Renders a given StoryPost object as a viewable story.

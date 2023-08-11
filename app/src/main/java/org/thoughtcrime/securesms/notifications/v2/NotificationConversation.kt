@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.mycrimes.insecuretests.notifications.v2
 
 import android.app.PendingIntent
 import android.content.Context
@@ -9,24 +9,24 @@ import android.text.SpannableStringBuilder
 import androidx.core.app.TaskStackBuilder
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.TurnOffContactJoinedNotificationsActivity
-import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeleteNotificationReceiver
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.notifications.RemoteReplyReceiver
-import org.thoughtcrime.securesms.notifications.ReplyMethod
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.stories.viewer.StoryViewerActivity
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.TurnOffContactJoinedNotificationsActivity
+import org.mycrimes.insecuretests.contacts.avatars.GeneratedContactPhoto
+import org.mycrimes.insecuretests.conversation.ConversationIntents
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.notifications.DeleteNotificationReceiver
+import org.mycrimes.insecuretests.notifications.MarkReadReceiver
+import org.mycrimes.insecuretests.notifications.NotificationChannels
+import org.mycrimes.insecuretests.notifications.NotificationIds
+import org.mycrimes.insecuretests.notifications.RemoteReplyReceiver
+import org.mycrimes.insecuretests.notifications.ReplyMethod
+import org.mycrimes.insecuretests.preferences.widgets.NotificationPrivacyPreference
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.service.KeyCachingService
+import org.mycrimes.insecuretests.stories.StoryViewerArgs
+import org.mycrimes.insecuretests.stories.viewer.StoryViewerActivity
+import org.mycrimes.insecuretests.util.Util
 import java.lang.NullPointerException
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.transfer;
+package org.mycrimes.insecuretests.payments.preferences.transfer;
 
 import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
@@ -7,8 +7,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.payments.MobileCoinPublicAddress;
 
 final class PaymentsTransferViewModel extends ViewModel {
 

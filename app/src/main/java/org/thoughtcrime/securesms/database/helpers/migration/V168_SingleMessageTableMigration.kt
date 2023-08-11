@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.mycrimes.insecuretests.database.helpers.migration
 
 import android.app.Application
 import net.zetetic.database.sqlcipher.SQLiteDatabase
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 
 object V168_SingleMessageTableMigration : SignalDatabaseMigration {
   private val TAG = Log.tag(V168_SingleMessageTableMigration::class.java)

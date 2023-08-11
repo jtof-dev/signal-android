@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit.pnp
+package org.mycrimes.insecuretests.profiles.edit.pnp
 
 import android.os.Bundle
 import androidx.core.content.ContextCompat
@@ -7,15 +7,15 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.databinding.WhoCanSeeMyPhoneNumberFragmentBinding
-import org.thoughtcrime.securesms.util.FeatureFlags
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.databinding.WhoCanSeeMyPhoneNumberFragmentBinding
+import org.mycrimes.insecuretests.util.FeatureFlags
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 
 /**
  * Allows the user to select who can see their phone number during registration.

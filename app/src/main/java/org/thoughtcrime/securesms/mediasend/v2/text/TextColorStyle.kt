@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.mycrimes.insecuretests.mediasend.v2.text
 
 import androidx.annotation.DrawableRes
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 enum class TextColorStyle(@DrawableRes val icon: Int) {
   /**

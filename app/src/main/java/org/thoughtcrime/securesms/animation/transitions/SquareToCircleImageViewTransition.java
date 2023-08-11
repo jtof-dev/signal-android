@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.animation.transitions;
+package org.mycrimes.insecuretests.animation.transitions;
 
 import android.annotation.TargetApi;
 import android.content.Context;

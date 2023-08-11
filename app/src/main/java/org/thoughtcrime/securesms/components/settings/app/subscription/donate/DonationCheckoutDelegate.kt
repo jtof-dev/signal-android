@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate
 
 import android.content.Context
 import android.content.DialogInterface
@@ -20,21 +20,21 @@ import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.GooglePayApi
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPaymentComponent
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.card.CreditCardFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayResponse
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewaySelectorBottomSheet
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorDialogs
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorParams
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorSource
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.subscription.DonationPaymentComponent
+import org.mycrimes.insecuretests.components.settings.app.subscription.InAppDonations
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.card.CreditCardFragment
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayRequest
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayResponse
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewaySelectorBottomSheet
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.DonationError
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.DonationErrorDialogs
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.DonationErrorParams
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.DonationErrorSource
+import org.mycrimes.insecuretests.util.fragments.requireListener
 import java.util.Currency
 
 /**

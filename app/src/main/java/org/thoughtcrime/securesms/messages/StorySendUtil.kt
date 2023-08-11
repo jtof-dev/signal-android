@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import com.google.protobuf.InvalidProtocolBufferException
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.database.model.databaseprotos.StoryTextPost
+import org.mycrimes.insecuretests.mms.OutgoingMessage
+import org.mycrimes.insecuretests.util.Base64
 import org.whispersystems.signalservice.api.messages.SignalServicePreview
 import org.whispersystems.signalservice.api.messages.SignalServiceTextAttachment
 import java.util.Optional

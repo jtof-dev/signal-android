@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.gifts.flow
+package org.mycrimes.insecuretests.badges.gifts.flow
 
 import android.graphics.Color
 import android.os.Bundle
@@ -10,14 +10,14 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import org.signal.core.util.getParcelableArrayListCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchState
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.SearchConfigurationProvider
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchState
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragment
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.SearchConfigurationProvider
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * Allows the user to select a recipient to send a gift to.

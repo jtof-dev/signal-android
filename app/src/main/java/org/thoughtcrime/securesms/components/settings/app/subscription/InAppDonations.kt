@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package org.mycrimes.insecuretests.components.settings.app.subscription
 
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalType
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.FeatureFlags
-import org.thoughtcrime.securesms.util.LocaleFeatureFlags
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonateToSignalType
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.FeatureFlags
+import org.mycrimes.insecuretests.util.LocaleFeatureFlags
 
 /**
  * Helper object to determine in-app donations availability.

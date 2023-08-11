@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:minHeight="72dp">
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+        <org.mycrimes.insecuretests.components.emoji.EmojiImageView
             android:id="@+id/notification_preference_image"
             android:layout_width="48dp"
             android:layout_height="48dp"

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.mycrimes.insecuretests.recipients;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;

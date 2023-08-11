@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.mycrimes.insecuretests.components.settings.app.changenumber
 
 import android.os.Bundle
 import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.contract.ActivityResultContracts
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
-import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
+import org.mycrimes.insecuretests.lock.v2.CreateKbsPinActivity
 
 class ChangeNumberPinDiffersFragment : LoggingFragment(R.layout.fragment_change_number_pin_differs) {
 

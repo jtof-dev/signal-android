@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package org.mycrimes.insecuretests.stories.viewer
 
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.plugins.RxJavaPlugins
@@ -19,9 +19,9 @@ import org.mockito.kotlin.mock
 import org.mockito.kotlin.never
 import org.mockito.kotlin.verify
 import org.mockito.kotlin.whenever
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.stories.StoryViewerArgs
 
 @Ignore
 class StoryViewerViewModelTest {

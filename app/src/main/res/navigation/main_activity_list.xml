@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/conversationListFragment"
-        android:name="org.thoughtcrime.securesms.conversationlist.ConversationListFragment"
+        android:name="org.mycrimes.insecuretests.conversationlist.ConversationListFragment"
         android:label="conversation_list_fragment">
         <action
             android:id="@+id/action_conversationListFragment_to_conversationListArchiveFragment"
@@ -25,12 +25,12 @@
 
     <fragment
         android:id="@+id/conversationListArchiveFragment"
-        android:name="org.thoughtcrime.securesms.conversationlist.ConversationListArchiveFragment"
+        android:name="org.mycrimes.insecuretests.conversationlist.ConversationListArchiveFragment"
         android:label="conversation_list_archive_fragment" />
 
     <fragment
         android:id="@+id/storiesLandingFragment"
-        android:name="org.thoughtcrime.securesms.stories.landing.StoriesLandingFragment"
+        android:name="org.mycrimes.insecuretests.stories.landing.StoriesLandingFragment"
         android:label="stories_landing_fragment">
         <action
             android:id="@+id/action_storiesLandingFragment_to_callLogFragment"
@@ -39,7 +39,7 @@
 
     <fragment
         android:id="@+id/callLogFragment"
-        android:name="org.thoughtcrime.securesms.calls.log.CallLogFragment"
+        android:name="org.mycrimes.insecuretests.calls.log.CallLogFragment"
         android:label="call_log_fragment">
         <action
             android:id="@+id/action_callLogFragment_to_storiesLandingFragment"
@@ -51,7 +51,7 @@
 
     <dialog
         android:id="@+id/createCallLinkBottomSheet"
-        android:name="org.thoughtcrime.securesms.calls.links.create.CreateCallLinkBottomSheetDialogFragment"
+        android:name="org.mycrimes.insecuretests.calls.links.create.CreateCallLinkBottomSheetDialogFragment"
         android:label="create_call_link_bottom_sheet">
         <action
             android:id="@+id/action_createCallLinkBottomSheet_to_editCallLinkNameDialogFragment"
@@ -60,7 +60,7 @@
 
     <dialog
         android:id="@+id/editCallLinkNameDialogFragment"
-        android:name="org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment"
+        android:name="org.mycrimes.insecuretests.calls.links.EditCallLinkNameDialogFragment"
         android:label="edit_call_link_name_fragment">
         <argument
             android:name="name"

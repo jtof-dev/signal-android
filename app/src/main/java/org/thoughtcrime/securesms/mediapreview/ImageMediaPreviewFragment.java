@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview;
+package org.mycrimes.insecuretests.mediapreview;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,12 +9,12 @@ import android.view.ViewGroup;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ZoomingImageView;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.ZoomingImageView;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.mms.GlideRequests;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.util.MediaUtil;
 
 public final class ImageMediaPreviewFragment extends MediaPreviewFragment {
   private MediaPreviewPlayerControlView bottomBarControlView;

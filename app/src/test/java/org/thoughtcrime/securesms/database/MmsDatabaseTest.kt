@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.app.Application
 import android.database.sqlite.SQLiteDatabase
@@ -12,9 +12,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.testing.TestDatabaseUtil
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.database.model.StoryViewState
+import org.mycrimes.insecuretests.testing.TestDatabaseUtil
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

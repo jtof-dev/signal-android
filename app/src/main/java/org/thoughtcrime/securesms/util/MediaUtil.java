@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -23,24 +23,24 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.gif.GifDrawable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.DocumentSlide;
-import org.thoughtcrime.securesms.mms.GifSlide;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.MmsSlide;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.StickerSlide;
-import org.thoughtcrime.securesms.mms.TextSlide;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.mms.ViewOnceSlide;
-import org.thoughtcrime.securesms.providers.BlobProvider;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.mediasend.Media;
+import org.mycrimes.insecuretests.mms.AudioSlide;
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.mycrimes.insecuretests.mms.DocumentSlide;
+import org.mycrimes.insecuretests.mms.GifSlide;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.mms.ImageSlide;
+import org.mycrimes.insecuretests.mms.MmsSlide;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.mms.Slide;
+import org.mycrimes.insecuretests.mms.StickerSlide;
+import org.mycrimes.insecuretests.mms.TextSlide;
+import org.mycrimes.insecuretests.mms.VideoSlide;
+import org.mycrimes.insecuretests.mms.ViewOnceSlide;
+import org.mycrimes.insecuretests.providers.BlobProvider;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package org.mycrimes.insecuretests.components.settings.app.privacy.expire
 
 import android.app.Activity
 import android.content.Intent
@@ -8,20 +8,20 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.NavHostFragment
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.groups.ui.GroupErrors
-import org.thoughtcrime.securesms.util.ExpirationUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.livedata.ProcessState
-import org.thoughtcrime.securesms.util.livedata.distinctUntilChanged
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason
+import org.mycrimes.insecuretests.groups.ui.GroupErrors
+import org.mycrimes.insecuretests.util.ExpirationUtil
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.livedata.ProcessState
+import org.mycrimes.insecuretests.util.livedata.distinctUntilChanged
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
 
 /**
  * Depending on the arguments, can be used to set the universal expire timer, set expire timer

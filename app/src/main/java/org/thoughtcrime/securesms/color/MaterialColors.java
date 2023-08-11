@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.color;
+package org.mycrimes.insecuretests.color;
 
 import android.content.Context;
 

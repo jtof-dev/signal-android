@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.mycrimes.insecuretests.jobmanager;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,8 +6,8 @@ import androidx.annotation.Nullable;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.JsonUtils;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

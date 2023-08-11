@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.mycrimes.insecuretests.keyvalue
 
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.recipients.Recipient
 
 data class StorySend(
   val timestamp: Long,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.mycrimes.insecuretests.preferences;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,13 +10,13 @@ import androidx.preference.Preference;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
-import org.thoughtcrime.securesms.payments.backup.PaymentsRecoveryStartFragmentArgs;
-import org.thoughtcrime.securesms.payments.preferences.PaymentsActivity;
-import org.thoughtcrime.securesms.pin.PinOptOutDialog;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.lock.v2.CreateKbsPinActivity;
+import org.mycrimes.insecuretests.payments.backup.PaymentsRecoveryStartFragmentArgs;
+import org.mycrimes.insecuretests.payments.preferences.PaymentsActivity;
+import org.mycrimes.insecuretests.pin.PinOptOutDialog;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 public class AdvancedPinPreferenceFragment extends ListSummaryPreferenceFragment {
 

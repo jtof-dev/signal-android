@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package org.mycrimes.insecuretests.glide;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,9 +9,9 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.net.ContentProxySelector;
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor;
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
+import org.mycrimes.insecuretests.net.ContentProxySelector;
+import org.mycrimes.insecuretests.net.StandardUserAgentInterceptor;
+import org.mycrimes.insecuretests.push.SignalServiceNetworkAccess;
 
 import java.io.InputStream;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles.stickers
+package org.mycrimes.insecuretests.scribbles.stickers
 
 /**
  * Types of feature rich stickers for the image editor

@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package org.mycrimes.insecuretests.components.settings.app.subscription.receipts.list
 
 import android.view.View
 import android.widget.TextView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.database.model.DonationReceiptRecord
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.BadgeImageView
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.database.model.DonationReceiptRecord
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 import java.util.Locale
 
 object DonationReceiptListItem {

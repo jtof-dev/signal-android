@@ -38,7 +38,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/payments_add_money_toolbar">
 
-            <org.thoughtcrime.securesms.components.qr.QrView
+            <org.mycrimes.insecuretests.components.qr.QrView
                 android:id="@+id/payments_add_money_qr_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
 
         </LinearLayout>
 
-        <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+        <org.mycrimes.insecuretests.util.views.LearnMoreTextView
             android:id="@+id/payments_add_money_info"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

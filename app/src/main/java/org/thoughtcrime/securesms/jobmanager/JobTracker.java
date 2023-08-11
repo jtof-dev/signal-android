@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.mycrimes.insecuretests.jobmanager;
 
 import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.util.LRUCache;
+import org.mycrimes.insecuretests.util.LRUCache;
 
 import java.util.ArrayList;
 import java.util.Collection;

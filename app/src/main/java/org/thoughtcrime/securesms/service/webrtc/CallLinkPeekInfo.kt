@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package org.mycrimes.insecuretests.service.webrtc
 
 import org.signal.ringrtc.CallId
 import org.signal.ringrtc.PeekInfo

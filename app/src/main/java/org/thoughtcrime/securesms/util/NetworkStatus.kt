@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 /**
  * Information about the current network status by our best guess. This information

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.mycrimes.insecuretests.logsubmit;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -26,15 +26,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ProgressCard;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.LongClickCopySpan;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.mycrimes.insecuretests.BaseActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.ProgressCard;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.LongClickCopySpan;
+import org.mycrimes.insecuretests.util.LongClickMovementMethod;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton;
 
 import java.util.List;
 

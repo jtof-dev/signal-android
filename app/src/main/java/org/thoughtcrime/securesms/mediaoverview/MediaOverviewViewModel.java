@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediaoverview;
+package org.mycrimes.insecuretests.mediaoverview;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
@@ -9,7 +9,7 @@ import androidx.lifecycle.SavedStateViewModelFactory;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.database.MediaTable.Sorting;
+import org.mycrimes.insecuretests.database.MediaTable.Sorting;
 
 public class MediaOverviewViewModel extends ViewModel {
 

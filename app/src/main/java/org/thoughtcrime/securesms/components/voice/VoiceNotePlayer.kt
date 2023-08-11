@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package org.mycrimes.insecuretests.components.voice
 
 import android.content.Context
 import com.google.android.exoplayer2.C
@@ -8,7 +8,7 @@ import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.ForwardingPlayer
 import com.google.android.exoplayer2.audio.AudioAttributes
 import com.google.android.exoplayer2.audio.AudioSink
-import org.thoughtcrime.securesms.video.exo.SignalMediaSourceFactory
+import org.mycrimes.insecuretests.video.exo.SignalMediaSourceFactory
 
 class VoiceNotePlayer @JvmOverloads constructor(
   context: Context,

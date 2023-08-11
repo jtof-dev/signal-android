@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.profiles.username
+package org.mycrimes.insecuretests.profiles.username
 
 import android.os.Bundle
 import androidx.navigation.fragment.NavHostFragment
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.profiles.manage.UsernameEditFragmentArgs
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import org.mycrimes.insecuretests.BaseActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.profiles.manage.UsernameEditFragmentArgs
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme
+import org.mycrimes.insecuretests.util.DynamicTheme
 
 class AddAUsernameActivity : BaseActivity() {
   private val dynamicTheme: DynamicTheme = DynamicNoActionBarTheme()

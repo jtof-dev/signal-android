@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.groups;
+package org.mycrimes.insecuretests.groups;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.Collections;
 import java.util.List;

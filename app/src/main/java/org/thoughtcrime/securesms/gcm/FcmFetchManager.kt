@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.gcm
+package org.mycrimes.insecuretests.gcm
 
 import android.content.Context
 import android.content.Intent
 import android.os.Build
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil
-import org.thoughtcrime.securesms.jobs.PushNotificationReceiveJob
-import org.thoughtcrime.securesms.messages.WebSocketStrategy
-import org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.ForegroundServiceUtil
+import org.mycrimes.insecuretests.jobs.PushNotificationReceiveJob
+import org.mycrimes.insecuretests.messages.WebSocketStrategy
+import org.mycrimes.insecuretests.util.concurrent.SerialMonoLifoExecutor
 
 /**
  * Our goals with FCM processing are as follows:

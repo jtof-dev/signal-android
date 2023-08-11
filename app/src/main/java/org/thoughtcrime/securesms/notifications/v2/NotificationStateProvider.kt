@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.mycrimes.insecuretests.notifications.v2
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.NoSuchMessageException
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.isStoryReaction
+import org.mycrimes.insecuretests.database.MessageTable
+import org.mycrimes.insecuretests.database.NoSuchMessageException
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord
+import org.mycrimes.insecuretests.database.model.MessageId
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.database.model.ReactionRecord
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.notifications.profiles.NotificationProfile
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.isStoryReaction
 
 /**
  * Queries the message databases to determine messages that should be in notifications.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.gifts.flow
+package org.mycrimes.insecuretests.badges.gifts.flow
 
 import android.view.KeyEvent
 import android.widget.FrameLayout
@@ -14,31 +14,31 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.subjects.PublishSubject
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.InputAwareLayout
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationCheckoutDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationProcessorAction
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorSource
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.RecipientPreference
-import org.thoughtcrime.securesms.components.settings.models.TextInput
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.keyboard.KeyboardPage
-import org.thoughtcrime.securesms.keyboard.KeyboardPagerViewModel
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.MainActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.InputAwareLayout
+import org.mycrimes.insecuretests.components.emoji.EmojiEventListener
+import org.mycrimes.insecuretests.components.emoji.MediaKeyboard
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonateToSignalType
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationCheckoutDelegate
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationProcessorAction
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayRequest
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.DonationErrorSource
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.components.settings.conversation.preferences.RecipientPreference
+import org.mycrimes.insecuretests.components.settings.models.TextInput
+import org.mycrimes.insecuretests.conversation.ConversationIntents
+import org.mycrimes.insecuretests.keyboard.KeyboardPage
+import org.mycrimes.insecuretests.keyboard.KeyboardPagerViewModel
+import org.mycrimes.insecuretests.keyboard.emoji.EmojiKeyboardPageFragment
+import org.mycrimes.insecuretests.keyboard.emoji.search.EmojiSearchFragment
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil
+import org.mycrimes.insecuretests.util.Debouncer
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * Allows the user to confirm details about a gift, add a message, and finally make a payment.

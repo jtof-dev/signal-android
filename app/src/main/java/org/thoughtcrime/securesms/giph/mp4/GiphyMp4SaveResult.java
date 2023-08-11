@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.mycrimes.insecuretests.giph.mp4;
 
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
+import org.mycrimes.insecuretests.giph.model.GiphyImage;
 
 /**
  * Encapsulates the result of downloading a Giphy MP4 or GIF for

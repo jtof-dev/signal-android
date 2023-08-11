@@ -235,7 +235,7 @@
                 android:textColor="@color/notification_profile_schedule_text_selector"
                 tools:text="@string/EditNotificationProfileSchedule__saturday_first_letter" />
 
-            <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+            <org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
                 android:id="@+id/edit_notification_profile_schedule__next"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

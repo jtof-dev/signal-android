@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase
-import org.thoughtcrime.securesms.database.model.LocalMetricsEvent
-import org.thoughtcrime.securesms.database.model.LocalMetricsSplit
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.database.LocalMetricsDatabase
+import org.mycrimes.insecuretests.database.model.LocalMetricsEvent
+import org.mycrimes.insecuretests.database.model.LocalMetricsSplit
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
 import java.util.concurrent.Executor
 
 /**

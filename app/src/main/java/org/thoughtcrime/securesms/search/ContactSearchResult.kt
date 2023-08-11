@@ -1,5 +1,5 @@
-package org.thoughtcrime.securesms.search
+package org.mycrimes.insecuretests.search
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.Recipient
 
 data class ContactSearchResult(val results: List<Recipient>, val query: String)

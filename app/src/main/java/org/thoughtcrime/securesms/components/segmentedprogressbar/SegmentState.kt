@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.segmentedprogressbar
+package org.mycrimes.insecuretests.components.segmentedprogressbar
 
 data class SegmentState(
   val position: Long,

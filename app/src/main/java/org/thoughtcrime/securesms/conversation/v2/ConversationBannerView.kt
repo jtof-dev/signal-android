@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import android.content.Context
 import android.text.SpannableStringBuilder
@@ -18,21 +18,21 @@ import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.core.transition.addListener
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.identity.UnverifiedBannerView
-import org.thoughtcrime.securesms.components.reminder.Reminder
-import org.thoughtcrime.securesms.components.reminder.ReminderView
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.spoofing.ReviewBannerView
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.IdentityUtil
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.views.Stub
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.identity.UnverifiedBannerView
+import org.mycrimes.insecuretests.components.reminder.Reminder
+import org.mycrimes.insecuretests.components.reminder.ReminderView
+import org.mycrimes.insecuretests.database.identity.IdentityRecordList
+import org.mycrimes.insecuretests.database.model.IdentityRecord
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.profiles.spoofing.ReviewBannerView
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.ContextUtil
+import org.mycrimes.insecuretests.util.IdentityUtil
+import org.mycrimes.insecuretests.util.SpanUtil
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.views.Stub
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Responsible for showing the various "banner" views at the top of a conversation

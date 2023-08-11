@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package org.mycrimes.insecuretests.conversation.v2.groups
 
-import org.thoughtcrime.securesms.database.GroupTable
+import org.mycrimes.insecuretests.database.GroupTable
 
 /**
  * @param groupTableMemberLevel Self membership level

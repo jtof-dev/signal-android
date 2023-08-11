@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.badges.gifts
+package org.mycrimes.insecuretests.badges.gifts
 
 import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.badges.gifts.ExpiredGiftSheetConfiguration.forExpiredBadge
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import org.mycrimes.insecuretests.badges.gifts.ExpiredGiftSheetConfiguration.forExpiredBadge
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.components.settings.DSLSettingsAdapter
+import org.mycrimes.insecuretests.components.settings.DSLSettingsBottomSheetFragment
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.util.BottomSheetUtil
+import org.mycrimes.insecuretests.util.fragments.requireListener
 
 /**
  * Displays expired gift information and gives the user the option to start a recurring monthly donation.

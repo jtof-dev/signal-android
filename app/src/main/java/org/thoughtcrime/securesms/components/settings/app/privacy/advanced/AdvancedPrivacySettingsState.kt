@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.advanced
+package org.mycrimes.insecuretests.components.settings.app.privacy.advanced
 
 data class AdvancedPrivacySettingsState(
   val isPushEnabled: Boolean,

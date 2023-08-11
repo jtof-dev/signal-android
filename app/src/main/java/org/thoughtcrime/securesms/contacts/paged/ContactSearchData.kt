@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 import android.os.Bundle
 import androidx.annotation.VisibleForTesting
-import org.thoughtcrime.securesms.contacts.HeaderAction
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.ThreadRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.search.MessageResult
+import org.mycrimes.insecuretests.contacts.HeaderAction
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyMode
+import org.mycrimes.insecuretests.database.model.GroupRecord
+import org.mycrimes.insecuretests.database.model.ThreadRecord
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.search.MessageResult
 
 /**
  * Represents the data backed by a ContactSearchKey

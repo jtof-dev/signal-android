@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.stories.settings.create
+package org.mycrimes.insecuretests.stories.settings.create
 
 import androidx.navigation.fragment.findNavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.settings.select.BaseStoryRecipientSelectionFragment
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.stories.settings.select.BaseStoryRecipientSelectionFragment
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * Allows user to select who will see the story they are creating

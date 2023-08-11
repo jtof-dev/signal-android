@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone;
+package org.mycrimes.insecuretests.megaphone;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,13 +16,13 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.InviteActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.databinding.OnboardingMegaphoneCardBinding;
-import org.thoughtcrime.securesms.groups.ui.creategroup.CreateGroupActivity;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.profiles.manage.ManageProfileActivity;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperActivity;
+import org.mycrimes.insecuretests.InviteActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.databinding.OnboardingMegaphoneCardBinding;
+import org.mycrimes.insecuretests.groups.ui.creategroup.CreateGroupActivity;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.profiles.manage.ManageProfileActivity;
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaperActivity;
 
 import java.util.ArrayList;
 import java.util.List;

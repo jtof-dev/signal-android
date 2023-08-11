@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;
@@ -28,7 +28,7 @@ import kotlin.jvm.functions.Function2;
  * fill the bounds with a gradient.
  *
  * If you wish to apply clipping to this drawable, it is recommended to either use it with
- * a MaterialCardView or utilize {@link org.thoughtcrime.securesms.util.CustomDrawWrapperKt#customizeOnDraw(Drawable, Function2)}
+ * a MaterialCardView or utilize {@link org.mycrimes.insecuretests.util.CustomDrawWrapperKt#customizeOnDraw(Drawable, Function2)}
  */
 public final class RotatableGradientDrawable extends Drawable {
 

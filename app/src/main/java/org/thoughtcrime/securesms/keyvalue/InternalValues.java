@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import androidx.annotation.NonNull;
 
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.util.Environment;
-import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.util.Environment;
+import org.mycrimes.insecuretests.util.FeatureFlags;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -73,7 +73,7 @@ public final class InternalValues extends SignalStoreValues {
   }
 
   /**
-   * Show detailed recipient info in the {@link org.thoughtcrime.securesms.components.settings.conversation.InternalConversationSettingsFragment}.
+   * Show detailed recipient info in the {@link org.mycrimes.insecuretests.components.settings.conversation.InternalConversationSettingsFragment}.
    */
   public synchronized boolean recipientDetails() {
     return FeatureFlags.internalUser() && getBoolean(RECIPIENT_DETAILS, true);

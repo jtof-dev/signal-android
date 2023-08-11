@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -23,8 +23,8 @@ import android.content.ServiceConnection;
 import android.os.IBinder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import org.mycrimes.insecuretests.crypto.MasterSecret;
+import org.mycrimes.insecuretests.service.KeyCachingService;
 
 
 /**

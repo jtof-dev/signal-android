@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -12,15 +12,15 @@ import androidx.annotation.Nullable;
 import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.database.model.IncomingSticker;
-import org.thoughtcrime.securesms.database.model.StickerPackRecord;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.stickers.BlessedPacks;
-import org.thoughtcrime.securesms.stickers.StickerPackInstallEvent;
+import org.mycrimes.insecuretests.crypto.AttachmentSecret;
+import org.mycrimes.insecuretests.crypto.ModernDecryptingPartInputStream;
+import org.mycrimes.insecuretests.crypto.ModernEncryptingPartOutputStream;
+import org.mycrimes.insecuretests.database.model.IncomingSticker;
+import org.mycrimes.insecuretests.database.model.StickerPackRecord;
+import org.mycrimes.insecuretests.database.model.StickerRecord;
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.mycrimes.insecuretests.stickers.BlessedPacks;
+import org.mycrimes.insecuretests.stickers.StickerPackInstallEvent;
 import org.signal.core.util.CursorUtil;
 import org.signal.core.util.SqlUtil;
 

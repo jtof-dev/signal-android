@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.util.viewholders;
+package org.mycrimes.insecuretests.util.viewholders;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel;
 
 import java.util.Objects;
 

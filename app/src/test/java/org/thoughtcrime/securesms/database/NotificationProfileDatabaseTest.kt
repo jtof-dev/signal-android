@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.app.Application
 import android.database.sqlite.SQLiteDatabase
@@ -14,12 +14,12 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.dependencies.MockApplicationDependencyProvider
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.TestDatabaseUtil
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.dependencies.MockApplicationDependencyProvider
+import org.mycrimes.insecuretests.notifications.profiles.NotificationProfile
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.testing.TestDatabaseUtil
 import java.time.DayOfWeek
 
 @RunWith(RobolectricTestRunner::class)

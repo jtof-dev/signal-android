@@ -10,7 +10,7 @@
     android:background="@drawable/selectable_list_item_background"
     android:minHeight="64dp">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/safety_number_recipient_avatar"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -32,7 +32,7 @@
         app:srcCompat="@drawable/ic_more_vert_24"
         app:tint="@color/signal_colorOnSurfaceVariant" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/safety_number_recipient_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

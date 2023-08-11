@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.appearance
+package org.mycrimes.insecuretests.components.settings.app.appearance
 
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
+import org.mycrimes.insecuretests.keyvalue.SettingsValues
 
 data class AppearanceSettingsState(
   val theme: SettingsValues.Theme,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration;
+package org.mycrimes.insecuretests.components.registration;
 
 
 import android.animation.Animator;
@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
+import org.mycrimes.insecuretests.animation.AnimationCompleteListener;
 
 public class PulsingFloatingActionButton extends FloatingActionButton {
 

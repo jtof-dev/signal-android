@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice;
+package org.mycrimes.insecuretests.components.voice;
 
 import android.support.v4.media.MediaDescriptionCompat;
 import android.support.v4.media.session.MediaSessionCompat;

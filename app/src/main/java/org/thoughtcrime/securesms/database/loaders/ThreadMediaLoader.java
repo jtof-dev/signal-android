@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.mycrimes.insecuretests.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.MediaTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
 
 public final class ThreadMediaLoader extends MediaLoader {
 

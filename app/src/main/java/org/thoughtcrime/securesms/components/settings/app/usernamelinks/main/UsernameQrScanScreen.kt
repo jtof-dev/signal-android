@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package org.mycrimes.insecuretests.components.settings.app.usernamelinks.main
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -29,9 +29,9 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import org.signal.core.ui.Dialogs
 import org.signal.qr.QrScannerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXModelBlocklist
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.mediasend.camerax.CameraXModelBlocklist
+import org.mycrimes.insecuretests.util.CommunicationActions
 
 /**
  * A screen that allows you to scan a QR code to start a chat.

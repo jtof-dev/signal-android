@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.stories.settings.group
+package org.mycrimes.insecuretests.stories.settings.group
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Single
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.LiveGroup
-import org.thoughtcrime.securesms.groups.ParcelableGroupId
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.groups.LiveGroup
+import org.mycrimes.insecuretests.groups.ParcelableGroupId
+import org.mycrimes.insecuretests.util.livedata.Store
 
 /**
  * This class utilizes LiveData due to pre-existing infrastructure in LiveGroup

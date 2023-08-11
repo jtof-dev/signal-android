@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package org.mycrimes.insecuretests.stories
 
 import android.content.Context
 import android.os.Bundle
@@ -9,13 +9,13 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.blurhash.BlurHash
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Displays loading / error slate in Story viewer.

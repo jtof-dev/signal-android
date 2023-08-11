@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="@+id/welcome_continue_button"
         app:layout_constraintStart_toStartOf="@+id/welcome_continue_button" />
 
-    <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+    <org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
         android:id="@+id/welcome_continue_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

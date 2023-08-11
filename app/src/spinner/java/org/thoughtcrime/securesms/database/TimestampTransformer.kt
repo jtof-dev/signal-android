@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.database.Cursor
 import org.signal.core.util.requireLong
 import org.signal.spinner.ColumnTransformer
 import org.signal.spinner.DefaultColumnTransformer
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toMillis
+import org.mycrimes.insecuretests.util.toLocalDateTime
+import org.mycrimes.insecuretests.util.toMillis
 import java.time.LocalDateTime
 
 object TimestampTransformer : ColumnTransformer {

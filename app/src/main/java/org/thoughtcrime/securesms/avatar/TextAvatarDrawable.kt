@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar
+package org.mycrimes.insecuretests.avatar
 
 import android.content.Context
 import android.graphics.Canvas
@@ -11,7 +11,7 @@ import android.text.SpannableString
 import android.text.StaticLayout
 import android.text.TextPaint
 import androidx.core.graphics.withTranslation
-import org.thoughtcrime.securesms.components.emoji.EmojiProvider
+import org.mycrimes.insecuretests.components.emoji.EmojiProvider
 
 class TextAvatarDrawable(
   private val context: Context,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.insights;
+package org.mycrimes.insecuretests.insights;
 
 final class InsightsData {
   private final boolean hasEnoughData;

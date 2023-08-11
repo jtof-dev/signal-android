@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.first
+package org.mycrimes.insecuretests.stories.viewer.first
 
 import android.app.Dialog
 import android.graphics.Color
@@ -11,11 +11,11 @@ import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.viewModels
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.stories.StoryFirstTimeNavigationView
-import org.thoughtcrime.securesms.stories.viewer.StoryViewerState
-import org.thoughtcrime.securesms.stories.viewer.StoryViewerViewModel
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.stories.StoryFirstTimeNavigationView
+import org.mycrimes.insecuretests.stories.viewer.StoryViewerState
+import org.mycrimes.insecuretests.stories.viewer.StoryViewerViewModel
 
 class StoryFirstTimeNavigationFragment : DialogFragment(R.layout.story_viewer_first_time_navigation_stub), StoryFirstTimeNavigationView.Callback {
 

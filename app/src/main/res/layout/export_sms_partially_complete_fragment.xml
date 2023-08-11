@@ -186,7 +186,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/bullet_2_barrier" />
 
-            <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+            <org.mycrimes.insecuretests.util.views.LearnMoreTextView
                 android:id="@+id/bullet_3_text"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

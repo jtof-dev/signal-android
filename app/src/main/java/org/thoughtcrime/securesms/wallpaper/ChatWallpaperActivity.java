@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.mycrimes.insecuretests.wallpaper;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,11 +10,11 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavGraph;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.mycrimes.insecuretests.PassphraseRequiredActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
 
 public final class ChatWallpaperActivity extends PassphraseRequiredActivity {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model
+package org.mycrimes.insecuretests.database.model
 
 import com.google.protobuf.ByteString
 import org.hamcrest.MatcherAssert.assertThat
@@ -6,9 +6,9 @@ import org.hamcrest.Matchers.`is`
 import org.junit.Test
 import org.mockito.kotlin.doReturn
 import org.mockito.kotlin.mock
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.groups.v2.ChangeBuilder
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.database.model.databaseprotos.DecryptedGroupV2Context
+import org.mycrimes.insecuretests.groups.v2.ChangeBuilder
+import org.mycrimes.insecuretests.util.Base64
 import org.whispersystems.signalservice.api.util.UuidUtil
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos
 import java.util.Random

@@ -13,7 +13,7 @@
         android:background="?mediaKeyboardBackgroundColor"
         app:elevation="0dp">
 
-        <org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
+        <org.mycrimes.insecuretests.keyboard.emoji.KeyboardPageSearchView
             android:id="@+id/gif_keyboard_search_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

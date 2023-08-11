@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.content.Context
 import android.database.Cursor
@@ -11,8 +11,8 @@ import org.signal.core.util.requireString
 import org.signal.core.util.select
 import org.signal.core.util.withinTransaction
 import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.DistributionId
 
 /**

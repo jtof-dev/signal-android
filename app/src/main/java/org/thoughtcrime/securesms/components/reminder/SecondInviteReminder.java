@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.mycrimes.insecuretests.components.reminder;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 public final class SecondInviteReminder extends Reminder {
 

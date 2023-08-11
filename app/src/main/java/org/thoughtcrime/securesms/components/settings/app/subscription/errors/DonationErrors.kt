@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package org.mycrimes.insecuretests.components.settings.app.subscription.errors
 
 import androidx.annotation.StringRes
 import org.signal.donations.StripeDeclineCode
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 @StringRes
 fun StripeDeclineCode.mapToErrorStringResource(): Int {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.mycrimes.insecuretests.video.exo;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,8 +11,8 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.upstream.TransferListener;
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.net.ChunkedDataFetcher;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.net.ChunkedDataFetcher;
 
 import java.io.EOFException;
 import java.io.IOException;

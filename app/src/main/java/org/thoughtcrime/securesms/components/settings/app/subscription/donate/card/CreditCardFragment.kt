@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.card
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.card
 
 import android.content.Context
 import android.os.Bundle
@@ -17,22 +17,22 @@ import androidx.navigation.fragment.navArgs
 import androidx.navigation.navGraphViewModels
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPaymentComponent
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationCheckoutDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationProcessorAction
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationProcessorActionResult
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorSource
-import org.thoughtcrime.securesms.databinding.CreditCardFragmentBinding
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.components.settings.app.subscription.DonationPaymentComponent
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonateToSignalType
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationCheckoutDelegate
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationProcessorAction
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationProcessorActionResult
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
+import org.mycrimes.insecuretests.components.settings.app.subscription.errors.DonationErrorSource
+import org.mycrimes.insecuretests.databinding.CreditCardFragmentBinding
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil
+import org.mycrimes.insecuretests.util.TextSecurePreferences
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.fragments.requireListener
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 class CreditCardFragment : Fragment(R.layout.credit_card_fragment) {
 

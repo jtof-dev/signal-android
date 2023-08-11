@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package org.mycrimes.insecuretests.keyboard.sticker
 
 import android.content.Context
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.StickerRecord
-import org.thoughtcrime.securesms.glide.cache.ApngOptions
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri
-import org.thoughtcrime.securesms.mms.GlideRequests
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.model.StickerRecord
+import org.mycrimes.insecuretests.glide.cache.ApngOptions
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader.DecryptableUri
+import org.mycrimes.insecuretests.mms.GlideRequests
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 
 class KeyboardStickerListAdapter(
   private val glideRequests: GlideRequests,

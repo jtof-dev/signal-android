@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -28,23 +28,23 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.RequestOptions;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.blurhash.BlurHash;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.GlideRequest;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.stories.StoryTextPostModel;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.blurhash.BlurHash;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.mycrimes.insecuretests.mms.GlideRequest;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.mms.ImageSlide;
+import org.mycrimes.insecuretests.mms.Slide;
+import org.mycrimes.insecuretests.mms.SlideClickListener;
+import org.mycrimes.insecuretests.mms.SlidesClickedListener;
+import org.mycrimes.insecuretests.mms.VideoSlide;
+import org.mycrimes.insecuretests.stories.StoryTextPostModel;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.concurrent.ListenableFuture;
+import org.mycrimes.insecuretests.util.concurrent.SettableFuture;
+import org.mycrimes.insecuretests.util.views.Stub;
 
 import java.util.Collections;
 import java.util.Locale;

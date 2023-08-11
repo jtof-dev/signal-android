@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messageprocessingalarm;
+package org.mycrimes.insecuretests.messageprocessingalarm;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -15,10 +15,10 @@ import androidx.annotation.NonNull;
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JobTracker;
-import org.thoughtcrime.securesms.jobs.PushNotificationReceiveJob;
-import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.JobTracker;
+import org.mycrimes.insecuretests.jobs.PushNotificationReceiveJob;
+import org.mycrimes.insecuretests.util.FeatureFlags;
 
 import java.util.Locale;
 import java.util.Optional;
@@ -30,7 +30,7 @@ public final class MessageProcessReceiver extends BroadcastReceiver {
 
   private static final String TAG = Log.tag(MessageProcessReceiver.class);
 
-  public static final String BROADCAST_ACTION = "org.thoughtcrime.securesms.action.PROCESS_MESSAGES";
+  public static final String BROADCAST_ACTION = "org.mycrimes.insecuretests.action.PROCESS_MESSAGES";
 
   @Override
   @SuppressLint("StaticFieldLeak")

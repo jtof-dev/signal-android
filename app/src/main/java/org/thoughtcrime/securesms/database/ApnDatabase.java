@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -25,8 +25,8 @@ import android.text.TextUtils;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.mms.LegacyMmsConnection.Apn;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.mms.LegacyMmsConnection.Apn;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.io.File;
 import java.io.FileOutputStream;

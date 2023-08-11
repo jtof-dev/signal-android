@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package org.mycrimes.insecuretests.components.settings.app.subscription.receipts.list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.SectionHeaderPreference
-import org.thoughtcrime.securesms.components.settings.SectionHeaderPreferenceViewHolder
-import org.thoughtcrime.securesms.components.settings.TextPreference
-import org.thoughtcrime.securesms.components.settings.TextPreferenceViewHolder
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.toLocalDateTime
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.SectionHeaderPreference
+import org.mycrimes.insecuretests.components.settings.SectionHeaderPreferenceViewHolder
+import org.mycrimes.insecuretests.components.settings.TextPreference
+import org.mycrimes.insecuretests.components.settings.TextPreferenceViewHolder
+import org.mycrimes.insecuretests.util.StickyHeaderDecoration
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.toLocalDateTime
 
 class DonationReceiptListAdapter(onModelClick: (DonationReceiptListItem.Model) -> Unit) : MappingAdapter(), StickyHeaderDecoration.StickyHeaderAdapter<SectionHeaderPreferenceViewHolder> {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.keyboard
+package org.mycrimes.insecuretests.conversation.v2.keyboard
 
 import android.Manifest
 import android.os.Bundle
@@ -15,14 +15,14 @@ import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.AttachmentKeyboard
-import org.thoughtcrime.securesms.conversation.AttachmentKeyboardButton
-import org.thoughtcrime.securesms.conversation.v2.ConversationViewModel
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.util.ViewModelFactory
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.conversation.AttachmentKeyboard
+import org.mycrimes.insecuretests.conversation.AttachmentKeyboardButton
+import org.mycrimes.insecuretests.conversation.v2.ConversationViewModel
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.permissions.Permissions
+import org.mycrimes.insecuretests.util.ViewModelFactory
 
 /**
  * Fragment wrapped version of [AttachmentKeyboard] to help encapsulate logic the view

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.my
+package org.mycrimes.insecuretests.stories.my
 
 import android.net.Uri
 import android.view.View
@@ -7,24 +7,24 @@ import androidx.core.app.ActivityOptionsCompat
 import androidx.core.view.ViewCompat
 import androidx.fragment.app.viewModels
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.stories.dialogs.StoryContextMenu
-import org.thoughtcrime.securesms.stories.dialogs.StoryDialogs
-import org.thoughtcrime.securesms.stories.viewer.StoryViewerActivity
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragment
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.safety.SafetyNumberBottomSheet
+import org.mycrimes.insecuretests.stories.StoryTextPostModel
+import org.mycrimes.insecuretests.stories.StoryViewerArgs
+import org.mycrimes.insecuretests.stories.dialogs.StoryContextMenu
+import org.mycrimes.insecuretests.stories.dialogs.StoryDialogs
+import org.mycrimes.insecuretests.stories.viewer.StoryViewerActivity
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.visible
 
 class MyStoriesFragment : DSLSettingsFragment(
   layoutId = R.layout.stories_my_stories_fragment,

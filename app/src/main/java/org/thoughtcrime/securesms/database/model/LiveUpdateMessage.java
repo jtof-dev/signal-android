@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -18,13 +18,13 @@ import androidx.lifecycle.Transformations;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.ContextUtil;
+import org.mycrimes.insecuretests.util.SpanUtil;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.function.Function;

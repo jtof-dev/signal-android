@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links
+package org.mycrimes.insecuretests.calls.links
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -36,14 +36,14 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.Buttons
 import org.signal.core.ui.theme.SignalTheme
 import org.signal.ringrtc.CallLinkRootKey
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorPair
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor
+import org.mycrimes.insecuretests.conversation.colors.AvatarColorPair
+import org.mycrimes.insecuretests.database.CallLinkTable
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.service.webrtc.links.CallLinkCredentials
+import org.mycrimes.insecuretests.service.webrtc.links.CallLinkRoomId
+import org.mycrimes.insecuretests.service.webrtc.links.SignalCallLinkState
 import java.time.Instant
 
 @Preview

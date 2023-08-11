@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.pin;
+package org.mycrimes.insecuretests.pin;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.KbsConstants;
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.lock.v2.KbsConstants;
+import org.mycrimes.insecuretests.lock.v2.PinKeyboardType;
+import org.mycrimes.insecuretests.util.DefaultValueLiveData;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
 
 public class PinRestoreViewModel extends ViewModel {
 

@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.conversation.permissions
+package org.mycrimes.insecuretests.components.settings.conversation.permissions
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.groups.GroupAccessControl
-import org.thoughtcrime.securesms.groups.GroupChangeException
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupManager
-import org.thoughtcrime.securesms.groups.ui.GroupChangeErrorCallback
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
+import org.mycrimes.insecuretests.groups.GroupAccessControl
+import org.mycrimes.insecuretests.groups.GroupChangeException
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.groups.GroupManager
+import org.mycrimes.insecuretests.groups.ui.GroupChangeErrorCallback
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason
 import java.io.IOException
 
 private val TAG = Log.tag(PermissionsSettingsRepository::class.java)

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package org.mycrimes.insecuretests.keyboard.sticker
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,14 +10,14 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.stickers.StickerEventListener
-import org.thoughtcrime.securesms.util.DeviceProperties
-import org.thoughtcrime.securesms.util.InsetItemDecoration
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.keyboard.emoji.KeyboardPageSearchView
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.stickers.StickerEventListener
+import org.mycrimes.insecuretests.util.DeviceProperties
+import org.mycrimes.insecuretests.util.InsetItemDecoration
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.fragments.findListener
 import kotlin.math.max
 
 /**

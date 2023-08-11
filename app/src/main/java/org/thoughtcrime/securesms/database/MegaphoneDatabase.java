@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import android.app.Application;
 import android.content.ContentValues;
@@ -11,10 +11,10 @@ import net.zetetic.database.sqlcipher.SQLiteOpenHelper;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.DatabaseSecret;
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider;
-import org.thoughtcrime.securesms.database.model.MegaphoneRecord;
-import org.thoughtcrime.securesms.megaphone.Megaphones.Event;
+import org.mycrimes.insecuretests.crypto.DatabaseSecret;
+import org.mycrimes.insecuretests.crypto.DatabaseSecretProvider;
+import org.mycrimes.insecuretests.database.model.MegaphoneRecord;
+import org.mycrimes.insecuretests.megaphone.Megaphones.Event;
 import org.signal.core.util.CursorUtil;
 
 import java.util.ArrayList;
@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * IMPORTANT: Writes should only be made through {@link org.thoughtcrime.securesms.megaphone.MegaphoneRepository}.
+ * IMPORTANT: Writes should only be made through {@link org.mycrimes.insecuretests.megaphone.MegaphoneRepository}.
  */
 public class MegaphoneDatabase extends SQLiteOpenHelper implements SignalDatabaseOpenHelper {
 

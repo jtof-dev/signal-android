@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package org.mycrimes.insecuretests.mediasend
 
 import android.view.Window
 import androidx.lifecycle.DefaultLifecycleObserver

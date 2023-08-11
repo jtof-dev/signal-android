@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.invites
+package org.mycrimes.insecuretests.invites
 
 import android.content.Context
 import android.content.Intent
 import android.widget.Toast
 import androidx.annotation.MainThread
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.CommunicationActions
+import org.mycrimes.insecuretests.util.Util
 
 /**
  * Handles 'invite to signal' actions.

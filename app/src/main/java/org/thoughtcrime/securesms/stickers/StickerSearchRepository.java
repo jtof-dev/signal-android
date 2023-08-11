@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.mycrimes.insecuretests.stickers;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,12 +6,12 @@ import android.database.Cursor;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.StickerTable;
-import org.thoughtcrime.securesms.database.StickerTable.StickerRecordReader;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
+import org.mycrimes.insecuretests.components.emoji.EmojiUtil;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.StickerTable;
+import org.mycrimes.insecuretests.database.StickerTable.StickerRecordReader;
+import org.mycrimes.insecuretests.database.model.StickerRecord;
 
 import java.util.ArrayList;
 import java.util.List;

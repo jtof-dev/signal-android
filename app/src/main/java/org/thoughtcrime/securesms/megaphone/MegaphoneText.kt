@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone
+package org.mycrimes.insecuretests.megaphone
 
 import android.content.Context
 import androidx.annotation.StringRes

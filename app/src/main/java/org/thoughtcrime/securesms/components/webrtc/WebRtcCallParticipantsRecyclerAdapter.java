@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.mycrimes.insecuretests.components.webrtc;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,9 +10,9 @@ import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.core.util.DimensionUnit;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.events.CallParticipant;
+import org.mycrimes.insecuretests.util.ViewUtil;
 import org.webrtc.RendererCommon;
 
 class WebRtcCallParticipantsRecyclerAdapter extends ListAdapter<CallParticipant, WebRtcCallParticipantsRecyclerAdapter.ViewHolder> {

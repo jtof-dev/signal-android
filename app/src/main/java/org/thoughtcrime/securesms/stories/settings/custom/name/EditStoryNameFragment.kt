@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.custom.name
+package org.mycrimes.insecuretests.stories.settings.custom.name
 
 import android.os.Bundle
 import android.view.View
@@ -14,10 +14,10 @@ import com.airbnb.lottie.SimpleColorFilter
 import com.google.android.material.textfield.TextInputLayout
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
 
 class EditStoryNameFragment : Fragment(R.layout.stories_edit_story_name_fragment) {
 

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.push;
+package org.mycrimes.insecuretests.push;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 import org.whispersystems.signalservice.api.push.TrustStore;
 
 import java.io.InputStream;

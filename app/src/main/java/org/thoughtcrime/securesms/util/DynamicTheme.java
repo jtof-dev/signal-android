@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,10 +10,10 @@ import androidx.annotation.StyleRes;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SettingsValues;
-import org.thoughtcrime.securesms.keyvalue.SettingsValues.Theme;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyvalue.SettingsValues;
+import org.mycrimes.insecuretests.keyvalue.SettingsValues.Theme;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
 
 public class DynamicTheme {
 

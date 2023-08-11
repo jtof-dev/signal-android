@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LifecycleOwner;
 
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.mycrimes.insecuretests.conversationlist.model.ConversationSet;
+import org.mycrimes.insecuretests.database.model.ThreadRecord;
+import org.mycrimes.insecuretests.mms.GlideRequests;
 
 import java.util.Locale;
 import java.util.Set;

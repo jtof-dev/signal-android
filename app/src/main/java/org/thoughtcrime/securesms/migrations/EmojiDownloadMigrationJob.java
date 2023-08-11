@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobs.DownloadLatestEmojiDataJob;
-import org.thoughtcrime.securesms.jobs.EmojiSearchIndexDownloadJob;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobs.DownloadLatestEmojiDataJob;
+import org.mycrimes.insecuretests.jobs.EmojiSearchIndexDownloadJob;
 
 /**
  * Schedules jobs to get the latest emoji and search index.

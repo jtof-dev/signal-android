@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package org.mycrimes.insecuretests.mediasend
 
 import android.app.Activity
 import android.content.res.Resources
@@ -6,8 +6,8 @@ import androidx.annotation.Dimension
 import androidx.annotation.Px
 import androidx.window.layout.WindowMetricsCalculator
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.stories.Stories
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.stories.Stories
 
 /**
  * Description of the Camera Viewport, Controls, and Toggle position information.

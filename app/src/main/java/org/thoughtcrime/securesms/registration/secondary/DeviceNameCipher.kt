@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.registration.secondary
+package org.mycrimes.insecuretests.registration.secondary
 
 import okio.ByteString.Companion.toByteString
 import org.signal.libsignal.protocol.IdentityKeyPair
 import org.signal.libsignal.protocol.ecc.Curve
 import org.signal.libsignal.protocol.ecc.ECKeyPair
-import org.thoughtcrime.securesms.devicelist.protos.DeviceName
+import org.mycrimes.insecuretests.devicelist.protos.DeviceName
 import java.nio.charset.Charset
 import javax.crypto.Cipher
 import javax.crypto.Mac

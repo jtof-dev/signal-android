@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo
+package org.mycrimes.insecuretests.video.exo
 
 import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.Player

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm;
+package org.mycrimes.insecuretests.gcm;
 
 import android.content.Context;
 import android.os.Build;
@@ -10,13 +10,13 @@ import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.FcmRefreshJob;
-import org.thoughtcrime.securesms.jobs.SubmitRateLimitPushChallengeJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.registration.PushChallengeRequest;
-import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.thoughtcrime.securesms.util.NetworkUtil;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.FcmRefreshJob;
+import org.mycrimes.insecuretests.jobs.SubmitRateLimitPushChallengeJob;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.registration.PushChallengeRequest;
+import org.mycrimes.insecuretests.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.NetworkUtil;
 
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;

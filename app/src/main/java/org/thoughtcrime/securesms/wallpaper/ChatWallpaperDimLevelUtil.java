@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.mycrimes.insecuretests.wallpaper;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 
 import com.airbnb.lottie.SimpleColorFilter;
 
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.ThemeUtil;
 
 public final class ChatWallpaperDimLevelUtil {
 

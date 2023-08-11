@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.mycrimes.insecuretests.wallpaper;
 
 import android.content.res.ColorStateList;
 import android.graphics.PorterDuff;
@@ -25,14 +25,14 @@ import androidx.navigation.Navigation;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.util.DisplayMetricsUtil;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.conversation.colors.ColorizerView;
+import org.mycrimes.insecuretests.util.DisplayMetricsUtil;
+import org.mycrimes.insecuretests.util.Projection;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
 
 import java.util.Collections;
 

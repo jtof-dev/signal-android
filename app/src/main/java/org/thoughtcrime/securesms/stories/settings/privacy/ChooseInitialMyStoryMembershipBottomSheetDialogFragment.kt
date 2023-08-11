@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.privacy
+package org.mycrimes.insecuretests.stories.settings.privacy
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,16 +10,16 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import com.google.android.material.radiobutton.MaterialRadioButton
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.settings.connections.ViewAllSignalConnectionsFragment
-import org.thoughtcrime.securesms.stories.settings.select.BaseStoryRecipientSelectionFragment
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.mycrimes.insecuretests.components.WrapperDialogFragment
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyMode
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.stories.settings.connections.ViewAllSignalConnectionsFragment
+import org.mycrimes.insecuretests.stories.settings.select.BaseStoryRecipientSelectionFragment
+import org.mycrimes.insecuretests.util.BottomSheetUtil
+import org.mycrimes.insecuretests.util.fragments.findListener
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Choose the initial settings for My Story when first sending to My Story.

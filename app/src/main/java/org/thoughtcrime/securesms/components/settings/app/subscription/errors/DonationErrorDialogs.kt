@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package org.mycrimes.insecuretests.components.settings.app.subscription.errors
 
 import android.content.Context
 import android.content.DialogInterface
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.help.HelpFragment
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.AppSettingsActivity
+import org.mycrimes.insecuretests.help.HelpFragment
+import org.mycrimes.insecuretests.util.CommunicationActions
 
 /**
  * Donation Error Dialogs.

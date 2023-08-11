@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.animation.Animator;
 import android.os.Bundle;
@@ -16,9 +16,9 @@ import androidx.core.view.ViewCompat;
 
 import org.signal.qr.QrScannerView;
 import org.signal.qr.kitkat.ScanListener;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXModelBlocklist;
+import org.mycrimes.insecuretests.mediasend.camerax.CameraXModelBlocklist;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.disposables.Disposable;

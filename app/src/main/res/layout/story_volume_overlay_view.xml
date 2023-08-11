@@ -22,7 +22,7 @@
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Signal.Circle"
         app:srcCompat="@drawable/ic_speaker_off_outline_24" />
 
-    <org.thoughtcrime.securesms.stories.StoryVolumeBar
+    <org.mycrimes.insecuretests.stories.StoryVolumeBar
         android:id="@+id/story_volume_bar"
         android:layout_width="6dp"
         android:layout_height="160dp"

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 
 import android.app.DownloadManager;
@@ -15,13 +15,13 @@ import androidx.core.app.NotificationCompat;
 
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.FileProviderUtil;
-import org.thoughtcrime.securesms.util.FileUtils;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.notifications.NotificationChannels;
+import org.mycrimes.insecuretests.util.FileProviderUtil;
+import org.mycrimes.insecuretests.util.FileUtils;
 import org.signal.core.util.Hex;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.io.File;
 import java.io.FileInputStream;

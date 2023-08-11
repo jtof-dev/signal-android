@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.settings.custom.name
+package org.mycrimes.insecuretests.stories.settings.custom.name
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Completable
-import org.thoughtcrime.securesms.database.model.DistributionListId
+import org.mycrimes.insecuretests.database.model.DistributionListId
 
 class EditStoryNameViewModel(private val privateStoryId: DistributionListId, private val repository: EditStoryNameRepository) : ViewModel() {
 

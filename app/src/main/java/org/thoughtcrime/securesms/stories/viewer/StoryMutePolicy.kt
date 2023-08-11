@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.viewer
+package org.mycrimes.insecuretests.stories.viewer
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.util.AppForegroundObserver
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.util.AppForegroundObserver
 
 /**
  * Stories are to start muted, and once unmuted, remain as such until the

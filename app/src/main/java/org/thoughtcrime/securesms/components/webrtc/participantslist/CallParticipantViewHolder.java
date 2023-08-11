@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.webrtc.participantslist;
+package org.mycrimes.insecuretests.components.webrtc.participantslist;
 
 import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.viewholders.RecipientViewHolder;
 
 public class CallParticipantViewHolder extends RecipientViewHolder<CallParticipantViewState> {
 

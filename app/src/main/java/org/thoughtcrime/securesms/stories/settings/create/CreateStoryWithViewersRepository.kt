@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.settings.create
+package org.mycrimes.insecuretests.stories.settings.create
 
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.stories.Stories
 
 class CreateStoryWithViewersRepository {
   fun createList(name: CharSequence, members: Set<RecipientId>): Single<RecipientId> {

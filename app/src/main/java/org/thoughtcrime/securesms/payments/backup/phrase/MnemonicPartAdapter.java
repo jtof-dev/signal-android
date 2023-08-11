@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup.phrase;
+package org.mycrimes.insecuretests.payments.backup.phrase;
 
 import android.text.SpannableStringBuilder;
 import android.view.LayoutInflater;
@@ -10,9 +10,9 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.adapter.AlwaysChangedDiffUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.SpanUtil;
+import org.mycrimes.insecuretests.util.adapter.AlwaysChangedDiffUtil;
 
 final class MnemonicPartAdapter extends ListAdapter<MnemonicPart, MnemonicPartAdapter.ViewHolder> {
 

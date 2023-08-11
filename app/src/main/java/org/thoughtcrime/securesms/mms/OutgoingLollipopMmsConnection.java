@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -33,8 +33,8 @@ import com.google.android.mms.pdu_alt.SendConf;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.providers.MmsBodyProvider;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
+import org.mycrimes.insecuretests.providers.MmsBodyProvider;
+import org.mycrimes.insecuretests.transport.UndeliverableMessageException;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

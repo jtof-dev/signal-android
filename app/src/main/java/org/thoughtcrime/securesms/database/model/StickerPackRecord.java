@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.StickerTable;
+import org.mycrimes.insecuretests.database.StickerTable;
 
 import java.util.Objects;
 import java.util.Optional;

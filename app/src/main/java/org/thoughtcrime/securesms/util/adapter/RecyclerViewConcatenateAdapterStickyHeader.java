@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.util.adapter;
+package org.mycrimes.insecuretests.util.adapter;
 
 import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.components.RecyclerViewFastScroller;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
+import org.mycrimes.insecuretests.components.RecyclerViewFastScroller;
+import org.mycrimes.insecuretests.util.StickyHeaderDecoration;
 
 import java.util.Optional;
 

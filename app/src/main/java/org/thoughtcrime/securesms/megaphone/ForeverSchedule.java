@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone;
+package org.mycrimes.insecuretests.megaphone;
 
 final class ForeverSchedule implements MegaphoneSchedule {
 

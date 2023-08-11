@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.camera;
+package org.mycrimes.insecuretests.camera;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.mediasend.OrderEnforcer;
+import org.mycrimes.insecuretests.mediasend.OrderEnforcer;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.mycrimes.insecuretests.components.emoji;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,12 +16,12 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.InputAwareLayout.InputView;
-import org.thoughtcrime.securesms.keyboard.KeyboardPage;
-import org.thoughtcrime.securesms.keyboard.KeyboardPagerFragment;
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment;
-import org.thoughtcrime.securesms.util.ThemedFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.InputAwareLayout.InputView;
+import org.mycrimes.insecuretests.keyboard.KeyboardPage;
+import org.mycrimes.insecuretests.keyboard.KeyboardPagerFragment;
+import org.mycrimes.insecuretests.keyboard.emoji.search.EmojiSearchFragment;
+import org.mycrimes.insecuretests.util.ThemedFragment;
 
 public class MediaKeyboard extends FrameLayout implements InputView {
 

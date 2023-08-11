@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.mycrimes.insecuretests.giph.mp4;
 
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.giph.model.GiphyImage;
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory;
+import org.mycrimes.insecuretests.util.adapter.mapping.PagingMappingAdapter;
 
 /**
  * Maintains and displays a list of GiphyImage objects. This Adapter always displays gifs

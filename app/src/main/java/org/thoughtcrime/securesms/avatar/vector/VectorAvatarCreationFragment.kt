@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.vector
+package org.mycrimes.insecuretests.avatar.vector
 
 import android.os.Bundle
 import android.view.View
@@ -10,13 +10,13 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.lottie.SimpleColorFilter
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarBundler
-import org.thoughtcrime.securesms.avatar.AvatarColorItem
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.components.recyclerview.GridDividerDecoration
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.avatar.AvatarBundler
+import org.mycrimes.insecuretests.avatar.AvatarColorItem
+import org.mycrimes.insecuretests.avatar.Avatars
+import org.mycrimes.insecuretests.components.recyclerview.GridDividerDecoration
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 
 /**
  * Fragment to create an avatar based off a default vector.
@@ -59,6 +59,6 @@ class VectorAvatarCreationFragment : Fragment(R.layout.vector_avatar_creation_fr
   }
 
   companion object {
-    const val REQUEST_KEY_VECTOR = "org.thoughtcrime.securesms.avatar.text.VECTOR"
+    const val REQUEST_KEY_VECTOR = "org.mycrimes.insecuretests.avatar.text.VECTOR"
   }
 }

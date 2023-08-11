@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.push;
+package org.mycrimes.insecuretests.push;
 
 import android.content.Context;
 
@@ -9,9 +9,9 @@ import com.google.android.gms.security.ProviderInstaller;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.util.FeatureFlags;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.ACI;
 import org.whispersystems.signalservice.api.push.PNI;

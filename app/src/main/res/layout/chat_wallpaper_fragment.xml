@@ -55,7 +55,7 @@
                 app:layout_constraintTop_toBottomOf="@id/chat_wallpaper_preview_top_bar"
                 tools:visibility="visible" />
 
-            <org.thoughtcrime.securesms.conversation.colors.ColorizerView
+            <org.mycrimes.insecuretests.conversation.colors.ColorizerView
                 android:id="@+id/colorizer"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -85,7 +85,7 @@
                 app:srcCompat="@drawable/ic_arrow_left_24"
                 app:tint="@color/core_white" />
 
-            <org.thoughtcrime.securesms.components.AvatarImageView
+            <org.mycrimes.insecuretests.components.AvatarImageView
                 android:id="@+id/chat_wallpaper_preview_top_bar_portrait"
                 android:layout_width="16dp"
                 android:layout_height="16dp"

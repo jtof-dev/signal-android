@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.landing
+package org.mycrimes.insecuretests.stories.landing
 
 import android.graphics.Color
 import android.graphics.drawable.Drawable
@@ -13,23 +13,23 @@ import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.view.AvatarView
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
-import org.thoughtcrime.securesms.stories.dialogs.StoryContextMenu
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.avatar.view.AvatarView
+import org.mycrimes.insecuretests.badges.BadgeImageView
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.stories.StoryTextPostModel
+import org.mycrimes.insecuretests.stories.dialogs.StoryContextMenu
+import org.mycrimes.insecuretests.util.ContextUtil
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.SpanUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.util.visible
 import java.util.Locale
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import android.view.View
 import android.view.animation.AnimationUtils

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -11,12 +11,12 @@ import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.mms.Slide;
+import org.mycrimes.insecuretests.mms.SlideClickListener;
+import org.mycrimes.insecuretests.mms.SlidesClickedListener;
+import org.mycrimes.insecuretests.util.views.Stub;
 
 import java.util.List;
 

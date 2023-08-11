@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.mycrimes.insecuretests.jobmanager.migrations;
 
 /**
  * Unfortunately there was a bug in {@link RecipientIdFollowUpJobMigration} that requires it to be

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.mycrimes.insecuretests.webrtc;
 
 import org.signal.core.util.logging.Log;
 

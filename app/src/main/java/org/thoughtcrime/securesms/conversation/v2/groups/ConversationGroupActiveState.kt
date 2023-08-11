@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package org.mycrimes.insecuretests.conversation.v2.groups
 
 /**
  * Represents the 'active' state of a group.

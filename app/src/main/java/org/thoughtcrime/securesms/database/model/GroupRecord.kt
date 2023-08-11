@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.database.model
+package org.mycrimes.insecuretests.database.model
 
 import androidx.annotation.WorkerThread
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import org.signal.storageservice.protos.groups.AccessControl
 import org.signal.storageservice.protos.groups.local.EnabledState
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.groups.GroupAccessControl
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupsV1MigrationUtil
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.GroupTable
+import org.mycrimes.insecuretests.groups.GroupAccessControl
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.groups.GroupsV1MigrationUtil
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.lang.AssertionError

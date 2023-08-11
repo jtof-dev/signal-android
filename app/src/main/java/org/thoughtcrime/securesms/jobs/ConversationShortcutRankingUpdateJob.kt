@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import android.os.Build
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.transport.RetryLaterException
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.ConversationUtil.Direction
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.JsonJobData
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.transport.RetryLaterException
+import org.mycrimes.insecuretests.util.ConversationUtil
+import org.mycrimes.insecuretests.util.ConversationUtil.Direction
+import org.mycrimes.insecuretests.util.TextSecurePreferences
 import kotlin.time.Duration.Companion.seconds
 
 /**

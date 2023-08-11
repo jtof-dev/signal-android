@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.mycrimes.insecuretests.contactshare;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,14 +11,14 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.GlideRequests;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Name;
+import static org.mycrimes.insecuretests.contactshare.Contact.Name;
 
 public class ContactShareEditAdapter extends RecyclerView.Adapter<ContactShareEditAdapter.ContactEditViewHolder> {
 

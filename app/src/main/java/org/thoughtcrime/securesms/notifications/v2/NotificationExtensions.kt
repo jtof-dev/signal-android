@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.mycrimes.insecuretests.notifications.v2
 
 import android.app.NotificationManager
 import android.content.Context
@@ -11,18 +11,18 @@ import com.bumptech.glide.load.MultiTransformation
 import com.bumptech.glide.load.Transformation
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.bitmap.CircleCrop
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto
-import org.thoughtcrime.securesms.contacts.avatars.FallbackContactPhoto
-import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.BitmapUtil
-import org.thoughtcrime.securesms.util.BlurTransformation
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.avatars.ContactPhoto
+import org.mycrimes.insecuretests.contacts.avatars.FallbackContactPhoto
+import org.mycrimes.insecuretests.contacts.avatars.GeneratedContactPhoto
+import org.mycrimes.insecuretests.contacts.avatars.ProfileContactPhoto
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader.DecryptableUri
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.notifications.NotificationIds
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.BitmapUtil
+import org.mycrimes.insecuretests.util.BlurTransformation
 import java.util.concurrent.ExecutionException
 
 fun Drawable?.toLargeBitmap(context: Context): Bitmap? {

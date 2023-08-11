@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.app.Activity
 import android.os.Build
@@ -8,8 +8,8 @@ import androidx.fragment.app.Fragment
 import org.signal.core.util.logging.Log
 import org.signal.smsexporter.DefaultSmsHelper
 import org.signal.smsexporter.ReleaseSmsAppFailure
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.ChooseANewDefaultSmsAppFragmentBinding
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.databinding.ChooseANewDefaultSmsAppFragmentBinding
 
 /**
  * Fragment which can launch the user into picking an alternative

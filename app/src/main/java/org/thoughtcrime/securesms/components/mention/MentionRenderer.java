@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.mention;
+package org.mycrimes.insecuretests.components.mention;
 
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
@@ -6,7 +6,7 @@ import android.text.Layout;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.LayoutUtil;
+import org.mycrimes.insecuretests.util.LayoutUtil;
 
 /**
  * Handles actually drawing the mention backgrounds for a TextView.

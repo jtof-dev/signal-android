@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.logging
+package org.mycrimes.insecuretests.logging
 
 import android.app.Application
 import android.os.Looper
 import org.signal.core.util.logging.Log
 import org.signal.core.util.logging.Scrubber
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.database.LogDatabase
-import org.thoughtcrime.securesms.database.model.LogEntry
-import org.thoughtcrime.securesms.logging.PersistentLogger.LogRequest
-import org.thoughtcrime.securesms.logging.PersistentLogger.WriteThread
+import org.mycrimes.insecuretests.BuildConfig
+import org.mycrimes.insecuretests.database.LogDatabase
+import org.mycrimes.insecuretests.database.model.LogEntry
+import org.mycrimes.insecuretests.logging.PersistentLogger.LogRequest
+import org.mycrimes.insecuretests.logging.PersistentLogger.WriteThread
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
 import java.text.SimpleDateFormat

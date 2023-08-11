@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.phonenumbers.NumberUtil;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.phonenumbers.NumberUtil;
+import org.mycrimes.insecuretests.profiles.AvatarHelper;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

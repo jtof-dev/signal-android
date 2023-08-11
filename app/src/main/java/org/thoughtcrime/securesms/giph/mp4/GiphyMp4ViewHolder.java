@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.mycrimes.insecuretests.giph.mp4;
 
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
@@ -15,15 +15,15 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.google.android.exoplayer2.MediaItem;
 import com.google.android.exoplayer2.ui.AspectRatioFrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette;
-import org.thoughtcrime.securesms.giph.model.ChunkedImageUrl;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversation.colors.ChatColorsPalette;
+import org.mycrimes.insecuretests.giph.model.ChunkedImageUrl;
+import org.mycrimes.insecuretests.giph.model.GiphyImage;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.util.Projection;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder;
 
 /**
  * Holds a view which will either play back an MP4 gif or show its still.

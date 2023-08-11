@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.app.Dialog
 import android.content.res.ColorStateList
@@ -15,10 +15,10 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.shape.CornerFamily
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.ShapeAppearanceModel
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ThemeUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.WindowUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.ThemeUtil
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.WindowUtil
 
 /**
  * Forces rounded corners on BottomSheet

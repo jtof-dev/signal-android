@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.providers;
+package org.mycrimes.insecuretests.providers;
 
 import android.content.ContentUris;
 import android.content.ContentValues;
@@ -39,15 +39,15 @@ import org.signal.core.util.StreamUtil;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.mms.PartUriParser;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.MemoryFileUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.mms.PartUriParser;
+import org.mycrimes.insecuretests.service.KeyCachingService;
+import org.mycrimes.insecuretests.util.MemoryFileUtil;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

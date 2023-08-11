@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,17 +9,17 @@ import androidx.appcompat.content.res.AppCompatResources
 import androidx.appcompat.widget.Toolbar
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.HidingLinearLayout
-import org.thoughtcrime.securesms.components.reminder.ReminderView
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPaymentComponent
-import org.thoughtcrime.securesms.components.settings.app.subscription.StripeRepository
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.views.Stub
+import org.mycrimes.insecuretests.PassphraseRequiredActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.HidingLinearLayout
+import org.mycrimes.insecuretests.components.reminder.ReminderView
+import org.mycrimes.insecuretests.components.settings.app.subscription.DonationPaymentComponent
+import org.mycrimes.insecuretests.components.settings.app.subscription.StripeRepository
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.Debouncer
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme
+import org.mycrimes.insecuretests.util.DynamicTheme
+import org.mycrimes.insecuretests.util.views.Stub
 import java.util.concurrent.TimeUnit
 
 open class ConversationActivity : PassphraseRequiredActivity(), ConversationParentFragment.Callback, DonationPaymentComponent {

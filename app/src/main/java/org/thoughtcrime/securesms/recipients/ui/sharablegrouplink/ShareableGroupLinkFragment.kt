@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.recipients.ui.sharablegrouplink
+package org.mycrimes.insecuretests.recipients.ui.sharablegrouplink
 
 import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.fragment.app.viewModels
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsIcon
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.v2.GroupLinkUrlAndStatus
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsIcon
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.groups.v2.GroupLinkUrlAndStatus
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog
 
 /**
  * Fragment providing user options to manage group links.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package org.mycrimes.insecuretests.stories
 
 import android.content.Context
 import android.graphics.Canvas
@@ -9,7 +9,7 @@ import android.graphics.RectF
 import android.util.AttributeSet
 import androidx.annotation.ColorInt
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
+import org.mycrimes.insecuretests.components.emoji.EmojiTextView
 
 class StoryTextView @JvmOverloads constructor(
   context: Context,

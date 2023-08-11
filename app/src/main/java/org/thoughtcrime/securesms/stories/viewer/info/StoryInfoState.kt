@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.viewer.info
+package org.mycrimes.insecuretests.stories.viewer.info
 
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.messagedetails.MessageDetails
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord
+import org.mycrimes.insecuretests.messagedetails.MessageDetails
 
 /**
  * Contains the needed information to render the story info sheet.

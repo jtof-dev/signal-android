@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.service.webrtc
+package org.mycrimes.insecuretests.service.webrtc
 
 import android.os.Build
 import org.signal.core.util.asListContains
 import org.signal.ringrtc.CallManager.AudioProcessingMethod
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.FeatureFlags
 
 /**
  * Utility class to determine which AEC method RingRTC should use.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments;
+package org.mycrimes.insecuretests.registration.fragments;
 
 import android.content.Context;
 import android.os.Build;
@@ -11,8 +11,8 @@ import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.util.Debouncer;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.util.Debouncer;
 
 final class SignalStrengthPhoneStateListener extends PhoneStateListener
                                              implements DefaultLifecycleObserver

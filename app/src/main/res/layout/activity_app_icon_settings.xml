@@ -6,6 +6,6 @@
 
 <androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fragment_container_view"
-    android:name="org.thoughtcrime.securesms.components.settings.app.appearance.appicon.AppIconSettingsFragment"
+    android:name="org.mycrimes.insecuretests.components.settings.app.appearance.appicon.AppIconSettingsFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply
+package org.mycrimes.insecuretests.stories.viewer.reply
 
 /**
  * Implemented by a Fragment who contains a view-pager.

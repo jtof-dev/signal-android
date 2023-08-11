@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.locks;
+package org.mycrimes.insecuretests.webrtc.locks;
 
 import android.content.Context;
 import android.net.wifi.WifiManager;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.my
+package org.mycrimes.insecuretests.stories.settings.my
 
 data class MyStorySettingsState(
   val myStoryPrivacyState: MyStoryPrivacyState = MyStoryPrivacyState(),

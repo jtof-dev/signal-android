@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 import android.content.Context;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
 
 import java.util.Comparator;
 import java.util.TreeSet;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.attachments;
+package org.mycrimes.insecuretests.attachments;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 
 public class AttachmentId implements Parcelable {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import android.Manifest
 import android.accounts.Account
@@ -9,12 +9,12 @@ import org.signal.contacts.ContactLinkConfiguration
 import org.signal.contacts.SystemContactsRepository
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter
+import org.mycrimes.insecuretests.BuildConfig
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.permissions.Permissions
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter
 import java.lang.Exception
 
 /**
@@ -101,8 +101,8 @@ class SyncSystemContactLinksJob private constructor(parameters: Parameters) : Ba
 
     const val KEY = "SyncSystemContactLinksJob"
 
-    private const val MESSAGE_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.contact"
-    private const val CALL_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.call"
+    private const val MESSAGE_MIMETYPE = "vnd.android.cursor.item/vnd.org.mycrimes.insecuretests.contact"
+    private const val CALL_MIMETYPE = "vnd.android.cursor.item/vnd.org.mycrimes.insecuretests.call"
     private const val CONTACT_TAG = "__TS"
   }
 }

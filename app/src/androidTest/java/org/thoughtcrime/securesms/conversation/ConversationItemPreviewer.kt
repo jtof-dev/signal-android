@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -7,14 +7,14 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.ThreadUtil
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.mms.IncomingMediaMessage
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.releasechannel.ReleaseChannel
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import org.mycrimes.insecuretests.attachments.PointerAttachment
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.mms.IncomingMediaMessage
+import org.mycrimes.insecuretests.mms.OutgoingMessage
+import org.mycrimes.insecuretests.profiles.ProfileName
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.releasechannel.ReleaseChannel
+import org.mycrimes.insecuretests.testing.SignalActivityRule
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId
 import java.util.Optional

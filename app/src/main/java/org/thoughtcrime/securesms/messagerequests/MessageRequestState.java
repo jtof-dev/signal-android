@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests;
+package org.mycrimes.insecuretests.messagerequests;
 
 /**
  * An enum representing the possible message request states a user can be in.

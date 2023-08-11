@@ -7,7 +7,7 @@
     android:padding="8dp"
     android:paddingHorizontal="8dp">
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/payment_direction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/payment_direction">
 
-        <org.thoughtcrime.securesms.payments.MoneyView
+        <org.mycrimes.insecuretests.payments.MoneyView
             android:id="@+id/payment_amount"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -44,7 +44,7 @@
 
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/payment_note"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

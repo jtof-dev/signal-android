@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package org.mycrimes.insecuretests.components.settings.app.privacy.expire
 
 import android.content.Context
 import androidx.annotation.WorkerThread
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.groups.GroupChangeException
-import org.thoughtcrime.securesms.groups.GroupManager
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.ThreadTable
+import org.mycrimes.insecuretests.groups.GroupChangeException
+import org.mycrimes.insecuretests.groups.GroupManager
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.mms.OutgoingMessage
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sms.MessageSender
+import org.mycrimes.insecuretests.storage.StorageSyncHelper
 import java.io.IOException
 
 private val TAG: String = Log.tag(ExpireTimerSettingsRepository::class.java)

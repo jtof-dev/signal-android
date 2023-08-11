@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.managegroup.dialogs;
+package org.mycrimes.insecuretests.groups.ui.managegroup.dialogs;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -13,13 +13,13 @@ import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.ParcelableGroupId;
-import org.thoughtcrime.securesms.groups.v2.GroupDescriptionUtil;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.EmojiTextView;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.LiveGroup;
+import org.mycrimes.insecuretests.groups.ParcelableGroupId;
+import org.mycrimes.insecuretests.groups.v2.GroupDescriptionUtil;
+import org.mycrimes.insecuretests.util.LongClickMovementMethod;
 
 /**
  * Dialog to show a full group description. Information regarding the description can be provided

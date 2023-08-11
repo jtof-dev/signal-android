@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,7 +7,7 @@ import com.google.protobuf.InvalidProtocolBufferException;
 
 import org.signal.core.util.ByteSerializer;
 import org.signal.core.util.StringSerializer;
-import org.thoughtcrime.securesms.database.model.databaseprotos.SignalStoreList;
+import org.mycrimes.insecuretests.database.model.databaseprotos.SignalStoreList;
 
 import java.util.Collections;
 import java.util.List;

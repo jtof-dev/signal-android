@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.locks;
+package org.mycrimes.insecuretests.webrtc.locks;
 
 import android.os.Build;
 import android.os.PowerManager;

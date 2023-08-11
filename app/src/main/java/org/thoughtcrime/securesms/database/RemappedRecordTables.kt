@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.content.Context
 import android.database.Cursor
@@ -9,10 +9,10 @@ import org.signal.core.util.readToList
 import org.signal.core.util.requireLong
 import org.signal.core.util.select
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.RemappedRecordTables.SharedColumns.ID
-import org.thoughtcrime.securesms.database.RemappedRecordTables.SharedColumns.NEW_ID
-import org.thoughtcrime.securesms.database.RemappedRecordTables.SharedColumns.OLD_ID
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.RemappedRecordTables.SharedColumns.ID
+import org.mycrimes.insecuretests.database.RemappedRecordTables.SharedColumns.NEW_ID
+import org.mycrimes.insecuretests.database.RemappedRecordTables.SharedColumns.OLD_ID
+import org.mycrimes.insecuretests.recipients.RecipientId
 import java.util.HashMap
 
 /**

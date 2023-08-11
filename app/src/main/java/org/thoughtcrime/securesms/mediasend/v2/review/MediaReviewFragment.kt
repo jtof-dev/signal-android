@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.review
+package org.mycrimes.insecuretests.mediasend.v2.review
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -28,32 +28,32 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.SimpleTask
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.conversation.ScheduleMessageContextMenu
-import org.thoughtcrime.securesms.conversation.ScheduleMessageTimePickerBottomSheet
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardActivity
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.mediasend.MediaSendActivityResult
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator.Companion.requestPermissionsForGallery
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionState
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mediasend.v2.MediaValidator
-import org.thoughtcrime.securesms.mediasend.v2.stories.StoriesMultiselectForwardActivity
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.scribbles.ImageEditorFragment
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.SystemWindowInsetsSetter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.views.TouchInterceptingFrameLayout
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.conversation.MessageSendType
+import org.mycrimes.insecuretests.conversation.ScheduleMessageContextMenu
+import org.mycrimes.insecuretests.conversation.ScheduleMessageTimePickerBottomSheet
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardActivity
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import org.mycrimes.insecuretests.mediasend.MediaSendActivityResult
+import org.mycrimes.insecuretests.mediasend.v2.HudCommand
+import org.mycrimes.insecuretests.mediasend.v2.MediaAnimations
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionNavigator
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionNavigator.Companion.requestPermissionsForGallery
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionState
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel
+import org.mycrimes.insecuretests.mediasend.v2.MediaValidator
+import org.mycrimes.insecuretests.mediasend.v2.stories.StoriesMultiselectForwardActivity
+import org.mycrimes.insecuretests.mms.SentMediaQuality
+import org.mycrimes.insecuretests.permissions.Permissions
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.scribbles.ImageEditorFragment
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.SystemWindowInsetsSetter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.fragments.requireListener
+import org.mycrimes.insecuretests.util.views.TouchInterceptingFrameLayout
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Allows the user to view and edit selected media.

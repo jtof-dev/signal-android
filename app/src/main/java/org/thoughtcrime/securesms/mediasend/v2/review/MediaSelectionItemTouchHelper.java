@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mediasend.v2.review;
+package org.mycrimes.insecuretests.mediasend.v2.review;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel;
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel;
 
 /**
  * A touch helper for handling drag + drop on the media rail in the media send flow.

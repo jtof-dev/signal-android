@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -42,28 +42,28 @@ import org.signal.core.util.SetUtil;
 import org.signal.core.util.SqlUtil;
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.audio.AudioHash;
-import org.thoughtcrime.securesms.blurhash.BlurHash;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.ClassicDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData;
-import org.thoughtcrime.securesms.jobs.GenerateAudioWaveFormJob;
-import org.thoughtcrime.securesms.mms.MediaStream;
-import org.thoughtcrime.securesms.mms.MmsException;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.FileUtils;
-import org.thoughtcrime.securesms.util.JsonUtils;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.StorageUtil;
-import org.thoughtcrime.securesms.video.EncryptedMediaDataSource;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment;
+import org.mycrimes.insecuretests.audio.AudioHash;
+import org.mycrimes.insecuretests.blurhash.BlurHash;
+import org.mycrimes.insecuretests.crypto.AttachmentSecret;
+import org.mycrimes.insecuretests.crypto.ClassicDecryptingPartInputStream;
+import org.mycrimes.insecuretests.crypto.ModernDecryptingPartInputStream;
+import org.mycrimes.insecuretests.crypto.ModernEncryptingPartOutputStream;
+import org.mycrimes.insecuretests.database.model.databaseprotos.AudioWaveFormData;
+import org.mycrimes.insecuretests.jobs.GenerateAudioWaveFormJob;
+import org.mycrimes.insecuretests.mms.MediaStream;
+import org.mycrimes.insecuretests.mms.MmsException;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.mms.SentMediaQuality;
+import org.mycrimes.insecuretests.stickers.StickerLocator;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.FileUtils;
+import org.mycrimes.insecuretests.util.JsonUtils;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.StorageUtil;
+import org.mycrimes.insecuretests.video.EncryptedMediaDataSource;
 import org.whispersystems.signalservice.internal.util.JsonUtil;
 
 import java.io.File;

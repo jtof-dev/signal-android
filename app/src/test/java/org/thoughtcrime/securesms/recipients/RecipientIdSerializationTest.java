@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.mycrimes.insecuretests.recipients;
 
 import org.hamcrest.Matcher;
 import org.hamcrest.MatcherAssert;

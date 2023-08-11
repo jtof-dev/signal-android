@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.keyvalue.SettingsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.JavaTimeExtensionsKt;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.jobs.LocalBackupJob;
+import org.mycrimes.insecuretests.keyvalue.SettingsValues;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.JavaTimeExtensionsKt;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.time.LocalDateTime;
 import java.util.Random;

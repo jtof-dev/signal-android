@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.requesting;
+package org.mycrimes.insecuretests.groups.ui.invitesandrequests.requesting;
 
 import android.content.Context;
 
@@ -9,15 +9,15 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkUrlAndStatus;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.LiveGroup;
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason;
+import org.mycrimes.insecuretests.groups.ui.GroupErrors;
+import org.mycrimes.insecuretests.groups.ui.GroupMemberEntry;
+import org.mycrimes.insecuretests.groups.v2.GroupLinkUrlAndStatus;
+import org.mycrimes.insecuretests.util.AsynchronousCallback;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
 
 import java.util.List;
 

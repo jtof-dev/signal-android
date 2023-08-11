@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -11,9 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.blurhash.BlurHash;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.blurhash.BlurHash;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.util.MediaUtil;
 
 import java.io.IOException;
 

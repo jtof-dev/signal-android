@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone;
+package org.mycrimes.insecuretests.megaphone;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -9,8 +9,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RawRes;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.megaphone.Megaphones.Event;
-import org.thoughtcrime.securesms.mms.GlideRequest;
+import org.mycrimes.insecuretests.megaphone.Megaphones.Event;
+import org.mycrimes.insecuretests.mms.GlideRequest;
 
 /**
  * For guidance on creating megaphones, see {@link Megaphones}.

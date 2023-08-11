@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.mycrimes.insecuretests.components.emoji;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -14,13 +14,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatEditText;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiProvider.EmojiDrawable;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.EditTextExtensionsKt;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.EmojiProvider.EmojiDrawable;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.EditTextExtensionsKt;
+import org.mycrimes.insecuretests.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.HashSet;
 import java.util.Set;

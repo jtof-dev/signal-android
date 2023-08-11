@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.service
+package org.mycrimes.insecuretests.service
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import org.mycrimes.insecuretests.util.ServiceUtil
+import org.mycrimes.insecuretests.util.TextSecurePreferences
 
 /**
  * Respond to a PanicKit trigger Intent by locking the app.  PanicKit provides a

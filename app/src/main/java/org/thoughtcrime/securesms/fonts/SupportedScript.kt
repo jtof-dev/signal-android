@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.fonts
+package org.mycrimes.insecuretests.fonts
 
 /**
  * Scripts with font support for Stories

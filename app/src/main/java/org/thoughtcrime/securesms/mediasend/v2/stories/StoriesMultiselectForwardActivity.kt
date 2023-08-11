@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.stories
+package org.mycrimes.insecuretests.mediasend.v2.stories
 
 import android.content.Context
 import android.content.Intent
@@ -12,15 +12,15 @@ import androidx.fragment.app.FragmentManager
 import com.bumptech.glide.Glide
 import kotlinx.parcelize.Parcelize
 import org.signal.core.util.getParcelableArrayListExtraCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchState
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardActivity
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchState
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardActivity
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.visible
 
 class StoriesMultiselectForwardActivity : MultiselectForwardActivity() {
 

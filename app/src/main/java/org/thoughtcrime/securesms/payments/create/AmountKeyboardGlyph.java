@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.payments.create;
+package org.mycrimes.insecuretests.payments.create;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 enum AmountKeyboardGlyph {
   NONE(-1),

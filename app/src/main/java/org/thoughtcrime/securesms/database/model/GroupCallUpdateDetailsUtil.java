@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.model.databaseprotos.GroupCallUpdateDetails;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.database.model.databaseprotos.GroupCallUpdateDetails;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.io.IOException;
 import java.util.List;

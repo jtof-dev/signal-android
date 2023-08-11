@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.contactshare.Contact;
+import org.mycrimes.insecuretests.database.documents.IdentityKeyMismatch;
+import org.mycrimes.insecuretests.database.documents.NetworkFailure;
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge;
+import org.mycrimes.insecuretests.linkpreview.LinkPreview;
+import org.mycrimes.insecuretests.mms.Slide;
+import org.mycrimes.insecuretests.mms.SlideDeck;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.util.LinkedList;
 import java.util.List;

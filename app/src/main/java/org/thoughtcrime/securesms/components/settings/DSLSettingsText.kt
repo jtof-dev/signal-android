@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings
+package org.mycrimes.insecuretests.components.settings
 
 import android.content.Context
 import android.text.SpannableStringBuilder
 import androidx.annotation.ColorInt
 import androidx.annotation.StringRes
 import androidx.annotation.StyleRes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.SpanUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.SpanUtil
 
 sealed class DSLSettingsText {
 

@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.stories.settings.custom
+package org.mycrimes.insecuretests.stories.settings.custom
 
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.stories.Stories
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.database.model.DistributionListRecord
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sms.MessageSender
+import org.mycrimes.insecuretests.stories.Stories
 
 class PrivateStorySettingsRepository {
   fun getRecord(distributionListId: DistributionListId): Single<DistributionListRecord> {

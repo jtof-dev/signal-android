@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.app.Application
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -14,9 +14,9 @@ import org.signal.core.util.getForeignKeys
 import org.signal.core.util.getIndexes
 import org.signal.core.util.readToList
 import org.signal.core.util.requireNonNullString
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import org.mycrimes.insecuretests.database.helpers.SignalDatabaseMigrations
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.testing.SignalActivityRule
 
 /**
  * A test that guarantees that a freshly-created database looks the same as one that went through the upgrade path.

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.Context;
 
 import androidx.annotation.PluralsRes;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 import java.util.concurrent.TimeUnit;
 

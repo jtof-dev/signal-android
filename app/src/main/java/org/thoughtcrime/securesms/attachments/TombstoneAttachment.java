@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.attachments;
+package org.mycrimes.insecuretests.attachments;
 
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.AttachmentTable;
 
 /**
  * An attachment that represents where an attachment used to be. Useful when you need to know that

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -15,15 +15,15 @@ import org.signal.core.util.requireObject
 import org.signal.core.util.requireString
 import org.signal.core.util.select
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyData
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageRecordUpdate
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyData
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyMode
+import org.mycrimes.insecuretests.database.model.DistributionListRecord
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.storage.StorageRecordUpdate
+import org.mycrimes.insecuretests.storage.StorageSyncHelper
+import org.mycrimes.insecuretests.util.Base64
 import org.whispersystems.signalservice.api.push.DistributionId
 import org.whispersystems.signalservice.api.storage.SignalStoryDistributionListRecord
 import org.whispersystems.signalservice.api.util.UuidUtil

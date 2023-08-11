@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package org.mycrimes.insecuretests.conversation.v2.groups
 
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Represents detected duplicate recipients that should be displayed

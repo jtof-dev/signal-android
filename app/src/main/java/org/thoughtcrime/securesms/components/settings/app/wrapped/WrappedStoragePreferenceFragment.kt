@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.wrapped
+package org.mycrimes.insecuretests.components.settings.app.wrapped
 
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.preferences.StoragePreferenceFragment
+import org.mycrimes.insecuretests.preferences.StoragePreferenceFragment
 
 class WrappedStoragePreferenceFragment : SettingsWrapperFragment() {
   override fun getFragment(): Fragment {

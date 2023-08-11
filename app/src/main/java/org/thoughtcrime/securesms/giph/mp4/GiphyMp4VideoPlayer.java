@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.mycrimes.insecuretests.giph.mp4;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -19,9 +19,9 @@ import com.google.android.exoplayer2.ui.AspectRatioFrameLayout;
 import com.google.android.exoplayer2.ui.PlayerView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.CornerMask;
-import org.thoughtcrime.securesms.util.Projection;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.CornerMask;
+import org.mycrimes.insecuretests.util.Projection;
 
 /**
  * Video Player class specifically created for the GiphyMp4Fragment.

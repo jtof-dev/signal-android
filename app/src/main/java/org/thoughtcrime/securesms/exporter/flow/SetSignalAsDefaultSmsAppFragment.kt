@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.os.Bundle
 import android.view.View
@@ -7,9 +7,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import org.signal.smsexporter.BecomeSmsAppFailure
 import org.signal.smsexporter.DefaultSmsHelper
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.SetSignalAsDefaultSmsAppFragmentBinding
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.databinding.SetSignalAsDefaultSmsAppFragmentBinding
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 class SetSignalAsDefaultSmsAppFragment : Fragment(R.layout.set_signal_as_default_sms_app_fragment) {
 

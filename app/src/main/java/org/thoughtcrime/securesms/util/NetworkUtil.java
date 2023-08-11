@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -11,7 +11,7 @@ import android.telephony.TelephonyManager;
 import androidx.annotation.NonNull;
 
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
 import org.webrtc.PeerConnection;
 
 public final class NetworkUtil {

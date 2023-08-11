@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.stories.settings.my
+package org.mycrimes.insecuretests.stories.settings.my
 
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyData
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.stories.settings.privacy.ChooseInitialMyStoryMembershipState
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyData
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyMode
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.stories.settings.privacy.ChooseInitialMyStoryMembershipState
 
 class MyStorySettingsRepository {
 

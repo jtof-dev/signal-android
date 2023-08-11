@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.create
+package org.mycrimes.insecuretests.calls.links.create
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
@@ -14,14 +14,14 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.ringrtc.CallLinkState.Restrictions
-import org.thoughtcrime.securesms.calls.links.CallLinks
-import org.thoughtcrime.securesms.calls.links.UpdateCallLinkRepository
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorHash
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
+import org.mycrimes.insecuretests.calls.links.CallLinks
+import org.mycrimes.insecuretests.calls.links.UpdateCallLinkRepository
+import org.mycrimes.insecuretests.conversation.colors.AvatarColorHash
+import org.mycrimes.insecuretests.database.CallLinkTable
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.service.webrtc.links.CallLinkCredentials
+import org.mycrimes.insecuretests.service.webrtc.links.SignalCallLinkState
+import org.mycrimes.insecuretests.service.webrtc.links.UpdateCallLinkResult
 import java.time.Instant
 
 class CreateCallLinkViewModel(

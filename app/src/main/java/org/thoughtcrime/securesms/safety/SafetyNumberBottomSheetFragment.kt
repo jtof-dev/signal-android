@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.safety
+package org.mycrimes.insecuretests.safety
 
 import android.content.DialogInterface
 import android.view.View
@@ -9,23 +9,23 @@ import com.google.android.material.button.MaterialButton
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.models.SplashImage
-import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeRepository
-import org.thoughtcrime.securesms.conversation.ui.error.TrustAndVerifyResult
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.safety.review.SafetyNumberReviewConnectionsFragment
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
-import org.thoughtcrime.securesms.verify.VerifyIdentityFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.WrapperDialogFragment
+import org.mycrimes.insecuretests.components.menu.ActionItem
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsAdapter
+import org.mycrimes.insecuretests.components.settings.DSLSettingsBottomSheetFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.components.settings.models.SplashImage
+import org.mycrimes.insecuretests.conversation.ui.error.SafetyNumberChangeRepository
+import org.mycrimes.insecuretests.conversation.ui.error.TrustAndVerifyResult
+import org.mycrimes.insecuretests.crypto.IdentityKeyParcelable
+import org.mycrimes.insecuretests.database.IdentityTable
+import org.mycrimes.insecuretests.safety.review.SafetyNumberReviewConnectionsFragment
+import org.mycrimes.insecuretests.util.fragments.findListener
+import org.mycrimes.insecuretests.util.visible
+import org.mycrimes.insecuretests.verify.VerifyIdentityFragment
 
 /**
  * Displays a bottom sheet containing information about safety number changes and allows the user to

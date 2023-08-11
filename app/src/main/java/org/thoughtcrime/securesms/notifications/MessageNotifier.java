@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.mycrimes.insecuretests.notifications;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,10 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.BubbleUtil;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.notifications.v2.ConversationId;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.BubbleUtil;
 
 import java.util.Optional;
 

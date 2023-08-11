@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2;
+package org.mycrimes.insecuretests.groups.v2;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -17,10 +17,10 @@ import androidx.core.text.util.LinkifyCompat;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.util.LinkUtil;
-import org.thoughtcrime.securesms.util.LongClickCopySpan;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.EmojiTextView;
+import org.mycrimes.insecuretests.util.LinkUtil;
+import org.mycrimes.insecuretests.util.LongClickCopySpan;
 
 public final class GroupDescriptionUtil {
 

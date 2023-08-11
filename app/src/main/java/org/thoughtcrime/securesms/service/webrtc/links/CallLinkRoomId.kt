@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc.links
+package org.mycrimes.insecuretests.service.webrtc.links
 
 import android.os.Parcelable
 import com.google.protobuf.ByteString
 import kotlinx.parcelize.Parcelize
 import org.signal.core.util.Serializer
 import org.signal.ringrtc.CallLinkRootKey
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.util.Base64
 
 @Parcelize
 class CallLinkRoomId private constructor(private val roomId: ByteArray) : Parcelable {

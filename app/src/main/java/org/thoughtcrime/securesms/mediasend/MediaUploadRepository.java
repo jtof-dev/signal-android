@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.mycrimes.insecuretests.mediasend;
 
 import android.content.Context;
 
@@ -11,21 +11,21 @@ import com.annimon.stream.Stream;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.AttachmentTable.TransformProperties;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.mms.GifSlide;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.TextSlide;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.sms.MessageSender.PreUploadResult;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.AttachmentTable.TransformProperties;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.JobManager;
+import org.mycrimes.insecuretests.mms.GifSlide;
+import org.mycrimes.insecuretests.mms.ImageSlide;
+import org.mycrimes.insecuretests.mms.TextSlide;
+import org.mycrimes.insecuretests.mms.VideoSlide;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.sms.MessageSender;
+import org.mycrimes.insecuretests.sms.MessageSender.PreUploadResult;
+import org.mycrimes.insecuretests.util.MediaUtil;
 
 import java.util.Collection;
 import java.util.HashMap;

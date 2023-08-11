@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors.ui.custom
+package org.mycrimes.insecuretests.conversation.colors.ui.custom
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

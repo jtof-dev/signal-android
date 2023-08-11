@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package org.mycrimes.insecuretests.mediasend.v2.gallery
 
 import android.os.Bundle
 import android.view.View
@@ -11,14 +11,14 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import app.cash.exhaustive.Exhaustive
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator.Companion.requestPermissionsForCamera
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mediasend.v2.MediaValidator
-import org.thoughtcrime.securesms.mediasend.v2.review.MediaSelectionItemTouchHelper
-import org.thoughtcrime.securesms.permissions.Permissions
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionNavigator
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionNavigator.Companion.requestPermissionsForCamera
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel
+import org.mycrimes.insecuretests.mediasend.v2.MediaValidator
+import org.mycrimes.insecuretests.mediasend.v2.review.MediaSelectionItemTouchHelper
+import org.mycrimes.insecuretests.permissions.Permissions
 
 private const val MEDIA_GALLERY_TAG = "MEDIA_GALLERY"
 

@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.mycrimes.insecuretests.service.webrtc;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
+import org.mycrimes.insecuretests.components.webrtc.BroadcastVideoSink;
+import org.mycrimes.insecuretests.events.CallParticipant;
+import org.mycrimes.insecuretests.events.CallParticipantId;
+import org.mycrimes.insecuretests.events.WebRtcViewModel;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.ringrtc.RemotePeer;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceState;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
+import static org.mycrimes.insecuretests.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
 
 /**
  * Encapsulates the logic to begin a 1:1 call from scratch. Other action processors

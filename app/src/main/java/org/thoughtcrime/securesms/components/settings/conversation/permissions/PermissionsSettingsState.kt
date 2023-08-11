@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation.permissions
+package org.mycrimes.insecuretests.components.settings.conversation.permissions
 
 data class PermissionsSettingsState(
   val selfCanEditSettings: Boolean = false,

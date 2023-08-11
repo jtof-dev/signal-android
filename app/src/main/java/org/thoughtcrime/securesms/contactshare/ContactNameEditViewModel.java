@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.mycrimes.insecuretests.contactshare;
 
 import android.text.TextUtils;
 
@@ -7,9 +7,9 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.util.cjkv.CJKVUtil;
+import org.mycrimes.insecuretests.util.cjkv.CJKVUtil;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Name;
+import static org.mycrimes.insecuretests.contactshare.Contact.Name;
 
 public class ContactNameEditViewModel extends ViewModel {
 

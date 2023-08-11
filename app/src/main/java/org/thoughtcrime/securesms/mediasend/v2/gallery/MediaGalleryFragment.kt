@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package org.mycrimes.insecuretests.mediasend.v2.gallery
 
 import android.os.Bundle
 import android.view.View
@@ -13,18 +13,18 @@ import androidx.lifecycle.Transformations
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import org.signal.core.util.Stopwatch
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.recyclerview.GridDividerDecoration
-import org.thoughtcrime.securesms.databinding.V2MediaGalleryFragmentBinding
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaRepository
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper
-import org.thoughtcrime.securesms.util.SystemWindowInsetsSetter
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.recyclerview.GridDividerDecoration
+import org.mycrimes.insecuretests.databinding.V2MediaGalleryFragmentBinding
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mediasend.MediaRepository
+import org.mycrimes.insecuretests.util.Material3OnScrollHelper
+import org.mycrimes.insecuretests.util.SystemWindowInsetsSetter
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.fragments.requireListener
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Displays a collection of files and folders to the user to allow them to select

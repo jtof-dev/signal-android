@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.registration.viewmodel;
+package org.mycrimes.insecuretests.registration.viewmodel;
 
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.thoughtcrime.securesms.registration.VerifyAccountRepository.Mode;
+import static org.mycrimes.insecuretests.registration.VerifyAccountRepository.Mode;
 
 public final class LocalCodeRequestRateLimiterTest {
 

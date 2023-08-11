@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.picker
+package org.mycrimes.insecuretests.avatar.picker
 
 import android.content.Context
 import android.net.Uri
@@ -8,19 +8,19 @@ import org.signal.core.util.StreamUtil
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarPickerStorage
-import org.thoughtcrime.securesms.avatar.AvatarRenderer
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.NameUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.avatar.Avatar
+import org.mycrimes.insecuretests.avatar.AvatarPickerStorage
+import org.mycrimes.insecuretests.avatar.AvatarRenderer
+import org.mycrimes.insecuretests.avatar.Avatars
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.profiles.AvatarHelper
+import org.mycrimes.insecuretests.providers.BlobProvider
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.NameUtil
 import org.whispersystems.signalservice.api.util.StreamDetails
 import java.io.IOException
 

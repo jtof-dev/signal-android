@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.content.Context
 import androidx.core.content.contentValuesOf
@@ -31,15 +31,15 @@ import org.signal.core.util.select
 import org.signal.core.util.toOptional
 import org.signal.core.util.update
 import org.signal.libsignal.protocol.IdentityKey
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.recipients
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.IdentityStoreRecord
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.Base64
-import org.thoughtcrime.securesms.util.IdentityUtil
+import org.mycrimes.insecuretests.database.SignalDatabase.Companion.recipients
+import org.mycrimes.insecuretests.database.model.IdentityRecord
+import org.mycrimes.insecuretests.database.model.IdentityStoreRecord
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.storage.StorageSyncHelper
+import org.mycrimes.insecuretests.util.Base64
+import org.mycrimes.insecuretests.util.IdentityUtil
 import org.whispersystems.signalservice.api.push.ServiceId
 import org.whispersystems.signalservice.api.util.UuidUtil
 import java.lang.AssertionError

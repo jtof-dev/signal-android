@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.mycrimes.insecuretests.stickers;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,16 +6,16 @@ import android.database.Cursor;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.StickerTable;
-import org.thoughtcrime.securesms.database.StickerTable.StickerPackRecordReader;
-import org.thoughtcrime.securesms.database.model.StickerPackRecord;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.MultiDeviceStickerPackOperationJob;
-import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.StickerTable;
+import org.mycrimes.insecuretests.database.StickerTable.StickerPackRecordReader;
+import org.mycrimes.insecuretests.database.model.StickerPackRecord;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.JobManager;
+import org.mycrimes.insecuretests.jobs.MultiDeviceStickerPackOperationJob;
+import org.mycrimes.insecuretests.jobs.StickerPackDownloadJob;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.util.ArrayList;
 import java.util.List;

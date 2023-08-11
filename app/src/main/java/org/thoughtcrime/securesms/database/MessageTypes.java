@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 /**
  * For storage efficiency, all types are stored within a single 64-bit integer column in the

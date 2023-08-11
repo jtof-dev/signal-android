@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice;
+package org.mycrimes.insecuretests.components.voice;
 
 import android.content.Context;
 import android.net.Uri;
@@ -21,12 +21,12 @@ import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.NoSuchMessageException;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.util.MessageRecordUtil;
+import org.mycrimes.insecuretests.util.Util;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.Collections;

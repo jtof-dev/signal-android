@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.PreferenceDataStore;
 
-import org.thoughtcrime.securesms.database.KeyValueDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.util.SignalUncaughtExceptionHandler;
+import org.mycrimes.insecuretests.database.KeyValueDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.util.SignalUncaughtExceptionHandler;
 
 import java.util.ArrayList;
 import java.util.List;

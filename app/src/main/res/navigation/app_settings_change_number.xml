@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/changePhoneNumberFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberFragment"
         tools:layout="@layout/fragment_change_phone_number">
 
         <action
@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/enterPhoneNumberChangeFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberEnterPhoneNumberFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberEnterPhoneNumberFragment"
         tools:layout="@layout/fragment_change_number_enter_phone_number">
 
         <action
@@ -43,7 +43,7 @@
 
     <fragment
         android:id="@+id/changePhoneNumberConfirmFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberConfirmFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberConfirmFragment"
         tools:layout="@layout/fragment_change_number_confirm">
 
         <action
@@ -58,7 +58,7 @@
 
     <fragment
         android:id="@+id/countryPickerFragment"
-        android:name="org.thoughtcrime.securesms.registration.fragments.CountryPickerFragment"
+        android:name="org.mycrimes.insecuretests.registration.fragments.CountryPickerFragment"
         tools:layout="@layout/fragment_registration_country_picker">
 
         <argument
@@ -70,7 +70,7 @@
 
     <fragment
         android:id="@+id/changePhoneNumberVerifyFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberVerifyFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberVerifyFragment"
         tools:layout="@layout/fragment_change_phone_number_verify">
 
         <argument android:name="sms_listener_enabled"
@@ -97,12 +97,12 @@
 
     <fragment
         android:id="@+id/captchaFragment"
-        android:name="org.thoughtcrime.securesms.registration.fragments.CaptchaFragment"
+        android:name="org.mycrimes.insecuretests.registration.fragments.CaptchaFragment"
         tools:layout="@layout/fragment_registration_captcha" />
 
     <fragment
         android:id="@+id/changeNumberEnterCodeFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberEnterSmsCodeFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberEnterSmsCodeFragment"
         tools:layout="@layout/fragment_change_number_enter_code">
 
         <action
@@ -135,7 +135,7 @@
 
     <fragment
         android:id="@+id/changeNumberRegistrationLock"
-        android:name="org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberRegistrationLockFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberRegistrationLockFragment"
         tools:layout="@layout/fragment_change_number_registration_lock">
 
         <argument
@@ -164,12 +164,12 @@
 
     <fragment
         android:id="@+id/changeNumberAccountLocked"
-        android:name="org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberAccountLockedFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberAccountLockedFragment"
         tools:layout="@layout/fragment_change_number_account_locked" />
 
     <fragment
         android:id="@+id/changeNumberPinDiffers"
-        android:name="org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberPinDiffersFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberPinDiffersFragment"
         tools:layout="@layout/fragment_change_number_pin_differs" />
 
     <action

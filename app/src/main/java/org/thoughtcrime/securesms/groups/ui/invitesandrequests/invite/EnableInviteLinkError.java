@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invite;
+package org.mycrimes.insecuretests.groups.ui.invitesandrequests.invite;
 
 enum EnableInviteLinkError {
   BUSY,

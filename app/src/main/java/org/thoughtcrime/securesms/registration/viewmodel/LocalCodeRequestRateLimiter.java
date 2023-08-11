@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.viewmodel;
+package org.mycrimes.insecuretests.registration.viewmodel;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.registration.VerifyAccountRepository.Mode;
+import org.mycrimes.insecuretests.registration.VerifyAccountRepository.Mode;
 
 import java.util.HashMap;
 import java.util.Map;

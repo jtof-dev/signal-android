@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -11,7 +11,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.testing.TestDatabaseUtil
+import org.mycrimes.insecuretests.testing.TestDatabaseUtil
 import android.database.sqlite.SQLiteDatabase as AndroidSQLiteDatabase
 import org.hamcrest.CoreMatchers.`is` as isEqual
 

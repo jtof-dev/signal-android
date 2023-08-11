@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.dialogs
+package org.mycrimes.insecuretests.stories.dialogs
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -15,23 +15,23 @@ import io.reactivex.rxjava3.core.Single
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.SimpleTask
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
-import org.thoughtcrime.securesms.stories.landing.StoriesLandingItem
-import org.thoughtcrime.securesms.stories.viewer.page.StoryPost
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageState
-import org.thoughtcrime.securesms.util.Base64
-import org.thoughtcrime.securesms.util.BitmapUtil
-import org.thoughtcrime.securesms.util.DeleteDialog
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.SaveAttachmentTask
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.components.menu.ActionItem
+import org.mycrimes.insecuretests.components.menu.SignalContextMenu
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.database.model.databaseprotos.StoryTextPost
+import org.mycrimes.insecuretests.providers.BlobProvider
+import org.mycrimes.insecuretests.stories.StoryTextPostModel
+import org.mycrimes.insecuretests.stories.landing.StoriesLandingItem
+import org.mycrimes.insecuretests.stories.viewer.page.StoryPost
+import org.mycrimes.insecuretests.stories.viewer.page.StoryViewerPageState
+import org.mycrimes.insecuretests.util.Base64
+import org.mycrimes.insecuretests.util.BitmapUtil
+import org.mycrimes.insecuretests.util.DeleteDialog
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.SaveAttachmentTask
 import java.io.ByteArrayInputStream
 
 object StoryContextMenu {

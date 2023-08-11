@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.annotation.SuppressLint;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.TypingSendJob;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.TypingSendJob;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -191,7 +191,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.mycrimes.insecuretests.components.emoji.EmojiTextView
                 android:id="@+id/create_payment_fragment_note"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

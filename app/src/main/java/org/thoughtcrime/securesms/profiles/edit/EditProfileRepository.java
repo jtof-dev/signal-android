@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package org.mycrimes.insecuretests.profiles.edit;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.util.Consumer;
 
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.profiles.ProfileName;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor;
+import org.mycrimes.insecuretests.profiles.ProfileName;
 
 import java.util.Optional;
 

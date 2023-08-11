@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.permissions;
+package org.mycrimes.insecuretests.permissions;
 
 
 import android.content.Context;
@@ -20,9 +20,9 @@ import androidx.core.graphics.drawable.DrawableCompat;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 public class RationaleDialog {
 

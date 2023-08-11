@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -34,19 +34,19 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.DummyActivity;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.migrations.ApplicationMigrations;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.DummyActivity;
+import org.mycrimes.insecuretests.MainActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.crypto.InvalidPassphraseException;
+import org.mycrimes.insecuretests.crypto.MasterSecret;
+import org.mycrimes.insecuretests.crypto.MasterSecretUtil;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.migrations.ApplicationMigrations;
+import org.mycrimes.insecuretests.notifications.NotificationChannels;
+import org.mycrimes.insecuretests.util.DynamicLanguage;
+import org.mycrimes.insecuretests.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

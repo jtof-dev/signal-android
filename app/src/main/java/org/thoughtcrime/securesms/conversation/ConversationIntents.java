@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,18 +10,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.badges.models.Badge;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.conversation.v2.ConversationActivity;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mms.SlideFactory;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
+import org.mycrimes.insecuretests.badges.models.Badge;
+import org.mycrimes.insecuretests.conversation.colors.ChatColors;
+import org.mycrimes.insecuretests.conversation.v2.ConversationActivity;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.ThreadTable;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.mediasend.Media;
+import org.mycrimes.insecuretests.mms.SlideFactory;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.stickers.StickerLocator;
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaper;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -483,7 +483,7 @@ public class ConversationIntents {
     if (SignalStore.internalValues().useConversationFragmentV2()) {
       return ConversationActivity.class;
     } else {
-      return org.thoughtcrime.securesms.conversation.ConversationActivity.class;
+      return org.mycrimes.insecuretests.conversation.ConversationActivity.class;
     }
   }
 }

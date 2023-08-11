@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation.sounds.custom
+package org.mycrimes.insecuretests.components.settings.conversation.sounds.custom
 
 import android.app.Activity
 import android.content.Context
@@ -13,16 +13,16 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.viewModels
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.RingtoneUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.notifications.NotificationChannels
+import org.mycrimes.insecuretests.util.ConversationUtil
+import org.mycrimes.insecuretests.util.RingtoneUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 
 private val TAG = Log.tag(CustomNotificationsSettingsFragment::class.java)
 

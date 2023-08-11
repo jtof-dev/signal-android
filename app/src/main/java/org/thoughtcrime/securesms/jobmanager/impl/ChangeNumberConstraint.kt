@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.jobmanager.impl
+package org.mycrimes.insecuretests.jobmanager.impl
 
 import android.app.job.JobInfo
-import org.thoughtcrime.securesms.jobmanager.Constraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.jobmanager.Constraint
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 
 /**
  * Constraint that, when added, means that a job cannot be performed while a change number operation is in progress.

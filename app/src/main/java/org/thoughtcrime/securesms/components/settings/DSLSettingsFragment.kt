@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings
+package org.mycrimes.insecuretests.components.settings
 
 import android.content.Context
 import android.os.Build
@@ -15,9 +15,9 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.Material3OnScrollHelper
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 import java.lang.UnsupportedOperationException
 
 /**

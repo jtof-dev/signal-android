@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.mycrimes.insecuretests.components.webrtc;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.events.CallParticipant;
+import org.mycrimes.insecuretests.events.CallParticipant;
 
 import java.util.Collections;
 import java.util.List;

@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.DrawableRes
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toMillis
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.menu.ActionItem
+import org.mycrimes.insecuretests.components.menu.SignalContextMenu
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.toLocalDateTime
+import org.mycrimes.insecuretests.util.toMillis
 import java.util.Locale
 
 class ScheduleMessageContextMenu {

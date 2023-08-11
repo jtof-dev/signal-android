@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.components.settings.app.internal
+package org.mycrimes.insecuretests.components.settings.app.internal
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import org.signal.ringrtc.CallManager
-import org.thoughtcrime.securesms.jobs.StoryOnboardingDownloadJob
-import org.thoughtcrime.securesms.keyvalue.InternalValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.jobs.StoryOnboardingDownloadJob
+import org.mycrimes.insecuretests.keyvalue.InternalValues
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class InternalSettingsViewModel(private val repository: InternalSettingsRepository) : ViewModel() {
   private val preferenceDataStore = SignalStore.getPreferenceDataStore()

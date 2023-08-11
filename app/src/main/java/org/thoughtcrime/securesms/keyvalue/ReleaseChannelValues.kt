@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.mycrimes.insecuretests.keyvalue
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 internal class ReleaseChannelValues(store: KeyValueStore) : SignalStoreValues(store) {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.net.Uri
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -8,11 +8,11 @@ import org.junit.Assert.assertNotEquals
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.mms.MediaStream
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.mycrimes.insecuretests.attachments.UriAttachment
+import org.mycrimes.insecuretests.mms.MediaStream
+import org.mycrimes.insecuretests.mms.SentMediaQuality
+import org.mycrimes.insecuretests.providers.BlobProvider
+import org.mycrimes.insecuretests.util.MediaUtil
 import java.util.Optional
 
 @RunWith(AndroidJUnit4::class)

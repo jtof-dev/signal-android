@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ringrtc;
+package org.mycrimes.insecuretests.ringrtc;
 
 /**
  *

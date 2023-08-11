@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.stories.settings.group
+package org.mycrimes.insecuretests.stories.settings.group
 
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import org.mycrimes.insecuretests.database.GroupTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.storage.StorageSyncHelper
 
 class GroupStorySettingsRepository {
   fun unmarkAsGroupStory(groupId: GroupId): Completable {

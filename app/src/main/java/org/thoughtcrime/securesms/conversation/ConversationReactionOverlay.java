@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -34,20 +34,20 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.DimensionUnit;
 import org.signal.glide.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
-import org.thoughtcrime.securesms.components.menu.ActionItem;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ReactionRecord;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.animation.AnimationCompleteListener;
+import org.mycrimes.insecuretests.components.emoji.EmojiImageView;
+import org.mycrimes.insecuretests.components.emoji.EmojiUtil;
+import org.mycrimes.insecuretests.components.menu.ActionItem;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.database.model.ReactionRecord;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
 
 import java.util.ArrayList;
 import java.util.List;

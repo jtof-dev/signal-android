@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,16 +11,16 @@ import androidx.lifecycle.LiveData;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.storage.StorageSyncHelper;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.webrtc.CallDataMode;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.mms.SentMediaQuality;
+import org.mycrimes.insecuretests.preferences.widgets.NotificationPrivacyPreference;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.storage.StorageSyncHelper;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.webrtc.CallDataMode;
 
 import java.util.Arrays;
 import java.util.List;
@@ -415,7 +415,7 @@ public final class SettingsValues extends SignalStoreValues {
    * We need to keep track of when the default status changes so we can sync to storage service.
    * So call this when you think it might have changed, but *don't* rely on it for knowing if we
    * *are* the default SMS. For that, continue to use
-   * {@link org.thoughtcrime.securesms.util.Util#isDefaultSmsProvider(Context)}.
+   * {@link org.mycrimes.insecuretests.util.Util#isDefaultSmsProvider(Context)}.
    */
   public void setDefaultSms(boolean value) {
     boolean lastKnown = getBoolean(DEFAULT_SMS, false);

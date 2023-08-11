@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.mycrimes.insecuretests.notifications;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -13,16 +13,16 @@ import com.annimon.stream.Stream;
 import org.signal.core.util.Stopwatch;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable.ExpirationInfo;
-import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo;
-import org.thoughtcrime.securesms.database.MessageTable.SyncMessageId;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob;
-import org.thoughtcrime.securesms.jobs.SendReadReceiptJob;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.service.ExpiringMessageManager;
+import org.mycrimes.insecuretests.database.MessageTable.ExpirationInfo;
+import org.mycrimes.insecuretests.database.MessageTable.MarkedMessageInfo;
+import org.mycrimes.insecuretests.database.MessageTable.SyncMessageId;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.MultiDeviceReadUpdateJob;
+import org.mycrimes.insecuretests.jobs.SendReadReceiptJob;
+import org.mycrimes.insecuretests.notifications.v2.ConversationId;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.service.ExpiringMessageManager;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -32,7 +32,7 @@ import java.util.Map;
 public class MarkReadReceiver extends BroadcastReceiver {
 
   private static final String TAG                   = Log.tag(MarkReadReceiver.class);
-  public static final  String CLEAR_ACTION          = "org.thoughtcrime.securesms.notifications.CLEAR";
+  public static final  String CLEAR_ACTION          = "org.mycrimes.insecuretests.notifications.CLEAR";
   public static final  String THREADS_EXTRA         = "threads";
   public static final  String NOTIFICATION_ID_EXTRA = "notification_id";
 

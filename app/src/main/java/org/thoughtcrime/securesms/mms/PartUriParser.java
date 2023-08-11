@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import android.content.ContentUris;
 import android.net.Uri;
 
-import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
 
 public class PartUriParser {
 

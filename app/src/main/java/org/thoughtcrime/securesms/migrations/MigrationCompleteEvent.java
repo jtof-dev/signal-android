@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 public class MigrationCompleteEvent {
 

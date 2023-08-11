@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments;
+package org.mycrimes.insecuretests.registration.fragments;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -13,11 +13,11 @@ import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.fragment.NavHostFragment;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.registration.viewmodel.BaseRegistrationViewModel;
-import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.registration.viewmodel.BaseRegistrationViewModel;
+import org.mycrimes.insecuretests.registration.viewmodel.RegistrationViewModel;
 
 import java.io.Serializable;
 

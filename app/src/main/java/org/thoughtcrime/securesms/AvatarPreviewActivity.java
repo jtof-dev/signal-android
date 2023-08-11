@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,15 +28,15 @@ import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.request.transition.Transition;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.FallbackContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ResourceContactPhoto;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.FullscreenHelper;
+import org.mycrimes.insecuretests.components.emoji.EmojiTextView;
+import org.mycrimes.insecuretests.contacts.avatars.ContactPhoto;
+import org.mycrimes.insecuretests.contacts.avatars.FallbackContactPhoto;
+import org.mycrimes.insecuretests.contacts.avatars.ProfileContactPhoto;
+import org.mycrimes.insecuretests.contacts.avatars.ResourceContactPhoto;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.FullscreenHelper;
 
 /**
  * Activity for displaying avatars full screen.

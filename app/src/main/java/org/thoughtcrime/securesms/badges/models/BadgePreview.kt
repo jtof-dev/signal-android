@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.badges.models
+package org.mycrimes.insecuretests.badges.models
 
 import android.view.View
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.BadgeImageView
+import org.mycrimes.insecuretests.components.AvatarImageView
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 
 /**
  * "Hero Image" for displaying an Avatar and badge. Allows the user to see what their profile will look like with a particular badge applied.

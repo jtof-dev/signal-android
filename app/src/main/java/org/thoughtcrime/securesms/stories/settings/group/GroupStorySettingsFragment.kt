@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.group
+package org.mycrimes.insecuretests.stories.settings.group
 
 import android.view.MenuItem
 import android.view.ViewGroup
@@ -8,17 +8,17 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.stories.dialogs.StoryDialogs
-import org.thoughtcrime.securesms.stories.settings.custom.PrivateStoryItem
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.menu.ActionItem
+import org.mycrimes.insecuretests.components.menu.SignalContextMenu
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.conversation.ConversationIntents
+import org.mycrimes.insecuretests.stories.dialogs.StoryDialogs
+import org.mycrimes.insecuretests.stories.settings.custom.PrivateStoryItem
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 
 /**
  * Displays who can see a group story and gives the user an option to remove it.

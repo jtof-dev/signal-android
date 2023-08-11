@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import android.content.Context
 import android.content.pm.PackageManager
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.jobs.RemoteConfigRefreshJob
-import org.thoughtcrime.securesms.jobs.RetrieveRemoteAnnouncementsJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.RefreshAttributesJob
+import org.mycrimes.insecuretests.jobs.RemoteConfigRefreshJob
+import org.mycrimes.insecuretests.jobs.RetrieveRemoteAnnouncementsJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 import java.time.Duration
 
 object VersionTracker {

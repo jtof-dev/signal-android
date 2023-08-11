@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.mycrimes.insecuretests.contactshare;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,18 +10,18 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
+import org.mycrimes.insecuretests.contacts.avatars.ContactPhoto;
 import org.signal.contacts.SystemContactsRepository;
 import org.signal.contacts.SystemContactsRepository.NameDetails;
 import org.signal.contacts.SystemContactsRepository.PhoneDetails;
-import org.thoughtcrime.securesms.contactshare.Contact.Email;
-import org.thoughtcrime.securesms.contactshare.Contact.Name;
-import org.thoughtcrime.securesms.contactshare.Contact.Phone;
-import org.thoughtcrime.securesms.contactshare.Contact.PostalAddress;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.contactshare.Contact.Email;
+import org.mycrimes.insecuretests.contactshare.Contact.Name;
+import org.mycrimes.insecuretests.contactshare.Contact.Phone;
+import org.mycrimes.insecuretests.contactshare.Contact.PostalAddress;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter;
+import org.mycrimes.insecuretests.providers.BlobProvider;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -36,7 +36,7 @@ import java.util.stream.Collectors;
 import ezvcard.Ezvcard;
 import ezvcard.VCard;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Avatar;
+import static org.mycrimes.insecuretests.contactshare.Contact.Avatar;
 
 public class SharedContactRepository {
 

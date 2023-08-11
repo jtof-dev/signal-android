@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.mycrimes.insecuretests.payments.preferences;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.money.FiatMoney;
-import org.thoughtcrime.securesms.payments.currency.CurrencyExchange;
-import org.thoughtcrime.securesms.payments.preferences.model.PaymentItem;
+import org.mycrimes.insecuretests.payments.currency.CurrencyExchange;
+import org.mycrimes.insecuretests.payments.preferences.model.PaymentItem;
 
 import java.util.Collections;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.mycrimes.insecuretests.notifications;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -13,11 +13,11 @@ import androidx.annotation.RequiresApi;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.permissions.Permissions;
+import org.mycrimes.insecuretests.recipients.Recipient;
 import org.signal.core.util.CursorUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.ServiceUtil;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.invites;
+package org.mycrimes.insecuretests.invites;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.RecipientTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 public final class InviteReminderRepository implements InviteReminderModel.Repository {
 

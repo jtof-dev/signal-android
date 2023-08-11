@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package org.mycrimes.insecuretests.notifications.profiles
 
 import android.content.Context
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.NotificationProfileValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.formatHours
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toLocalTime
-import org.thoughtcrime.securesms.util.toMillis
-import org.thoughtcrime.securesms.util.toOffset
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.keyvalue.NotificationProfileValues
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.formatHours
+import org.mycrimes.insecuretests.util.toLocalDateTime
+import org.mycrimes.insecuretests.util.toLocalTime
+import org.mycrimes.insecuretests.util.toMillis
+import org.mycrimes.insecuretests.util.toOffset
 import java.time.LocalDateTime
 import java.time.ZoneId
 

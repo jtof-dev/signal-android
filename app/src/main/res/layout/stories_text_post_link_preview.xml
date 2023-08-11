@@ -7,7 +7,7 @@
     tools:background="@color/signal_dark_colorBackground"
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
-    <org.thoughtcrime.securesms.components.ClippedCardView
+    <org.mycrimes.insecuretests.components.ClippedCardView
         android:id="@+id/link_preview_card"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <org.thoughtcrime.securesms.components.ThumbnailView
+            <org.mycrimes.insecuretests.components.ThumbnailView
                 android:id="@+id/link_preview_large"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -55,7 +55,7 @@
                 app:srcCompat="@drawable/ic_link_24"
                 app:tint="@color/core_grey_75" />
 
-            <org.thoughtcrime.securesms.components.ThumbnailView
+            <org.mycrimes.insecuretests.components.ThumbnailView
                 android:id="@+id/link_preview_image"
                 android:layout_width="94dp"
                 android:layout_height="0dp"
@@ -76,7 +76,7 @@
                 app:barrierMargin="12dp"
                 app:constraint_referenced_ids="link_preview_fallback_icon,link_preview_image" />
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.mycrimes.insecuretests.components.emoji.EmojiTextView
                 android:id="@+id/link_preview_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
                 app:layout_goneMarginStart="0dp"
                 tools:text="ASDF dot com, the resource of your asdf dreams and whatnot. This needs to be 3 lines for testing." />
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.mycrimes.insecuretests.components.emoji.EmojiTextView
                 android:id="@+id/link_preview_description"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
                 app:layout_goneMarginBottom="12dp"
                 tools:text="Blah blah blah" />
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.mycrimes.insecuretests.components.emoji.EmojiTextView
                 android:id="@+id/link_preview_url"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -137,9 +137,9 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </org.thoughtcrime.securesms.components.ClippedCardView>
+    </org.mycrimes.insecuretests.components.ClippedCardView>
 
-    <org.thoughtcrime.securesms.components.ClippedCardView
+    <org.mycrimes.insecuretests.components.ClippedCardView
         android:id="@+id/link_preview_placeholder_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
             app:drawableTint="@color/signal_light_colorOnSurface"
             tools:text="apple.com" />
 
-    </org.thoughtcrime.securesms.components.ClippedCardView>
+    </org.mycrimes.insecuretests.components.ClippedCardView>
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/card_barrier_end"

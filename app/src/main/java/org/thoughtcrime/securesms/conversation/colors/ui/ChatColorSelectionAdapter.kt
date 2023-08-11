@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package org.mycrimes.insecuretests.conversation.colors.ui
 
 import android.content.Context
 import android.graphics.Color
@@ -6,15 +6,15 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.TooltipPopup
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.withFixedSize
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.TooltipPopup
+import org.mycrimes.insecuretests.conversation.colors.ChatColors
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.util.withFixedSize
 
 class ChatColorSelectionAdapter(
   context: Context,

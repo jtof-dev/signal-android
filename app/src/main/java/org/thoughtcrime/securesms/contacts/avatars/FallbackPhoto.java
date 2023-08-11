@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.mycrimes.insecuretests.contacts.avatars;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -10,9 +10,9 @@ import androidx.annotation.Px;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.core.graphics.drawable.DrawableCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.Avatars;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.avatar.Avatars;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor;
 
 import java.util.Objects;
 

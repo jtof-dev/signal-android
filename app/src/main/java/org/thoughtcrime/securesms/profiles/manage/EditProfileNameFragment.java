@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package org.mycrimes.insecuretests.profiles.manage;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -17,13 +17,13 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 
 import org.signal.core.util.EditTextUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.profiles.ProfileName;
+import org.mycrimes.insecuretests.recipients.Recipient;
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.text.AfterTextChanged;
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton;
 
 /**
  * Simple fragment to edit your profile name.

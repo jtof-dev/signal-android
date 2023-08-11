@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package org.mycrimes.insecuretests.conversationlist
 
 /**
  * Small state machine that describes moving and triggering actions

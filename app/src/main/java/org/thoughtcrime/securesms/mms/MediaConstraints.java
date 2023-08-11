@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,12 +10,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.MemoryFileDescriptor;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.util.BitmapDecodingException;
+import org.mycrimes.insecuretests.util.BitmapUtil;
+import org.mycrimes.insecuretests.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.MemoryFileDescriptor;
 
 import java.io.IOException;
 import java.io.InputStream;

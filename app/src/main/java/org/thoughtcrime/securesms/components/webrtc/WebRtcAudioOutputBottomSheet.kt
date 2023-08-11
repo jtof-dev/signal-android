@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.mycrimes.insecuretests.components.webrtc
 
 import android.content.DialogInterface
 import androidx.compose.foundation.layout.Column
@@ -30,10 +30,10 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.compose.ComposeBottomSheetDialogFragment
+import org.mycrimes.insecuretests.util.BottomSheetUtil
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager
 
 /**
  * A bottom sheet that allows the user to select what device they want to route audio to. Intended to be used with Android 31+ APIs.

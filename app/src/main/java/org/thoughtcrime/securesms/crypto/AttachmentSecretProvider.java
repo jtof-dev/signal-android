@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package org.mycrimes.insecuretests.crypto;
 
 
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.os.Build;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.security.SecureRandom;
 

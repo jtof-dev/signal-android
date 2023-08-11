@@ -16,7 +16,7 @@
         android:importantForAccessibility="no"
         app:srcCompat="@drawable/bottom_sheet_handle" />
 
-    <org.thoughtcrime.securesms.components.ControllableTabLayout
+    <org.mycrimes.insecuretests.components.ControllableTabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

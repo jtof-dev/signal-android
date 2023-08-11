@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.payments.create;
+package org.mycrimes.insecuretests.payments.create;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.money.FiatMoney;
-import org.thoughtcrime.securesms.payments.currency.CurrencyExchange;
+import org.mycrimes.insecuretests.payments.currency.CurrencyExchange;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.Optional;

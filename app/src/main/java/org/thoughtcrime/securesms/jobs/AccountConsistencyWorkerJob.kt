@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.Base64
-import org.thoughtcrime.securesms.util.ProfileUtil
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.Base64
+import org.mycrimes.insecuretests.util.ProfileUtil
 import org.whispersystems.signalservice.api.profiles.SignalServiceProfile
 import java.io.IOException
 import kotlin.time.Duration.Companion.days
 
 /**
- * The worker job for [org.thoughtcrime.securesms.migrations.AccountConsistencyMigrationJob].
+ * The worker job for [org.mycrimes.insecuretests.migrations.AccountConsistencyMigrationJob].
  */
 class AccountConsistencyWorkerJob private constructor(parameters: Parameters) : BaseJob(parameters) {
 

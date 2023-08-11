@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 import android.content.Context
 import android.view.View
@@ -12,30 +12,30 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.Disposable
 import org.signal.core.util.BreakIteratorCompat
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.view.AvatarView
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.FromTextView
-import org.thoughtcrime.securesms.components.RecyclerViewFastScroller.FastScrollAdapter
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.contacts.LetterHeaderDecoration
-import org.thoughtcrime.securesms.contacts.avatars.FallbackContactPhoto
-import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.avatar.view.AvatarView
+import org.mycrimes.insecuretests.badges.BadgeImageView
+import org.mycrimes.insecuretests.components.AvatarImageView
+import org.mycrimes.insecuretests.components.FromTextView
+import org.mycrimes.insecuretests.components.RecyclerViewFastScroller.FastScrollAdapter
+import org.mycrimes.insecuretests.components.emoji.EmojiUtil
+import org.mycrimes.insecuretests.components.menu.ActionItem
+import org.mycrimes.insecuretests.components.menu.SignalContextMenu
+import org.mycrimes.insecuretests.contacts.LetterHeaderDecoration
+import org.mycrimes.insecuretests.contacts.avatars.FallbackContactPhoto
+import org.mycrimes.insecuretests.contacts.avatars.GeneratedContactPhoto
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyMode
+import org.mycrimes.insecuretests.database.model.StoryViewState
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.util.adapter.mapping.PagingMappingAdapter
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Default contact search adapter, using the models defined in `ContactSearchItems`

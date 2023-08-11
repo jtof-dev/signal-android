@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.mycrimes.insecuretests.components.webrtc
 
 import android.view.Gravity
 import android.view.LayoutInflater
@@ -11,9 +11,9 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.view.ViewCompat
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.Debouncer
+import org.mycrimes.insecuretests.util.visible
 import java.util.concurrent.TimeUnit
 
 /**

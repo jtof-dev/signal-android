@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.conversation.v2.data;
+package org.mycrimes.insecuretests.conversation.v2.data;
 
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
 
 import java.util.Collection;
 import java.util.HashSet;

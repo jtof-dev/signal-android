@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 import android.content.Context
 import android.view.View
@@ -9,18 +9,18 @@ import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.search.SearchRepository
-import org.thoughtcrime.securesms.stories.settings.custom.PrivateStorySettingsFragment
-import org.thoughtcrime.securesms.stories.settings.my.MyStorySettingsFragment
-import org.thoughtcrime.securesms.stories.settings.privacy.ChooseInitialMyStoryMembershipBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.conversationlist.chatfilter.ConversationFilterRequest
+import org.mycrimes.insecuretests.groups.SelectionLimits
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.search.SearchRepository
+import org.mycrimes.insecuretests.stories.settings.custom.PrivateStorySettingsFragment
+import org.mycrimes.insecuretests.stories.settings.my.MyStorySettingsFragment
+import org.mycrimes.insecuretests.stories.settings.privacy.ChooseInitialMyStoryMembershipBottomSheetDialogFragment
+import org.mycrimes.insecuretests.util.Debouncer
+import org.mycrimes.insecuretests.util.SpanUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.PagingMappingAdapter
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil
 import java.util.concurrent.TimeUnit
 
 /**

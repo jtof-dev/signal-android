@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.my
+package org.mycrimes.insecuretests.stories.my
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class MyStoriesViewModel(private val repository: MyStoriesRepository) : ViewModel() {
 

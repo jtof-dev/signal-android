@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.insights;
+package org.mycrimes.insecuretests.insights;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.List;

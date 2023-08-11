@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.mycrimes.insecuretests.calls.log
 
 import androidx.annotation.MainThread
 

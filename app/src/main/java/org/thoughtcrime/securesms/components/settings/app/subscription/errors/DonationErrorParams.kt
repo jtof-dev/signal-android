@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package org.mycrimes.insecuretests.components.settings.app.subscription.errors
 
 import android.content.Context
 import androidx.annotation.StringRes
 import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeDeclineCode
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 class DonationErrorParams<V> private constructor(
   @StringRes val title: Int,

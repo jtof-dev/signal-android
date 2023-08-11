@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist;
+package org.mycrimes.insecuretests.conversationlist;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -8,11 +8,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LifecycleOwner;
 
-import org.thoughtcrime.securesms.BindableConversationListItem;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.mycrimes.insecuretests.BindableConversationListItem;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversationlist.model.ConversationSet;
+import org.mycrimes.insecuretests.database.model.ThreadRecord;
+import org.mycrimes.insecuretests.mms.GlideRequests;
 
 import java.util.Locale;
 import java.util.Set;

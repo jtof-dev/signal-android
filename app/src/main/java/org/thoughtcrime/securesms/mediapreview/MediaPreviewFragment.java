@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview;
+package org.mycrimes.insecuretests.mediapreview;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,11 +8,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.mms.PartUriParser;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.mms.PartUriParser;
+import org.mycrimes.insecuretests.util.MediaUtil;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.Objects;

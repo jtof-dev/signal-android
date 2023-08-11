@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.mycrimes.insecuretests.notifications.v2
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -8,31 +8,31 @@ import android.text.SpannableStringBuilder
 import android.text.TextUtils
 import androidx.annotation.StringRes
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.contactshare.ContactUtil
-import org.thoughtcrime.securesms.database.MentionUtil
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadBodyUtil
-import org.thoughtcrime.securesms.database.adjustBodyRanges
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientUtil
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.hasGiftBadge
-import org.thoughtcrime.securesms.util.hasSharedContact
-import org.thoughtcrime.securesms.util.hasSticker
-import org.thoughtcrime.securesms.util.isMediaMessage
-import org.thoughtcrime.securesms.util.isStoryReaction
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contactshare.Contact
+import org.mycrimes.insecuretests.contactshare.ContactUtil
+import org.mycrimes.insecuretests.database.MentionUtil
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.ThreadBodyUtil
+import org.mycrimes.insecuretests.database.adjustBodyRanges
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.database.model.ReactionRecord
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.mms.Slide
+import org.mycrimes.insecuretests.mms.SlideDeck
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientUtil
+import org.mycrimes.insecuretests.service.KeyCachingService
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.SpanUtil
+import org.mycrimes.insecuretests.util.Util
+import org.mycrimes.insecuretests.util.hasGiftBadge
+import org.mycrimes.insecuretests.util.hasSharedContact
+import org.mycrimes.insecuretests.util.hasSticker
+import org.mycrimes.insecuretests.util.isMediaMessage
+import org.mycrimes.insecuretests.util.isStoryReaction
 
 private val TAG: String = Log.tag(NotificationItem::class.java)
 private const val EMOJI_REPLACEMENT_STRING = "__EMOJI__"

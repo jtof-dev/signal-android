@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.avatar.view
+package org.mycrimes.insecuretests.avatar.view
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.FrameLayout
 import androidx.core.content.res.use
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.mms.GlideRequests
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.AvatarImageView
+import org.mycrimes.insecuretests.database.model.StoryViewState
+import org.mycrimes.insecuretests.mms.GlideRequests
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * AvatarView encapsulating the AvatarImageView and decorations.

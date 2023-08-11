@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 
 import android.Manifest;
@@ -52,34 +52,34 @@ import com.pnikosis.materialishprogress.ProgressWheel;
 
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.RecyclerViewFastScroller;
-import org.thoughtcrime.securesms.contacts.ContactChipViewModel;
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;
-import org.thoughtcrime.securesms.contacts.HeaderAction;
-import org.thoughtcrime.securesms.contacts.LetterHeaderDecoration;
-import org.thoughtcrime.securesms.contacts.SelectedContact;
-import org.thoughtcrime.securesms.contacts.SelectedContacts;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchMediator;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchSortOrder;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchState;
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
-import org.thoughtcrime.securesms.groups.SelectionLimits;
-import org.thoughtcrime.securesms.groups.ui.GroupLimitDialog;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.CommunicationActions;
+import org.mycrimes.insecuretests.components.RecyclerViewFastScroller;
+import org.mycrimes.insecuretests.contacts.ContactChipViewModel;
+import org.mycrimes.insecuretests.contacts.ContactSelectionDisplayMode;
+import org.mycrimes.insecuretests.contacts.HeaderAction;
+import org.mycrimes.insecuretests.contacts.LetterHeaderDecoration;
+import org.mycrimes.insecuretests.contacts.SelectedContact;
+import org.mycrimes.insecuretests.contacts.SelectedContacts;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchAdapter;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchData;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchMediator;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchSortOrder;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchState;
+import org.mycrimes.insecuretests.contacts.sync.ContactDiscovery;
+import org.mycrimes.insecuretests.groups.SelectionLimits;
+import org.mycrimes.insecuretests.groups.ui.GroupLimitDialog;
+import org.mycrimes.insecuretests.permissions.Permissions;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.CommunicationActions;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.UsernameUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.UsernameUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList;
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog;
 
 import java.io.IOException;
 import java.util.Collections;

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.settings.custom.name
+package org.mycrimes.insecuretests.stories.settings.custom.name
 
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.stories.Stories
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.stories.Stories
 
 class EditStoryNameRepository {
   fun save(privateStoryId: DistributionListId, name: CharSequence): Completable {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.creategroup.details;
+package org.mycrimes.insecuretests.groups.ui.creategroup.details;
 
 import android.content.Context;
 
@@ -10,13 +10,13 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeException;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.groups.GroupChangeBusyException;
+import org.mycrimes.insecuretests.groups.GroupChangeException;
+import org.mycrimes.insecuretests.groups.GroupManager;
+import org.mycrimes.insecuretests.groups.ui.GroupMemberEntry;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 import java.io.IOException;
 import java.util.ArrayList;

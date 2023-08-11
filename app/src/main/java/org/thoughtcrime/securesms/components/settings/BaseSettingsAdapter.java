@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings;
+package org.mycrimes.insecuretests.components.settings;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter;
 
 /**
  * Reusable adapter for generic settings list.

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.avatar.picker
+package org.mycrimes.insecuretests.avatar.picker
 
-import org.thoughtcrime.securesms.avatar.Avatar
+import org.mycrimes.insecuretests.avatar.Avatar
 
 data class AvatarPickerState(
   val currentAvatar: Avatar? = null,

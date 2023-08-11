@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.toProtoByteString
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.buildWith
-import org.thoughtcrime.securesms.testing.GroupTestingUtils
-import org.thoughtcrime.securesms.testing.GroupTestingUtils.asMember
-import org.thoughtcrime.securesms.testing.MessageContentFuzzer
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.assertIs
-import org.thoughtcrime.securesms.util.MessageTableTestUtils
+import org.mycrimes.insecuretests.database.GroupReceiptTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.toProtoByteString
+import org.mycrimes.insecuretests.messages.SignalServiceProtoUtil.buildWith
+import org.mycrimes.insecuretests.testing.GroupTestingUtils
+import org.mycrimes.insecuretests.testing.GroupTestingUtils.asMember
+import org.mycrimes.insecuretests.testing.MessageContentFuzzer
+import org.mycrimes.insecuretests.testing.SignalActivityRule
+import org.mycrimes.insecuretests.testing.assertIs
+import org.mycrimes.insecuretests.util.MessageTableTestUtils
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.DataMessage
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContextV2
 

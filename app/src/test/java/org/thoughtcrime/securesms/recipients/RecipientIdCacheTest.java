@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.mycrimes.insecuretests.recipients;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,7 +6,7 @@ import androidx.annotation.Nullable;
 import org.junit.Before;
 import org.junit.Test;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.testutil.LogRecorder;
+import org.mycrimes.insecuretests.testutil.LogRecorder;
 import org.whispersystems.signalservice.api.push.ServiceId;
 
 import java.util.Optional;

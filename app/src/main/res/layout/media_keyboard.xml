@@ -3,7 +3,7 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
-    tools:parentTag="org.thoughtcrime.securesms.components.emoji.MediaKeyboard">
+    tools:parentTag="org.mycrimes.insecuretests.components.emoji.MediaKeyboard">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/media_keyboard_fragment_container"

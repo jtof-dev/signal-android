@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage
+package org.mycrimes.insecuretests.profiles.manage
 
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.testing.FragmentScenario
@@ -25,14 +25,14 @@ import org.junit.Ignore
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
-import org.thoughtcrime.securesms.testing.Put
-import org.thoughtcrime.securesms.testing.RxTestSchedulerRule
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.assertIsNotNull
-import org.thoughtcrime.securesms.testing.assertIsNull
-import org.thoughtcrime.securesms.testing.success
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.dependencies.InstrumentationApplicationDependencyProvider
+import org.mycrimes.insecuretests.testing.Put
+import org.mycrimes.insecuretests.testing.RxTestSchedulerRule
+import org.mycrimes.insecuretests.testing.SignalActivityRule
+import org.mycrimes.insecuretests.testing.assertIsNotNull
+import org.mycrimes.insecuretests.testing.assertIsNull
+import org.mycrimes.insecuretests.testing.success
 import org.whispersystems.signalservice.internal.push.ReserveUsernameResponse
 import java.util.concurrent.TimeUnit
 

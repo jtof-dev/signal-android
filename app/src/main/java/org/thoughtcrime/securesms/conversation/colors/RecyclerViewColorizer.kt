@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors
+package org.mycrimes.insecuretests.conversation.colors
 
 import android.graphics.Canvas
 import android.graphics.Color
@@ -10,7 +10,7 @@ import android.view.View
 import android.widget.EdgeEffect
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.components.RotatableGradientDrawable
+import org.mycrimes.insecuretests.components.RotatableGradientDrawable
 
 /**
  * Draws the ChatColors color or gradient following this procedure:

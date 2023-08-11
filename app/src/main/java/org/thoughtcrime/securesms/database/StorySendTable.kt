@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -10,8 +10,8 @@ import org.signal.core.util.requireLong
 import org.signal.core.util.select
 import org.signal.core.util.toInt
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.model.MessageId
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.DistributionId
 
 /**

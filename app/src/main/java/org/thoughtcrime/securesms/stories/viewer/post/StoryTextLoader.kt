@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package org.mycrimes.insecuretests.stories.viewer.post
 
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.TextView
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.stories.StoryTextPostView
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.FragmentDialogs.displayInDialogAboveAnchor
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.linkpreview.LinkPreview
+import org.mycrimes.insecuretests.stories.StoryTextPostView
+import org.mycrimes.insecuretests.util.CommunicationActions
+import org.mycrimes.insecuretests.util.FragmentDialogs.displayInDialogAboveAnchor
 
 /**
  * Render logic for story text posts

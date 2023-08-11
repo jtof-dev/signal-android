@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.conversation.ui.error;
+package org.mycrimes.insecuretests.conversation.ui.error;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.IdentityTable;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.database.IdentityTable;
+import org.mycrimes.insecuretests.database.model.IdentityRecord;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 /**
  * Wrapper class for helping show a list of recipients that had recent safety number changes.

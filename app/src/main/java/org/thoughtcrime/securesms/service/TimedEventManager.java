@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 import android.app.AlarmManager;
 import android.app.Application;
@@ -18,7 +18,7 @@ import androidx.annotation.WorkerThread;
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.ServiceUtil;
 
 /**
  * Class to help manage scheduling events to happen in the future, whether the app is open or not.

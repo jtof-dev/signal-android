@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.concurrent;
+package org.mycrimes.insecuretests.util.concurrent;
 
 import androidx.annotation.NonNull;
 

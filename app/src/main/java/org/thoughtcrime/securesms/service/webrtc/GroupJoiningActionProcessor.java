@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.mycrimes.insecuretests.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -8,15 +8,15 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.Camera;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
-import org.thoughtcrime.securesms.util.NetworkUtil;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.mycrimes.insecuretests.events.WebRtcViewModel;
+import org.mycrimes.insecuretests.ringrtc.Camera;
+import org.mycrimes.insecuretests.ringrtc.RemotePeer;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceState;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceStateBuilder;
+import org.mycrimes.insecuretests.util.NetworkUtil;
+import org.mycrimes.insecuretests.webrtc.locks.LockManager;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
+import static org.mycrimes.insecuretests.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
 
 /**
  * Process actions to go from lobby to a joined call.

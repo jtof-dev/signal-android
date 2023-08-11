@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -16,16 +16,16 @@ import com.google.common.collect.Sets;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconUtility;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobs.ConversationShortcutUpdateJob;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.settings.app.appearance.appicon.util.AppIconUtility;
+import org.mycrimes.insecuretests.conversation.ConversationIntents;
+import org.mycrimes.insecuretests.database.GroupTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.jobs.ConversationShortcutUpdateJob;
+import org.mycrimes.insecuretests.notifications.NotificationChannels;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -42,7 +42,7 @@ public final class ConversationUtil {
 
   public static final int CONVERSATION_SUPPORT_VERSION = 30;
 
-  private static final String CATEGORY_SHARE_TARGET = "org.thoughtcrime.securesms.sharing.CATEGORY_SHARE_TARGET";
+  private static final String CATEGORY_SHARE_TARGET = "org.mycrimes.insecuretests.sharing.CATEGORY_SHARE_TARGET";
 
   private static final String CAPABILITY_SEND_MESSAGE    = "actions.intent.SEND_MESSAGE";
   private static final String CAPABILITY_RECEIVE_MESSAGE = "actions.intent.RECEIVE_MESSAGE";

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.composer
+package org.mycrimes.insecuretests.stories.viewer.reply.composer
 
 import android.content.Context
 import android.graphics.Rect
@@ -17,24 +17,24 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ComposeText
-import org.thoughtcrime.securesms.components.InputAwareLayout
-import org.thoughtcrime.securesms.components.emoji.Emoji
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView
-import org.thoughtcrime.securesms.components.emoji.EmojiToggle
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.emoji.EmojiSource
-import org.thoughtcrime.securesms.keyboard.emoji.toMappingModels
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ComposeText
+import org.mycrimes.insecuretests.components.InputAwareLayout
+import org.mycrimes.insecuretests.components.emoji.Emoji
+import org.mycrimes.insecuretests.components.emoji.EmojiEventListener
+import org.mycrimes.insecuretests.components.emoji.EmojiPageModel
+import org.mycrimes.insecuretests.components.emoji.EmojiPageView
+import org.mycrimes.insecuretests.components.emoji.EmojiToggle
+import org.mycrimes.insecuretests.components.emoji.MediaKeyboard
+import org.mycrimes.insecuretests.components.emoji.RecentEmojiPageModel
+import org.mycrimes.insecuretests.database.model.Mention
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.emoji.EmojiSource
+import org.mycrimes.insecuretests.keyboard.emoji.toMappingModels
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
 
 class StoryReplyComposer @JvmOverloads constructor(
   context: Context,

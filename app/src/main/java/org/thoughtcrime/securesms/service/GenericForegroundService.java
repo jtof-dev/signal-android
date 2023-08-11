@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -16,11 +16,11 @@ import androidx.core.content.ContextCompat;
 
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil;
-import org.thoughtcrime.securesms.jobs.UnableToStartException;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.mycrimes.insecuretests.MainActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.jobs.ForegroundServiceUtil;
+import org.mycrimes.insecuretests.jobs.UnableToStartException;
+import org.mycrimes.insecuretests.notifications.NotificationChannels;
 import org.whispersystems.signalservice.api.util.Preconditions;
 
 import java.util.Iterator;

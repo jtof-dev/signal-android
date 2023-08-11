@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.mycrimes.insecuretests.components.settings.app.changenumber
 
 import android.content.Context
 import android.content.DialogInterface.OnClickListener
@@ -14,15 +14,15 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Single
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.getCaptchaArguments
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.getViewModel
-import org.thoughtcrime.securesms.registration.RegistrationSessionProcessor
-import org.thoughtcrime.securesms.registration.VerifyAccountRepository
-import org.thoughtcrime.securesms.util.dualsim.MccMncProducer
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberUtil.getCaptchaArguments
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberUtil.getViewModel
+import org.mycrimes.insecuretests.registration.RegistrationSessionProcessor
+import org.mycrimes.insecuretests.registration.VerifyAccountRepository
+import org.mycrimes.insecuretests.util.dualsim.MccMncProducer
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 private val TAG: String = Log.tag(ChangeNumberVerifyFragment::class.java)
 

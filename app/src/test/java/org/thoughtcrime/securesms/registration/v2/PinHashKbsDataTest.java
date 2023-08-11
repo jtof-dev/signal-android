@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.registration.v2;
+package org.mycrimes.insecuretests.registration.v2;
 
 import org.junit.Test;
 import org.signal.core.util.StreamUtil;
 import org.signal.libsignal.svr2.PinHash;
-import org.thoughtcrime.securesms.registration.v2.testdata.KbsTestVector;
+import org.mycrimes.insecuretests.registration.v2.testdata.KbsTestVector;
 import org.whispersystems.signalservice.api.crypto.InvalidCiphertextException;
 import org.whispersystems.signalservice.api.kbs.KbsData;
 import org.whispersystems.signalservice.api.kbs.MasterKey;
@@ -19,7 +19,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.thoughtcrime.securesms.testutil.SecureRandomTestUtil.mockRandom;
+import static org.mycrimes.insecuretests.testutil.SecureRandomTestUtil.mockRandom;
 
 public final class PinHashKbsDataTest {
 

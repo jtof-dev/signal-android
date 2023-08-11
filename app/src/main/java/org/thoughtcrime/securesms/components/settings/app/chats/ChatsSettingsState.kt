@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.chats
+package org.mycrimes.insecuretests.components.settings.app.chats
 
-import org.thoughtcrime.securesms.components.settings.app.chats.sms.SmsExportState
+import org.mycrimes.insecuretests.components.settings.app.chats.sms.SmsExportState
 
 data class ChatsSettingsState(
   val generateLinkPreviews: Boolean,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 interface ThreadIdDatabaseReference {
   void remapThread(long fromId, long toId);

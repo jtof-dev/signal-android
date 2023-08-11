@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.log
+package org.mycrimes.insecuretests.calls.log
 
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.GroupCallUpdateDetails
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.CallLinkPeekInfo
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import org.mycrimes.insecuretests.database.CallLinkTable
+import org.mycrimes.insecuretests.database.CallTable
+import org.mycrimes.insecuretests.database.model.databaseprotos.GroupCallUpdateDetails
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.service.webrtc.CallLinkPeekInfo
+import org.mycrimes.insecuretests.service.webrtc.links.CallLinkRoomId
 
 /**
  * A row to be displayed in the call log

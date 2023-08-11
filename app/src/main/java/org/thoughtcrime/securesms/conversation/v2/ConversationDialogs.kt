@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import android.content.Context
 import android.content.DialogInterface
@@ -8,15 +8,15 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.concurrent.SimpleTask
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.database.model.InMemoryMessageRecord.NoGroupsInCommon
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.verify.VerifyIdentityActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.AppSettingsActivity
+import org.mycrimes.insecuretests.database.model.InMemoryMessageRecord.NoGroupsInCommon
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.sms.MessageSender
+import org.mycrimes.insecuretests.util.CommunicationActions
+import org.mycrimes.insecuretests.verify.VerifyIdentityActivity
 
 /**
  * Centralized object for displaying dialogs to the user from the

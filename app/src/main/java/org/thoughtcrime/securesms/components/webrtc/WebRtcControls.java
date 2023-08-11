@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.mycrimes.insecuretests.components.webrtc;
 
 import android.content.Context;
 
@@ -7,8 +7,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.Px;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager;
 
 import java.util.Set;
 

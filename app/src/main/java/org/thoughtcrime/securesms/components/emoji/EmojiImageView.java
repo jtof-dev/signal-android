@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.mycrimes.insecuretests.components.emoji;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 public class EmojiImageView extends AppCompatImageView {
 

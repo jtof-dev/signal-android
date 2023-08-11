@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.Attachment;
 
 public class Sticker {
 

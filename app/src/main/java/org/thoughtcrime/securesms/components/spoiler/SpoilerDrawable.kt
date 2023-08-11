@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.spoiler
+package org.mycrimes.insecuretests.components.spoiler
 
 import android.graphics.Canvas
 import android.graphics.ColorFilter

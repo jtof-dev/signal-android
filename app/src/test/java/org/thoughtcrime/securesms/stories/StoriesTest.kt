@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package org.mycrimes.insecuretests.stories
 
 import io.reactivex.rxjava3.plugins.RxJavaPlugins
 import io.reactivex.rxjava3.schedulers.TestScheduler
@@ -15,13 +15,13 @@ import org.mockito.kotlin.isA
 import org.mockito.kotlin.never
 import org.mockito.kotlin.verify
 import org.mockito.kotlin.whenever
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobs.AttachmentDownloadJob
+import org.mycrimes.insecuretests.attachments.AttachmentId
+import org.mycrimes.insecuretests.database.AttachmentTable
+import org.mycrimes.insecuretests.database.FakeMessageRecords
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.JobManager
+import org.mycrimes.insecuretests.jobs.AttachmentDownloadJob
 
 class StoriesTest {
 

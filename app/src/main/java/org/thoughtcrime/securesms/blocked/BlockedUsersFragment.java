@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.blocked;
+package org.mycrimes.insecuretests.blocked;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.BlockUnblockDialog;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.BlockUnblockDialog;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.recipients.Recipient;
 import org.signal.core.util.concurrent.LifecycleDisposable;
 
 public class BlockedUsersFragment extends Fragment {

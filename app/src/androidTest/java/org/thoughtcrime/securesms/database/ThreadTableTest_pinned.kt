@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
@@ -6,9 +6,9 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.signal.core.util.CursorUtil
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testing.SignalDatabaseRule
+import org.mycrimes.insecuretests.conversationlist.model.ConversationFilter
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.testing.SignalDatabaseRule
 import org.whispersystems.signalservice.api.push.ServiceId
 import java.util.UUID
 

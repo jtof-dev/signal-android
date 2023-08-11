@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.database.Cursor
 import org.signal.core.util.requireBlob
 import org.signal.spinner.ColumnTransformer
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
 
 object MessageRangesTransformer : ColumnTransformer {
   override fun matches(tableName: String?, columnName: String): Boolean {

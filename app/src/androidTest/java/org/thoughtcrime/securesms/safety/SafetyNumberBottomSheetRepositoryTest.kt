@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.safety
+package org.mycrimes.insecuretests.safety
 
 import io.reactivex.rxjava3.plugins.RxJavaPlugins
 import io.reactivex.rxjava3.schedulers.TestScheduler
@@ -6,10 +6,10 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.testing.SignalActivityRule
 
 class SafetyNumberBottomSheetRepositoryTest {
 

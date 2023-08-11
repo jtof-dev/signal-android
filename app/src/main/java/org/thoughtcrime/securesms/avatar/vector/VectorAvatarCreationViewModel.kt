@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.avatar.vector
+package org.mycrimes.insecuretests.avatar.vector
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.avatar.Avatar
+import org.mycrimes.insecuretests.avatar.Avatars
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class VectorAvatarCreationViewModel(initialAvatar: Avatar.Vector) : ViewModel() {
 

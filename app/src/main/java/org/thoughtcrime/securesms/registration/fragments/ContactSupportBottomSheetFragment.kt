@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments
+package org.mycrimes.insecuretests.registration.fragments
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -19,10 +19,10 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SupportEmailUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.compose.ComposeBottomSheetDialogFragment
+import org.mycrimes.insecuretests.util.CommunicationActions
+import org.mycrimes.insecuretests.util.SupportEmailUtil
 
 /**
  * Helpful bottom sheet dialog displayed during registration when the user enters the wrong verification code too many times.

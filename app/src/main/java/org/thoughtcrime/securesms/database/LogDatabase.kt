@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -12,10 +12,10 @@ import org.signal.core.util.Stopwatch
 import org.signal.core.util.delete
 import org.signal.core.util.getTableRowCount
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.crypto.DatabaseSecret
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider
-import org.thoughtcrime.securesms.database.model.LogEntry
-import org.thoughtcrime.securesms.util.ByteUnit
+import org.mycrimes.insecuretests.crypto.DatabaseSecret
+import org.mycrimes.insecuretests.crypto.DatabaseSecretProvider
+import org.mycrimes.insecuretests.database.model.LogEntry
+import org.mycrimes.insecuretests.util.ByteUnit
 import java.io.Closeable
 import java.util.concurrent.TimeUnit
 import kotlin.math.abs

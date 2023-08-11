@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.mycrimes.insecuretests.components.settings.app.changenumber
 
 import android.os.Bundle
 import android.view.View
@@ -7,11 +7,11 @@ import androidx.appcompat.widget.Toolbar
 import androidx.navigation.fragment.findNavController
 import com.google.android.gms.auth.api.phone.SmsRetriever
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.PlayServicesUtil
-import org.thoughtcrime.securesms.util.PlayServicesUtil.PlayServicesStatus
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.PlayServicesUtil
+import org.mycrimes.insecuretests.util.PlayServicesUtil.PlayServicesStatus
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 class ChangeNumberConfirmFragment : LoggingFragment(R.layout.fragment_change_number_confirm) {
   private lateinit var viewModel: ChangeNumberViewModel

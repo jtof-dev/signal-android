@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.app.Application
 import android.os.Build
@@ -6,8 +6,8 @@ import android.os.storage.StorageManager
 import androidx.core.content.ContextCompat
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
 import java.io.File
 
 class ExportingSmsRepository(private val context: Application = ApplicationDependencies.getApplication()) {

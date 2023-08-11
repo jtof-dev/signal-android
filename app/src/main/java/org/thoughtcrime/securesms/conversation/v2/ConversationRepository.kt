@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -30,68 +30,68 @@ import org.signal.core.util.toOptional
 import org.signal.libsignal.protocol.InvalidMessageException
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.ShortcutLauncherActivity
-import org.thoughtcrime.securesms.attachments.TombstoneAttachment
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings
-import org.thoughtcrime.securesms.components.reminder.BubbleOptOutReminder
-import org.thoughtcrime.securesms.components.reminder.ExpiredBuildReminder
-import org.thoughtcrime.securesms.components.reminder.GroupsV1MigrationSuggestionsReminder
-import org.thoughtcrime.securesms.components.reminder.PendingGroupJoinRequestsReminder
-import org.thoughtcrime.securesms.components.reminder.Reminder
-import org.thoughtcrime.securesms.components.reminder.ServiceOutageReminder
-import org.thoughtcrime.securesms.components.reminder.UnauthorizedReminder
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.contactshare.ContactUtil
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.GroupAuthorNameColorHelper
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.conversation.v2.RequestReviewState.GroupReviewState
-import org.thoughtcrime.securesms.conversation.v2.RequestReviewState.IndividualReviewState
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationDataSource
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.attachments
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.recipients
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewOnceOpenJob
-import org.thoughtcrime.securesms.jobs.ServiceOutageDetectionJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messagerequests.MessageRequestState
-import org.thoughtcrime.securesms.mms.GlideRequests
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.profiles.spoofing.ReviewUtil
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientFormattingException
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.util.BitmapUtil
-import org.thoughtcrime.securesms.util.DrawableUtil
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.SignalLocalMetrics
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.hasLinkPreview
-import org.thoughtcrime.securesms.util.hasSharedContact
-import org.thoughtcrime.securesms.util.hasTextSlide
-import org.thoughtcrime.securesms.util.isViewOnceMessage
-import org.thoughtcrime.securesms.util.requireTextSlide
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.ShortcutLauncherActivity
+import org.mycrimes.insecuretests.attachments.TombstoneAttachment
+import org.mycrimes.insecuretests.components.emoji.EmojiStrings
+import org.mycrimes.insecuretests.components.reminder.BubbleOptOutReminder
+import org.mycrimes.insecuretests.components.reminder.ExpiredBuildReminder
+import org.mycrimes.insecuretests.components.reminder.GroupsV1MigrationSuggestionsReminder
+import org.mycrimes.insecuretests.components.reminder.PendingGroupJoinRequestsReminder
+import org.mycrimes.insecuretests.components.reminder.Reminder
+import org.mycrimes.insecuretests.components.reminder.ServiceOutageReminder
+import org.mycrimes.insecuretests.components.reminder.UnauthorizedReminder
+import org.mycrimes.insecuretests.contactshare.Contact
+import org.mycrimes.insecuretests.contactshare.ContactUtil
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.conversation.colors.GroupAuthorNameColorHelper
+import org.mycrimes.insecuretests.conversation.colors.NameColor
+import org.mycrimes.insecuretests.conversation.mutiselect.MultiselectPart
+import org.mycrimes.insecuretests.conversation.v2.RequestReviewState.GroupReviewState
+import org.mycrimes.insecuretests.conversation.v2.RequestReviewState.IndividualReviewState
+import org.mycrimes.insecuretests.conversation.v2.data.ConversationDataSource
+import org.mycrimes.insecuretests.crypto.ReentrantSessionLock
+import org.mycrimes.insecuretests.database.GroupTable
+import org.mycrimes.insecuretests.database.IdentityTable.VerifiedStatus
+import org.mycrimes.insecuretests.database.MessageTable
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.database.RxDatabaseObserver
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.SignalDatabase.Companion.attachments
+import org.mycrimes.insecuretests.database.SignalDatabase.Companion.recipients
+import org.mycrimes.insecuretests.database.model.GroupRecord
+import org.mycrimes.insecuretests.database.model.IdentityRecord
+import org.mycrimes.insecuretests.database.model.Mention
+import org.mycrimes.insecuretests.database.model.MessageId
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.database.model.Quote
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.MultiDeviceViewOnceOpenJob
+import org.mycrimes.insecuretests.jobs.ServiceOutageDetectionJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.messagerequests.MessageRequestState
+import org.mycrimes.insecuretests.mms.GlideRequests
+import org.mycrimes.insecuretests.mms.OutgoingMessage
+import org.mycrimes.insecuretests.mms.PartAuthority
+import org.mycrimes.insecuretests.mms.QuoteModel
+import org.mycrimes.insecuretests.mms.SlideDeck
+import org.mycrimes.insecuretests.profiles.spoofing.ReviewUtil
+import org.mycrimes.insecuretests.providers.BlobProvider
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientFormattingException
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sms.MessageSender
+import org.mycrimes.insecuretests.util.BitmapUtil
+import org.mycrimes.insecuretests.util.DrawableUtil
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.SignalLocalMetrics
+import org.mycrimes.insecuretests.util.Util
+import org.mycrimes.insecuretests.util.hasLinkPreview
+import org.mycrimes.insecuretests.util.hasSharedContact
+import org.mycrimes.insecuretests.util.hasTextSlide
+import org.mycrimes.insecuretests.util.isViewOnceMessage
+import org.mycrimes.insecuretests.util.requireTextSlide
 import java.io.IOException
 import java.util.Optional
 import kotlin.math.max
@@ -107,7 +107,7 @@ class ConversationRepository(
   }
 
   private val applicationContext = context.applicationContext
-  private val oldConversationRepository = org.thoughtcrime.securesms.conversation.ConversationRepository()
+  private val oldConversationRepository = org.mycrimes.insecuretests.conversation.ConversationRepository()
 
   /**
    * Loads the details necessary to display the conversation thread.

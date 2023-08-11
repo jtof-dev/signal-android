@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package org.mycrimes.insecuretests.audio;
 
 import android.media.AudioFormat;
 import android.media.AudioRecord;
@@ -11,7 +11,7 @@ import android.os.Process;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.io.IOException;
 import java.io.OutputStream;

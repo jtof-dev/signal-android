@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard
+package org.mycrimes.insecuretests.keyboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,18 +6,18 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.gif.GifKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.sticker.StickerKeyboardPageFragment
-import org.thoughtcrime.securesms.util.ThemeUtil
-import org.thoughtcrime.securesms.util.ThemedFragment.themeResId
-import org.thoughtcrime.securesms.util.ThemedFragment.themedInflate
-import org.thoughtcrime.securesms.util.ThemedFragment.withTheme
-import org.thoughtcrime.securesms.util.WindowUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.emoji.MediaKeyboard
+import org.mycrimes.insecuretests.keyboard.emoji.EmojiKeyboardPageFragment
+import org.mycrimes.insecuretests.keyboard.gif.GifKeyboardPageFragment
+import org.mycrimes.insecuretests.keyboard.sticker.StickerKeyboardPageFragment
+import org.mycrimes.insecuretests.util.ThemeUtil
+import org.mycrimes.insecuretests.util.ThemedFragment.themeResId
+import org.mycrimes.insecuretests.util.ThemedFragment.themedInflate
+import org.mycrimes.insecuretests.util.ThemedFragment.withTheme
+import org.mycrimes.insecuretests.util.WindowUtil
+import org.mycrimes.insecuretests.util.fragments.findListener
+import org.mycrimes.insecuretests.util.visible
 import kotlin.reflect.KClass
 
 class KeyboardPagerFragment : Fragment() {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package org.mycrimes.insecuretests.backup;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -11,10 +11,10 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 import org.signal.core.util.PendingIntentFlags;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.notifications.NotificationCancellationHelper;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.settings.app.AppSettingsActivity;
+import org.mycrimes.insecuretests.notifications.NotificationCancellationHelper;
+import org.mycrimes.insecuretests.notifications.NotificationChannels;
 
 import java.io.IOException;
 

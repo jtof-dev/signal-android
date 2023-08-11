@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.push
+package org.mycrimes.insecuretests.push
 
 import android.content.Context
 import com.google.i18n.phonenumbers.PhoneNumberUtil
@@ -8,17 +8,17 @@ import okhttp3.Dns
 import okhttp3.Interceptor
 import okhttp3.TlsVersion
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.CustomDns
-import org.thoughtcrime.securesms.net.DeprecatedClientPreventionInterceptor
-import org.thoughtcrime.securesms.net.DeviceTransferBlockingInterceptor
-import org.thoughtcrime.securesms.net.RemoteDeprecationDetectorInterceptor
-import org.thoughtcrime.securesms.net.SequentialDns
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor
-import org.thoughtcrime.securesms.net.StaticDns
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.BuildConfig
+import org.mycrimes.insecuretests.keyvalue.SettingsValues
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.net.CustomDns
+import org.mycrimes.insecuretests.net.DeprecatedClientPreventionInterceptor
+import org.mycrimes.insecuretests.net.DeviceTransferBlockingInterceptor
+import org.mycrimes.insecuretests.net.RemoteDeprecationDetectorInterceptor
+import org.mycrimes.insecuretests.net.SequentialDns
+import org.mycrimes.insecuretests.net.StandardUserAgentInterceptor
+import org.mycrimes.insecuretests.net.StaticDns
+import org.mycrimes.insecuretests.util.Base64
 import org.whispersystems.signalservice.api.push.TrustStore
 import org.whispersystems.signalservice.internal.configuration.SignalCdnUrl
 import org.whispersystems.signalservice.internal.configuration.SignalCdsiUrl

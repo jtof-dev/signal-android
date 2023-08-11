@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.service.webrtc
+package org.mycrimes.insecuretests.service.webrtc
 
 import org.signal.ringrtc.CallManager
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.recipients.RecipientId
 import java.util.UUID
 
 data class GroupCallRingCheckInfo(

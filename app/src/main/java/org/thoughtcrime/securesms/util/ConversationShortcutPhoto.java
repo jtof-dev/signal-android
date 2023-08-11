@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,16 +18,16 @@ import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
 import org.signal.libsignal.protocol.util.ByteUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.avatars.FallbackContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.FallbackPhoto80dp;
-import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.SystemContactPhoto;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.contacts.avatars.FallbackContactPhoto;
+import org.mycrimes.insecuretests.contacts.avatars.FallbackPhoto80dp;
+import org.mycrimes.insecuretests.contacts.avatars.GeneratedContactPhoto;
+import org.mycrimes.insecuretests.contacts.avatars.SystemContactPhoto;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor;
+import org.mycrimes.insecuretests.database.model.ProfileAvatarFileDetails;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.profiles.AvatarHelper;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.security.MessageDigest;
 import java.util.Objects;

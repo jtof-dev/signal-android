@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify;
+package org.mycrimes.insecuretests.verify;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,13 +7,13 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 
 import org.signal.libsignal.protocol.IdentityKey;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
-import org.thoughtcrime.securesms.database.IdentityTable;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.mycrimes.insecuretests.PassphraseRequiredActivity;
+import org.mycrimes.insecuretests.crypto.IdentityKeyParcelable;
+import org.mycrimes.insecuretests.database.IdentityTable;
+import org.mycrimes.insecuretests.database.model.IdentityRecord;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
 
 /**
  * Activity for verifying identity keys.

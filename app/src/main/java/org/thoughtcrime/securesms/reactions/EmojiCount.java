@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package org.mycrimes.insecuretests.reactions;
 
 import androidx.annotation.NonNull;
 

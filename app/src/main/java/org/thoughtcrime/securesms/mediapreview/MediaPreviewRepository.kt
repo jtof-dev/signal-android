@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.mycrimes.insecuretests.mediapreview
 
 import android.content.Context
 import android.content.Intent
@@ -11,20 +11,20 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
 import org.signal.core.util.requireLong
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.MediaTable.Sorting
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.media
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.longmessage.resolveBody
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.util.AttachmentUtil
+import org.mycrimes.insecuretests.attachments.AttachmentId
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment
+import org.mycrimes.insecuretests.conversation.ConversationIntents
+import org.mycrimes.insecuretests.database.AttachmentTable
+import org.mycrimes.insecuretests.database.MediaTable
+import org.mycrimes.insecuretests.database.MediaTable.Sorting
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.SignalDatabase.Companion.media
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.longmessage.resolveBody
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sms.MessageSender
+import org.mycrimes.insecuretests.util.AttachmentUtil
 
 /**
  * Repository for accessing the attachments in the encrypted database.

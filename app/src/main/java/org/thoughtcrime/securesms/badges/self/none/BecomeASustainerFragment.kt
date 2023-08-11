@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.badges.self.none
+package org.mycrimes.insecuretests.badges.self.none
 
 import android.content.Intent
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.BadgePreview
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.util.BottomSheetUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.models.BadgePreview
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsAdapter
+import org.mycrimes.insecuretests.components.settings.DSLSettingsBottomSheetFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.app.AppSettingsActivity
+import org.mycrimes.insecuretests.components.settings.app.subscription.MonthlyDonationRepository
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.util.BottomSheetUtil
 
 class BecomeASustainerFragment : DSLSettingsBottomSheetFragment() {
 

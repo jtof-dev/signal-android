@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package org.mycrimes.insecuretests.video;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -8,8 +8,8 @@ import android.util.Size;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.mms.MediaConstraints;
+import org.mycrimes.insecuretests.util.MediaUtil;
 
 import java.util.concurrent.TimeUnit;
 

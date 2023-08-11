@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:orientation="horizontal">
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiPageView
+        <org.mycrimes.insecuretests.components.emoji.EmojiPageView
             android:id="@+id/reaction_emoji_view"
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -53,7 +53,7 @@
         app:layout_goneMarginEnd="16dp"
         android:orientation="horizontal">
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiToggle
+        <org.mycrimes.insecuretests.components.emoji.EmojiToggle
             android:id="@+id/emoji_toggle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <org.thoughtcrime.securesms.components.ComposeText
+        <org.mycrimes.insecuretests.components.ComposeText
             android:id="@+id/compose_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.ViewUtil
 
 /**
  * A flavor of [InsetAwareConstraintLayout] that allows "replacing" the keyboard with our

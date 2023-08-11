@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package org.mycrimes.insecuretests.reactions;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.AlwaysChangedDiffUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.adapter.AlwaysChangedDiffUtil;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
-import org.thoughtcrime.securesms.BuildConfig
+import org.mycrimes.insecuretests.BuildConfig
 import androidx.tracing.Trace as AndroidTrace
 
 object SignalTrace {

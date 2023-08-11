@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.sms
+package org.mycrimes.insecuretests.components.settings.app.chats.sms
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.Util
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class SmsSettingsViewModel : ViewModel() {
 

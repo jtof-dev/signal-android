@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -32,13 +32,13 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.audio.AudioWaveForms;
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.events.PartProgressEvent;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.audio.AudioWaveForms;
+import org.mycrimes.insecuretests.components.voice.VoiceNotePlaybackState;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.events.PartProgressEvent;
+import org.mycrimes.insecuretests.mms.AudioSlide;
+import org.mycrimes.insecuretests.mms.SlideClickListener;
 
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;

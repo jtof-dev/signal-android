@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers;
+package org.mycrimes.insecuretests.database.helpers;
 
 
 import android.content.ContentValues;
@@ -16,11 +16,11 @@ import org.signal.libsignal.protocol.InvalidKeyException;
 import org.signal.libsignal.protocol.InvalidMessageException;
 import org.signal.libsignal.protocol.state.PreKeyRecord;
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
-import org.thoughtcrime.securesms.database.OneTimePreKeyTable;
-import org.thoughtcrime.securesms.database.SignedPreKeyTable;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.mycrimes.insecuretests.database.OneTimePreKeyTable;
+import org.mycrimes.insecuretests.database.SignedPreKeyTable;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.JsonUtils;
 
 import java.io.File;
 import java.io.FileInputStream;

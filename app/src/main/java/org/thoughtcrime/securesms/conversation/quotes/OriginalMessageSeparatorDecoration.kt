@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.quotes
+package org.mycrimes.insecuretests.conversation.quotes
 
 import android.content.Context
 import android.graphics.Canvas
@@ -11,8 +11,8 @@ import android.widget.TextView
 import androidx.core.view.children
 import androidx.core.view.marginLeft
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.ViewUtil
 
 /**
  * Serves as the separator between the original message and other messages. Used in [MessageQuotesBottomSheet] and [EditMessageHistoryDialog]

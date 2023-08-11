@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.mycrimes.insecuretests.jobmanager.impl;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.JobPredicate;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
+import org.mycrimes.insecuretests.jobmanager.JobPredicate;
+import org.mycrimes.insecuretests.jobmanager.persistence.JobSpec;
 
 import java.util.Arrays;
 import java.util.HashSet;

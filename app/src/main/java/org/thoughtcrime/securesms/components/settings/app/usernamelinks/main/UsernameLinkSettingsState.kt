@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package org.mycrimes.insecuretests.components.settings.app.usernamelinks.main
 
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import org.mycrimes.insecuretests.components.settings.app.usernamelinks.QrCodeData
+import org.mycrimes.insecuretests.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
 
 /**
  * Represents the UI state of the [UsernameLinkSettingsFragment].

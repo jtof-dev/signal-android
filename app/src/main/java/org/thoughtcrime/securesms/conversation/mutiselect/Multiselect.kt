@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.conversation.mutiselect
+package org.mycrimes.insecuretests.conversation.mutiselect
 
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
 import android.net.Uri
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.mms.TextSlide
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.conversation.MessageSendType
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.mms.MediaConstraints
+import org.mycrimes.insecuretests.mms.SlideDeck
+import org.mycrimes.insecuretests.mms.TextSlide
+import org.mycrimes.insecuretests.util.Util
 
 /**
  * General helper object for all things multiselect. This is only utilized by

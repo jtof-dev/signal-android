@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.mycrimes.insecuretests.components.emoji;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 public class EmojiSpan extends AnimatingImageSpan {
 

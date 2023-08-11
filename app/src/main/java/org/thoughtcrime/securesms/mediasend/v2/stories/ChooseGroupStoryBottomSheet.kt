@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.stories
+package org.mycrimes.insecuretests.mediasend.v2.stories
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -14,18 +14,18 @@ import androidx.fragment.app.setFragmentResult
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.getParcelableArrayListCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchMediator
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchSortOrder
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.ShareContact
-import org.thoughtcrime.securesms.sharing.ShareSelectionAdapter
-import org.thoughtcrime.securesms.sharing.ShareSelectionMappingModel
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchAdapter
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchMediator
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchSortOrder
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sharing.ShareContact
+import org.mycrimes.insecuretests.sharing.ShareSelectionAdapter
+import org.mycrimes.insecuretests.sharing.ShareSelectionMappingModel
+import org.mycrimes.insecuretests.util.FeatureFlags
 
 class ChooseGroupStoryBottomSheet : FixedRoundedCornerBottomSheetDialogFragment() {
 

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.migrations
+package org.mycrimes.insecuretests.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.AccountConsistencyWorkerJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobs.AccountConsistencyWorkerJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 
 /**
  * Migration to help address some account consistency issues that resulted under very specific situation post-device-transfer.

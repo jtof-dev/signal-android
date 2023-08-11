@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.spoiler
+package org.mycrimes.insecuretests.components.spoiler
 
 import android.graphics.Bitmap
 import android.graphics.BitmapShader
@@ -10,8 +10,8 @@ import android.graphics.Shader
 import androidx.annotation.MainThread
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.util.Util
 import kotlin.random.Random
 
 /**

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Single
 import org.signal.core.util.Result
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.messagerequests.MessageRequestRepository
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason
+import org.mycrimes.insecuretests.messagerequests.MessageRequestRepository
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 /**
  * View model for interacting with a message request displayed in ConversationFragment V2

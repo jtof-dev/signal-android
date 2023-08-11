@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.create;
+package org.mycrimes.insecuretests.payments.create;
 
 import android.content.Context;
 
@@ -12,18 +12,18 @@ import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.money.FiatMoney;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.Balance;
-import org.thoughtcrime.securesms.payments.CreatePaymentDetails;
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil;
-import org.thoughtcrime.securesms.payments.currency.CurrencyExchange;
-import org.thoughtcrime.securesms.payments.preferences.model.PayeeParcelable;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.ProfileUtil;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
-import org.thoughtcrime.securesms.util.livedata.Store;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.Balance;
+import org.mycrimes.insecuretests.payments.CreatePaymentDetails;
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil;
+import org.mycrimes.insecuretests.payments.currency.CurrencyExchange;
+import org.mycrimes.insecuretests.payments.preferences.model.PayeeParcelable;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.DefaultValueLiveData;
+import org.mycrimes.insecuretests.util.ProfileUtil;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.util.livedata.Store;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 import org.whispersystems.signalservice.api.payments.Money;
 import org.whispersystems.signalservice.api.util.OptionalUtil;

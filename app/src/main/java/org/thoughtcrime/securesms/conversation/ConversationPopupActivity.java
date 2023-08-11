@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.os.Bundle;
 import android.view.Display;
@@ -11,7 +11,7 @@ import android.view.WindowManager;
 import androidx.appcompat.widget.Toolbar;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 public class ConversationPopupActivity extends ConversationActivity {
 

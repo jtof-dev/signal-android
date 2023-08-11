@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.emoji
+package org.mycrimes.insecuretests.emoji
 
 import android.net.Uri
 import com.bumptech.glide.load.Key

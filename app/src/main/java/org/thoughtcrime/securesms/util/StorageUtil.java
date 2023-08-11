@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.Manifest;
 import android.content.Context;
@@ -13,11 +13,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.NoExternalStorageException;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.permissions.Permissions;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.NoExternalStorageException;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.permissions.Permissions;
 
 import java.io.File;
 import java.util.List;
@@ -25,7 +25,7 @@ import java.util.Objects;
 
 public class StorageUtil {
 
-  private static final String PRODUCTION_PACKAGE_ID = "org.thoughtcrime.securesms";
+  private static final String PRODUCTION_PACKAGE_ID = "org.mycrimes.insecuretests";
 
   public static File getOrCreateBackupDirectory() throws NoExternalStorageException {
     File storage = Environment.getExternalStorageDirectory();

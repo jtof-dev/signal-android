@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import okhttp3.HttpUrl
-import org.thoughtcrime.securesms.stickers.StickerUrl
+import org.mycrimes.insecuretests.stickers.StickerUrl
 import java.util.Objects
 import java.util.regex.Pattern
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy
+package org.mycrimes.insecuretests.components.settings.app.privacy
 
 data class PrivacySettingsState(
   val blockedCount: Int,

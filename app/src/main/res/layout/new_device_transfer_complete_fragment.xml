@@ -42,7 +42,7 @@
             app:layout_constraintTop_toBottomOf="@+id/new_device_transfer_complete_fragment_title"
             app:layout_constraintVertical_bias="0" />
 
-        <org.thoughtcrime.securesms.components.SquareImageView
+        <org.mycrimes.insecuretests.components.SquareImageView
             android:id="@+id/old_device_trasnfer_complete_fragment_success"
             android:layout_width="56dp"
             android:layout_height="56dp"

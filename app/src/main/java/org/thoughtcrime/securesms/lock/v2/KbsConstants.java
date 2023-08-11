@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.mycrimes.insecuretests.lock.v2;
 
 public final class KbsConstants {
 

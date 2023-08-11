@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.keyboard.gif
+package org.mycrimes.insecuretests.keyboard.gif
 
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 enum class GifQuickSearchOption(private val rank: Int, val image: Int, val query: String) {
   TRENDING(0, R.drawable.ic_gif_trending_24, ""),

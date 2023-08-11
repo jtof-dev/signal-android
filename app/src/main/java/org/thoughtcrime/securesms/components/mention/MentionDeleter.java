@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.mention;
+package org.mycrimes.insecuretests.components.mention;
 
 import android.text.Annotation;
 import android.text.Editable;
@@ -7,7 +7,7 @@ import android.text.TextWatcher;
 
 import androidx.annotation.Nullable;
 
-import static org.thoughtcrime.securesms.database.MentionUtil.MENTION_STARTER;
+import static org.mycrimes.insecuretests.database.MentionUtil.MENTION_STARTER;
 
 /**
  * Detects if some part of the mention is being deleted, and if so, deletes the entire mention and

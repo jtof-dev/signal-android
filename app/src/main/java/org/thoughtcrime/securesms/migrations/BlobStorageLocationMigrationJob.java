@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import android.content.Context;
 
@@ -6,12 +6,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.Job;
 
 import java.io.File;
 
 /**
- * We moved files stored by {@link org.thoughtcrime.securesms.providers.BlobProvider} from the cache
+ * We moved files stored by {@link org.mycrimes.insecuretests.providers.BlobProvider} from the cache
  * into internal storage, so we gotta move any existing multi-session files.
  */
 public class BlobStorageLocationMigrationJob extends MigrationJob {

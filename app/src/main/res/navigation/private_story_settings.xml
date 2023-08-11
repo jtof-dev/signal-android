@@ -6,12 +6,12 @@
     app:startDestination="@id/privateStorySettings">
     <fragment
         android:id="@+id/privateStorySettings"
-        android:name="org.thoughtcrime.securesms.stories.settings.custom.PrivateStorySettingsFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.custom.PrivateStorySettingsFragment"
         android:label="private_story_settings_fragment">
 
         <argument
             android:name="distribution_list_id"
-            app:argType="org.thoughtcrime.securesms.database.model.DistributionListId"
+            app:argType="org.mycrimes.insecuretests.database.model.DistributionListId"
             app:nullable="false" />
 
         <action
@@ -23,13 +23,13 @@
     </fragment>
     <fragment
         android:id="@+id/editStoryNameFragment"
-        android:name="org.thoughtcrime.securesms.stories.settings.custom.name.EditStoryNameFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.custom.name.EditStoryNameFragment"
         android:label="edit_story_name_fragment"
         tools:layout="@layout/stories_edit_story_name_fragment">
 
         <argument
             android:name="distribution_list_id"
-            app:argType="org.thoughtcrime.securesms.database.model.DistributionListId"
+            app:argType="org.mycrimes.insecuretests.database.model.DistributionListId"
             app:nullable="false" />
 
         <argument
@@ -38,12 +38,12 @@
     </fragment>
     <fragment
         android:id="@+id/addStoryViewers"
-        android:name="org.thoughtcrime.securesms.stories.settings.custom.viewers.AddViewersFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.custom.viewers.AddViewersFragment"
         android:label="add_viewers_fragment"
         tools:layout="@layout/stories_base_recipient_selection_fragment">
 
         <argument
             android:name="distribution_list_id"
-            app:argType="org.thoughtcrime.securesms.database.model.DistributionListId" />
+            app:argType="org.mycrimes.insecuretests.database.model.DistributionListId" />
     </fragment>
 </navigation>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <transitionSet>
-    <transition class="org.thoughtcrime.securesms.animation.transitions.CircleAvatarTransition" />
+    <transition class="org.mycrimes.insecuretests.animation.transitions.CircleAvatarTransition" />
 
-    <transition class="org.thoughtcrime.securesms.animation.transitions.WipeDownTransition" />
+    <transition class="org.mycrimes.insecuretests.animation.transitions.WipeDownTransition" />
 </transitionSet>

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.sharablegrouplink;
+package org.mycrimes.insecuretests.recipients.ui.sharablegrouplink;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,13 +6,13 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkUrlAndStatus;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.LiveGroup;
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason;
+import org.mycrimes.insecuretests.groups.ui.GroupErrors;
+import org.mycrimes.insecuretests.groups.v2.GroupLinkUrlAndStatus;
+import org.mycrimes.insecuretests.util.AsynchronousCallback;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
 
 final class ShareableGroupLinkViewModel extends ViewModel {
 

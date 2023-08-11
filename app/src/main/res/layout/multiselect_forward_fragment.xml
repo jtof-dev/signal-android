@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <org.thoughtcrime.securesms.components.ContactFilterView
+    <org.mycrimes.insecuretests.components.ContactFilterView
         android:id="@+id/contact_filter_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

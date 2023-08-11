@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone
+package org.mycrimes.insecuretests.megaphone
 
 import android.app.Application
 import android.net.Uri
@@ -20,11 +20,11 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.SignalStoreRule
-import org.thoughtcrime.securesms.database.RemoteMegaphoneTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord
-import org.thoughtcrime.securesms.util.toMillis
+import org.mycrimes.insecuretests.SignalStoreRule
+import org.mycrimes.insecuretests.database.RemoteMegaphoneTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.RemoteMegaphoneRecord
+import org.mycrimes.insecuretests.util.toMillis
 import java.time.LocalDateTime
 import java.util.UUID
 

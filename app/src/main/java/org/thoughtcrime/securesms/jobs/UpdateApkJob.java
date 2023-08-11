@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.mycrimes.insecuretests.jobs;
 
 
 import android.app.DownloadManager;
@@ -15,15 +15,15 @@ import androidx.annotation.Nullable;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.service.UpdateApkReadyListener;
-import org.thoughtcrime.securesms.util.FileUtils;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint;
+import org.mycrimes.insecuretests.service.UpdateApkReadyListener;
+import org.mycrimes.insecuretests.util.FileUtils;
 import org.signal.core.util.Hex;
-import org.thoughtcrime.securesms.util.JsonUtils;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.JsonUtils;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.settings.app.data
+package org.mycrimes.insecuretests.components.settings.app.data
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
 
 class DataAndStorageSettingsRepository {
 

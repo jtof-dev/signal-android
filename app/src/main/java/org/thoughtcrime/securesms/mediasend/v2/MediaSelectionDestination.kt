@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.mycrimes.insecuretests.mediasend.v2
 
 import android.os.Bundle
 import org.signal.core.util.getParcelableArrayListCompat
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 sealed class MediaSelectionDestination {
 

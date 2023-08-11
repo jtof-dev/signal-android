@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.mycrimes.insecuretests.giph.mp4;
 
 import android.text.TextUtils;
 
@@ -16,10 +16,10 @@ import org.signal.paging.LivePagedData;
 import org.signal.paging.PagedData;
 import org.signal.paging.PagingConfig;
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
+import org.mycrimes.insecuretests.giph.model.GiphyImage;
+import org.mycrimes.insecuretests.util.DefaultValueLiveData;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList;
 
 import java.util.Objects;
 

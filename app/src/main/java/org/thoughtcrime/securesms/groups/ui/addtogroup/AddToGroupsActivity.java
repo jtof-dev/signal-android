@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.addtogroup;
+package org.mycrimes.insecuretests.groups.ui.addtogroup;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,12 +13,12 @@ import androidx.lifecycle.ViewModelProvider;
 import com.annimon.stream.Stream;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.ContactSelectionActivity;
-import org.thoughtcrime.securesms.ContactSelectionListFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;
-import org.thoughtcrime.securesms.groups.ui.addtogroup.AddToGroupViewModel.Event;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.ContactSelectionActivity;
+import org.mycrimes.insecuretests.ContactSelectionListFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.contacts.ContactSelectionDisplayMode;
+import org.mycrimes.insecuretests.groups.ui.addtogroup.AddToGroupViewModel.Event;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.mycrimes.insecuretests.jobmanager;
 
 import android.app.Application;
 import android.os.PowerManager;
@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.WakeLockUtil;
+import org.mycrimes.insecuretests.util.WakeLockUtil;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

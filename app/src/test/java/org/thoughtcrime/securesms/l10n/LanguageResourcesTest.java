@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.l10n;
+package org.mycrimes.insecuretests.l10n;
 
 import android.app.Application;
 import android.content.res.Resources;
@@ -9,8 +9,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.R;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences.widgets;
+package org.mycrimes.insecuretests.preferences.widgets;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,8 +7,8 @@ import android.widget.TextView;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceViewHolder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.Util;
 
 public final class StoragePreferenceCategory extends PreferenceCategory {
 

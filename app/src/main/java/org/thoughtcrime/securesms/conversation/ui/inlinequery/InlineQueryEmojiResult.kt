@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package org.mycrimes.insecuretests.conversation.ui.inlinequery
 
 import android.view.View
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView
-import org.thoughtcrime.securesms.util.adapter.mapping.AnyMappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.emoji.EmojiImageView
+import org.mycrimes.insecuretests.util.adapter.mapping.AnyMappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 
 /**
- * Used to render inline emoji search results in a [org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter]
+ * Used to render inline emoji search results in a [org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter]
  */
 object InlineQueryEmojiResult {
 

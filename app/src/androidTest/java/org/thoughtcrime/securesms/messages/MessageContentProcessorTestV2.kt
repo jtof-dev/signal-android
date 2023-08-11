@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import android.database.Cursor
 import android.util.Base64
@@ -11,17 +11,17 @@ import org.signal.core.util.ThreadUtil
 import org.signal.core.util.readToList
 import org.signal.core.util.select
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testing.Entry
-import org.thoughtcrime.securesms.testing.InMemoryLogger
-import org.thoughtcrime.securesms.testing.MessageContentFuzzer
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.assertIs
-import org.thoughtcrime.securesms.util.MessageTableTestUtils
+import org.mycrimes.insecuretests.database.AttachmentTable
+import org.mycrimes.insecuretests.database.MessageTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.ThreadTable
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.testing.Entry
+import org.mycrimes.insecuretests.testing.InMemoryLogger
+import org.mycrimes.insecuretests.testing.MessageContentFuzzer
+import org.mycrimes.insecuretests.testing.SignalActivityRule
+import org.mycrimes.insecuretests.testing.assertIs
+import org.mycrimes.insecuretests.util.MessageTableTestUtils
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
 import org.whispersystems.signalservice.api.messages.SignalServiceContent
 import org.whispersystems.signalservice.api.messages.SignalServiceMetadata

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.mycrimes.insecuretests.components.reminder;
 
 
 import android.annotation.SuppressLint;
@@ -12,9 +12,9 @@ import android.provider.Settings;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 @SuppressLint("BatteryLife")
 public class DozeReminder extends Reminder {

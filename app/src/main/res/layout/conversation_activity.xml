@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.components.InsetAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mycrimes.insecuretests.components.InsetAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -26,7 +26,7 @@
         tools:alpha="0.2f"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.components.InputAwareLayout
+    <org.mycrimes.insecuretests.components.InputAwareLayout
         android:id="@+id/layout_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -108,7 +108,7 @@
                         android:layout_height="wrap_content"
                         android:layout="@layout/conversation_cannot_send_announcement_group" />
 
-                    <org.thoughtcrime.securesms.messagerequests.MessageRequestsBottomView
+                    <org.mycrimes.insecuretests.messagerequests.MessageRequestsBottomView
                         android:id="@+id/conversation_activity_message_request_bottom_bar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -181,7 +181,7 @@
 
         </LinearLayout>
 
-    </org.thoughtcrime.securesms.components.InputAwareLayout>
+    </org.mycrimes.insecuretests.components.InputAwareLayout>
 
     <View
         android:id="@+id/navbar_background"
@@ -201,7 +201,7 @@
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="@id/status_bar_guideline" />
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <org.mycrimes.insecuretests.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -247,7 +247,7 @@
 
         </LinearLayout>
 
-    </org.thoughtcrime.securesms.util.views.DarkOverflowToolbar>
+    </org.mycrimes.insecuretests.util.views.DarkOverflowToolbar>
 
     <LinearLayout
         android:id="@+id/conversation_banner_container"
@@ -299,4 +299,4 @@
         app:layout_constraintStart_toStartOf="@+id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="@+id/status_bar_guideline" />
 
-</org.thoughtcrime.securesms.components.InsetAwareConstraintLayout>
+</org.mycrimes.insecuretests.components.InsetAwareConstraintLayout>

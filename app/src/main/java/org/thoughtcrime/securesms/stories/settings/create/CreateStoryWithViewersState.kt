@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.settings.create
+package org.mycrimes.insecuretests.stories.settings.create
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 data class CreateStoryWithViewersState(
   val label: CharSequence = "",

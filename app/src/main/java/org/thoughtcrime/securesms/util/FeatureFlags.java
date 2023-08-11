@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.text.TextUtils;
 
@@ -12,12 +12,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.signal.core.util.SetUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.groups.SelectionLimits;
-import org.thoughtcrime.securesms.jobs.RemoteConfigRefreshJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.messageprocessingalarm.MessageProcessReceiver;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.groups.SelectionLimits;
+import org.mycrimes.insecuretests.jobs.RemoteConfigRefreshJob;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.messageprocessingalarm.MessageProcessReceiver;
 
 import java.io.IOException;
 import java.util.HashMap;

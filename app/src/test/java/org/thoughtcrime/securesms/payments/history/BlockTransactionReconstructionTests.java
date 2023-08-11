@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.history;
+package org.mycrimes.insecuretests.payments.history;
 
 import androidx.annotation.NonNull;
 
@@ -8,7 +8,7 @@ import com.annimon.stream.Stream;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.thoughtcrime.securesms.payments.Direction;
+import org.mycrimes.insecuretests.payments.Direction;
 import org.whispersystems.signalservice.api.payments.Formatter;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 import org.whispersystems.signalservice.api.payments.Money;

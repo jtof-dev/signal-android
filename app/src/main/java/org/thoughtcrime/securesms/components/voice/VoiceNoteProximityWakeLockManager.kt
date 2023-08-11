@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package org.mycrimes.insecuretests.components.voice
 
 import android.hardware.Sensor
 import android.hardware.SensorEvent
@@ -14,7 +14,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.ServiceUtil
+import org.mycrimes.insecuretests.util.ServiceUtil
 import java.util.concurrent.TimeUnit
 
 private val TAG = Log.tag(VoiceNoteProximityWakeLockManager::class.java)

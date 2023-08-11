@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package org.mycrimes.insecuretests.components.settings.app.subscription.receipts.list
 
 import io.reactivex.rxjava3.core.Single
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getBoostBadges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getGiftBadges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getSubscriptionLevels
-import org.thoughtcrime.securesms.database.model.DonationReceiptRecord
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.badges.Badges
+import org.mycrimes.insecuretests.components.settings.app.subscription.getBoostBadges
+import org.mycrimes.insecuretests.components.settings.app.subscription.getGiftBadges
+import org.mycrimes.insecuretests.components.settings.app.subscription.getSubscriptionLevels
+import org.mycrimes.insecuretests.database.model.DonationReceiptRecord
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
 import java.util.Locale
 
 class DonationReceiptListRepository {

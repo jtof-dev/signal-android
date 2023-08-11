@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.mycrimes.insecuretests.notifications.v2
 
 import android.app.PendingIntent
 import android.content.Context

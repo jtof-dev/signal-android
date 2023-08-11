@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.self.overview
+package org.mycrimes.insecuretests.badges.self.overview
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -11,12 +11,12 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.PublishSubject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.badges.BadgeRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.InternetConnectionObserver
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.badges.BadgeRepository
+import org.mycrimes.insecuretests.components.settings.app.subscription.MonthlyDonationRepository
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.InternetConnectionObserver
+import org.mycrimes.insecuretests.util.livedata.Store
 import java.util.Optional
 
 private val TAG = Log.tag(BadgesOverviewViewModel::class.java)

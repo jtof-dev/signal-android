@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.badges.gifts.viewgift.received
+package org.mycrimes.insecuretests.badges.gifts.viewgift.received
 
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge
+import org.mycrimes.insecuretests.recipients.Recipient
 
 data class ViewReceivedGiftState(
   val recipient: Recipient? = null,

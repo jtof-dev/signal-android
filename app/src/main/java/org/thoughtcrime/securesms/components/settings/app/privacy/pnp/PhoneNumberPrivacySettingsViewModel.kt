@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.pnp
+package org.mycrimes.insecuretests.components.settings.app.privacy.pnp
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberListingMode
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberSharingMode
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.RefreshAttributesJob
+import org.mycrimes.insecuretests.jobs.RefreshOwnProfileJob
+import org.mycrimes.insecuretests.keyvalue.PhoneNumberPrivacyValues.PhoneNumberListingMode
+import org.mycrimes.insecuretests.keyvalue.PhoneNumberPrivacyValues.PhoneNumberSharingMode
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.storage.StorageSyncHelper
 
 class PhoneNumberPrivacySettingsViewModel : ViewModel() {
 

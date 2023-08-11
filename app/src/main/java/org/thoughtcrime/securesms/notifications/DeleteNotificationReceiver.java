@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.mycrimes.insecuretests.notifications;
 
 
 import android.content.BroadcastReceiver;
@@ -6,15 +6,15 @@ import android.content.Context;
 import android.content.Intent;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.notifications.v2.ConversationId;
 
 import java.util.ArrayList;
 
 public class DeleteNotificationReceiver extends BroadcastReceiver {
 
-  public static String DELETE_NOTIFICATION_ACTION = "org.thoughtcrime.securesms.DELETE_NOTIFICATION";
+  public static String DELETE_NOTIFICATION_ACTION = "org.mycrimes.insecuretests.DELETE_NOTIFICATION";
 
   public static final String EXTRA_IDS     = "message_ids";
   public static final String EXTRA_MMS     = "is_mms";

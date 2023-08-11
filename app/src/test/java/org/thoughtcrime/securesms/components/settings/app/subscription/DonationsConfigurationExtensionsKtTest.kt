@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package org.mycrimes.insecuretests.components.settings.app.subscription
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -11,7 +11,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
 import org.whispersystems.signalservice.internal.push.DonationsConfiguration
 import org.whispersystems.signalservice.internal.util.JsonUtil
 import java.util.Currency

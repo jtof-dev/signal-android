@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app
+package org.mycrimes.insecuretests.components.settings.app
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.Recipient
 
 data class AppSettingsState(
   val self: Recipient,

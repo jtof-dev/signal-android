@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package org.mycrimes.insecuretests.stories.viewer.page
 
 import android.net.Uri
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.database.AttachmentTable
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.MediaUtil
 import java.util.Objects
 
 /**

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.mycrimes.insecuretests.components.reminder;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.PlayStoreUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.PlayStoreUtil;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.concurrent.TimeUnit;
 

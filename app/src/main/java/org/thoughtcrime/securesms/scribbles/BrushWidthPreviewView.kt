@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles
+package org.mycrimes.insecuretests.scribbles
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -12,9 +12,9 @@ import android.view.View
 import androidx.annotation.ColorInt
 import androidx.core.animation.doOnEnd
 import org.signal.imageeditor.core.Bounds
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.mediasend.v2.MediaAnimations
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.visible
 
 class BrushWidthPreviewView @JvmOverloads constructor(
   context: Context,

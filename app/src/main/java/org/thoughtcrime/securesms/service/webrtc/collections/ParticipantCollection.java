@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc.collections;
+package org.mycrimes.insecuretests.service.webrtc.collections;
 
 import androidx.annotation.CheckResult;
 import androidx.annotation.NonNull;
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import com.annimon.stream.ComparatorCompat;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
+import org.mycrimes.insecuretests.events.CallParticipant;
+import org.mycrimes.insecuretests.events.CallParticipantId;
 
 import java.util.ArrayList;
 import java.util.Collections;

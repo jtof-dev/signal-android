@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package org.mycrimes.insecuretests.sharing.interstitial;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.viewholders.RecipientMappingModel;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.viewholders.RecipientMappingModel;
 
 class ShareInterstitialMappingModel extends RecipientMappingModel<ShareInterstitialMappingModel> {
 

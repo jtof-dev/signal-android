@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
+import org.mycrimes.insecuretests.database.MessageTable
+import org.mycrimes.insecuretests.database.MessageTypes
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.MessageRecord
 
 /**
  * Helper methods for interacting with [MessageTable] in tests.

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
-import org.thoughtcrime.securesms.database.model.MessageRecord
+import org.mycrimes.insecuretests.database.model.MessageRecord
 
 /**
  * Callback interface for bottom sheets that show conversation data in a conversation and

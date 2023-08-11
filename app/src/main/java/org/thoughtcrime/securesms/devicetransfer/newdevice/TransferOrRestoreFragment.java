@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.newdevice;
+package org.mycrimes.insecuretests.devicetransfer.newdevice;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.SpanUtil;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
 
 /**
  * Simple jumping off menu to starts a device-to-device transfer or restore a backup.

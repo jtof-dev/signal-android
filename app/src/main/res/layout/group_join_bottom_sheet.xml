@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bottom_sheet_handle" />
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/group_join_recipient_avatar"
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="@+id/group_join_recipient_avatar"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/group_join_group_name"
         style="@style/Signal.Text.HeadlineMedium"
         android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toBottomOf="@+id/group_join_group_name"
         tools:text="Group · 12 members" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/group_join_group_description"
         style="@style/Signal.Text.BodyLarge"
         android:layout_width="0dp"

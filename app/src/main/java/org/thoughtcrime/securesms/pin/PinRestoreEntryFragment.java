@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package org.mycrimes.insecuretests.pin;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -23,24 +23,24 @@ import androidx.navigation.Navigation;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.KbsConstants;
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.profiles.edit.EditProfileActivity;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.registration.RegistrationUtil;
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.MainActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.ProfileUploadJob;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.lock.v2.KbsConstants;
+import org.mycrimes.insecuretests.lock.v2.PinKeyboardType;
+import org.mycrimes.insecuretests.profiles.AvatarHelper;
+import org.mycrimes.insecuretests.profiles.edit.EditProfileActivity;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.registration.RegistrationUtil;
+import org.mycrimes.insecuretests.registration.fragments.RegistrationViewDelegate;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.SupportEmailUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton;
 
 public class PinRestoreEntryFragment extends LoggingFragment {
   private static final String TAG = Log.tag(PinRestoreActivity.class);

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.mycrimes.insecuretests.stickers;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,10 +11,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.glide.cache.ApngOptions;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.glide.cache.ApngOptions;
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader;
+import org.mycrimes.insecuretests.mms.GlideRequests;
 
 import java.util.ArrayList;
 import java.util.List;

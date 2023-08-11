@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.tabs
+package org.mycrimes.insecuretests.stories.tabs
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -10,8 +10,8 @@ import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.rx.RxStore
 
 class ConversationListTabsViewModel(repository: ConversationListTabRepository) : ViewModel() {
   private val store = RxStore(ConversationListTabsState())

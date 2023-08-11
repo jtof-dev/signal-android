@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package org.mycrimes.insecuretests.backup;
 
 import androidx.annotation.NonNull;
 
@@ -6,8 +6,8 @@ import org.signal.core.util.Conversions;
 import org.signal.core.util.StreamUtil;
 import org.signal.libsignal.protocol.kdf.HKDF;
 import org.signal.libsignal.protocol.util.ByteUtil;
-import org.thoughtcrime.securesms.backup.proto.BackupFrame;
-import org.thoughtcrime.securesms.backup.proto.Header;
+import org.mycrimes.insecuretests.backup.proto.BackupFrame;
+import org.mycrimes.insecuretests.backup.proto.Header;
 
 import java.io.IOException;
 import java.io.InputStream;

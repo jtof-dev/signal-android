@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.picker
+package org.mycrimes.insecuretests.avatar.picker
 
 import android.util.TypedValue
 import android.view.View
@@ -8,17 +8,17 @@ import android.widget.TextView
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.view.setPadding
 import com.airbnb.lottie.SimpleColorFilter
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarRenderer
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.avatar.Avatar
+import org.mycrimes.insecuretests.avatar.AvatarRenderer
+import org.mycrimes.insecuretests.avatar.Avatars
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.util.visible
 
 typealias OnAvatarClickListener = (Avatar, Boolean) -> Unit
 typealias OnAvatarLongClickListener = (View, Avatar) -> Boolean

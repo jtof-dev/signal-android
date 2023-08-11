@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.mycrimes.insecuretests.linkpreview;
 
 import android.annotation.SuppressLint;
 import android.text.SpannableString;
@@ -13,9 +13,9 @@ import androidx.core.text.util.LinkifyCompat;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.LinkUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.DateUtils;
+import org.mycrimes.insecuretests.util.LinkUtil;
+import org.mycrimes.insecuretests.util.Util;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 
 import java.util.Collections;

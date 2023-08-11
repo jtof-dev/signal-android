@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.error;
+package org.mycrimes.insecuretests.conversation.ui.error;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -26,10 +26,10 @@ import com.annimon.stream.Stream;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.verify.VerifyIdentityActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.model.IdentityRecord;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.verify.VerifyIdentityActivity;
 
 import java.util.Collection;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package org.mycrimes.insecuretests.conversationlist.chatfilter
 
 import android.animation.FloatEvaluator
 import android.animation.ValueAnimator
@@ -14,7 +14,7 @@ import androidx.annotation.Px
 import androidx.core.content.ContextCompat
 import com.google.android.material.animation.ArgbEvaluatorCompat
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 import kotlin.math.max
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.milliseconds

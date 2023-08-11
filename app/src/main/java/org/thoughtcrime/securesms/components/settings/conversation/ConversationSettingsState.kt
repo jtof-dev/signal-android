@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.mycrimes.insecuretests.components.settings.conversation
 
 import android.database.Cursor
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.ButtonStripPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.CallPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.LegacyGroupPreference
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.components.settings.conversation.preferences.ButtonStripPreference
+import org.mycrimes.insecuretests.components.settings.conversation.preferences.CallPreference
+import org.mycrimes.insecuretests.components.settings.conversation.preferences.LegacyGroupPreference
+import org.mycrimes.insecuretests.database.model.IdentityRecord
+import org.mycrimes.insecuretests.database.model.StoryViewState
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.groups.ui.GroupMemberEntry
+import org.mycrimes.insecuretests.recipients.Recipient
 
 data class ConversationSettingsState(
   val threadId: Long = -1,

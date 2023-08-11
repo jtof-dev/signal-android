@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.sms
+package org.mycrimes.insecuretests.components.settings.app.chats.sms
 
 enum class SmsExportState {
   FETCHING,

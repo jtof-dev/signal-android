@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.content.Context
 import android.net.Uri
@@ -6,11 +6,11 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.lifecycle.Observer
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AudioView
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState
-import org.thoughtcrime.securesms.database.DraftTable
-import org.thoughtcrime.securesms.mms.AudioSlide
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.AudioView
+import org.mycrimes.insecuretests.components.voice.VoiceNotePlaybackState
+import org.mycrimes.insecuretests.database.DraftTable
+import org.mycrimes.insecuretests.mms.AudioSlide
 
 class VoiceNoteDraftView @JvmOverloads constructor(
   context: Context,

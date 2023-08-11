@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.appearance.navbar
+package org.mycrimes.insecuretests.components.settings.app.appearance.navbar
 
 import android.app.Dialog
 import android.graphics.Color
@@ -9,10 +9,10 @@ import androidx.annotation.DrawableRes
 import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.setFragmentResult
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.ChooseNavigationBarStyleFragmentBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.databinding.ChooseNavigationBarStyleFragmentBinding
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 
 /**
  * Allows the user to choose between a compact and full-sized navigation bar.

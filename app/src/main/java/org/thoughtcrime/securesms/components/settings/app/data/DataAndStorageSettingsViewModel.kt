@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.components.settings.app.data
+package org.mycrimes.insecuretests.components.settings.app.data
 
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.livedata.Store
-import org.thoughtcrime.securesms.webrtc.CallDataMode
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.mms.SentMediaQuality
+import org.mycrimes.insecuretests.util.TextSecurePreferences
+import org.mycrimes.insecuretests.util.livedata.Store
+import org.mycrimes.insecuretests.webrtc.CallDataMode
 
 class DataAndStorageSettingsViewModel(
   private val sharedPreferences: SharedPreferences,

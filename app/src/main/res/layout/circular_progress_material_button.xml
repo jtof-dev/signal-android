@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:parentTag="org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton">
+    tools:parentTag="org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton">
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:id="@+id/progress_indicator"

@@ -22,7 +22,7 @@
         android:textSize="24sp"
         android:visibility="gone" />
 
-    <org.thoughtcrime.securesms.components.menu.SignalBottomActionBar
+    <org.mycrimes.insecuretests.components.menu.SignalBottomActionBar
         android:id="@+id/media_overview_bottom_action_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

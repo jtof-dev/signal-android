@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package org.mycrimes.insecuretests.scribbles;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

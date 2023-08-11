@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.absbackup.backupables
+package org.mycrimes.insecuretests.absbackup.backupables
 
 import com.google.protobuf.InvalidProtocolBufferException
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.absbackup.AndroidBackupItem
-import org.thoughtcrime.securesms.absbackup.protos.KbsAuthToken
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.absbackup.AndroidBackupItem
+import org.mycrimes.insecuretests.absbackup.protos.KbsAuthToken
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 
 /**
  * This backs up the not-secret KBS Auth tokens, which can be combined with a PIN to prove ownership of a phone number in order to complete the registration process.

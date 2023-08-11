@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package org.mycrimes.insecuretests.components.settings.app.privacy.expire
 
 import android.app.Dialog
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.NavHostFragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Dialog for selecting a custom expire timer value.

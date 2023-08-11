@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.mycrimes.insecuretests.mediapreview
 
 import android.content.Context
 import android.content.Intent
@@ -8,9 +8,9 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 import org.signal.core.util.dp
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.MediaTable.MediaRecord
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment
+import org.mycrimes.insecuretests.database.MediaTable
+import org.mycrimes.insecuretests.database.MediaTable.MediaRecord
 
 object MediaIntentFactory {
   private const val ARGS_KEY = "args"

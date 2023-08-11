@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package org.mycrimes.insecuretests.conversation.colors.ui
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -12,16 +12,16 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.DeliveryStatusView
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.Colorizer
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.Projection
-import org.thoughtcrime.securesms.util.ThemeUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.DeliveryStatusView
+import org.mycrimes.insecuretests.conversation.colors.ChatColors
+import org.mycrimes.insecuretests.conversation.colors.Colorizer
+import org.mycrimes.insecuretests.conversation.colors.ColorizerView
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.Projection
+import org.mycrimes.insecuretests.util.ThemeUtil
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaper
 import java.util.Locale
 
 private val TAG = Log.tag(ChatColorPreviewView::class.java)

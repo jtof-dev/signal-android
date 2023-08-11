@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.mycrimes.insecuretests.maps;
 
 import android.os.Parcel;
 import android.os.Parcelable;

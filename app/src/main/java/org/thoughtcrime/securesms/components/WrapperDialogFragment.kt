@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.fragments.findListener
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.fragments.findListener
 
 /**
  * Convenience class for wrapping Fragments in full-screen dialogs. Due to how fragments work, they

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

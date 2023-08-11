@@ -1,22 +1,22 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.mycrimes.insecuretests.jobmanager.migrations;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.Base64;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.JobMigration;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.Base64;
 import org.whispersystems.signalservice.api.messages.SignalServiceContent;
 
 import java.io.IOException;
 
 /**
- * We changed the format of the queue key for {@link org.thoughtcrime.securesms.jobs.PushProcessMessageJob}
+ * We changed the format of the queue key for {@link org.mycrimes.insecuretests.jobs.PushProcessMessageJob}
  * to have the recipient ID in it, so this migrates existing jobs to be in that format.
  */
 public class PushProcessMessageQueueJobMigration extends JobMigration {

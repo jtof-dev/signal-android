@@ -10,7 +10,7 @@
     android:orientation="horizontal"
     android:paddingHorizontal="@dimen/dsl_settings_gutter">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/avatar"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -19,7 +19,7 @@
         android:scaleType="centerInside"
         app:fallbackImageSize="small" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/label"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

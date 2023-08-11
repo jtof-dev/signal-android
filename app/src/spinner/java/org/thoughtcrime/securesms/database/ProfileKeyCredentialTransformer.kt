@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.database.Cursor
 import org.signal.core.util.Hex
@@ -6,9 +6,9 @@ import org.signal.core.util.requireString
 import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import org.signal.spinner.ColumnTransformer
 import org.signal.spinner.DefaultColumnTransformer
-import org.thoughtcrime.securesms.database.model.databaseprotos.ExpiringProfileKeyCredentialColumnData
-import org.thoughtcrime.securesms.util.Base64
-import org.thoughtcrime.securesms.util.toLocalDateTime
+import org.mycrimes.insecuretests.database.model.databaseprotos.ExpiringProfileKeyCredentialColumnData
+import org.mycrimes.insecuretests.util.Base64
+import org.mycrimes.insecuretests.util.toLocalDateTime
 import java.security.MessageDigest
 
 object ProfileKeyCredentialTransformer : ColumnTransformer {

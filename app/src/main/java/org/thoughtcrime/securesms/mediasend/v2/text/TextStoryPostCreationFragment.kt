@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.mycrimes.insecuretests.mediasend.v2.text
 
 import android.content.pm.ActivityInfo
 import android.os.Bundle
@@ -15,24 +15,24 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.databinding.StoriesTextPostCreationFragmentBinding
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewViewModel
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewViewModel.LinkPreviewState
-import org.thoughtcrime.securesms.mediasend.CameraDisplay
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mediasend.v2.stories.StoriesMultiselectForwardActivity
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendRepository
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendResult
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import org.mycrimes.insecuretests.databinding.StoriesTextPostCreationFragmentBinding
+import org.mycrimes.insecuretests.linkpreview.LinkPreview
+import org.mycrimes.insecuretests.linkpreview.LinkPreviewRepository
+import org.mycrimes.insecuretests.linkpreview.LinkPreviewViewModel
+import org.mycrimes.insecuretests.linkpreview.LinkPreviewViewModel.LinkPreviewState
+import org.mycrimes.insecuretests.mediasend.CameraDisplay
+import org.mycrimes.insecuretests.mediasend.v2.HudCommand
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel
+import org.mycrimes.insecuretests.mediasend.v2.stories.StoriesMultiselectForwardActivity
+import org.mycrimes.insecuretests.mediasend.v2.text.send.TextStoryPostSendRepository
+import org.mycrimes.insecuretests.mediasend.v2.text.send.TextStoryPostSendResult
+import org.mycrimes.insecuretests.safety.SafetyNumberBottomSheet
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil
+import org.mycrimes.insecuretests.util.visible
 import java.util.Optional
 
 class TextStoryPostCreationFragment : Fragment(R.layout.stories_text_post_creation_fragment), TextStoryPostTextEntryFragment.Callback, SafetyNumberBottomSheet.Callbacks {

@@ -16,7 +16,7 @@
         app:expanded="false"
         tools:expanded="true">
 
-        <org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
+        <org.mycrimes.insecuretests.keyboard.emoji.KeyboardPageSearchView
             android:id="@+id/emoji_keyboard_search_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiPageView
+    <org.mycrimes.insecuretests.components.emoji.EmojiPageView
         android:id="@+id/emoji_page_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

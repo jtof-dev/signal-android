@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.mycrimes.insecuretests.notifications.v2
 
 import android.content.Context
 import android.net.Uri
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.BitmapDecodingException
-import org.thoughtcrime.securesms.util.ImageCompressionUtil
-import org.thoughtcrime.securesms.util.kb
-import org.thoughtcrime.securesms.util.mb
+import org.mycrimes.insecuretests.database.model.MessageId
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader
+import org.mycrimes.insecuretests.mms.Slide
+import org.mycrimes.insecuretests.providers.BlobProvider
+import org.mycrimes.insecuretests.util.BitmapDecodingException
+import org.mycrimes.insecuretests.util.ImageCompressionUtil
+import org.mycrimes.insecuretests.util.kb
+import org.mycrimes.insecuretests.util.mb
 
 /**
  * Creates and caches attachment thumbnails solely for use by Notifications.

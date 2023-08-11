@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/smsRemovalInformationFragment"
-        android:name="org.thoughtcrime.securesms.exporter.flow.SmsRemovalInformationFragment"
+        android:name="org.mycrimes.insecuretests.exporter.flow.SmsRemovalInformationFragment"
         tools:layout="@layout/export_your_sms_messages_fragment">
         <action
             android:id="@+id/action_smsRemovalInformationFragment_to_exportYourSmsMessagesFragment"
@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/exportYourSmsMessagesFragment"
-        android:name="org.thoughtcrime.securesms.exporter.flow.ExportYourSmsMessagesFragment"
+        android:name="org.mycrimes.insecuretests.exporter.flow.ExportYourSmsMessagesFragment"
         android:label="fragment_export_your_sms_messages"
         tools:layout="@layout/export_your_sms_messages_fragment">
         <action
@@ -46,7 +46,7 @@
 
     <fragment
         android:id="@+id/setSignalAsDefaultSmsAppFragment"
-        android:name="org.thoughtcrime.securesms.exporter.flow.SetSignalAsDefaultSmsAppFragment"
+        android:name="org.mycrimes.insecuretests.exporter.flow.SetSignalAsDefaultSmsAppFragment"
         android:label="fragment_set_signal_as_default_sms_app"
         tools:layout="@layout/choose_a_new_default_sms_app_fragment">
 
@@ -63,7 +63,7 @@
 
     <fragment
         android:id="@+id/exportingSmsMessagesFragment"
-        android:name="org.thoughtcrime.securesms.exporter.flow.ExportingSmsMessagesFragment"
+        android:name="org.mycrimes.insecuretests.exporter.flow.ExportingSmsMessagesFragment"
         android:label="fragment_exporting_sms_messages"
         tools:layout="@layout/exporting_sms_messages_fragment">
 
@@ -101,7 +101,7 @@
 
     <fragment
         android:id="@+id/exportSmsCompleteFragment"
-        android:name="org.thoughtcrime.securesms.exporter.flow.ExportSmsCompleteFragment"
+        android:name="org.mycrimes.insecuretests.exporter.flow.ExportSmsCompleteFragment"
         tools:layout="@layout/export_sms_complete_fragment">
 
         <argument
@@ -116,13 +116,13 @@
 
     <fragment
         android:id="@+id/chooseANewDefaultSmsAppFragment"
-        android:name="org.thoughtcrime.securesms.exporter.flow.ChooseANewDefaultSmsAppFragment"
+        android:name="org.mycrimes.insecuretests.exporter.flow.ChooseANewDefaultSmsAppFragment"
         android:label="fragment_choose_a_new_default_sms_app"
         tools:layout="@layout/choose_a_new_default_sms_app_fragment" />
 
     <fragment
         android:id="@+id/exportSmsPartiallyCompleteFragment"
-        android:name="org.thoughtcrime.securesms.exporter.flow.ExportSmsPartiallyCompleteFragment"
+        android:name="org.mycrimes.insecuretests.exporter.flow.ExportSmsPartiallyCompleteFragment"
         tools:layout="@layout/export_sms_partially_complete_fragment">
 
         <argument
@@ -137,7 +137,7 @@
 
     <fragment
         android:id="@+id/exportSmsFullErrorFragment"
-        android:name="org.thoughtcrime.securesms.exporter.flow.ExportSmsFullErrorFragment"
+        android:name="org.mycrimes.insecuretests.exporter.flow.ExportSmsFullErrorFragment"
         tools:layout="@layout/export_sms_full_error_fragment">
 
         <argument
@@ -152,7 +152,7 @@
 
     <fragment
         android:id="@+id/smsExportHelpFragment"
-        android:name="org.thoughtcrime.securesms.exporter.flow.SmsExportHelpFragment"
+        android:name="org.mycrimes.insecuretests.exporter.flow.SmsExportHelpFragment"
         tools:layout="@layout/sms_export_help_fragment" />
 
     <action

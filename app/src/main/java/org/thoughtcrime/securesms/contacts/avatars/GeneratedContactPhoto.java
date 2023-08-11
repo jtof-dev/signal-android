@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.mycrimes.insecuretests.contacts.avatars;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -12,12 +12,12 @@ import androidx.core.content.ContextCompat;
 
 import com.airbnb.lottie.SimpleColorFilter;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.Avatar;
-import org.thoughtcrime.securesms.avatar.AvatarRenderer;
-import org.thoughtcrime.securesms.avatar.Avatars;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.util.NameUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.avatar.Avatar;
+import org.mycrimes.insecuretests.avatar.AvatarRenderer;
+import org.mycrimes.insecuretests.avatar.Avatars;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor;
+import org.mycrimes.insecuretests.util.NameUtil;
 
 import java.util.Objects;
 

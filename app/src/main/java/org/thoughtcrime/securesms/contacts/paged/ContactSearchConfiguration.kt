@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
-import org.thoughtcrime.securesms.contacts.HeaderAction
+import org.mycrimes.insecuretests.contacts.HeaderAction
 
 /**
  * A strongly typed descriptor of how a given list of contacts should be formatted

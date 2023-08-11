@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.mycrimes.insecuretests.keyvalue
 
 import android.annotation.SuppressLint
 import android.content.Context

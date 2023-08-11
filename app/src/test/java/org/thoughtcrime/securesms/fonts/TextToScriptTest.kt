@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.fonts
+package org.mycrimes.insecuretests.fonts
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

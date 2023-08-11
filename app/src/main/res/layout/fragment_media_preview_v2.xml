@@ -27,7 +27,7 @@
         android:visibility="invisible"
         tools:visibility="visible">
 
-        <org.thoughtcrime.securesms.mediapreview.caption.ExpandingCaptionView
+        <org.mycrimes.insecuretests.mediapreview.caption.ExpandingCaptionView
             android:id="@+id/media_preview_caption"
             style="@style/Signal.Text.Body"
             android:layout_width="match_parent"
@@ -40,7 +40,7 @@
             android:textColor="@color/core_white"
             tools:text="With great power comes great responsibility." />
 
-        <org.thoughtcrime.securesms.mediapreview.MediaPreviewPlayerControlView
+        <org.mycrimes.insecuretests.mediapreview.MediaPreviewPlayerControlView
             android:id="@+id/media_preview_playback_controls"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

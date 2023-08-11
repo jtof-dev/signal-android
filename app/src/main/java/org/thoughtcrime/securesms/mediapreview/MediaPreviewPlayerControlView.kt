@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.mycrimes.insecuretests.mediapreview
 
 import android.animation.Animator
 import android.animation.Animator.AnimatorListener
@@ -17,9 +17,9 @@ import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieProperty
 import com.airbnb.lottie.model.KeyPath
 import com.google.android.exoplayer2.ui.PlayerControlView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.visible
 import kotlin.time.DurationUnit
 import kotlin.time.toDuration
 

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate
 
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayRequest
 
 sealed class DonateToSignalAction {
   data class DisplayCurrencySelectionDialog(val donateToSignalType: DonateToSignalType, val supportedCurrencies: List<String>) : DonateToSignalAction()

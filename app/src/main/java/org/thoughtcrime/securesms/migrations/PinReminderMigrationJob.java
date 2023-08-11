@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
 
 import java.util.concurrent.TimeUnit;
 

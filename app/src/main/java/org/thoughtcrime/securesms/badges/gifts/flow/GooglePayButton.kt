@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.badges.gifts.flow
+package org.mycrimes.insecuretests.badges.gifts.flow
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.FrameLayout
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Wraps the google pay button in a convenient frame layout.

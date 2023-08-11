@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service.webrtc.state;
+package org.mycrimes.insecuretests.service.webrtc.state;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.ringrtc.Camera;
+import org.mycrimes.insecuretests.components.webrtc.BroadcastVideoSink;
+import org.mycrimes.insecuretests.components.webrtc.EglBaseWrapper;
+import org.mycrimes.insecuretests.ringrtc.Camera;
 
 import java.util.Objects;
 

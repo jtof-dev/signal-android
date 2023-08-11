@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.search;
+package org.mycrimes.insecuretests.search;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -19,29 +19,29 @@ import org.signal.core.util.StringUtil;
 import org.signal.core.util.concurrent.LatestPrioritizedSerialExecutor;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.ContactRepository;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.database.BodyAdjustment;
-import org.thoughtcrime.securesms.database.BodyRangeUtil;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.MentionTable;
-import org.thoughtcrime.securesms.database.MentionUtil;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SearchTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.FtsUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
+import org.mycrimes.insecuretests.contacts.ContactRepository;
+import org.mycrimes.insecuretests.conversation.MessageStyler;
+import org.mycrimes.insecuretests.database.BodyAdjustment;
+import org.mycrimes.insecuretests.database.BodyRangeUtil;
+import org.mycrimes.insecuretests.database.GroupTable;
+import org.mycrimes.insecuretests.database.MentionTable;
+import org.mycrimes.insecuretests.database.MentionUtil;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.RecipientTable;
+import org.mycrimes.insecuretests.database.SearchTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.ThreadTable;
+import org.mycrimes.insecuretests.database.model.GroupRecord;
+import org.mycrimes.insecuretests.database.model.Mention;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.database.model.ThreadRecord;
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.FtsUtil;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.concurrent.SerialExecutor;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -56,7 +56,7 @@ import java.util.Set;
 import java.util.concurrent.Executor;
 import java.util.function.Consumer;
 
-import static org.thoughtcrime.securesms.database.SearchTable.SNIPPET_WRAP;
+import static org.mycrimes.insecuretests.database.SearchTable.SNIPPET_WRAP;
 
 /**
  * Manages data retrieval for search.

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.mycrimes.insecuretests.components.settings.conversation
 
-import org.thoughtcrime.securesms.ContactSelectionListFragment
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.ContactSelectionListFragment
+import org.mycrimes.insecuretests.groups.SelectionLimits
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 class GroupCapacityResult(
   private val selfId: RecipientId,

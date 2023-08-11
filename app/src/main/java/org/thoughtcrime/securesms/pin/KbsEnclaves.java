@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.pin;
+package org.mycrimes.insecuretests.pin;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.KbsEnclave;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.KbsEnclave;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.Arrays;
 import java.util.Collections;

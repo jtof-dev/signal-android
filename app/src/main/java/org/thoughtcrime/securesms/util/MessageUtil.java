@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.Context;
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.mms.TextSlide;
-import org.thoughtcrime.securesms.providers.BlobProvider;
+import org.mycrimes.insecuretests.mms.TextSlide;
+import org.mycrimes.insecuretests.providers.BlobProvider;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

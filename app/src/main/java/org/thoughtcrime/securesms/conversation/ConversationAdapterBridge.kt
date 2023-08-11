@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
+import org.mycrimes.insecuretests.conversation.mutiselect.MultiselectPart
 
 /**
  * Temporary shared interface between the two conversation adapters strictly for use in

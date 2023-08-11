@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package org.mycrimes.insecuretests.stories.viewer.post
 
 import android.graphics.Typeface
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.fonts.TextToScript
-import org.thoughtcrime.securesms.fonts.TypefaceCache
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.database.model.databaseprotos.StoryTextPost
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.fonts.TextFont
+import org.mycrimes.insecuretests.fonts.TextToScript
+import org.mycrimes.insecuretests.fonts.TypefaceCache
+import org.mycrimes.insecuretests.util.Base64
 
 class StoryTextPostRepository {
   fun getRecord(recordId: Long): Single<MmsMessageRecord> {

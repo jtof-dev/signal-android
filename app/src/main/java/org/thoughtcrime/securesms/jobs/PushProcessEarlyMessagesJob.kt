@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import org.signal.core.util.logging.Log
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.ServiceMessageId
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.messages.MessageContentProcessor
-import org.thoughtcrime.securesms.messages.MessageContentProcessorV2
-import org.thoughtcrime.securesms.util.EarlyMessageCacheEntry
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.ServiceMessageId
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.messages.MessageContentProcessor
+import org.mycrimes.insecuretests.messages.MessageContentProcessorV2
+import org.mycrimes.insecuretests.util.EarlyMessageCacheEntry
 import org.whispersystems.signalservice.api.messages.SignalServiceContent
 
 /**
- * A job that should be enqueued whenever we process a message that we think has arrived "early" (see [org.thoughtcrime.securesms.util.EarlyMessageCache]).
+ * A job that should be enqueued whenever we process a message that we think has arrived "early" (see [org.mycrimes.insecuretests.util.EarlyMessageCache]).
  * It will go through and process all of those early messages (if we have found a "match"), ordered by sentTimestamp.
  */
 class PushProcessEarlyMessagesJob private constructor(parameters: Parameters) : BaseJob(parameters) {

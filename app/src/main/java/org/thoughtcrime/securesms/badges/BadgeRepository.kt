@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.badges
+package org.mycrimes.insecuretests.badges
 
 import android.content.Context
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.MultiDeviceProfileContentUpdateJob
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.ProfileUtil
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.MultiDeviceProfileContentUpdateJob
+import org.mycrimes.insecuretests.jobs.RefreshOwnProfileJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.storage.StorageSyncHelper
+import org.mycrimes.insecuretests.util.ProfileUtil
 import java.io.IOException
 
 class BadgeRepository(context: Context) {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.components.webrtc.CallParticipantView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mycrimes.insecuretests.components.webrtc.CallParticipantView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@tools:sample/backgrounds/scenic" />
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/call_participant_item_avatar"
         android:layout_width="112dp"
         android:layout_height="112dp"
@@ -36,7 +36,7 @@
         app:layout_constraintBottom_toBottomOf="@id/call_participant_item_avatar"
         app:layout_constraintEnd_toEndOf="@id/call_participant_item_avatar" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/call_participant_item_badge"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -55,7 +55,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/call_participant_item_pip_badge"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -75,7 +75,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.thoughtcrime.securesms.components.webrtc.TextureViewRenderer
+        <org.mycrimes.insecuretests.components.webrtc.TextureViewRenderer
             android:id="@+id/call_participant_renderer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -84,7 +84,7 @@
 
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.components.webrtc.AudioIndicatorView
+    <org.mycrimes.insecuretests.components.webrtc.AudioIndicatorView
         android:id="@+id/call_participant_audio_indicator"
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -114,7 +114,7 @@
             tools:drawableTint="@color/core_white"
             tools:srcCompat="@drawable/ic_block_tinted_24" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.mycrimes.insecuretests.components.emoji.EmojiTextView
             android:id="@+id/call_participant_info_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -136,4 +136,4 @@
 
     </LinearLayout>
 
-</org.thoughtcrime.securesms.components.webrtc.CallParticipantView>
+</org.mycrimes.insecuretests.components.webrtc.CallParticipantView>

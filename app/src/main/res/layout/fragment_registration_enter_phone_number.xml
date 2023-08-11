@@ -116,7 +116,7 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:visibility="visible" />
 
-        <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+        <org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
             android:id="@+id/registerButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

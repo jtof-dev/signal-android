@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.mycrimes.insecuretests.components.settings.app.changenumber
 
 import android.os.Bundle
 import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.widget.Toolbar
 import androidx.navigation.fragment.findNavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.getCaptchaArguments
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.getViewModel
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.fragments.BaseEnterSmsCodeFragment
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberUtil.getCaptchaArguments
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberUtil.getViewModel
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.registration.fragments.BaseEnterSmsCodeFragment
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 class ChangeNumberEnterSmsCodeFragment : BaseEnterSmsCodeFragment<ChangeNumberViewModel>(R.layout.fragment_change_number_enter_code) {
 

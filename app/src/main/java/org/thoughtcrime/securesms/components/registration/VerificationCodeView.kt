@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration
+package org.mycrimes.insecuretests.components.registration
 
 import android.content.Context
 import android.text.Editable
@@ -6,7 +6,7 @@ import android.text.TextWatcher
 import android.util.AttributeSet
 import android.widget.FrameLayout
 import com.google.android.material.textfield.TextInputLayout
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 class VerificationCodeView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0, defStyleRes: Int = 0) :
   FrameLayout(context, attrs, defStyleAttr, defStyleRes) {

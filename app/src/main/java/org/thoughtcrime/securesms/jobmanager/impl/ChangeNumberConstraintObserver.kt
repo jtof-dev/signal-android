@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.jobmanager.impl
+package org.mycrimes.insecuretests.jobmanager.impl
 
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver
+import org.mycrimes.insecuretests.jobmanager.ConstraintObserver
 
 /**
  * An observer for the [ChangeNumberConstraint]. This class expects to be told when a change happens,

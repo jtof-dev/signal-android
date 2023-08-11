@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.lock;
+package org.mycrimes.insecuretests.lock;
 
 import androidx.annotation.StringRes;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 import java.util.HashMap;
 import java.util.Map;

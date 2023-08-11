@@ -16,7 +16,7 @@
  * This file has been modified by Signal.
  */
 
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.mycrimes.insecuretests.video.videoconverter;
 
 import android.media.MediaCodecInfo;
 import android.media.MediaCodecList;
@@ -29,8 +29,8 @@ import androidx.annotation.StringDef;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.media.MediaInput;
-import org.thoughtcrime.securesms.video.videoconverter.muxer.StreamingMuxer;
+import org.mycrimes.insecuretests.media.MediaInput;
+import org.mycrimes.insecuretests.video.videoconverter.muxer.StreamingMuxer;
 
 import java.io.File;
 import java.io.FileDescriptor;

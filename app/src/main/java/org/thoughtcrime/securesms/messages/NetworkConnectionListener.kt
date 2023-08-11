@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -13,8 +13,8 @@ import android.net.ConnectivityManager
 import android.net.Network
 import android.os.Build
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.util.ServiceUtil
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint
+import org.mycrimes.insecuretests.util.ServiceUtil
 
 /**
  * Backcompat listener for determining when the network connection is lost.

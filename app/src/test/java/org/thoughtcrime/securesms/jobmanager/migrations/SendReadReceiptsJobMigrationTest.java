@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.mycrimes.insecuretests.jobmanager.migrations;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
-import org.thoughtcrime.securesms.jobs.SendReadReceiptJob;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.JobMigration;
+import org.mycrimes.insecuretests.jobs.SendReadReceiptJob;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 import java.util.ArrayList;
 

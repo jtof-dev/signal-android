@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.mycrimes.insecuretests.payments.preferences;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
@@ -23,28 +23,28 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.PaymentPreferencesDirections;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.reminder.EnclaveFailureReminder;
-import org.thoughtcrime.securesms.components.reminder.ReminderView;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.help.HelpFragment;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil;
-import org.thoughtcrime.securesms.payments.MoneyView;
-import org.thoughtcrime.securesms.payments.backup.RecoveryPhraseStates;
-import org.thoughtcrime.securesms.payments.backup.confirm.PaymentsRecoveryPhraseConfirmFragment;
-import org.thoughtcrime.securesms.payments.preferences.model.InfoCard;
-import org.thoughtcrime.securesms.payments.preferences.model.PaymentItem;
-import org.thoughtcrime.securesms.registration.RegistrationNavigationActivity;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.PlayStoreUtil;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.PaymentPreferencesDirections;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.reminder.EnclaveFailureReminder;
+import org.mycrimes.insecuretests.components.reminder.ReminderView;
+import org.mycrimes.insecuretests.components.settings.app.AppSettingsActivity;
+import org.mycrimes.insecuretests.help.HelpFragment;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.lock.v2.CreateKbsPinActivity;
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil;
+import org.mycrimes.insecuretests.payments.MoneyView;
+import org.mycrimes.insecuretests.payments.backup.RecoveryPhraseStates;
+import org.mycrimes.insecuretests.payments.backup.confirm.PaymentsRecoveryPhraseConfirmFragment;
+import org.mycrimes.insecuretests.payments.preferences.model.InfoCard;
+import org.mycrimes.insecuretests.payments.preferences.model.PaymentItem;
+import org.mycrimes.insecuretests.registration.RegistrationNavigationActivity;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.PlayStoreUtil;
+import org.mycrimes.insecuretests.util.SpanUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.util.views.Stub;
 
 import java.util.concurrent.TimeUnit;
 

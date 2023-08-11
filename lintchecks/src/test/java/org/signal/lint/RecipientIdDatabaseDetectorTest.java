@@ -40,7 +40,7 @@ public final class RecipientIdDatabaseDetectorTest {
         .files(
             recipientReferenceStub,
             java("package foo;\n" +
-                 "import org.thoughtcrime.securesms.database.RecipientIdDatabaseReference;\n" +
+                 "import org.mycrimes.insecuretests.database.RecipientIdDatabaseReference;\n" +
                  "public class Example extends Database implements RecipientIdDatabaseReference {\n" +
                  "  private static final String RECIPIENT_ID = \"recipient_id\";\n" +
                  "  @Override\n" +

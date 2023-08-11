@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import com.google.android.mms.ContentType;
 import com.google.android.mms.pdu_alt.CharacterSets;
@@ -6,7 +6,7 @@ import com.google.android.mms.pdu_alt.PduBody;
 import com.google.android.mms.pdu_alt.PduPart;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;

@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.badges.gifts.flow
+package org.mycrimes.insecuretests.badges.gifts.flow
 
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.databinding.SubscriptionPreferenceBinding
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.databinding.SubscriptionPreferenceBinding
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingViewHolder
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.visible
 import java.util.concurrent.TimeUnit
 
 /**

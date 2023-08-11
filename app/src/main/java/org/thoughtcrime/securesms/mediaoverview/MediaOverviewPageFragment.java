@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediaoverview;
+package org.mycrimes.insecuretests.mediaoverview;
 
 import android.app.ActivityOptions;
 import android.content.ActivityNotFoundException;
@@ -31,23 +31,23 @@ import com.codewaves.stickyheadergrid.StickyHeaderGridLayoutManager;
 
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.components.menu.ActionItem;
-import org.thoughtcrime.securesms.components.menu.SignalBottomActionBar;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaController;
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.loaders.GroupedThreadMediaLoader;
-import org.thoughtcrime.securesms.database.loaders.MediaLoader;
-import org.thoughtcrime.securesms.mediapreview.MediaIntentFactory;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewV2Activity;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.BottomOffsetDecoration;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment;
+import org.mycrimes.insecuretests.components.menu.ActionItem;
+import org.mycrimes.insecuretests.components.menu.SignalBottomActionBar;
+import org.mycrimes.insecuretests.components.voice.VoiceNoteMediaController;
+import org.mycrimes.insecuretests.components.voice.VoiceNotePlaybackState;
+import org.mycrimes.insecuretests.database.MediaTable;
+import org.mycrimes.insecuretests.database.loaders.GroupedThreadMediaLoader;
+import org.mycrimes.insecuretests.database.loaders.MediaLoader;
+import org.mycrimes.insecuretests.mediapreview.MediaIntentFactory;
+import org.mycrimes.insecuretests.mediapreview.MediaPreviewV2Activity;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.util.BottomOffsetDecoration;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 import java.util.Arrays;
 import java.util.Objects;

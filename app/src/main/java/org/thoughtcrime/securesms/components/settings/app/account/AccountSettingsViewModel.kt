@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings.app.account
+package org.mycrimes.insecuretests.components.settings.app.account
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.TextSecurePreferences
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class AccountSettingsViewModel : ViewModel() {
   private val store: Store<AccountSettingsState> = Store(getCurrentState())

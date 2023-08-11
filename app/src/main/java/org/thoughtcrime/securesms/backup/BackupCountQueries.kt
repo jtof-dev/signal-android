@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.backup
+package org.mycrimes.insecuretests.backup
 
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.MessageTable
+import org.mycrimes.insecuretests.database.AttachmentTable
+import org.mycrimes.insecuretests.database.GroupReceiptTable
+import org.mycrimes.insecuretests.database.MessageTable
 
 /**
  * Queries used by backup exporter to estimate total counts for various complicated tables.

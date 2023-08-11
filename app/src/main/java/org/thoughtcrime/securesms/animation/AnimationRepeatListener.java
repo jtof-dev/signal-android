@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.animation;
+package org.mycrimes.insecuretests.animation;
 
 import android.animation.Animator;
 

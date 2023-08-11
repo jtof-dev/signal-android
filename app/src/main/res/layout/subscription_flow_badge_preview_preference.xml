@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="8dp">
 
-        <org.thoughtcrime.securesms.components.AvatarImageView
+        <org.mycrimes.insecuretests.components.AvatarImageView
             android:id="@+id/avatar"
             android:layout_width="88dp"
             android:layout_height="88dp"
@@ -20,7 +20,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <org.thoughtcrime.securesms.badges.BadgeImageView
+        <org.mycrimes.insecuretests.badges.BadgeImageView
             android:id="@+id/badge"
             android:layout_width="33dp"
             android:layout_height="33dp"

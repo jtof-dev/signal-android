@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.mycrimes.insecuretests.components.settings.app.changenumber
 
 import android.content.Context
 import android.content.Intent
@@ -9,14 +9,14 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import org.mycrimes.insecuretests.MainActivity
+import org.mycrimes.insecuretests.PassphraseRequiredActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.logsubmit.SubmitDebugLogActivity
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme
+import org.mycrimes.insecuretests.util.DynamicTheme
 import org.whispersystems.signalservice.api.push.PNI
 import java.util.Objects
 

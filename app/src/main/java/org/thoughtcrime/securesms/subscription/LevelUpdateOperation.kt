@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.subscription
+package org.mycrimes.insecuretests.subscription
 
 import org.whispersystems.signalservice.api.subscriptions.IdempotencyKey
 

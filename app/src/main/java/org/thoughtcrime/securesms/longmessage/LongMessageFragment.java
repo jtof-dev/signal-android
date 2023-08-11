@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.mycrimes.insecuretests.longmessage;
 
 import android.graphics.PorterDuff;
 import android.os.Bundle;
@@ -19,19 +19,19 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ConversationItemFooter;
-import org.thoughtcrime.securesms.components.FullScreenDialogFragment;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.LinkUtil;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.ConversationItemFooter;
+import org.mycrimes.insecuretests.components.FullScreenDialogFragment;
+import org.mycrimes.insecuretests.components.emoji.EmojiTextView;
+import org.mycrimes.insecuretests.conversation.ConversationItemDisplayMode;
+import org.mycrimes.insecuretests.conversation.colors.ColorizerView;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.LinkUtil;
+import org.mycrimes.insecuretests.util.LongClickMovementMethod;
+import org.mycrimes.insecuretests.util.Projection;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.views.Stub;
 
 import java.util.Collections;
 import java.util.Locale;

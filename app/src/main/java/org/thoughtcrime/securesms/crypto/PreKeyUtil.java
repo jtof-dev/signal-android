@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms.crypto;
+package org.mycrimes.insecuretests.crypto;
 
 import androidx.annotation.NonNull;
 
@@ -32,7 +32,7 @@ import org.signal.libsignal.protocol.state.PreKeyRecord;
 import org.signal.libsignal.protocol.state.SignalProtocolStore;
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
 import org.signal.libsignal.protocol.util.Medium;
-import org.thoughtcrime.securesms.crypto.storage.PreKeyMetadataStore;
+import org.mycrimes.insecuretests.crypto.storage.PreKeyMetadataStore;
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore;
 
 import java.util.Comparator;

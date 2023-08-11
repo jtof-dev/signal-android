@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences.widgets;
+package org.mycrimes.insecuretests.preferences.widgets;
 
 import androidx.annotation.NonNull;
 

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mediasend.camerax
+package org.mycrimes.insecuretests.mediasend.camerax
 
 import android.os.Build
 import org.signal.core.util.asListContains
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.util.FeatureFlags
 
 /**
  * Some phones don't work well with CameraX. This class uses a remote config to decide

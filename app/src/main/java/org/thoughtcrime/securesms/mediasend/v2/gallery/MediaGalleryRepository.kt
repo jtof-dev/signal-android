@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package org.mycrimes.insecuretests.mediasend.v2.gallery
 
 import android.content.Context
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaFolder
-import org.thoughtcrime.securesms.mediasend.MediaRepository
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mediasend.MediaFolder
+import org.mycrimes.insecuretests.mediasend.MediaRepository
 
 class MediaGalleryRepository(context: Context, private val mediaRepository: MediaRepository) {
   private val context: Context = context.applicationContext

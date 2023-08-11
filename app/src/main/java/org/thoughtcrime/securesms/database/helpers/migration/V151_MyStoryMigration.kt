@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.mycrimes.insecuretests.database.helpers.migration
 
 import android.app.Application
 import android.database.Cursor
@@ -7,8 +7,8 @@ import net.zetetic.database.sqlcipher.SQLiteDatabase
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.storage.StorageSyncHelper
+import org.mycrimes.insecuretests.util.Base64
 
 /**
  * Performs a check and ensures that MyStory exists at the correct distribution list id and correct distribution id.

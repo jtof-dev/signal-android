@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app
+package org.mycrimes.insecuretests.components.settings.app
 
 import android.content.Context
 import android.content.Intent
@@ -7,22 +7,22 @@ import androidx.navigation.NavDirections
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.EditNotificationProfileScheduleFragmentArgs
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPaymentComponent
-import org.thoughtcrime.securesms.components.settings.app.subscription.StripeRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalType
-import org.thoughtcrime.securesms.help.HelpFragment
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.CachedInflater
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.MainActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLSettingsActivity
+import org.mycrimes.insecuretests.components.settings.app.notifications.profiles.EditNotificationProfileScheduleFragmentArgs
+import org.mycrimes.insecuretests.components.settings.app.subscription.DonationPaymentComponent
+import org.mycrimes.insecuretests.components.settings.app.subscription.StripeRepository
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonateToSignalType
+import org.mycrimes.insecuretests.help.HelpFragment
+import org.mycrimes.insecuretests.keyvalue.SettingsValues
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.service.KeyCachingService
+import org.mycrimes.insecuretests.util.CachedInflater
+import org.mycrimes.insecuretests.util.DynamicTheme
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 private const val START_LOCATION = "app.settings.start.location"
 private const val START_ARGUMENTS = "app.settings.start.arguments"

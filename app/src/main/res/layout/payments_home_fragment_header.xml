@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     android:padding="16dp">
 
-    <org.thoughtcrime.securesms.payments.MoneyView
+    <org.mycrimes.insecuretests.payments.MoneyView
         android:id="@+id/payments_home_fragment_header_balance"
         android:layout_width="match_parent"
         android:layout_height="48sp"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/payments_home_fragment_header_balance"
         tools:text="$55 USD at 11:00am" />
 
-    <org.thoughtcrime.securesms.components.PaymentPillStrip
+    <org.mycrimes.insecuretests.components.PaymentPillStrip
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,6 +71,6 @@
 
         <include layout="@layout/payment_pill_strip" />
 
-    </org.thoughtcrime.securesms.components.PaymentPillStrip>
+    </org.mycrimes.insecuretests.components.PaymentPillStrip>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

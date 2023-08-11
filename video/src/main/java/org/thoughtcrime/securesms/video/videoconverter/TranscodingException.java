@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.mycrimes.insecuretests.video.videoconverter;
 
 final class TranscodingException extends Exception {
 

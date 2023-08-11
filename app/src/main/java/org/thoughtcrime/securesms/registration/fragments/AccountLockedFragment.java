@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.registration.fragments;
+package org.mycrimes.insecuretests.registration.fragments;
 
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.registration.viewmodel.BaseRegistrationViewModel;
-import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.registration.viewmodel.BaseRegistrationViewModel;
+import org.mycrimes.insecuretests.registration.viewmodel.RegistrationViewModel;
 
 public class AccountLockedFragment extends BaseAccountLockedFragment {
 

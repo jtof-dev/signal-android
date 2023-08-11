@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.mycrimes.insecuretests.jobmanager.impl;
 
 import android.app.Application;
 import android.content.Context;
@@ -13,8 +13,8 @@ import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.mycrimes.insecuretests.jobmanager.ConstraintObserver;
+import org.mycrimes.insecuretests.util.ServiceUtil;
 
 public class CellServiceConstraintObserver implements ConstraintObserver {
 

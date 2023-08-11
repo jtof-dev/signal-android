@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.confirm;
+package org.mycrimes.insecuretests.payments.confirm;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,18 +10,18 @@ import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.money.FiatMoney;
-import org.thoughtcrime.securesms.database.PaymentTable.PaymentTransaction;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.CreatePaymentDetails;
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil;
-import org.thoughtcrime.securesms.payments.PaymentTransactionLiveData;
-import org.thoughtcrime.securesms.payments.PaymentsAddressException;
-import org.thoughtcrime.securesms.payments.confirm.ConfirmPaymentRepository.ConfirmPaymentResult;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
-import org.thoughtcrime.securesms.util.livedata.Store;
+import org.mycrimes.insecuretests.database.PaymentTable.PaymentTransaction;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.CreatePaymentDetails;
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil;
+import org.mycrimes.insecuretests.payments.PaymentTransactionLiveData;
+import org.mycrimes.insecuretests.payments.PaymentsAddressException;
+import org.mycrimes.insecuretests.payments.confirm.ConfirmPaymentRepository.ConfirmPaymentResult;
+import org.mycrimes.insecuretests.util.DefaultValueLiveData;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.util.livedata.Store;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.Optional;

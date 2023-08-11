@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.any;
+package org.mycrimes.insecuretests.reactions.any;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -25,20 +25,20 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.keyboard.KeyboardPageCategoryIconMappingModel;
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageCategoriesAdapter;
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView;
-import org.thoughtcrime.securesms.reactions.edit.EditReactionsActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.FixedRoundedCornerBottomSheetDialogFragment;
+import org.mycrimes.insecuretests.components.emoji.EmojiEventListener;
+import org.mycrimes.insecuretests.components.emoji.EmojiPageView;
+import org.mycrimes.insecuretests.components.emoji.EmojiPageViewGridAdapter;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.keyboard.KeyboardPageCategoryIconMappingModel;
+import org.mycrimes.insecuretests.keyboard.emoji.EmojiKeyboardPageCategoriesAdapter;
+import org.mycrimes.insecuretests.keyboard.emoji.KeyboardPageSearchView;
+import org.mycrimes.insecuretests.reactions.edit.EditReactionsActivity;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel;
 
 import java.util.Optional;
 

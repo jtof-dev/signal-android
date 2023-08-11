@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.sms
+package org.mycrimes.insecuretests.sms
 
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobs.AttachmentCompressionJob
-import org.thoughtcrime.securesms.jobs.AttachmentCopyJob
-import org.thoughtcrime.securesms.jobs.AttachmentUploadJob
-import org.thoughtcrime.securesms.jobs.ResumableUploadSpecJob
-import org.thoughtcrime.securesms.mms.OutgoingMessage
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.attachments.AttachmentId
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment
+import org.mycrimes.insecuretests.attachments.UriAttachment
+import org.mycrimes.insecuretests.database.AttachmentTable
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.JobManager
+import org.mycrimes.insecuretests.jobs.AttachmentCompressionJob
+import org.mycrimes.insecuretests.jobs.AttachmentCopyJob
+import org.mycrimes.insecuretests.jobs.AttachmentUploadJob
+import org.mycrimes.insecuretests.jobs.ResumableUploadSpecJob
+import org.mycrimes.insecuretests.mms.OutgoingMessage
 
 /**
  * Helper alias for working with JobIds.

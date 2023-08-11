@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.quotes
+package org.mycrimes.insecuretests.conversation.quotes
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -7,12 +7,12 @@ import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.GroupAuthorNameColorHelper
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.conversation.colors.GroupAuthorNameColorHelper
+import org.mycrimes.insecuretests.conversation.colors.NameColor
+import org.mycrimes.insecuretests.database.model.MessageId
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 class MessageQuotesViewModel(
   application: Application,

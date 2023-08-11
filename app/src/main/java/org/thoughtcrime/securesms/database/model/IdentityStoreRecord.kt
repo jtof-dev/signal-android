@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.model
+package org.mycrimes.insecuretests.database.model
 
 import org.signal.libsignal.protocol.IdentityKey
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.IdentityTable
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 data class IdentityStoreRecord(
   val addressName: String,

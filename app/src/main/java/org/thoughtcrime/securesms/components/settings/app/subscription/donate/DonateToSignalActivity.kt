@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate
 
 import android.content.Intent
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPaymentComponent
-import org.thoughtcrime.securesms.components.settings.app.subscription.StripeRepository
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.FragmentWrapperActivity
+import org.mycrimes.insecuretests.components.settings.app.subscription.DonationPaymentComponent
+import org.mycrimes.insecuretests.components.settings.app.subscription.StripeRepository
 
 /**
  * Activity wrapper for donate to signal screen. An activity is needed because Google Pay uses the

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import android.animation.Animator
 import android.animation.LayoutTransition

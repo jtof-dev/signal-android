@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package org.mycrimes.insecuretests.crypto;
 
 
 import android.util.Pair;

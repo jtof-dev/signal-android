@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,7 +9,7 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.mms.AttachmentStreamUriLoader.AttachmentModel;
+import org.mycrimes.insecuretests.mms.AttachmentStreamUriLoader.AttachmentModel;
 
 import java.io.File;
 import java.io.InputStream;

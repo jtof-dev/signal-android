@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
-package org.thoughtcrime.securesms.components.segmentedprogressbar
+package org.mycrimes.insecuretests.components.segmentedprogressbar
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -32,7 +32,7 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import androidx.viewpager.widget.ViewPager
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 import java.util.concurrent.TimeUnit
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.mycrimes.insecuretests.mediasend.v2.text
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -25,18 +25,18 @@ import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.viewModels
 import androidx.transition.TransitionManager
 import com.airbnb.lottie.SimpleColorFilter
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.getColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setUpForColor
-import org.thoughtcrime.securesms.util.FeatureFlags
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.setIncognitoKeyboardEnabled
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.KeyboardEntryDialogFragment
+import org.mycrimes.insecuretests.mediasend.v2.MediaAnimations
+import org.mycrimes.insecuretests.scribbles.HSVColorSlider
+import org.mycrimes.insecuretests.scribbles.HSVColorSlider.getColor
+import org.mycrimes.insecuretests.scribbles.HSVColorSlider.setColor
+import org.mycrimes.insecuretests.scribbles.HSVColorSlider.setUpForColor
+import org.mycrimes.insecuretests.util.FeatureFlags
+import org.mycrimes.insecuretests.util.TextSecurePreferences
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.fragments.findListener
+import org.mycrimes.insecuretests.util.setIncognitoKeyboardEnabled
 import java.util.Locale
 
 /**

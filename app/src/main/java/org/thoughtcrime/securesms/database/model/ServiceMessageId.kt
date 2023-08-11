@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.database.model
+package org.mycrimes.insecuretests.database.model
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 /**
  * Represents the messages "ID" from the service's perspective, which identifies messages via a

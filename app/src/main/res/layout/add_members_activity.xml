@@ -12,7 +12,7 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+        <org.mycrimes.insecuretests.util.views.DarkOverflowToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="56dp"
@@ -24,7 +24,7 @@
             app:titleTextAppearance="@style/Signal.Text.Title"
             app:title="@string/AddMembersActivity__add_members" />
 
-        <org.thoughtcrime.securesms.components.ContactFilterView
+        <org.mycrimes.insecuretests.components.ContactFilterView
             android:id="@+id/contact_filter_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,13 +36,13 @@
 
         <fragment
             android:id="@+id/contact_selection_list_fragment"
-            android:name="org.thoughtcrime.securesms.ContactSelectionListFragment"
+            android:name="org.mycrimes.insecuretests.ContactSelectionListFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
     </LinearLayout>
 
-    <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+    <org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
         android:id="@+id/done"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

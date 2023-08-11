@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.deactivate;
+package org.mycrimes.insecuretests.payments.deactivate;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
@@ -17,11 +17,11 @@ import androidx.navigation.Navigation;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.payments.MoneyView;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.payments.MoneyView;
+import org.mycrimes.insecuretests.util.SpanUtil;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.util.views.LearnMoreTextView;
 
 public class DeactivateWalletFragment extends Fragment {
 

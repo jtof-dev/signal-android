@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import io.mockk.every
@@ -16,15 +16,15 @@ import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.ecc.Curve
 import org.signal.libsignal.protocol.ecc.ECKeyPair
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
-import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil
-import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testing.AliceClient
-import org.thoughtcrime.securesms.testing.BobClient
-import org.thoughtcrime.securesms.testing.Entry
-import org.thoughtcrime.securesms.testing.FakeClientHelpers
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.awaitFor
+import org.mycrimes.insecuretests.crypto.UnidentifiedAccessUtil
+import org.mycrimes.insecuretests.dependencies.InstrumentationApplicationDependencyProvider
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.testing.AliceClient
+import org.mycrimes.insecuretests.testing.BobClient
+import org.mycrimes.insecuretests.testing.Entry
+import org.mycrimes.insecuretests.testing.FakeClientHelpers
+import org.mycrimes.insecuretests.testing.SignalActivityRule
+import org.mycrimes.insecuretests.testing.awaitFor
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.Envelope
 import org.whispersystems.signalservice.internal.websocket.WebSocketProtos.WebSocketMessage
 import org.whispersystems.signalservice.internal.websocket.WebSocketProtos.WebSocketRequestMessage

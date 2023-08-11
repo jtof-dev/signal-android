@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.pin;
+package org.mycrimes.insecuretests.pin;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.KbsEnclave;
+import org.mycrimes.insecuretests.KbsEnclave;
 import org.whispersystems.signalservice.internal.contacts.entities.TokenResponse;
 
 public class TokenData implements Parcelable {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.mycrimes.insecuretests.database.loaders;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -15,10 +15,10 @@ import org.signal.libsignal.protocol.ecc.Curve;
 import org.signal.libsignal.protocol.ecc.ECPrivateKey;
 import org.signal.libsignal.protocol.ecc.ECPublicKey;
 import org.signal.libsignal.protocol.util.ByteUtil;
-import org.thoughtcrime.securesms.devicelist.Device;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.AsyncLoader;
-import org.thoughtcrime.securesms.util.Base64;
+import org.mycrimes.insecuretests.devicelist.Device;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.AsyncLoader;
+import org.mycrimes.insecuretests.util.Base64;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.messages.multidevice.DeviceInfo;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
@@ -36,7 +36,7 @@ import javax.crypto.Mac;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-import org.thoughtcrime.securesms.devicelist.protos.DeviceName;
+import org.mycrimes.insecuretests.devicelist.protos.DeviceName;
 
 public class DeviceListLoader extends AsyncLoader<List<Device>> {
 

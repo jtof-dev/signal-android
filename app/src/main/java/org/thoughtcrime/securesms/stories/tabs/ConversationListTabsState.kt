@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.tabs
+package org.mycrimes.insecuretests.stories.tabs
 
 data class ConversationListTabsState(
   val tab: ConversationListTab = ConversationListTab.CHATS,

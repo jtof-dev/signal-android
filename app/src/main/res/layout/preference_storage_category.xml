@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="1.2GB" />
 
-    <org.thoughtcrime.securesms.preferences.widgets.StorageGraphView
+    <org.mycrimes.insecuretests.preferences.widgets.StorageGraphView
         android:id="@+id/storageGraphView"
         android:layout_width="0dp"
         android:layout_height="28dp"

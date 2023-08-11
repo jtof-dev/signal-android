@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -15,11 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.annimon.stream.Stream;
 import com.annimon.stream.function.Predicate;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.InputAwareLayout;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.StorageUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.InputAwareLayout;
+import org.mycrimes.insecuretests.mediasend.Media;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.util.StorageUtil;
 
 import java.util.Arrays;
 import java.util.List;

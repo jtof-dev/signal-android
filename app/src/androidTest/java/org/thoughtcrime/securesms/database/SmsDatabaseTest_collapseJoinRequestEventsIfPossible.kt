@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.hamcrest.MatcherAssert.assertThat
@@ -10,17 +10,17 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.Hex
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.database.model.databaseprotos.addMember
-import org.thoughtcrime.securesms.database.model.databaseprotos.addRequestingMember
-import org.thoughtcrime.securesms.database.model.databaseprotos.deleteRequestingMember
-import org.thoughtcrime.securesms.database.model.databaseprotos.groupChange
-import org.thoughtcrime.securesms.database.model.databaseprotos.groupContext
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.IncomingGroupUpdateMessage
-import org.thoughtcrime.securesms.sms.IncomingTextMessage
+import org.mycrimes.insecuretests.database.model.databaseprotos.DecryptedGroupV2Context
+import org.mycrimes.insecuretests.database.model.databaseprotos.addMember
+import org.mycrimes.insecuretests.database.model.databaseprotos.addRequestingMember
+import org.mycrimes.insecuretests.database.model.databaseprotos.deleteRequestingMember
+import org.mycrimes.insecuretests.database.model.databaseprotos.groupChange
+import org.mycrimes.insecuretests.database.model.databaseprotos.groupContext
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sms.IncomingGroupUpdateMessage
+import org.mycrimes.insecuretests.sms.IncomingTextMessage
 import org.whispersystems.signalservice.api.push.ACI
 import org.whispersystems.signalservice.api.push.PNI
 import org.whispersystems.signalservice.api.push.ServiceId

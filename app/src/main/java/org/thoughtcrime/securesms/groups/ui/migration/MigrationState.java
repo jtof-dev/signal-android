@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.groups.ui.migration;
+package org.mycrimes.insecuretests.groups.ui.migration;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.util.List;
 

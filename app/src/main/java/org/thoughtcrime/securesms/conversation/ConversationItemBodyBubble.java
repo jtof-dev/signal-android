@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -12,9 +12,9 @@ import androidx.annotation.Nullable;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.components.Outliner;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.components.Outliner;
+import org.mycrimes.insecuretests.util.Projection;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.Collections;
 import java.util.List;

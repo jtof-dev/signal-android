@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.manage
+package org.mycrimes.insecuretests.components.settings.app.subscription.manage
 
 import io.reactivex.rxjava3.core.Observable
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.JobTracker
-import org.thoughtcrime.securesms.jobs.DonationReceiptRedemptionJob
-import org.thoughtcrime.securesms.jobs.SubscriptionReceiptRequestResponseJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobmanager.JobTracker
+import org.mycrimes.insecuretests.jobs.DonationReceiptRedemptionJob
+import org.mycrimes.insecuretests.jobs.SubscriptionReceiptRequestResponseJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 import java.util.Optional
 import java.util.concurrent.TimeUnit
 

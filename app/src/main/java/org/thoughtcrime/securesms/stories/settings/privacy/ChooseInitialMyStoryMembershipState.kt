@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.settings.privacy
+package org.mycrimes.insecuretests.stories.settings.privacy
 
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.settings.my.MyStoryPrivacyState
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.stories.settings.my.MyStoryPrivacyState
 
 data class ChooseInitialMyStoryMembershipState(
   val recipientId: RecipientId? = null,

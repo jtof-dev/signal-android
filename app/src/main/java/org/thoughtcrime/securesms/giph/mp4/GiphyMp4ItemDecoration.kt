@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.giph.mp4
+package org.mycrimes.insecuretests.giph.mp4
 
 import android.graphics.Canvas
 import android.graphics.Rect
 import androidx.core.view.children
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.conversation.ConversationAdapter
-import org.thoughtcrime.securesms.conversation.v2.ConversationAdapterV2
+import org.mycrimes.insecuretests.conversation.ConversationAdapter
+import org.mycrimes.insecuretests.conversation.v2.ConversationAdapterV2
 import kotlin.math.min
 
 /**

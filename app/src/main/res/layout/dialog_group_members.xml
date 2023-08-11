@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <org.thoughtcrime.securesms.groups.ui.GroupMemberListView
+    <org.mycrimes.insecuretests.groups.ui.GroupMemberListView
         android:id="@+id/list_members"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

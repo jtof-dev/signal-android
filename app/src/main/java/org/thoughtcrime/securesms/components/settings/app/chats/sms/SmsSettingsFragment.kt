@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.sms
+package org.mycrimes.insecuretests.components.settings.app.chats.sms
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -9,17 +9,17 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.models.OutlinedLearnMore
-import org.thoughtcrime.securesms.exporter.flow.SmsExportActivity
-import org.thoughtcrime.securesms.exporter.flow.SmsExportDialogs
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.components.settings.models.OutlinedLearnMore
+import org.mycrimes.insecuretests.exporter.flow.SmsExportActivity
+import org.mycrimes.insecuretests.exporter.flow.SmsExportDialogs
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.Util
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 
 private const val SMS_REQUEST_CODE: Short = 1234
 

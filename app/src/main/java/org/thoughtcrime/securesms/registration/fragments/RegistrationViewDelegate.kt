@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments
+package org.mycrimes.insecuretests.registration.fragments
 
 import android.content.Context
 import android.content.Intent
@@ -7,10 +7,10 @@ import android.view.View
 import android.widget.Toast
 import androidx.annotation.StringRes
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter
-import org.thoughtcrime.securesms.util.SpanUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.logsubmit.SubmitDebugLogActivity
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter
+import org.mycrimes.insecuretests.util.SpanUtil
 
 object RegistrationViewDelegate {
 

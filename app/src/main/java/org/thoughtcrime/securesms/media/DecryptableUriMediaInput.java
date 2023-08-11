@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.media;
+package org.mycrimes.insecuretests.media;
 
 import android.content.Context;
 import android.media.MediaDataSource;
@@ -7,11 +7,11 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.PartUriParser;
-import org.thoughtcrime.securesms.providers.BlobProvider;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.mms.PartUriParser;
+import org.mycrimes.insecuretests.providers.BlobProvider;
 
 import java.io.IOException;
 

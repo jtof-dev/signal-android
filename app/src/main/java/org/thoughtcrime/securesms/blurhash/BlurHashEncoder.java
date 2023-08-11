@@ -19,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.thoughtcrime.securesms.blurhash;
+package org.mycrimes.insecuretests.blurhash;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -29,10 +29,10 @@ import androidx.annotation.Nullable;
 
 import java.io.InputStream;
 
-import static org.thoughtcrime.securesms.blurhash.BlurHashUtil.linearTosRGB;
-import static org.thoughtcrime.securesms.blurhash.BlurHashUtil.max;
-import static org.thoughtcrime.securesms.blurhash.BlurHashUtil.sRGBToLinear;
-import static org.thoughtcrime.securesms.blurhash.BlurHashUtil.signPow;
+import static org.mycrimes.insecuretests.blurhash.BlurHashUtil.linearTosRGB;
+import static org.mycrimes.insecuretests.blurhash.BlurHashUtil.max;
+import static org.mycrimes.insecuretests.blurhash.BlurHashUtil.sRGBToLinear;
+import static org.mycrimes.insecuretests.blurhash.BlurHashUtil.signPow;
 
 public final class BlurHashEncoder {
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -46,11 +46,11 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ComposeText;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.OutgoingLegacyMmsConnection;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.ComposeText;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.mms.OutgoingLegacyMmsConnection;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

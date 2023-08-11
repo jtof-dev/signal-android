@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc.links
+package org.mycrimes.insecuretests.service.webrtc.links
 
 import io.reactivex.rxjava3.core.Single
 import org.signal.core.util.isAbsent
@@ -20,9 +20,9 @@ import org.signal.ringrtc.CallLinkRootKey
 import org.signal.ringrtc.CallLinkState
 import org.signal.ringrtc.CallLinkState.Restrictions
 import org.signal.ringrtc.CallManager
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
 import org.whispersystems.signalservice.internal.ServiceResponse
 import java.io.IOException
 

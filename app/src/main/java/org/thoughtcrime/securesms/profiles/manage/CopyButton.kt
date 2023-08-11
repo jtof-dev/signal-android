@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.profiles.manage
+package org.mycrimes.insecuretests.profiles.manage
 
-import org.thoughtcrime.securesms.databinding.CopyButtonBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.databinding.CopyButtonBinding
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingViewHolder
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
 
 /**
  * Outlined button that allows the user to copy a piece of data.

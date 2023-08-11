@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing;
+package org.mycrimes.insecuretests.sharing;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -13,17 +13,17 @@ import com.google.protobuf.InvalidProtocolBufferException;
 
 import org.signal.core.util.BreakIteratorCompat;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
-import org.thoughtcrime.securesms.stories.Stories;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ParcelUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey;
+import org.mycrimes.insecuretests.contactshare.Contact;
+import org.mycrimes.insecuretests.database.model.Mention;
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList;
+import org.mycrimes.insecuretests.linkpreview.LinkPreview;
+import org.mycrimes.insecuretests.mediasend.Media;
+import org.mycrimes.insecuretests.stickers.StickerLocator;
+import org.mycrimes.insecuretests.stories.Stories;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.ParcelUtil;
+import org.mycrimes.insecuretests.util.Util;
 import org.whispersystems.signalservice.api.messages.shared.SharedContact;
 
 import java.io.IOException;

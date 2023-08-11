@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import android.content.Intent
 import android.view.MotionEvent
 import androidx.activity.viewModels
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaController
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
+import org.mycrimes.insecuretests.components.FragmentWrapperActivity
+import org.mycrimes.insecuretests.components.voice.VoiceNoteMediaController
+import org.mycrimes.insecuretests.components.voice.VoiceNoteMediaControllerOwner
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme
 
 /**
  * Wrapper activity for ConversationFragment.

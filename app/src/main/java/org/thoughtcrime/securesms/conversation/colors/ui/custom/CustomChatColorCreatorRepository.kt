@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.conversation.colors.ui.custom
+package org.mycrimes.insecuretests.conversation.colors.ui.custom
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import org.mycrimes.insecuretests.conversation.colors.ChatColors
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaper
 
 class CustomChatColorCreatorRepository(private val context: Context) {
   fun loadColors(chatColorsId: ChatColors.Id, consumer: (ChatColors) -> Unit) {

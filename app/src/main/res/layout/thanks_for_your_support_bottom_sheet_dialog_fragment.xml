@@ -56,7 +56,7 @@
                 app:layout_constraintTop_toBottomOf="@id/thanks_bottom_sheet_heading"
                 tools:text="@string/SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support" />
 
-            <org.thoughtcrime.securesms.badges.BadgeImageView
+            <org.mycrimes.insecuretests.badges.BadgeImageView
                 android:id="@+id/thanks_bottom_sheet_badge"
                 android:layout_width="112dp"
                 android:layout_height="112dp"

@@ -7,7 +7,7 @@
     android:background="?selectableItemBackgroundBorderless"
     tools:layout_height="60dp">
 
-    <org.thoughtcrime.securesms.components.emoji.AsciiEmojiView
+    <org.mycrimes.insecuretests.components.emoji.AsciiEmojiView
         android:id="@+id/emoji_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

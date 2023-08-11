@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2;
+package org.mycrimes.insecuretests.groups.v2;
 
 import androidx.annotation.NonNull;
 
@@ -8,7 +8,7 @@ import com.google.protobuf.InvalidProtocolBufferException;
 import org.junit.Test;
 import org.signal.libsignal.zkgroup.InvalidInputException;
 import org.signal.storageservice.protos.groups.GroupInviteLink;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 import org.whispersystems.util.Base64UrlSafe;
 
 import java.io.IOException;

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 object BottomSheetUtil {
   const val STANDARD_BOTTOM_SHEET_FRAGMENT_TAG = "BOTTOM"

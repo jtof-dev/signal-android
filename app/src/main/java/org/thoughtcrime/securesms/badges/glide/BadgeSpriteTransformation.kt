@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.glide
+package org.mycrimes.insecuretests.badges.glide
 
 import android.graphics.Bitmap
 import android.graphics.Canvas

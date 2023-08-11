@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.mycrimes.insecuretests.longmessage;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.mycrimes.insecuretests.conversation.ConversationMessage;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
 
 /**
  * A wrapper around a {@link ConversationMessage} and its extra text attachment expanded into a string

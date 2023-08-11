@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:parentTag="org.thoughtcrime.securesms.components.PaymentPillStrip">
+    tools:parentTag="org.mycrimes.insecuretests.components.PaymentPillStrip">
 
     <FrameLayout
         android:id="@+id/button_start_frame"

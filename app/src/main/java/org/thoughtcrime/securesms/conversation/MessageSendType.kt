@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.Manifest
 import android.content.Context
@@ -8,14 +8,14 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import kotlinx.parcelize.Parcelize
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.CharacterCalculator
-import org.thoughtcrime.securesms.util.MmsCharacterCalculator
-import org.thoughtcrime.securesms.util.PushCharacterCalculator
-import org.thoughtcrime.securesms.util.SmsCharacterCalculator
-import org.thoughtcrime.securesms.util.dualsim.SubscriptionInfoCompat
-import org.thoughtcrime.securesms.util.dualsim.SubscriptionManagerCompat
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.CharacterCalculator
+import org.mycrimes.insecuretests.util.MmsCharacterCalculator
+import org.mycrimes.insecuretests.util.PushCharacterCalculator
+import org.mycrimes.insecuretests.util.SmsCharacterCalculator
+import org.mycrimes.insecuretests.util.dualsim.SubscriptionInfoCompat
+import org.mycrimes.insecuretests.util.dualsim.SubscriptionManagerCompat
 import java.lang.IllegalArgumentException
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package org.mycrimes.insecuretests.notifications.profiles
 
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.`is`
@@ -6,7 +6,7 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.BeforeClass
 import org.junit.Test
-import org.thoughtcrime.securesms.util.toMillis
+import org.mycrimes.insecuretests.util.toMillis
 import java.time.DayOfWeek
 import java.time.LocalDateTime
 import java.time.ZoneOffset

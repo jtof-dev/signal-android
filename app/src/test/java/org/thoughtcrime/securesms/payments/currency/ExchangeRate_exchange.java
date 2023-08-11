@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.currency;
+package org.mycrimes.insecuretests.payments.currency;
 
 import androidx.annotation.NonNull;
 

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package org.mycrimes.insecuretests.stories.viewer.reply.group
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.database.model.MessageId
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.recipients.Recipient
 
 sealed class ReplyBody(val messageRecord: MessageRecord) {
 

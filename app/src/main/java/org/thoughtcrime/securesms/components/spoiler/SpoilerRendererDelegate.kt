@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.spoiler
+package org.mycrimes.insecuretests.components.spoiler
 
 import android.animation.ValueAnimator
 import android.graphics.Canvas
@@ -11,8 +11,8 @@ import android.view.animation.LinearInterpolator
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation.SpoilerClickableSpan
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.spoiler.SpoilerAnnotation.SpoilerClickableSpan
 
 /**
  * Performs initial calculation on how to render spoilers and then delegates to actually drawing the spoiler sparkles.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers;
+package org.mycrimes.insecuretests.database.helpers;
 
 
 import android.content.ContentValues;
@@ -16,18 +16,18 @@ import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidMessageException;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.AsymmetricMasterCipher;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.MasterCipher;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.jobs.UnableToStartException;
-import org.thoughtcrime.securesms.migrations.LegacyMigrationJob;
-import org.thoughtcrime.securesms.service.GenericForegroundService;
-import org.thoughtcrime.securesms.service.NotificationController;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.crypto.AsymmetricMasterCipher;
+import org.mycrimes.insecuretests.crypto.AttachmentSecretProvider;
+import org.mycrimes.insecuretests.crypto.MasterCipher;
+import org.mycrimes.insecuretests.crypto.MasterSecret;
+import org.mycrimes.insecuretests.crypto.MasterSecretUtil;
+import org.mycrimes.insecuretests.jobs.UnableToStartException;
+import org.mycrimes.insecuretests.migrations.LegacyMigrationJob;
+import org.mycrimes.insecuretests.service.GenericForegroundService;
+import org.mycrimes.insecuretests.service.NotificationController;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.io.IOException;
 import java.util.HashSet;

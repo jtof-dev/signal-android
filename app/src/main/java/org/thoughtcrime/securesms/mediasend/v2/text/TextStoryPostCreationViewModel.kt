@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.mycrimes.insecuretests.mediasend.v2.text
 
 import android.graphics.Bitmap
 import android.graphics.Typeface
@@ -17,15 +17,15 @@ import io.reactivex.rxjava3.subjects.BehaviorSubject
 import io.reactivex.rxjava3.subjects.Subject
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.fonts.TextToScript
-import org.thoughtcrime.securesms.fonts.TypefaceCache
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendRepository
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendResult
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.fonts.TextFont
+import org.mycrimes.insecuretests.fonts.TextToScript
+import org.mycrimes.insecuretests.fonts.TypefaceCache
+import org.mycrimes.insecuretests.linkpreview.LinkPreview
+import org.mycrimes.insecuretests.mediasend.v2.text.send.TextStoryPostSendRepository
+import org.mycrimes.insecuretests.mediasend.v2.text.send.TextStoryPostSendResult
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class TextStoryPostCreationViewModel(private val repository: TextStoryPostSendRepository, private val identityChangesSince: Long = System.currentTimeMillis()) : ViewModel() {
 

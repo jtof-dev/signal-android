@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package org.mycrimes.insecuretests.payments;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -8,8 +8,8 @@ import androidx.annotation.Nullable;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 
-import org.thoughtcrime.securesms.payments.preferences.model.PayeeParcelable;
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
+import org.mycrimes.insecuretests.payments.preferences.model.PayeeParcelable;
+import org.mycrimes.insecuretests.payments.proto.PaymentMetaData;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.UUID;

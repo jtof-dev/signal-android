@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.gif
+package org.mycrimes.insecuretests.keyboard.gif
 
 import androidx.lifecycle.ViewModel
 

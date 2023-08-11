@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate
 
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations
-import org.thoughtcrime.securesms.components.settings.app.subscription.boost.Boost
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.subscription.Subscription
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.components.settings.app.subscription.InAppDonations
+import org.mycrimes.insecuretests.components.settings.app.subscription.boost.Boost
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.subscription.Subscription
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 import java.math.BigDecimal
 import java.util.Currency

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package org.mycrimes.insecuretests.video;
 
 import android.media.MediaDataSource;
 

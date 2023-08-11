@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.model;
+package org.mycrimes.insecuretests.payments.preferences.model;
 
 import android.content.Context;
 
@@ -10,16 +10,16 @@ import androidx.core.content.ContextCompat;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.payments.ReconstructedPayment;
-import org.thoughtcrime.securesms.payments.State;
-import org.thoughtcrime.securesms.payments.preferences.PaymentType;
-import org.thoughtcrime.securesms.payments.preferences.details.PaymentDetailsParcelable;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.payments.Payment;
+import org.mycrimes.insecuretests.payments.ReconstructedPayment;
+import org.mycrimes.insecuretests.payments.State;
+import org.mycrimes.insecuretests.payments.preferences.PaymentType;
+import org.mycrimes.insecuretests.payments.preferences.details.PaymentDetailsParcelable;
+import org.mycrimes.insecuretests.util.DateUtils;
+import org.mycrimes.insecuretests.util.SpanUtil;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 import org.whispersystems.signalservice.api.payments.PaymentsConstants;
 
@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Objects;
 
-import static org.thoughtcrime.securesms.util.viewholders.RecipientMappingModel.RecipientIdMappingModel;
+import static org.mycrimes.insecuretests.util.viewholders.RecipientMappingModel.RecipientIdMappingModel;
 
 public final class PaymentItem implements MappingModel<PaymentItem> {
 

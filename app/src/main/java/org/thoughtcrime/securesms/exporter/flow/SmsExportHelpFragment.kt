@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.os.Bundle
 import android.view.View
 import androidx.core.os.bundleOf
 import androidx.navigation.fragment.findNavController
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.SmsExportHelpFragmentBinding
-import org.thoughtcrime.securesms.help.HelpFragment
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.databinding.SmsExportHelpFragmentBinding
+import org.mycrimes.insecuretests.help.HelpFragment
 
 /**
  * Fragment wrapper around the app settings help fragment to provide a toolbar and set default category for sms export.

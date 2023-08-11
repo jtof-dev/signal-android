@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups
+package org.mycrimes.insecuretests.groups
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.util.LRUCache
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.GroupRecord
+import org.mycrimes.insecuretests.util.LRUCache
 
 /**
  * Cache to keep track of groups we know do not need a migration run on. This is to save time looking for a gv1 group

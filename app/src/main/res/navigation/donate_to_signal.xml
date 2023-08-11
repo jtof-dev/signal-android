@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/donateToSignalFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonateToSignalFragment"
         android:label="donate_to_signal_fragment"
         tools:layout="@layout/dsl_settings_fragment">
 
         <argument
             android:name="start_type"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonateToSignalType"
+            app:argType="org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonateToSignalType"
             app:nullable="false" />
 
         <action
@@ -47,20 +47,20 @@
 
     <dialog
         android:id="@+id/gatewaySelectorBottomSheet"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewaySelectorBottomSheet"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewaySelectorBottomSheet"
         android:label="gateway_selector_bottom_sheet"
         tools:layout="@layout/dsl_settings_bottom_sheet">
 
         <argument
             android:name="request"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest"
+            app:argType="org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayRequest"
             app:nullable="false" />
 
     </dialog>
 
     <dialog
         android:id="@+id/setDonationCurrencyFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.currency.SetCurrencyFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.currency.SetCurrencyFragment"
         android:label="set_currency_fragment"
         tools:layout="@layout/dsl_settings_fragment">
 
@@ -75,18 +75,18 @@
 
     <dialog
         android:id="@+id/stripePaymentInProgressFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment"
         android:label="stripe_payment_in_progress_fragment"
         tools:layout="@layout/donation_in_progress_fragment">
 
         <argument
             android:name="action"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationProcessorAction"
+            app:argType="org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationProcessorAction"
             app:nullable="false" />
 
         <argument
             android:name="request"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest"
+            app:argType="org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayRequest"
             app:nullable="false" />
         <action
             android:id="@+id/action_stripePaymentInProgressFragment_to_stripe3dsDialogFragment"
@@ -95,13 +95,13 @@
 
     <dialog
         android:id="@+id/thanksForYourSupportBottomSheetDialog"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.thanks.ThanksForYourSupportBottomSheetDialogFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.thanks.ThanksForYourSupportBottomSheetDialogFragment"
         android:label="thanks_for_your_support_bottom_sheet_dialog"
         tools:layout="@layout/thanks_for_your_support_bottom_sheet_dialog_fragment">
 
         <argument
             android:name="badge"
-            app:argType="org.thoughtcrime.securesms.badges.models.Badge"
+            app:argType="org.mycrimes.insecuretests.badges.models.Badge"
             app:nullable="false" />
 
         <argument
@@ -112,19 +112,19 @@
 
     <dialog
         android:id="@+id/subscribeLearnMoreBottomSheetDialog"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.subscribe.SubscribeLearnMoreBottomSheetDialogFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.subscribe.SubscribeLearnMoreBottomSheetDialogFragment"
         android:label="subscribe_learn_more_bottom_sheet_dialog"
         tools:layout="@layout/subscribe_learn_more_bottom_sheet_dialog_fragment" />
 
     <fragment
         android:id="@+id/creditCardFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.card.CreditCardFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.donate.card.CreditCardFragment"
         android:label="credit_card_fragment"
         tools:layout="@layout/credit_card_fragment">
 
         <argument
             android:name="request"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest"
+            app:argType="org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayRequest"
             app:nullable="false" />
 
         <action
@@ -137,7 +137,7 @@
 
     <dialog
         android:id="@+id/stripe3dsDialogFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.Stripe3DSDialogFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.donate.stripe.Stripe3DSDialogFragment"
         android:label="stripe_3ds_dialog_fragment"
         tools:layout="@layout/donation_webview_fragment">
 
@@ -154,24 +154,24 @@
 
     <dialog
         android:id="@+id/yourInformationIsPrivateBottomSheet"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.card.YourInformationIsPrivateBottomSheet"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.donate.card.YourInformationIsPrivateBottomSheet"
         android:label="your_information_is_private_bottom_sheet"
         tools:layout="@layout/dsl_settings_bottom_sheet" />
 
     <dialog
         android:id="@+id/paypalPaymentInProgressFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment"
         android:label="paypal_payment_in_progress"
         tools:layout="@layout/donation_in_progress_fragment">
 
         <argument
             android:name="action"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationProcessorAction"
+            app:argType="org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationProcessorAction"
             app:nullable="false" />
 
         <argument
             android:name="request"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest"
+            app:argType="org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayRequest"
             app:nullable="false" />
         <action
             android:id="@+id/action_paypalPaymentInProgressFragment_to_paypalConfirmationFragment"
@@ -183,7 +183,7 @@
 
     <dialog
         android:id="@+id/paypalConfirmationFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalConfirmationDialogFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.donate.paypal.PayPalConfirmationDialogFragment"
         android:label="paypal_confirmation_dialog_fragment"
         tools:layout="@layout/donation_webview_fragment">
 
@@ -196,13 +196,13 @@
 
     <dialog
         android:id="@+id/paypalCompleteOrderBottomSheet"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalCompleteOrderBottomSheet"
+        android:name="org.mycrimes.insecuretests.components.settings.app.subscription.donate.paypal.PayPalCompleteOrderBottomSheet"
         android:label="paypal_complete_order_bottom_sheet"
         tools:layout="@layout/dsl_settings_bottom_sheet">
 
         <argument
             android:name="request"
-            app:argType="org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway.GatewayRequest"
+            app:argType="org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway.GatewayRequest"
             app:nullable="false" />
     </dialog>
 

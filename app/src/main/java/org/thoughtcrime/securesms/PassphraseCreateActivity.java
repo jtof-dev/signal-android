@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
 
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.VersionTracker;
+import org.mycrimes.insecuretests.crypto.MasterSecret;
+import org.mycrimes.insecuretests.crypto.MasterSecretUtil;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.VersionTracker;
 
 /**
  * Activity for creating a user's local encryption passphrase.

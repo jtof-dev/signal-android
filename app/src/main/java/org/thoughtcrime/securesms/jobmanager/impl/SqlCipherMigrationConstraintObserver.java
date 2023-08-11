@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.mycrimes.insecuretests.jobmanager.impl;
 
 import androidx.annotation.NonNull;
 
@@ -6,7 +6,7 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
+import org.mycrimes.insecuretests.jobmanager.ConstraintObserver;
 
 public class SqlCipherMigrationConstraintObserver implements ConstraintObserver {
 

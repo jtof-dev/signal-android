@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper.crop;
+package org.mycrimes.insecuretests.wallpaper.crop;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,18 +26,18 @@ import org.signal.imageeditor.core.ImageEditorView;
 import org.signal.imageeditor.core.model.EditorElement;
 import org.signal.imageeditor.core.model.EditorModel;
 import org.signal.imageeditor.core.renderers.FaceBlurRenderer;
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ProgressCard;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.scribbles.UriGlideRenderer;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperPreviewActivity;
+import org.mycrimes.insecuretests.BaseActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.ProgressCard;
+import org.mycrimes.insecuretests.conversation.colors.ColorizerView;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.scribbles.UriGlideRenderer;
+import org.mycrimes.insecuretests.util.AsynchronousCallback;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.Projection;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaper;
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaperPreviewActivity;
 
 import java.util.Collections;
 import java.util.Locale;

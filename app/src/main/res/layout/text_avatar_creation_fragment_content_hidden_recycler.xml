@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:backgroundTint="#DEE3FF" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiEditText
+        <org.mycrimes.insecuretests.components.emoji.EmojiEditText
             android:id="@+id/avatar_picker_item_text"
             android:layout_width="0dp"
             android:layout_height="0dp"

@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="16dp">
 
-            <org.thoughtcrime.securesms.components.AvatarImageView
+            <org.mycrimes.insecuretests.components.AvatarImageView
                 android:id="@+id/payments_details_avatar"
                 android:layout_width="52dp"
                 android:layout_height="52dp"
@@ -40,7 +40,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <org.thoughtcrime.securesms.badges.BadgeImageView
+            <org.mycrimes.insecuretests.badges.BadgeImageView
                 android:id="@+id/payments_details_badge"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -66,7 +66,7 @@
                 app:layout_constraintTop_toBottomOf="@id/payments_details_avatar"
                 tools:text="From Matthew" />
 
-            <org.thoughtcrime.securesms.payments.MoneyView
+            <org.mycrimes.insecuretests.payments.MoneyView
                 android:id="@+id/payments_details_amount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                 app:layout_constraintTop_toBottomOf="@id/payments_details_contact_to_from"
                 tools:money="MOB:150000000000000" />
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiEditText
+            <org.mycrimes.insecuretests.components.emoji.EmojiEditText
                 android:id="@+id/payments_details_note"
                 style="@style/Signal.Text.Body"
                 android:layout_width="wrap_content"
@@ -164,7 +164,7 @@
                 app:layout_constraintTop_toBottomOf="@id/payments_details_block"
                 tools:text="Sent to Matthew Hall" />
 
-            <org.thoughtcrime.securesms.payments.MoneyView
+            <org.mycrimes.insecuretests.payments.MoneyView
                 android:id="@+id/payments_details_sent_to_amount"
                 style="@style/Signal.Text.Body"
                 android:layout_width="wrap_content"
@@ -190,7 +190,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/payments_details_sent_to_amount" />
 
-            <org.thoughtcrime.securesms.payments.MoneyView
+            <org.mycrimes.insecuretests.payments.MoneyView
                 android:id="@+id/payments_details_sent_fee_amount"
                 style="@style/Signal.Text.Body"
                 android:layout_width="wrap_content"
@@ -254,7 +254,7 @@
                 app:layout_constraintTop_toBottomOf="@id/payments_details_sent_by_header"
                 tools:text="Matthew Hall on Nov 10 at 9:52 AM" />
 
-            <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+            <org.mycrimes.insecuretests.util.views.LearnMoreTextView
                 android:id="@+id/payments_details_info"
                 style="@style/TextAppearance.Signal.Subtitle"
                 android:layout_width="0dp"

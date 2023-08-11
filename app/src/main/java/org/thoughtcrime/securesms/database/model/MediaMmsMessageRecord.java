@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import android.content.Context;
 import android.text.SpannableString;
@@ -25,24 +25,24 @@ import androidx.annotation.WorkerThread;
 import androidx.core.content.ContextCompat;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.MessageTable.Status;
-import org.thoughtcrime.securesms.database.MessageTypes;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment;
+import org.mycrimes.insecuretests.contactshare.Contact;
+import org.mycrimes.insecuretests.database.CallTable;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.MessageTable.Status;
+import org.mycrimes.insecuretests.database.MessageTypes;
+import org.mycrimes.insecuretests.database.documents.IdentityKeyMismatch;
+import org.mycrimes.insecuretests.database.documents.NetworkFailure;
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList;
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge;
+import org.mycrimes.insecuretests.linkpreview.LinkPreview;
+import org.mycrimes.insecuretests.mms.SlideDeck;
+import org.mycrimes.insecuretests.payments.Payment;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 
 import java.util.HashMap;

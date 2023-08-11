@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.images
+package org.mycrimes.insecuretests.mediasend.v2.images
 
 import android.net.Uri
 import android.os.Bundle
@@ -7,11 +7,11 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import io.reactivex.rxjava3.disposables.Disposable
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.scribbles.ImageEditorFragment
-import org.thoughtcrime.securesms.scribbles.ImageEditorHudV2
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.mediasend.v2.HudCommand
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel
+import org.mycrimes.insecuretests.scribbles.ImageEditorFragment
+import org.mycrimes.insecuretests.scribbles.ImageEditorHudV2
 import java.util.concurrent.TimeUnit
 
 private const val IMAGE_EDITOR_TAG = "image.editor.fragment"

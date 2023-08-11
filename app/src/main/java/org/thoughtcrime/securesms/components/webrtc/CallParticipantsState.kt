@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.mycrimes.insecuretests.components.webrtc
 
 import android.content.Context
 import androidx.annotation.PluralsRes
 import androidx.annotation.StringRes
 import com.annimon.stream.OptionalLong
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls.FoldableState
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.createLocal
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.ringrtc.CameraState
-import org.thoughtcrime.securesms.service.webrtc.collections.ParticipantCollection
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.webrtc.WebRtcControls.FoldableState
+import org.mycrimes.insecuretests.events.CallParticipant
+import org.mycrimes.insecuretests.events.CallParticipant.Companion.createLocal
+import org.mycrimes.insecuretests.events.WebRtcViewModel
+import org.mycrimes.insecuretests.groups.ui.GroupMemberEntry
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.ringrtc.CameraState
+import org.mycrimes.insecuretests.service.webrtc.collections.ParticipantCollection
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcEphemeralState
 import java.util.concurrent.TimeUnit
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.mycrimes.insecuretests.database.helpers.migration
 
 import android.app.Application
 import androidx.core.content.contentValuesOf
@@ -10,10 +10,10 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.SqlUtil
-import org.thoughtcrime.securesms.database.DistributionListTables
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.testing.SignalDatabaseRule
+import org.mycrimes.insecuretests.database.DistributionListTables
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.testing.SignalDatabaseRule
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.util.UUID
 

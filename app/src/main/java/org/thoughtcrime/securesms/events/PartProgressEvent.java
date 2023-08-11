@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.events;
+package org.mycrimes.insecuretests.events;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.Attachment;
 
 public final class PartProgressEvent {
 

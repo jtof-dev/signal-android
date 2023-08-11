@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
+        <org.mycrimes.insecuretests.keyboard.emoji.KeyboardPageSearchView
             android:id="@+id/sticker_search_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
         tools:listitem="@layout/sticker_keyboard_page_list_item"
         tools:ignore="UnusedAttribute" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/sticker_search_no_results"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

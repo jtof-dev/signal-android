@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -17,18 +17,18 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
 import org.signal.ringrtc.CallLinkRootKey;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.calls.links.CallLinks;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorHash;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.calls.links.CallLinks;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColorHash;
+import org.mycrimes.insecuretests.linkpreview.LinkPreview;
+import org.mycrimes.insecuretests.linkpreview.LinkPreviewRepository;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.mms.ImageSlide;
+import org.mycrimes.insecuretests.mms.SlidesClickedListener;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.views.Stub;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

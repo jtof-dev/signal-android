@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model
+package org.mycrimes.insecuretests.database.model
 
 import org.signal.core.util.money.FiatMoney
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription

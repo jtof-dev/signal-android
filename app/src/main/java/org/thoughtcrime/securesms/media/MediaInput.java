@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.media;
+package org.mycrimes.insecuretests.media;
 
 import android.content.Context;
 import android.media.MediaDataSource;

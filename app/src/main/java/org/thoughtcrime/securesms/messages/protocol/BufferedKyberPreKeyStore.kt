@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages.protocol
+package org.mycrimes.insecuretests.messages.protocol
 
 import org.signal.libsignal.protocol.InvalidKeyIdException
 import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.thoughtcrime.securesms.database.KyberPreKeyTable.KyberPreKey
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.mycrimes.insecuretests.database.KyberPreKeyTable.KyberPreKey
+import org.mycrimes.insecuretests.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.SignalServiceKyberPreKeyStore
 import org.whispersystems.signalservice.api.push.ServiceId

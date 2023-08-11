@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.emoji
+package org.mycrimes.insecuretests.emoji
 
 import android.app.Application
 import android.net.Uri
@@ -8,10 +8,10 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.components.emoji.CompositeEmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.Emoji
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.StaticEmojiPageModel
+import org.mycrimes.insecuretests.components.emoji.CompositeEmojiPageModel
+import org.mycrimes.insecuretests.components.emoji.Emoji
+import org.mycrimes.insecuretests.components.emoji.EmojiPageModel
+import org.mycrimes.insecuretests.components.emoji.StaticEmojiPageModel
 
 private const val INVALID_JSON = "{{}"
 private const val EMPTY_JSON = "{}"

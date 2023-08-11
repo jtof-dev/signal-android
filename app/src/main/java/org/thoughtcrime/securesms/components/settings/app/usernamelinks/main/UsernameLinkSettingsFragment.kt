@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package org.mycrimes.insecuretests.components.settings.app.usernamelinks.main
 
 import android.os.Bundle
 import android.view.View
@@ -44,9 +44,9 @@ import org.signal.core.ui.Buttons
 import org.signal.core.ui.Dialogs
 import org.signal.core.ui.theme.SignalTheme
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
-import org.thoughtcrime.securesms.compose.ComposeFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
+import org.mycrimes.insecuretests.compose.ComposeFragment
 
 @OptIn(
   ExperimentalMaterial3Api::class,

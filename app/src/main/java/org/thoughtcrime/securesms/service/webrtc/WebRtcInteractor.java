@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.mycrimes.insecuretests.service.webrtc;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,16 +9,16 @@ import androidx.annotation.RequiresApi;
 
 import org.signal.ringrtc.CallManager;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.ringrtc.CameraEventListener;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.webrtc.audio.AudioManagerCommand;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.ringrtc.CameraEventListener;
+import org.mycrimes.insecuretests.ringrtc.RemotePeer;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceState;
+import org.mycrimes.insecuretests.util.AppForegroundObserver;
+import org.mycrimes.insecuretests.webrtc.audio.AudioManagerCommand;
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager;
+import org.mycrimes.insecuretests.webrtc.locks.LockManager;
 import org.whispersystems.signalservice.api.messages.calls.SignalServiceCallMessage;
 
 import java.util.Collection;

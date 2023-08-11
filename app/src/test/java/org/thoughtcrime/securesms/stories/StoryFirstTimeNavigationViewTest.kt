@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package org.mycrimes.insecuretests.stories
 
 import android.app.Application
 import android.graphics.drawable.Drawable
@@ -25,11 +25,11 @@ import org.mockito.kotlin.whenever
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.Shadows.shadowOf
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.mms.GlideRequest
-import org.thoughtcrime.securesms.mms.GlideRequests
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.blurhash.BlurHash
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.mms.GlideRequest
+import org.mycrimes.insecuretests.mms.GlideRequests
+import org.mycrimes.insecuretests.util.visible
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class)
@@ -52,7 +52,7 @@ class StoryFirstTimeNavigationViewTest {
 
   @Before
   fun setUp() {
-    testSubject = StoryFirstTimeNavigationView(ContextThemeWrapper(ApplicationProvider.getApplicationContext(), org.thoughtcrime.securesms.R.style.Signal_DayNight))
+    testSubject = StoryFirstTimeNavigationView(ContextThemeWrapper(ApplicationProvider.getApplicationContext(), org.mycrimes.insecuretests.R.style.Signal_DayNight))
 
     whenever(GlideApp.with(any<View>())).thenReturn(glideRequests)
     whenever(glideRequests.load(any<BlurHash>())).thenReturn(glideRequest)
@@ -64,8 +64,8 @@ class StoryFirstTimeNavigationViewTest {
   fun `Given sdk 31, when I create testSubject, then I expect overlay visible and blur hash not visible`() {
     shadowOf(getMainLooper()).idle()
 
-    assertTrue(testSubject.findViewById<View>(org.thoughtcrime.securesms.R.id.edu_overlay).visible)
-    assertFalse(testSubject.findViewById<View>(org.thoughtcrime.securesms.R.id.edu_blur_hash).visible)
+    assertTrue(testSubject.findViewById<View>(org.mycrimes.insecuretests.R.id.edu_overlay).visible)
+    assertFalse(testSubject.findViewById<View>(org.mycrimes.insecuretests.R.id.edu_blur_hash).visible)
   }
 
   @Test
@@ -73,8 +73,8 @@ class StoryFirstTimeNavigationViewTest {
   fun `Given sdk 30, when I create testSubject, then I expect overlay visible and blur hash visible`() {
     shadowOf(getMainLooper()).idle()
 
-    assertTrue(testSubject.findViewById<View>(org.thoughtcrime.securesms.R.id.edu_overlay).visible)
-    assertTrue(testSubject.findViewById<View>(org.thoughtcrime.securesms.R.id.edu_blur_hash).visible)
+    assertTrue(testSubject.findViewById<View>(org.mycrimes.insecuretests.R.id.edu_overlay).visible)
+    assertTrue(testSubject.findViewById<View>(org.mycrimes.insecuretests.R.id.edu_blur_hash).visible)
   }
 
   @Test
@@ -84,7 +84,7 @@ class StoryFirstTimeNavigationViewTest {
 
     testSubject.setBlurHash(BlurHash.parseOrNull("0000")!!)
 
-    assertFalse(testSubject.findViewById<View>(org.thoughtcrime.securesms.R.id.edu_blur_hash).visible)
+    assertFalse(testSubject.findViewById<View>(org.mycrimes.insecuretests.R.id.edu_blur_hash).visible)
   }
 
   @Test
@@ -94,7 +94,7 @@ class StoryFirstTimeNavigationViewTest {
 
     testSubject.setBlurHash(BlurHash.parseOrNull("0000")!!)
 
-    val blurHashView = testSubject.findViewById<ImageView>(org.thoughtcrime.securesms.R.id.edu_blur_hash)
+    val blurHashView = testSubject.findViewById<ImageView>(org.mycrimes.insecuretests.R.id.edu_blur_hash)
     verify(glideRequest).into(eq(blurHashView))
   }
 
@@ -105,7 +105,7 @@ class StoryFirstTimeNavigationViewTest {
 
     testSubject.setBlurHash(null)
 
-    val blurHashView = testSubject.findViewById<ImageView>(org.thoughtcrime.securesms.R.id.edu_blur_hash)
+    val blurHashView = testSubject.findViewById<ImageView>(org.mycrimes.insecuretests.R.id.edu_blur_hash)
     assertFalse(blurHashView.visible)
     verify(glideRequests).clear(blurHashView)
   }
@@ -122,7 +122,7 @@ class StoryFirstTimeNavigationViewTest {
 
     testSubject.setBlurHash(BlurHash.parseOrNull("0000")!!)
 
-    val blurHashView = testSubject.findViewById<ImageView>(org.thoughtcrime.securesms.R.id.edu_blur_hash)
+    val blurHashView = testSubject.findViewById<ImageView>(org.mycrimes.insecuretests.R.id.edu_blur_hash)
     verify(glideRequest, never()).into(eq(blurHashView))
   }
 

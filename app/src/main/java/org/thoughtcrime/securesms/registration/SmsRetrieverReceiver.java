@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration;
+package org.mycrimes.insecuretests.registration;
 
 import android.app.Application;
 import android.content.BroadcastReceiver;
@@ -15,7 +15,7 @@ import com.google.android.gms.common.api.Status;
 
 import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.service.VerificationCodeParser;
+import org.mycrimes.insecuretests.service.VerificationCodeParser;
 
 import java.util.Optional;
 

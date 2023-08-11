@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package org.mycrimes.insecuretests.util.views;
 
 
 import android.view.View;

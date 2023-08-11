@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio
+package org.mycrimes.insecuretests.audio
 
 import android.content.Context
 import android.net.Uri
@@ -8,11 +8,11 @@ import androidx.annotation.RequiresApi
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.attachments.AttachmentId
+import org.mycrimes.insecuretests.attachments.DatabaseAttachment
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.databaseprotos.AudioWaveFormData
 import java.io.IOException
 import java.util.concurrent.locks.ReentrantReadWriteLock
 import kotlin.concurrent.read

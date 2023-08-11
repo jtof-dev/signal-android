@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.safety.review
+package org.mycrimes.insecuretests.safety.review
 
 import android.view.View
 import androidx.core.content.ContextCompat
@@ -6,22 +6,22 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheetState
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheetViewModel
-import org.thoughtcrime.securesms.safety.SafetyNumberBucket
-import org.thoughtcrime.securesms.safety.SafetyNumberBucketRowItem
-import org.thoughtcrime.securesms.safety.SafetyNumberRecipientRowItem
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.verify.VerifyIdentityFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.WrapperDialogFragment
+import org.mycrimes.insecuretests.components.menu.ActionItem
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.crypto.IdentityKeyParcelable
+import org.mycrimes.insecuretests.database.IdentityTable
+import org.mycrimes.insecuretests.safety.SafetyNumberBottomSheetState
+import org.mycrimes.insecuretests.safety.SafetyNumberBottomSheetViewModel
+import org.mycrimes.insecuretests.safety.SafetyNumberBucket
+import org.mycrimes.insecuretests.safety.SafetyNumberBucketRowItem
+import org.mycrimes.insecuretests.safety.SafetyNumberRecipientRowItem
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.verify.VerifyIdentityFragment
 
 /**
  * Full-screen fragment which displays the list of users who have safety number changes.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 public enum CertificateType {
   UUID_AND_E164,

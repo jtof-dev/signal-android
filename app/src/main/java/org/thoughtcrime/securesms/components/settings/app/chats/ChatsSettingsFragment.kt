@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats
+package org.mycrimes.insecuretests.components.settings.app.chats
 
 import android.app.Activity
 import android.content.Intent
@@ -6,16 +6,16 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.chats.sms.SmsExportState
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.exporter.flow.SmsExportActivity
-import org.thoughtcrime.securesms.exporter.flow.SmsExportDialogs
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLConfiguration
+import org.mycrimes.insecuretests.components.settings.DSLSettingsFragment
+import org.mycrimes.insecuretests.components.settings.DSLSettingsText
+import org.mycrimes.insecuretests.components.settings.app.chats.sms.SmsExportState
+import org.mycrimes.insecuretests.components.settings.configure
+import org.mycrimes.insecuretests.exporter.flow.SmsExportActivity
+import org.mycrimes.insecuretests.exporter.flow.SmsExportDialogs
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 class ChatsSettingsFragment : DSLSettingsFragment(R.string.preferences_chats__chats) {
 

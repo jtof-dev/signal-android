@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.newdevice;
+package org.mycrimes.insecuretests.devicetransfer.newdevice;
 
 import android.content.Context;
 
@@ -11,13 +11,13 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
 import org.signal.devicetransfer.ServerTask;
-import org.thoughtcrime.securesms.AppInitialization;
-import org.thoughtcrime.securesms.backup.BackupEvent;
-import org.thoughtcrime.securesms.backup.BackupPassphrase;
-import org.thoughtcrime.securesms.backup.FullBackupImporter;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.mycrimes.insecuretests.AppInitialization;
+import org.mycrimes.insecuretests.backup.BackupEvent;
+import org.mycrimes.insecuretests.backup.BackupPassphrase;
+import org.mycrimes.insecuretests.backup.FullBackupImporter;
+import org.mycrimes.insecuretests.crypto.AttachmentSecretProvider;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.notifications.NotificationChannels;
 
 import java.io.IOException;
 import java.io.InputStream;

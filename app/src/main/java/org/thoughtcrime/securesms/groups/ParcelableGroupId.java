@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package org.mycrimes.insecuretests.groups;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.app.Dialog
 import android.graphics.Color
@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.DialogFragment
 import androidx.navigation.fragment.navArgs
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Displays a small progress spinner in a card view, as a non-cancellable dialog fragment.

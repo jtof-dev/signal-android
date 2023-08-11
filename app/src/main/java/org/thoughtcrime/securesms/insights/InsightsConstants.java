@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.insights;
+package org.mycrimes.insecuretests.insights;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.FileUtils;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.util.FileUtils;
 
 import java.io.File;
 

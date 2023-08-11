@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import android.content.Context;
 import android.text.SpannableString;
@@ -22,10 +22,10 @@ import android.text.SpannableString;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.MessageTable.Status;
-import org.thoughtcrime.securesms.database.MessageTypes;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.MessageTable.Status;
+import org.mycrimes.insecuretests.database.MessageTypes;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 /**
  * The base class for all message record models.  Encapsulates basic data

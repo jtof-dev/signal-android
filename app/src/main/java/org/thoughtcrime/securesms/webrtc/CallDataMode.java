@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.mycrimes.insecuretests.webrtc;
 
 /**
  * Represents the user's desired data mode for calls.

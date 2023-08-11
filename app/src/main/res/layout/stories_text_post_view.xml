@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:importantForAccessibility="no" />
 
-    <org.thoughtcrime.securesms.components.ClippedCardView
+    <org.mycrimes.insecuretests.components.ClippedCardView
         android:id="@+id/text_story_text_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.thoughtcrime.securesms.stories.StoryTextView
+        <org.mycrimes.insecuretests.stories.StoryTextView
             android:id="@+id/text_story_post_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,9 +43,9 @@
             tools:ignore="SpUsage"
             tools:text="TEST" />
 
-    </org.thoughtcrime.securesms.components.ClippedCardView>
+    </org.mycrimes.insecuretests.components.ClippedCardView>
 
-    <org.thoughtcrime.securesms.stories.StoryLinkPreviewView
+    <org.mycrimes.insecuretests.stories.StoryLinkPreviewView
         android:id="@+id/text_story_post_link_preview"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

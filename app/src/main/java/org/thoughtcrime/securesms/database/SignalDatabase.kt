@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.app.Application
 import android.content.Context
@@ -6,22 +6,22 @@ import androidx.annotation.VisibleForTesting
 import net.zetetic.database.sqlcipher.SQLiteOpenHelper
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.crypto.AttachmentSecret
-import org.thoughtcrime.securesms.crypto.DatabaseSecret
-import org.thoughtcrime.securesms.crypto.MasterSecret
-import org.thoughtcrime.securesms.database.helpers.ClassicOpenHelper
-import org.thoughtcrime.securesms.database.helpers.PreKeyMigrationHelper
-import org.thoughtcrime.securesms.database.helpers.SQLCipherMigrationHelper
-import org.thoughtcrime.securesms.database.helpers.SessionStoreMigrationHelper
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations.migrate
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations.migratePostTransaction
-import org.thoughtcrime.securesms.database.model.AvatarPickerDatabase
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
-import org.thoughtcrime.securesms.migrations.LegacyMigrationJob
-import org.thoughtcrime.securesms.migrations.LegacyMigrationJob.DatabaseUpgradeListener
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import org.mycrimes.insecuretests.crypto.AttachmentSecret
+import org.mycrimes.insecuretests.crypto.DatabaseSecret
+import org.mycrimes.insecuretests.crypto.MasterSecret
+import org.mycrimes.insecuretests.database.helpers.ClassicOpenHelper
+import org.mycrimes.insecuretests.database.helpers.PreKeyMigrationHelper
+import org.mycrimes.insecuretests.database.helpers.SQLCipherMigrationHelper
+import org.mycrimes.insecuretests.database.helpers.SessionStoreMigrationHelper
+import org.mycrimes.insecuretests.database.helpers.SignalDatabaseMigrations
+import org.mycrimes.insecuretests.database.helpers.SignalDatabaseMigrations.migrate
+import org.mycrimes.insecuretests.database.helpers.SignalDatabaseMigrations.migratePostTransaction
+import org.mycrimes.insecuretests.database.model.AvatarPickerDatabase
+import org.mycrimes.insecuretests.jobs.PreKeysSyncJob
+import org.mycrimes.insecuretests.migrations.LegacyMigrationJob
+import org.mycrimes.insecuretests.migrations.LegacyMigrationJob.DatabaseUpgradeListener
+import org.mycrimes.insecuretests.service.KeyCachingService
+import org.mycrimes.insecuretests.util.TextSecurePreferences
 import java.io.File
 
 open class SignalDatabase(private val context: Application, databaseSecret: DatabaseSecret, attachmentSecret: AttachmentSecret) :

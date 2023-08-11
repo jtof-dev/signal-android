@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.components.InputAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mycrimes.insecuretests.components.InputAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -35,7 +35,7 @@
         tools:alpha="0.2f"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.conversation.mutiselect.MultiselectRecyclerView
+    <org.mycrimes.insecuretests.conversation.mutiselect.MultiselectRecyclerView
         android:id="@+id/conversation_item_recycler"
         android:layout_width="0dp"
         android:layout_height="0dip"
@@ -59,7 +59,7 @@
         android:foreground="@color/reactions_screen_dark_shade_color"
         android:visibility="gone" />
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <org.mycrimes.insecuretests.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -106,9 +106,9 @@
 
         </LinearLayout>
 
-    </org.thoughtcrime.securesms.util.views.DarkOverflowToolbar>
+    </org.mycrimes.insecuretests.util.views.DarkOverflowToolbar>
 
-    <org.thoughtcrime.securesms.conversation.v2.ConversationBannerView
+    <org.mycrimes.insecuretests.conversation.v2.ConversationBannerView
         android:id="@+id/conversation_banner"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -137,9 +137,9 @@
             android:inflatedId="@+id/review_banner"
             android:layout="@layout/review_banner_view" />
 
-    </org.thoughtcrime.securesms.conversation.v2.ConversationBannerView>
+    </org.mycrimes.insecuretests.conversation.v2.ConversationBannerView>
 
-    <org.thoughtcrime.securesms.components.ConversationScrollToView
+    <org.mycrimes.insecuretests.components.ConversationScrollToView
         android:id="@+id/scroll_to_mention"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
         app:layout_goneMarginBottom="20dp"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.components.ConversationScrollToView
+    <org.mycrimes.insecuretests.components.ConversationScrollToView
         android:id="@+id/scroll_to_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -190,7 +190,7 @@
         app:layout_constraintEnd_toEndOf="@id/parent_end_guideline"
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline" />
 
-    <org.thoughtcrime.securesms.conversation.v2.DisabledInputView
+    <org.mycrimes.insecuretests.conversation.v2.DisabledInputView
         android:id="@+id/conversation_disabled_input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -221,7 +221,7 @@
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="@id/keyboard_guideline" />
 
-    <org.thoughtcrime.securesms.components.menu.SignalBottomActionBar
+    <org.mycrimes.insecuretests.components.menu.SignalBottomActionBar
         android:id="@+id/conversation_bottom_action_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -243,4 +243,4 @@
         app:layout_constraintStart_toStartOf="@+id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="@+id/status_bar_guideline" />
 
-</org.thoughtcrime.securesms.components.InputAwareConstraintLayout>
+</org.mycrimes.insecuretests.components.InputAwareConstraintLayout>

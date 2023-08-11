@@ -11,7 +11,7 @@
     android:minHeight="64dp"
     android:paddingHorizontal="@dimen/dsl_settings_gutter">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/recipient_avatar"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@tools:sample/avatars" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/recipient_badge"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:checked="true" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/recipient_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toTopOf="@+id/recipient_avatar"
         tools:text="Miles Morales" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/recipient_about"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -112,7 +112,7 @@
         app:layout_goneMarginEnd="0dp"
         tools:visibility="visible">
 
-        <org.thoughtcrime.securesms.groups.ui.PopupMenuView
+        <org.mycrimes.insecuretests.groups.ui.PopupMenuView
             android:id="@+id/popupMenu"
             android:layout_width="24dp"
             android:layout_height="24dp"

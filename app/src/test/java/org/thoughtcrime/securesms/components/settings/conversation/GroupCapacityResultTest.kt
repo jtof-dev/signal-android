@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.mycrimes.insecuretests.components.settings.conversation
 
 import org.junit.Assert
 import org.junit.Test
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.groups.SelectionLimits
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 private const val SELECTION_WARNING = 151
 private const val SELECTION_LIMIT = 1001

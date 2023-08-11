@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -31,30 +31,30 @@ import androidx.core.view.inputmethod.InputContentInfoCompat;
 
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiEditText;
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
-import org.thoughtcrime.securesms.components.mention.MentionDeleter;
-import org.thoughtcrime.securesms.components.mention.MentionRendererDelegate;
-import org.thoughtcrime.securesms.components.mention.MentionValidatorWatcher;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerRendererDelegate;
-import org.thoughtcrime.securesms.conversation.MessageSendType;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQuery;
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryChangedListener;
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryReplacement;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.EmojiEditText;
+import org.mycrimes.insecuretests.components.mention.MentionAnnotation;
+import org.mycrimes.insecuretests.components.mention.MentionDeleter;
+import org.mycrimes.insecuretests.components.mention.MentionRendererDelegate;
+import org.mycrimes.insecuretests.components.mention.MentionValidatorWatcher;
+import org.mycrimes.insecuretests.components.spoiler.SpoilerRendererDelegate;
+import org.mycrimes.insecuretests.conversation.MessageSendType;
+import org.mycrimes.insecuretests.conversation.MessageStyler;
+import org.mycrimes.insecuretests.conversation.ui.inlinequery.InlineQuery;
+import org.mycrimes.insecuretests.conversation.ui.inlinequery.InlineQueryChangedListener;
+import org.mycrimes.insecuretests.conversation.ui.inlinequery.InlineQueryReplacement;
+import org.mycrimes.insecuretests.database.model.Mention;
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-import static org.thoughtcrime.securesms.database.MentionUtil.MENTION_STARTER;
+import static org.mycrimes.insecuretests.database.MentionUtil.MENTION_STARTER;
 
 public class ComposeText extends EmojiEditText {
 

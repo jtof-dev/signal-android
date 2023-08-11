@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.mycrimes.insecuretests.wallpaper;
 
 import android.graphics.drawable.Drawable;
 import android.os.Parcel;
@@ -7,8 +7,8 @@ import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.components.RotatableGradientDrawable;
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper;
+import org.mycrimes.insecuretests.components.RotatableGradientDrawable;
+import org.mycrimes.insecuretests.database.model.databaseprotos.Wallpaper;
 
 import java.util.Arrays;
 import java.util.Objects;

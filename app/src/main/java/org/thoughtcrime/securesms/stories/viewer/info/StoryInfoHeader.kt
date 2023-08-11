@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.stories.viewer.info
+package org.mycrimes.insecuretests.stories.viewer.info
 
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.Util
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.util.visible
 import java.util.Locale
 
 /**

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         tools:hint="Add a message">
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiEditText
+        <org.mycrimes.insecuretests.components.emoji.EmojiEditText
             android:id="@+id/input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

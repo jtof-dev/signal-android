@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package org.mycrimes.insecuretests.components.voice
 
 import android.content.Context
 import com.google.android.exoplayer2.audio.AudioCapabilities

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package signal;
 
-option java_package        = "org.thoughtcrime.securesms.emoji.protos";
+option java_package        = "org.mycrimes.insecuretests.emoji.protos";
 option java_multiple_files = true;
 
 message JumbomojiPack {

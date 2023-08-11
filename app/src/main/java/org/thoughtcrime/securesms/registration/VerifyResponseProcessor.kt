@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.registration
+package org.mycrimes.insecuretests.registration
 
-import org.thoughtcrime.securesms.pin.KeyBackupSystemWrongPinException
-import org.thoughtcrime.securesms.pin.TokenData
+import org.mycrimes.insecuretests.pin.KeyBackupSystemWrongPinException
+import org.mycrimes.insecuretests.pin.TokenData
 import org.whispersystems.signalservice.api.KeyBackupSystemNoDataException
 import org.whispersystems.signalservice.api.push.exceptions.IncorrectRegistrationRecoveryPasswordException
 import org.whispersystems.signalservice.api.push.exceptions.NoSuchSessionException

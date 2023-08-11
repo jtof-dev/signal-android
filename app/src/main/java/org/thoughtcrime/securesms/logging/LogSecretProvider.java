@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.logging;
+package org.mycrimes.insecuretests.logging;
 
 import android.content.Context;
 import android.os.Build;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.crypto.KeyStoreHelper;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.crypto.KeyStoreHelper;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.io.IOException;
 import java.security.SecureRandom;

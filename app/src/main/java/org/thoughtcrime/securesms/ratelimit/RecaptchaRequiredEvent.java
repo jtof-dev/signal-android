@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package org.mycrimes.insecuretests.ratelimit;
 
 public final class RecaptchaRequiredEvent {
 }

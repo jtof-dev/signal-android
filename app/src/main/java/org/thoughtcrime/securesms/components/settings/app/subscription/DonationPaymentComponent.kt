@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package org.mycrimes.insecuretests.components.settings.app.subscription
 
 import android.content.Intent
 import android.os.Parcelable

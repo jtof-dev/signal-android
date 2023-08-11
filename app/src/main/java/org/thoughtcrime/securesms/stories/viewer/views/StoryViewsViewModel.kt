@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.stories.viewer.views
+package org.mycrimes.insecuretests.stories.viewer.views
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class StoryViewsViewModel(private val storyId: Long, private val repository: StoryViewsRepository) : ViewModel() {
 

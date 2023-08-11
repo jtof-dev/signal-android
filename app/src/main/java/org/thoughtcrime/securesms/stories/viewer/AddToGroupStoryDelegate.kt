@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package org.mycrimes.insecuretests.stories.viewer
 
 import android.content.Intent
 import android.widget.Toast
@@ -14,18 +14,18 @@ import io.reactivex.rxjava3.subjects.CompletableSubject
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.mediasend.MediaSendActivityResult
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
-import org.thoughtcrime.securesms.sharing.MultiShareSender
-import org.thoughtcrime.securesms.sms.MessageSender
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.mediasend.MediaSendActivityResult
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionActivity
+import org.mycrimes.insecuretests.mms.OutgoingMessage
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sharing.MultiShareArgs
+import org.mycrimes.insecuretests.sharing.MultiShareSender
+import org.mycrimes.insecuretests.sms.MessageSender
 
 /**
  * Delegate for dealing with sending stories directly to a group.

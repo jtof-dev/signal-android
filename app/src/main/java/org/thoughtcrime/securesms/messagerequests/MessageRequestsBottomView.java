@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests;
+package org.mycrimes.insecuretests.messagerequests;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -13,13 +13,13 @@ import androidx.core.text.HtmlCompat;
 
 import com.google.android.material.button.MaterialButton;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.thoughtcrime.securesms.util.HtmlUtil;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.Debouncer;
+import org.mycrimes.insecuretests.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.HtmlUtil;
+import org.mycrimes.insecuretests.util.views.LearnMoreTextView;
 
 import java.util.stream.Stream;
 

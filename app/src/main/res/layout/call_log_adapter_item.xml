@@ -26,7 +26,7 @@
         tools:checked="true"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/call_recipient_avatar"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -37,7 +37,7 @@
         app:layout_goneMarginStart="12dp"
         tools:src="@tools:sample/avatars" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/call_recipient_badge"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -48,7 +48,7 @@
         app:layout_constraintStart_toStartOf="@id/call_recipient_avatar"
         app:layout_constraintTop_toTopOf="@id/call_recipient_avatar" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/call_recipient_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
         app:layout_constraintTop_toTopOf="@+id/call_recipient_avatar"
         tools:text="Miles Morales" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/call_info"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

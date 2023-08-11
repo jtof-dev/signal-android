@@ -16,7 +16,7 @@
         app:srcCompat="@drawable/ic_trash_filled_24"
         app:tint="@color/signal_alert_primary" />
 
-    <org.thoughtcrime.securesms.components.AudioView
+    <org.mycrimes.insecuretests.components.AudioView
         android:id="@+id/voice_note_audio_view"
         android:layout_width="0dp"
         android:layout_height="@dimen/conversation_compose_height"

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package org.mycrimes.insecuretests.components.settings.app.subscription.errors
 
 import android.content.Context
 import io.reactivex.rxjava3.core.Observable

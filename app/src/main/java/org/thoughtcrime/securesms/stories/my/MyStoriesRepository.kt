@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.stories.my
+package org.mycrimes.insecuretests.stories.my
 
 import android.content.Context
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.sms.MessageSender
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.database.GroupReceiptTable
+import org.mycrimes.insecuretests.database.RxDatabaseObserver
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.sms.MessageSender
 
 class MyStoriesRepository(context: Context) {
 

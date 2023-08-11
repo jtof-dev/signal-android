@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.conversation.colors
+package org.mycrimes.insecuretests.conversation.colors
 
 import android.content.Context
 import android.graphics.Color
 import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 /**
  * Helper class for all things ChatColors.

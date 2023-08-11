@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,11 +7,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.groups.ui.creategroup.CreateGroupActivity;
-import org.thoughtcrime.securesms.insights.InsightsLauncher;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.components.settings.app.AppSettingsActivity;
+import org.mycrimes.insecuretests.conversation.ConversationIntents;
+import org.mycrimes.insecuretests.groups.ui.creategroup.CreateGroupActivity;
+import org.mycrimes.insecuretests.insights.InsightsLauncher;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 public class MainNavigator {
 

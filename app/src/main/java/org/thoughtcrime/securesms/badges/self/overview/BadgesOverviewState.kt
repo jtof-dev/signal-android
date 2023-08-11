@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.badges.self.overview
+package org.mycrimes.insecuretests.badges.self.overview
 
-import org.thoughtcrime.securesms.badges.models.Badge
+import org.mycrimes.insecuretests.badges.models.Badge
 
 data class BadgesOverviewState(
   val stage: Stage = Stage.INIT,

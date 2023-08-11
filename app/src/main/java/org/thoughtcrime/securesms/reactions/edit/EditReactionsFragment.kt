@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.edit
+package org.mycrimes.insecuretests.reactions.edit
 
 import android.animation.ObjectAnimator
 import android.os.Bundle
@@ -14,12 +14,12 @@ import androidx.transition.ChangeBounds
 import androidx.transition.Transition
 import androidx.transition.TransitionManager
 import androidx.transition.TransitionSet
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.animation.transitions.AlphaTransition
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.animation.transitions.AlphaTransition
+import org.mycrimes.insecuretests.components.emoji.EmojiImageView
+import org.mycrimes.insecuretests.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import org.mycrimes.insecuretests.util.ViewUtil
 
 private val SELECTED_SIZE = ViewUtil.dpToPx(36)
 private val UNSELECTED_SIZE = ViewUtil.dpToPx(26)

@@ -11,7 +11,7 @@
     android:paddingStart="@dimen/dsl_settings_gutter"
     android:paddingEnd="@dimen/dsl_settings_gutter">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/contact_photo_image"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -24,7 +24,7 @@
         tools:ignore="UnusedAttribute"
         tools:src="@color/blue_600" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/contact_badge"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.thoughtcrime.securesms.components.FromTextView
+    <org.mycrimes.insecuretests.components.FromTextView
         android:id="@+id/name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
         tools:drawableTint="@color/signal_icon_tint_secondary"
         tools:text="@sample/contacts.json/data/name" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

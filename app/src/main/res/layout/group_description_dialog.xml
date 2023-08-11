@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:padding="?attr/dialogPreferredPadding">
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/group_description_dialog_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

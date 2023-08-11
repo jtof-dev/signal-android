@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package org.mycrimes.insecuretests.testing
 
 import io.reactivex.rxjava3.core.Single
 import org.mockito.kotlin.any
@@ -12,12 +12,12 @@ import org.signal.libsignal.protocol.state.PreKeyRecord
 import org.signal.libsignal.protocol.util.KeyHelper
 import org.signal.libsignal.protocol.util.Medium
 import org.signal.libsignal.svr2.PinHash
-import org.thoughtcrime.securesms.crypto.PreKeyUtil
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.pin.KbsRepository
-import org.thoughtcrime.securesms.pin.TokenData
-import org.thoughtcrime.securesms.test.BuildConfig
+import org.mycrimes.insecuretests.crypto.PreKeyUtil
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.pin.KbsRepository
+import org.mycrimes.insecuretests.pin.TokenData
+import org.mycrimes.insecuretests.test.BuildConfig
 import org.whispersystems.signalservice.api.KbsPinData
 import org.whispersystems.signalservice.api.KeyBackupService
 import org.whispersystems.signalservice.api.kbs.MasterKey

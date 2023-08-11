@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.insights;
+package org.mycrimes.insecuretests.insights;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -21,12 +21,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.NewConversationActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ArcProgressBar;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.mycrimes.insecuretests.NewConversationActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.ArcProgressBar;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.ThemeUtil;
 
 import java.util.List;
 

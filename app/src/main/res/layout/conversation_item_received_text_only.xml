@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.conversation.ConversationItem xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mycrimes.insecuretests.conversation.ConversationItem xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -43,7 +43,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="4dp">
 
-        <org.thoughtcrime.securesms.components.AvatarImageView
+        <org.mycrimes.insecuretests.components.AvatarImageView
             android:id="@+id/contact_photo"
             android:layout_width="@dimen/conversation_item_avatar_size"
             android:layout_height="@dimen/conversation_item_avatar_size"
@@ -54,7 +54,7 @@
 
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/badge"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -65,7 +65,7 @@
         android:visibility="gone"
         app:badge_size="small" />
 
-    <org.thoughtcrime.securesms.conversation.ConversationItemBodyBubble
+    <org.mycrimes.insecuretests.conversation.ConversationItemBodyBubble
         android:id="@+id/body_bubble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
             android:visibility="gone"
             tools:visibility="visible">
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.mycrimes.insecuretests.components.emoji.EmojiTextView
                 android:id="@+id/group_message_sender"
                 style="@style/TextAppearance.Signal.Subtitle"
                 android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
 
         </LinearLayout>
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.mycrimes.insecuretests.components.emoji.EmojiTextView
             android:id="@+id/conversation_item_body"
             style="@style/Signal.Text.Body"
             android:layout_width="wrap_content"
@@ -121,7 +121,7 @@
             app:scaleEmojis="true"
             tools:text="Mango pickle lorem ipsum" />
 
-        <org.thoughtcrime.securesms.components.ConversationItemFooter
+        <org.mycrimes.insecuretests.components.ConversationItemFooter
             android:id="@+id/conversation_item_footer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -138,7 +138,7 @@
             app:footer_reveal_dot_color="@color/signal_icon_tint_secondary"
             app:footer_text_color="@color/signal_text_secondary" />
 
-        <org.thoughtcrime.securesms.components.ConversationItemFooter
+        <org.mycrimes.insecuretests.components.ConversationItemFooter
             android:id="@+id/conversation_item_sticker_footer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -157,9 +157,9 @@
             app:footer_reveal_dot_color="@color/signal_icon_tint_secondary"
             app:footer_text_color="@color/signal_text_secondary" />
 
-    </org.thoughtcrime.securesms.conversation.ConversationItemBodyBubble>
+    </org.mycrimes.insecuretests.conversation.ConversationItemBodyBubble>
 
-    <org.thoughtcrime.securesms.components.AlertView
+    <org.mycrimes.insecuretests.components.AlertView
         android:id="@+id/indicators_parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
         android:gravity="center_vertical"
         android:orientation="vertical" />
 
-    <org.thoughtcrime.securesms.reactions.ReactionsConversationView
+    <org.mycrimes.insecuretests.reactions.ReactionsConversationView
         android:id="@+id/reactions_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -177,4 +177,4 @@
         android:orientation="horizontal"
         app:rcv_outgoing="false" />
 
-</org.thoughtcrime.securesms.conversation.ConversationItem>
+</org.mycrimes.insecuretests.conversation.ConversationItem>

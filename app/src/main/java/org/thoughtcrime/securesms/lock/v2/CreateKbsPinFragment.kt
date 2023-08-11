@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2
+package org.mycrimes.insecuretests.lock.v2
 
 import android.view.animation.Animation
 import android.view.animation.TranslateAnimation
@@ -9,11 +9,11 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation.findNavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.lock.v2.CreateKbsPinViewModel.NavigationEvent
-import org.thoughtcrime.securesms.lock.v2.CreateKbsPinViewModel.PinErrorEvent
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.lock.v2.CreateKbsPinViewModel.NavigationEvent
+import org.mycrimes.insecuretests.lock.v2.CreateKbsPinViewModel.PinErrorEvent
+import org.mycrimes.insecuretests.util.SpanUtil
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 class CreateKbsPinFragment : BaseKbsPinFragment<CreateKbsPinViewModel?>() {
   override fun initializeViewStates() {

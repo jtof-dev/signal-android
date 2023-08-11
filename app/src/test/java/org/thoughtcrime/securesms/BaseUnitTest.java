@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -82,6 +82,6 @@ public abstract class BaseUnitTest {
     when(sharedPreferences.getBoolean(anyString(), anyBoolean())).thenReturn(false);
     when(sharedPreferences.getFloat(anyString(), anyFloat())).thenReturn(0f);
     when(context.getSharedPreferences(anyString(), anyInt())).thenReturn(sharedPreferences);
-    when(context.getPackageName()).thenReturn("org.thoughtcrime.securesms");
+    when(context.getPackageName()).thenReturn("org.mycrimes.insecuretests");
   }
 }

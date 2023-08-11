@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2;
+package org.mycrimes.insecuretests.groups.v2;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

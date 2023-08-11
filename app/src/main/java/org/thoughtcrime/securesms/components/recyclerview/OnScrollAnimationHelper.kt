@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.recyclerview
+package org.mycrimes.insecuretests.components.recyclerview
 
 import androidx.recyclerview.widget.RecyclerView
 

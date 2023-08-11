@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sms;
+package org.mycrimes.insecuretests.sms;
 
 
 public class IncomingIdentityDefaultMessage extends IncomingTextMessage {

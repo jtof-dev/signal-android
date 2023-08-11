@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.mycrimes.insecuretests.jobmanager;
 
 import android.app.Application;
 import android.content.Intent;
@@ -12,13 +12,13 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.impl.DefaultExecutorFactory;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.FilteredExecutor;
+import org.mycrimes.insecuretests.jobmanager.impl.DefaultExecutorFactory;
+import org.mycrimes.insecuretests.jobmanager.persistence.JobSpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.JobStorage;
+import org.mycrimes.insecuretests.util.Debouncer;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.concurrent.FilteredExecutor;
 
 import java.util.ArrayList;
 import java.util.Collection;

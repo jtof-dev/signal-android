@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.profiles;
+package org.mycrimes.insecuretests.profiles;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.mms.MediaConstraints;
+import org.mycrimes.insecuretests.mms.MediaConstraints;
 
 public class ProfileMediaConstraints extends MediaConstraints {
   @Override

@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs;
+package org.mycrimes.insecuretests.jobs;
 
 import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.database.JobDatabase;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
+import org.mycrimes.insecuretests.database.JobDatabase;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.persistence.ConstraintSpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.DependencySpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.FullSpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.JobSpec;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -24,7 +24,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.thoughtcrime.securesms.testutil.TestHelpers.setOf;
+import static org.mycrimes.insecuretests.testutil.TestHelpers.setOf;
 
 public class FastJobStorageTest {
 

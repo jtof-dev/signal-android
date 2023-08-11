@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.currency
+package org.mycrimes.insecuretests.components.settings.app.subscription.currency
 
 import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.subscription.Subscriber
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.BuildConfig
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.subscription.Subscriber
+import org.mycrimes.insecuretests.util.livedata.Store
 import org.whispersystems.signalservice.api.subscriptions.SubscriberId
 import java.util.Currency
 import java.util.Locale

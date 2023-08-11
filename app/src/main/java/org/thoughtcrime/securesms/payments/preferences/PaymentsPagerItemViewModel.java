@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.mycrimes.insecuretests.payments.preferences;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.payments.preferences.model.PaymentItem;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.payments.Payment;
+import org.mycrimes.insecuretests.payments.preferences.model.PaymentItem;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
 
 import java.util.List;
 

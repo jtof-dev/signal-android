@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.app.Activity;
 import android.app.Service;
 import android.content.Context;
 import android.content.res.Configuration;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.dynamiclanguage.LanguageString;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.dynamiclanguage.LanguageString;
 
 import java.util.Locale;
 
 /**
- * @deprecated Use a base activity that uses the {@link org.thoughtcrime.securesms.util.dynamiclanguage.DynamicLanguageContextWrapper}
+ * @deprecated Use a base activity that uses the {@link org.mycrimes.insecuretests.util.dynamiclanguage.DynamicLanguageContextWrapper}
  */
 @Deprecated
 public class DynamicLanguage {

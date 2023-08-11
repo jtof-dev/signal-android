@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.longmessage
+package org.mycrimes.insecuretests.longmessage
 
 import android.content.Context
 import android.net.Uri
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.mms.PartAuthority
+import org.mycrimes.insecuretests.recipients.Recipient
 import java.io.IOException
 
 const val TAG = "LongMessageResolver"

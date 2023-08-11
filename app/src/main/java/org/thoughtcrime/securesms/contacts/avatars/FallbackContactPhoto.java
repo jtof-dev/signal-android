@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.mycrimes.insecuretests.contacts.avatars;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor;
 
 public interface FallbackContactPhoto {
 

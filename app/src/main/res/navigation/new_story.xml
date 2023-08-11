@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/createStoryViewerSelection"
-        android:name="org.thoughtcrime.securesms.stories.settings.create.CreateStoryViewerSelectionFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.create.CreateStoryViewerSelectionFragment"
         android:label="create_story_viewer_selection" >
         <action
             android:id="@+id/action_createStoryViewerSelection_to_createStoryWithViewers"
@@ -19,12 +19,12 @@
 
     <fragment
         android:id="@+id/createStoryWithViewers"
-        android:name="org.thoughtcrime.securesms.stories.settings.create.CreateStoryWithViewersFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.create.CreateStoryWithViewersFragment"
         android:label="create_story_with_viewers">
 
         <argument
             android:name="recipients"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId[]" />
+            app:argType="org.mycrimes.insecuretests.recipients.RecipientId[]" />
 
     </fragment>
 </navigation>

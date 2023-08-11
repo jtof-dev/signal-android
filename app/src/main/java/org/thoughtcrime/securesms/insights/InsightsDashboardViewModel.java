@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.insights;
+package org.mycrimes.insecuretests.insights;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
@@ -8,7 +8,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.util.List;
 

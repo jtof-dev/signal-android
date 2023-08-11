@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.events
+package org.mycrimes.insecuretests.events
 
 import android.content.Context
 import org.signal.libsignal.protocol.IdentityKey
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.ringrtc.CameraState
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.webrtc.BroadcastVideoSink
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.ringrtc.CameraState
 
 data class CallParticipant constructor(
   val callParticipantId: CallParticipantId = CallParticipantId(Recipient.UNKNOWN),

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package org.mycrimes.insecuretests.keyboard.sticker
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil
 
 class StickerSearchViewModel(private val searchRepository: StickerSearchRepository) : ViewModel() {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist;
+package org.mycrimes.insecuretests.conversationlist;
 
 import android.os.Handler;
 

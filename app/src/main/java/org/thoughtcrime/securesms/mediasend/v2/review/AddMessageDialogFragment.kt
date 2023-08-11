@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.review
+package org.mycrimes.insecuretests.mediasend.v2.review
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -15,30 +15,30 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import org.signal.core.util.EditTextUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQuery
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQuery.NoQuery
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryChangedListener
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryResultsController
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryViewModel
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerFragment
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerViewModel
-import org.thoughtcrime.securesms.databinding.V2MediaAddMessageDialogFragmentBinding
-import org.thoughtcrime.securesms.keyboard.KeyboardPage
-import org.thoughtcrime.securesms.keyboard.KeyboardPagerViewModel
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.views.Stub
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.KeyboardEntryDialogFragment
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.components.emoji.MediaKeyboard
+import org.mycrimes.insecuretests.components.mention.MentionAnnotation
+import org.mycrimes.insecuretests.conversation.ui.inlinequery.InlineQuery
+import org.mycrimes.insecuretests.conversation.ui.inlinequery.InlineQuery.NoQuery
+import org.mycrimes.insecuretests.conversation.ui.inlinequery.InlineQueryChangedListener
+import org.mycrimes.insecuretests.conversation.ui.inlinequery.InlineQueryResultsController
+import org.mycrimes.insecuretests.conversation.ui.inlinequery.InlineQueryViewModel
+import org.mycrimes.insecuretests.conversation.ui.mentions.MentionsPickerFragment
+import org.mycrimes.insecuretests.conversation.ui.mentions.MentionsPickerViewModel
+import org.mycrimes.insecuretests.databinding.V2MediaAddMessageDialogFragmentBinding
+import org.mycrimes.insecuretests.keyboard.KeyboardPage
+import org.mycrimes.insecuretests.keyboard.KeyboardPagerViewModel
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.mediasend.v2.HudCommand
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.views.Stub
+import org.mycrimes.insecuretests.util.visible
 
 class AddMessageDialogFragment : KeyboardEntryDialogFragment(R.layout.v2_media_add_message_dialog_fragment) {
 

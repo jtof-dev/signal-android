@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms
+package org.mycrimes.insecuretests
 
 import org.signal.spinner.Plugin
 import org.signal.spinner.PluginResult
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 
 class StorageServicePlugin : Plugin {
   override val name: String = "Storage"

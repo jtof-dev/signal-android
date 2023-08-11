@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.stories.tabs
+package org.mycrimes.insecuretests.stories.tabs
 
 import io.reactivex.rxjava3.core.Flowable
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.database.RxDatabaseObserver
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.recipients.Recipient
 
 class ConversationListTabRepository {
 

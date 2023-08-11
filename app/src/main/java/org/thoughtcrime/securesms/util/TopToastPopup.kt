@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import android.view.Gravity
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.PopupWindow
 import android.widget.TextView
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 import java.util.concurrent.TimeUnit
 
 /**

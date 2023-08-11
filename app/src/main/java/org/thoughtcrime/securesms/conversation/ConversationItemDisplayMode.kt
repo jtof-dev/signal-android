@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 enum class ConversationItemDisplayMode {
   /** Normal rendering, used for normal bubbles in the conversation view */

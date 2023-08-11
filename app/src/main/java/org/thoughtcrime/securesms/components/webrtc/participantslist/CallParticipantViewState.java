@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.webrtc.participantslist;
+package org.mycrimes.insecuretests.components.webrtc.participantslist;
 
 import android.content.Context;
 import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.viewholders.RecipientMappingModel;
+import org.mycrimes.insecuretests.events.CallParticipant;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.viewholders.RecipientMappingModel;
 
 public final class CallParticipantViewState extends RecipientMappingModel<CallParticipantViewState> {
 

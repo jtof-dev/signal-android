@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage;
+package org.mycrimes.insecuretests.storage;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,17 +6,17 @@ import androidx.annotation.Nullable;
 import com.annimon.stream.Stream;
 
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.IdentityTable;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.DistributionListId;
-import org.thoughtcrime.securesms.database.model.DistributionListRecord;
-import org.thoughtcrime.securesms.database.model.RecipientRecord;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.subscription.Subscriber;
+import org.mycrimes.insecuretests.database.GroupTable;
+import org.mycrimes.insecuretests.database.IdentityTable;
+import org.mycrimes.insecuretests.database.RecipientTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.DistributionListId;
+import org.mycrimes.insecuretests.database.model.DistributionListRecord;
+import org.mycrimes.insecuretests.database.model.RecipientRecord;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.keyvalue.PhoneNumberPrivacyValues;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.subscription.Subscriber;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 import org.whispersystems.signalservice.api.storage.SignalAccountRecord;

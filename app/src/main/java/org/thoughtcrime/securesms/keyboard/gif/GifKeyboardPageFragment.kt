@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.gif
+package org.mycrimes.insecuretests.keyboard.gif
 
 import android.net.Uri
 import android.os.Bundle
@@ -7,14 +7,14 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Fragment
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4SaveResult
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4ViewModel
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4Fragment
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4SaveResult
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4ViewModel
+import org.mycrimes.insecuretests.keyboard.emoji.KeyboardPageSearchView
+import org.mycrimes.insecuretests.util.fragments.requireListener
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog
 
 class GifKeyboardPageFragment : LoggingFragment(R.layout.gif_keyboard_page_fragment) {
 

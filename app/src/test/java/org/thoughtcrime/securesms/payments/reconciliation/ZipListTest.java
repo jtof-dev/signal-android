@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.reconciliation;
+package org.mycrimes.insecuretests.payments.reconciliation;
 
 import org.junit.Test;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
-import static org.thoughtcrime.securesms.payments.reconciliation.ZipList.zipList;
+import static org.mycrimes.insecuretests.payments.reconciliation.ZipList.zipList;
 import static java.util.Collections.emptyList;
 
 public final class ZipListTest {

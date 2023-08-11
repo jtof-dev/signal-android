@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.util
+package org.mycrimes.insecuretests.registration.util
 
 import android.content.Context
 import android.text.Editable
@@ -15,8 +15,8 @@ import com.google.android.material.textfield.MaterialAutoCompleteTextView
 import com.google.android.material.textfield.TextInputLayout
 import com.google.i18n.phonenumbers.AsYouTypeFormatter
 import com.google.i18n.phonenumbers.PhoneNumberUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.viewmodel.NumberViewState
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.registration.viewmodel.NumberViewState
 
 /**
  * Handle the logic and formatting of phone number input specifically for registration number the flow.

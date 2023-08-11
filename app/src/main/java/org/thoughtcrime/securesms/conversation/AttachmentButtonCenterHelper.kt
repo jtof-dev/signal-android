@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import androidx.core.view.doOnNextLayout
 import androidx.recyclerview.widget.RecyclerView

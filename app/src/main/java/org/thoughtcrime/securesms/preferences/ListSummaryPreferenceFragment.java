@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.preferences;
+package org.mycrimes.insecuretests.preferences;
 
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 import java.util.Arrays;
 

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
-import org.thoughtcrime.securesms.database.JobDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage
+import org.mycrimes.insecuretests.database.JobDatabase
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.persistence.ConstraintSpec
+import org.mycrimes.insecuretests.jobmanager.persistence.DependencySpec
+import org.mycrimes.insecuretests.jobmanager.persistence.FullSpec
+import org.mycrimes.insecuretests.jobmanager.persistence.JobSpec
+import org.mycrimes.insecuretests.jobmanager.persistence.JobStorage
 
 class FastJobStorage(private val jobDatabase: JobDatabase) : JobStorage {
 

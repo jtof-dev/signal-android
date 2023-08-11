@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.color
+package org.mycrimes.insecuretests.color
 
 import android.content.Context
 import android.os.Parcelable
@@ -6,7 +6,7 @@ import androidx.annotation.ColorInt
 import androidx.annotation.ColorRes
 import androidx.core.content.ContextCompat
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Represents a set of colors to be applied to the foreground and background of a view.

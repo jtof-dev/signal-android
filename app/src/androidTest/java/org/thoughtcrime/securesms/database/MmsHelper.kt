@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.mms.IncomingMediaMessage
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.database.model.ParentStoryId
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge
+import org.mycrimes.insecuretests.mms.IncomingMediaMessage
+import org.mycrimes.insecuretests.mms.OutgoingMessage
+import org.mycrimes.insecuretests.recipients.Recipient
 import java.util.Optional
 
 /**

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.conversation.colors
+package org.mycrimes.insecuretests.conversation.colors
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Path
 import android.util.AttributeSet
 import android.view.View
-import org.thoughtcrime.securesms.util.Projection
+import org.mycrimes.insecuretests.util.Projection
 
 /**
  * ColorizerView takes a list of projections and uses them to create a mask over it's background.

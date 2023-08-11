@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.mycrimes.insecuretests.calls.log
 
 import androidx.annotation.MainThread
 import androidx.lifecycle.ViewModel
@@ -13,9 +13,9 @@ import org.signal.paging.ObservablePagedData
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.util.FeatureFlags
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.util.FeatureFlags
+import org.mycrimes.insecuretests.util.rx.RxStore
 import java.util.concurrent.TimeUnit
 
 /**

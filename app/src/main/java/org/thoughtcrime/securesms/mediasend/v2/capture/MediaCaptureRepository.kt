@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package org.mycrimes.insecuretests.mediasend.v2.capture
 
 import android.annotation.SuppressLint
 import android.content.ContentUris
@@ -10,12 +10,12 @@ import androidx.annotation.WorkerThread
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaRepository
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.StorageUtil
-import org.thoughtcrime.securesms.video.VideoUtil
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mediasend.MediaRepository
+import org.mycrimes.insecuretests.providers.BlobProvider
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.StorageUtil
+import org.mycrimes.insecuretests.video.VideoUtil
 import java.io.FileDescriptor
 import java.io.FileInputStream
 import java.io.IOException

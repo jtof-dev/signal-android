@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2.processing;
+package org.mycrimes.insecuretests.groups.v2.processing;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -7,7 +7,7 @@ import org.signal.storageservice.protos.groups.local.DecryptedGroup;
 import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
 import org.signal.storageservice.protos.groups.local.DecryptedMember;
 import org.signal.storageservice.protos.groups.local.DecryptedString;
-import org.thoughtcrime.securesms.testutil.LogRecorder;
+import org.mycrimes.insecuretests.testutil.LogRecorder;
 import org.whispersystems.signalservice.api.util.UuidUtil;
 
 import java.util.UUID;
@@ -19,7 +19,7 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
-import static org.thoughtcrime.securesms.groups.v2.processing.GroupStateMapper.LATEST;
+import static org.mycrimes.insecuretests.groups.v2.processing.GroupStateMapper.LATEST;
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;

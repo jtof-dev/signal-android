@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.mycrimes.insecuretests.mediasend.v2.text
 
 import android.graphics.Color
 import android.os.Parcelable
@@ -7,10 +7,10 @@ import androidx.annotation.IntRange
 import androidx.core.graphics.ColorUtils
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.conversation.colors.ChatColors
+import org.mycrimes.insecuretests.fonts.TextFont
+import org.mycrimes.insecuretests.scribbles.HSVColorSlider
+import org.mycrimes.insecuretests.util.FeatureFlags
 
 @Parcelize
 data class TextStoryPostCreationState(

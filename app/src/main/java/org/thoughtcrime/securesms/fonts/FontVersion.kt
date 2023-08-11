@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.fonts
+package org.mycrimes.insecuretests.fonts
 
 import android.content.Context
 import androidx.annotation.WorkerThread
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.EncryptedStreamUtils
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.EncryptedStreamUtils
 import java.io.File
 import java.util.UUID
 import java.util.concurrent.TimeUnit

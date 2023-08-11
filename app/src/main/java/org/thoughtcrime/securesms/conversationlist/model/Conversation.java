@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.conversationlist.model;
+package org.mycrimes.insecuretests.conversationlist.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.mycrimes.insecuretests.database.model.ThreadRecord;
 
 public class Conversation {
   private final ThreadRecord threadRecord;

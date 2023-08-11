@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.mediasend.v2.text.send
+package org.mycrimes.insecuretests.mediasend.v2.text.send
 
-import org.thoughtcrime.securesms.database.model.IdentityRecord
+import org.mycrimes.insecuretests.database.model.IdentityRecord
 
 sealed class TextStoryPostSendResult {
   object Success : TextStoryPostSendResult()

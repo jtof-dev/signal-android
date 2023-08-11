@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.subscription
+package org.mycrimes.insecuretests.subscription
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -7,18 +7,18 @@ import android.view.View
 import androidx.core.animation.doOnEnd
 import androidx.lifecycle.DefaultLifecycleObserver
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.databinding.SubscriptionPreferenceBinding
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.components.settings.PreferenceModel
+import org.mycrimes.insecuretests.databinding.SubscriptionPreferenceBinding
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingViewHolder
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.util.visible
 import java.util.Currency
 import java.util.Locale
 

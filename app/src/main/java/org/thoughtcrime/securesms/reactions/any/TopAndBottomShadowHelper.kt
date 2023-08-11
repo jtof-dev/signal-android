@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.any
+package org.mycrimes.insecuretests.reactions.any
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

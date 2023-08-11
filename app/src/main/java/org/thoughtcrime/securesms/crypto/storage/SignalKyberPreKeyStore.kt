@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.crypto.storage
+package org.mycrimes.insecuretests.crypto.storage
 
 import org.signal.libsignal.protocol.InvalidKeyIdException
 import org.signal.libsignal.protocol.state.KyberPreKeyRecord
 import org.signal.libsignal.protocol.state.KyberPreKeyStore
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.mycrimes.insecuretests.crypto.ReentrantSessionLock
+import org.mycrimes.insecuretests.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceKyberPreKeyStore
 import org.whispersystems.signalservice.api.push.ServiceId
 import kotlin.jvm.Throws
 
 /**
- * An implementation of the [KyberPreKeyStore] that stores entries in [org.thoughtcrime.securesms.database.KyberPreKeyTable].
+ * An implementation of the [KyberPreKeyStore] that stores entries in [org.mycrimes.insecuretests.database.KyberPreKeyTable].
  */
 class SignalKyberPreKeyStore(private val selfServiceId: ServiceId) : SignalServiceKyberPreKeyStore {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice;
+package org.mycrimes.insecuretests.components.voice;
 
 import android.content.ComponentName;
 import android.net.Uri;
@@ -23,11 +23,11 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Transformations;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.recipients.LiveRecipient;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.DefaultValueLiveData;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
 
 import java.util.Objects;
 import java.util.Optional;

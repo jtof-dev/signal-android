@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.mycrimes.insecuretests.components.settings.app.changenumber
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.widget.Toolbar
 import androidx.navigation.fragment.findNavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.fragments.BaseAccountLockedFragment
-import org.thoughtcrime.securesms.registration.viewmodel.BaseRegistrationViewModel
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.registration.fragments.BaseAccountLockedFragment
+import org.mycrimes.insecuretests.registration.viewmodel.BaseRegistrationViewModel
 
 class ChangeNumberAccountLockedFragment : BaseAccountLockedFragment(R.layout.fragment_change_number_account_locked) {
 

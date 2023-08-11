@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.newdevice;
+package org.mycrimes.insecuretests.devicetransfer.newdevice;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,9 +11,9 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.devicetransfer.DeviceToDeviceTransferService;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.devicetransfer.DeviceTransferFragment;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.devicetransfer.DeviceTransferFragment;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
 
 /**
  * Shows transfer progress on the new device. Most logic is in {@link DeviceTransferFragment}

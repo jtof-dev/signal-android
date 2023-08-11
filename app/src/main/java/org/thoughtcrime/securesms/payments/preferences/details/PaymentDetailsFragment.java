@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.details;
+package org.mycrimes.insecuretests.payments.preferences.details;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -21,21 +21,21 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.database.PaymentTable;
-import org.thoughtcrime.securesms.payments.Direction;
-import org.thoughtcrime.securesms.payments.MoneyView;
-import org.thoughtcrime.securesms.payments.Payee;
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.payments.State;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.SpanUtil;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.badges.BadgeImageView;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.database.PaymentTable;
+import org.mycrimes.insecuretests.payments.Direction;
+import org.mycrimes.insecuretests.payments.MoneyView;
+import org.mycrimes.insecuretests.payments.Payee;
+import org.mycrimes.insecuretests.payments.Payment;
+import org.mycrimes.insecuretests.payments.State;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.DateUtils;
+import org.mycrimes.insecuretests.util.SpanUtil;
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import org.mycrimes.insecuretests.util.views.LearnMoreTextView;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.Locale;

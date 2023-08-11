@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.app.Activity;
 import android.graphics.PointF;
@@ -6,9 +6,9 @@ import android.view.MotionEvent;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.views.Stub;
 
 /**
  * Delegate class that mimics the ConversationReactionOverlay public API

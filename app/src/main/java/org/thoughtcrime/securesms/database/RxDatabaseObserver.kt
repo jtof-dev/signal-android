@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import io.reactivex.rxjava3.core.BackpressureStrategy
 import io.reactivex.rxjava3.core.Emitter
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
 import java.util.concurrent.TimeUnit
 
 /**

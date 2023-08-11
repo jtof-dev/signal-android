@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 /**
  * Indicates that this table references a thread ID. Thread IDs can be remapped at runtime if recipients merge, and therefore this table needs to be able to

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import app.cash.exhaustive.Exhaustive
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.model.RecipientRecord
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.ACI
 import org.whispersystems.signalservice.api.push.PNI
 

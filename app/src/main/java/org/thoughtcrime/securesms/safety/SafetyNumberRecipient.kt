@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.safety
+package org.mycrimes.insecuretests.safety
 
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.database.model.IdentityRecord
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Represents a Recipient who had a safety number change. Also includes information used in

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.Context;
 
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

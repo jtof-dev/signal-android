@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package org.mycrimes.insecuretests.audio;
 
 import android.content.Context;
 import android.media.MediaCodec;
@@ -11,8 +11,8 @@ import androidx.annotation.RequiresApi;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.media.DecryptableUriMediaInput;
-import org.thoughtcrime.securesms.media.MediaInput;
+import org.mycrimes.insecuretests.media.DecryptableUriMediaInput;
+import org.mycrimes.insecuretests.media.MediaInput;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

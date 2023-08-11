@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -24,9 +24,9 @@ import org.signal.core.util.MapUtil;
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.util.task.ProgressDialogAsyncTask;
 
 import java.io.File;
 import java.io.FileOutputStream;

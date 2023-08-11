@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.sensors;
+package org.mycrimes.insecuretests.components.sensors;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -15,7 +15,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Transformations;
 
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.ServiceUtil;
 
 public final class DeviceOrientationMonitor implements DefaultLifecycleObserver {
 

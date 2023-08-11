@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.conversationlist;
+package org.mycrimes.insecuretests.conversationlist;
 
 import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversationlist.model.Conversation;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationReader;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversationlist.model.Conversation;
+import org.mycrimes.insecuretests.conversationlist.model.ConversationReader;
 
 class ClearFilterViewHolder extends RecyclerView.ViewHolder {
 

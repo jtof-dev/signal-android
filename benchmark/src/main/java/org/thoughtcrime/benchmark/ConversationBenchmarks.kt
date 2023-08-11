@@ -21,7 +21,7 @@ class ConversationBenchmarks {
   fun simpleConversationOpen() {
     var setup = false
     benchmarkRule.measureRepeated(
-      packageName = "org.thoughtcrime.securesms",
+      packageName = "org.mycrimes.insecuretests",
       metrics = listOf(TraceSectionMetric("ConversationOpen")),
       iterations = 10,
       compilationMode = CompilationMode.Partial(),

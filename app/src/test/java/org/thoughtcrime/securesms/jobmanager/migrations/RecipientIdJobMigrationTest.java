@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.mycrimes.insecuretests.jobmanager.migrations;
 
 import android.app.Application;
 
@@ -8,24 +8,24 @@ import org.mockito.Mock;
 import org.mockito.MockedStatic;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobMigration.JobData;
-import org.thoughtcrime.securesms.jobmanager.migrations.RecipientIdJobMigration.NewSerializableSyncMessageId;
-import org.thoughtcrime.securesms.jobmanager.migrations.RecipientIdJobMigration.OldSerializableSyncMessageId;
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceContactUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceVerifiedUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewOnceOpenJob;
-import org.thoughtcrime.securesms.jobs.PushGroupSendJob;
-import org.thoughtcrime.securesms.jobs.IndividualSendJob;
-import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob;
-import org.thoughtcrime.securesms.jobs.SendDeliveryReceiptJob;
-import org.thoughtcrime.securesms.jobs.SmsSendJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.JobMigration.JobData;
+import org.mycrimes.insecuretests.jobmanager.migrations.RecipientIdJobMigration.NewSerializableSyncMessageId;
+import org.mycrimes.insecuretests.jobmanager.migrations.RecipientIdJobMigration.OldSerializableSyncMessageId;
+import org.mycrimes.insecuretests.jobs.DirectoryRefreshJob;
+import org.mycrimes.insecuretests.jobs.MultiDeviceContactUpdateJob;
+import org.mycrimes.insecuretests.jobs.MultiDeviceReadUpdateJob;
+import org.mycrimes.insecuretests.jobs.MultiDeviceVerifiedUpdateJob;
+import org.mycrimes.insecuretests.jobs.MultiDeviceViewOnceOpenJob;
+import org.mycrimes.insecuretests.jobs.PushGroupSendJob;
+import org.mycrimes.insecuretests.jobs.IndividualSendJob;
+import org.mycrimes.insecuretests.jobs.RetrieveProfileAvatarJob;
+import org.mycrimes.insecuretests.jobs.SendDeliveryReceiptJob;
+import org.mycrimes.insecuretests.jobs.SmsSendJob;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.JsonUtils;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

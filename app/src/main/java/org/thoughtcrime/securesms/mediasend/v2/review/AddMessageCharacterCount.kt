@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.mediasend.v2.review
+package org.mycrimes.insecuretests.mediasend.v2.review
 
-import org.thoughtcrime.securesms.stories.Stories
+import org.mycrimes.insecuretests.stories.Stories
 import kotlin.math.max
 
 /**

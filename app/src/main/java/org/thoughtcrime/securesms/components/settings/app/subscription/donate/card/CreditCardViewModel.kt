@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.card
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.card
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -7,7 +7,7 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.processors.BehaviorProcessor
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.mycrimes.insecuretests.util.rx.RxStore
 import java.util.Calendar
 
 class CreditCardViewModel : ViewModel() {

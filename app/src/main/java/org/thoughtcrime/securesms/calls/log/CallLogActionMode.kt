@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.calls.log
+package org.mycrimes.insecuretests.calls.log
 
 import android.content.res.Resources
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.view.ActionMode
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 class CallLogActionMode(
   private val callback: Callback

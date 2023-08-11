@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -13,8 +13,8 @@ import androidx.fragment.app.FragmentManager;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
 
 /**
  * A dialog fragment that shows when you click 'learn more' on a {@link MessageRecord#isBadDecryptType()}.

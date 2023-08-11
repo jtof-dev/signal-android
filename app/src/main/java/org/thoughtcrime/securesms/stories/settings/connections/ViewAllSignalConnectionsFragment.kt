@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.stories.settings.connections
+package org.mycrimes.insecuretests.stories.settings.connections
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.contacts.LetterHeaderDecoration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchMediator
-import org.thoughtcrime.securesms.databinding.ViewAllSignalConnectionsFragmentBinding
-import org.thoughtcrime.securesms.groups.SelectionLimits
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.components.WrapperDialogFragment
+import org.mycrimes.insecuretests.contacts.LetterHeaderDecoration
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchAdapter
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchMediator
+import org.mycrimes.insecuretests.databinding.ViewAllSignalConnectionsFragmentBinding
+import org.mycrimes.insecuretests.groups.SelectionLimits
 
 class ViewAllSignalConnectionsFragment : Fragment(R.layout.view_all_signal_connections_fragment) {
 

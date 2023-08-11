@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.jobs;
+package org.mycrimes.insecuretests.jobs;
 
 import android.app.Application;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.Job;
 
 import java.util.Map;
 

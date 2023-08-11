@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.groups;
+package org.mycrimes.insecuretests.groups;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.storageservice.protos.groups.AccessControl;
-import org.thoughtcrime.securesms.R;
+import org.mycrimes.insecuretests.R;
 
 public final class GV2AccessLevelUtil {
 

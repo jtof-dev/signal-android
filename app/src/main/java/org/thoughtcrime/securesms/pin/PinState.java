@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package org.mycrimes.insecuretests.pin;
 
 import android.content.Context;
 
@@ -9,18 +9,18 @@ import androidx.annotation.WorkerThread;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidKeyException;
 import org.signal.libsignal.svr2.PinHash;
-import org.thoughtcrime.securesms.KbsEnclave;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JobTracker;
-import org.thoughtcrime.securesms.jobs.ClearFallbackKbsEnclaveJob;
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob;
-import org.thoughtcrime.securesms.jobs.StorageForcePushJob;
-import org.thoughtcrime.securesms.keyvalue.KbsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.RegistrationLockReminders;
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType;
-import org.thoughtcrime.securesms.megaphone.Megaphones;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.KbsEnclave;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.JobTracker;
+import org.mycrimes.insecuretests.jobs.ClearFallbackKbsEnclaveJob;
+import org.mycrimes.insecuretests.jobs.RefreshAttributesJob;
+import org.mycrimes.insecuretests.jobs.StorageForcePushJob;
+import org.mycrimes.insecuretests.keyvalue.KbsValues;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.lock.RegistrationLockReminders;
+import org.mycrimes.insecuretests.lock.v2.PinKeyboardType;
+import org.mycrimes.insecuretests.megaphone.Megaphones;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.KbsPinData;
 import org.whispersystems.signalservice.api.KeyBackupService;
 import org.whispersystems.signalservice.api.kbs.MasterKey;
@@ -206,7 +206,7 @@ public final class PinState {
   }
 
   /**
-   * Should only be called by {@link org.thoughtcrime.securesms.migrations.RegistrationPinV2MigrationJob}.
+   * Should only be called by {@link org.mycrimes.insecuretests.migrations.RegistrationPinV2MigrationJob}.
    */
   @WorkerThread
   public static synchronized void onMigrateToRegistrationLockV2(@NonNull Context context, @NonNull String pin)
@@ -231,7 +231,7 @@ public final class PinState {
   }
 
   /**
-   * Should only be called by {@link org.thoughtcrime.securesms.jobs.KbsEnclaveMigrationWorkerJob}.
+   * Should only be called by {@link org.mycrimes.insecuretests.jobs.KbsEnclaveMigrationWorkerJob}.
    */
   @WorkerThread
   public static synchronized void onMigrateToNewEnclave(@NonNull String pin)

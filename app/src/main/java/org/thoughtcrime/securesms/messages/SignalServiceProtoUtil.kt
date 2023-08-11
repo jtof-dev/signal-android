@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import com.google.protobuf.ByteString
 import com.google.protobuf.GeneratedMessageLite
 import org.signal.core.util.orNull
 import org.signal.libsignal.protocol.message.DecryptionErrorMessage
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.FeatureFlags
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.attachments.PointerAttachment
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.stickers.StickerLocator
+import org.mycrimes.insecuretests.util.FeatureFlags
+import org.mycrimes.insecuretests.util.MediaUtil
 import org.whispersystems.signalservice.api.InvalidMessageStructureException
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.mycrimes.insecuretests.components.webrtc;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -10,10 +10,10 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 import org.signal.core.util.PendingIntentFlags;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.WebRtcCallActivity;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.WebRtcCallActivity;
+import org.mycrimes.insecuretests.notifications.NotificationChannels;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 /**
  * Utility for showing and hiding safety number change notifications during a group call.

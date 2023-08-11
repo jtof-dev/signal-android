@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.location;
+package org.mycrimes.insecuretests.components.location;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -17,9 +17,9 @@ import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.concurrent.ListenableFuture;
+import org.mycrimes.insecuretests.util.concurrent.SettableFuture;
 
 import java.util.concurrent.ExecutionException;
 

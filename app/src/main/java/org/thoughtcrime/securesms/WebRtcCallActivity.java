@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -53,39 +53,39 @@ import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.IdentityKey;
-import org.thoughtcrime.securesms.components.TooltipPopup;
-import org.thoughtcrime.securesms.components.sensors.DeviceOrientationMonitor;
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsListUpdatePopupWindow;
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState;
-import org.thoughtcrime.securesms.components.webrtc.CallStateUpdatePopupWindow;
-import org.thoughtcrime.securesms.components.webrtc.CallToastPopupWindow;
-import org.thoughtcrime.securesms.components.webrtc.GroupCallSafetyNumberChangeNotificationUtil;
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioOutput;
-import org.thoughtcrime.securesms.components.webrtc.WebRtcCallView;
-import org.thoughtcrime.securesms.components.webrtc.WebRtcCallViewModel;
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls;
-import org.thoughtcrime.securesms.components.webrtc.WifiToCellularPopupWindow;
-import org.thoughtcrime.securesms.components.webrtc.participantslist.CallParticipantsListDialog;
-import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeDialog;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.messagerequests.CalleeMustAcceptMessageRequestActivity;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet;
-import org.thoughtcrime.securesms.service.webrtc.SignalCallManager;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.util.EllapsedTimeFormatter;
-import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.thoughtcrime.securesms.util.FullscreenHelper;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ThrottledDebouncer;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.VibrateUtil;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
-import org.thoughtcrime.securesms.webrtc.CallParticipantsViewState;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
+import org.mycrimes.insecuretests.components.TooltipPopup;
+import org.mycrimes.insecuretests.components.sensors.DeviceOrientationMonitor;
+import org.mycrimes.insecuretests.components.webrtc.CallParticipantsListUpdatePopupWindow;
+import org.mycrimes.insecuretests.components.webrtc.CallParticipantsState;
+import org.mycrimes.insecuretests.components.webrtc.CallStateUpdatePopupWindow;
+import org.mycrimes.insecuretests.components.webrtc.CallToastPopupWindow;
+import org.mycrimes.insecuretests.components.webrtc.GroupCallSafetyNumberChangeNotificationUtil;
+import org.mycrimes.insecuretests.components.webrtc.WebRtcAudioOutput;
+import org.mycrimes.insecuretests.components.webrtc.WebRtcCallView;
+import org.mycrimes.insecuretests.components.webrtc.WebRtcCallViewModel;
+import org.mycrimes.insecuretests.components.webrtc.WebRtcControls;
+import org.mycrimes.insecuretests.components.webrtc.WifiToCellularPopupWindow;
+import org.mycrimes.insecuretests.components.webrtc.participantslist.CallParticipantsListDialog;
+import org.mycrimes.insecuretests.conversation.ui.error.SafetyNumberChangeDialog;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.events.WebRtcViewModel;
+import org.mycrimes.insecuretests.messagerequests.CalleeMustAcceptMessageRequestActivity;
+import org.mycrimes.insecuretests.permissions.Permissions;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.safety.SafetyNumberBottomSheet;
+import org.mycrimes.insecuretests.service.webrtc.SignalCallManager;
+import org.mycrimes.insecuretests.sms.MessageSender;
+import org.mycrimes.insecuretests.util.EllapsedTimeFormatter;
+import org.mycrimes.insecuretests.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.FullscreenHelper;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.ThrottledDebouncer;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.VibrateUtil;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.webrtc.CallParticipantsViewState;
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager;
 import org.whispersystems.signalservice.api.messages.calls.HangupMessage;
 
 import java.util.List;
@@ -95,7 +95,7 @@ import java.util.concurrent.TimeUnit;
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.disposables.Disposable;
 
-import static org.thoughtcrime.securesms.components.sensors.Orientation.PORTRAIT_BOTTOM_EDGE;
+import static org.mycrimes.insecuretests.components.sensors.Orientation.PORTRAIT_BOTTOM_EDGE;
 
 public class WebRtcCallActivity extends BaseActivity implements SafetyNumberChangeDialog.Callback {
 

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 import java.util.concurrent.TimeUnit
 import kotlin.time.Duration.Companion.hours
 

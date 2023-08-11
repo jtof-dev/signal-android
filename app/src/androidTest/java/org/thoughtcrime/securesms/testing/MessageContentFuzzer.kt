@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.testing
+package org.mycrimes.insecuretests.testing
 
 import com.google.protobuf.ByteString
-import org.thoughtcrime.securesms.database.model.toProtoByteString
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.buildWith
-import org.thoughtcrime.securesms.messages.TestMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.model.toProtoByteString
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.messages.SignalServiceProtoUtil.buildWith
+import org.mycrimes.insecuretests.messages.TestMessage
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
 import org.whispersystems.signalservice.api.util.UuidUtil
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos

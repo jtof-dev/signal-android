@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.delete;
+package org.mycrimes.insecuretests.delete;
 
 import androidx.annotation.NonNull;
 

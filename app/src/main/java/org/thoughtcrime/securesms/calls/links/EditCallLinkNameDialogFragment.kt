@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links
+package org.mycrimes.insecuretests.calls.links
 
 import android.app.Dialog
 import android.os.Bundle
@@ -38,8 +38,8 @@ import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.navArgs
 import org.signal.core.ui.Buttons
 import org.signal.core.ui.Scaffolds
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeDialogFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.compose.ComposeDialogFragment
 
 class EditCallLinkNameDialogFragment : ComposeDialogFragment() {
 

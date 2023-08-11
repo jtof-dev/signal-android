@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.mycrimes.insecuretests.notifications;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -12,14 +12,14 @@ import androidx.annotation.RequiresApi;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.notifications.v2.DefaultMessageNotifier;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.BubbleUtil;
-import org.thoughtcrime.securesms.util.ConversationUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.notifications.v2.DefaultMessageNotifier;
+import org.mycrimes.insecuretests.notifications.v2.ConversationId;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.BubbleUtil;
+import org.mycrimes.insecuretests.util.ConversationUtil;
+import org.mycrimes.insecuretests.util.ServiceUtil;
 
 import java.util.Collections;
 import java.util.Objects;
@@ -31,7 +31,7 @@ import java.util.Set;
  *
  * Because Bubbles are tied to Notifications, and disappear when those Notificaitons are cancelled,
  * we want to be very surgical about what notifications we dismiss and when. Behaviour on API levels
- * previous to {@link org.thoughtcrime.securesms.util.ConversationUtil#CONVERSATION_SUPPORT_VERSION}
+ * previous to {@link org.mycrimes.insecuretests.util.ConversationUtil#CONVERSATION_SUPPORT_VERSION}
  * is preserved.
  *
  */

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing;
+package org.mycrimes.insecuretests.sharing;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -16,40 +16,40 @@ import org.signal.core.util.BreakIteratorCompat;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.UriAttachment;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.conversation.MessageSendType;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.StoryType;
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.keyvalue.StorySend;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryBackgroundColors;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.OutgoingMessage;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.mms.SlideFactory;
-import org.thoughtcrime.securesms.mms.StickerSlide;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.sms.MessageSender.SendType;
-import org.thoughtcrime.securesms.stories.Stories;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.MessageUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.UriAttachment;
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey;
+import org.mycrimes.insecuretests.contactshare.Contact;
+import org.mycrimes.insecuretests.conversation.MessageSendType;
+import org.mycrimes.insecuretests.conversation.colors.ChatColors;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.Mention;
+import org.mycrimes.insecuretests.database.model.StoryType;
+import org.mycrimes.insecuretests.database.model.databaseprotos.StoryTextPost;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.keyvalue.StorySend;
+import org.mycrimes.insecuretests.linkpreview.LinkPreview;
+import org.mycrimes.insecuretests.mediasend.Media;
+import org.mycrimes.insecuretests.mediasend.v2.text.TextStoryBackgroundColors;
+import org.mycrimes.insecuretests.mms.ImageSlide;
+import org.mycrimes.insecuretests.mms.OutgoingMessage;
+import org.mycrimes.insecuretests.mms.SentMediaQuality;
+import org.mycrimes.insecuretests.mms.Slide;
+import org.mycrimes.insecuretests.mms.SlideDeck;
+import org.mycrimes.insecuretests.mms.SlideFactory;
+import org.mycrimes.insecuretests.mms.StickerSlide;
+import org.mycrimes.insecuretests.mms.VideoSlide;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.sms.MessageSender;
+import org.mycrimes.insecuretests.sms.MessageSender.SendType;
+import org.mycrimes.insecuretests.stories.Stories;
+import org.mycrimes.insecuretests.util.Base64;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.MessageUtil;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -63,7 +63,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 /**
- * MultiShareSender encapsulates send logic (stolen from {@link org.thoughtcrime.securesms.conversation.ConversationActivity}
+ * MultiShareSender encapsulates send logic (stolen from {@link org.mycrimes.insecuretests.conversation.ConversationActivity}
  * and provides a means to:
  * <p>
  * 1. Send messages based off a {@link MultiShareArgs} object and

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper.crop;
+package org.mycrimes.insecuretests.wallpaper.crop;
 
 import android.Manifest;
 import android.content.Context;
@@ -12,10 +12,10 @@ import androidx.annotation.RequiresPermission;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mediasend.v2.gallery.MediaGalleryFragment;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mediasend.Media;
+import org.mycrimes.insecuretests.mediasend.v2.gallery.MediaGalleryFragment;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 public final class WallpaperImageSelectionActivity extends AppCompatActivity
         implements MediaGalleryFragment.Callbacks

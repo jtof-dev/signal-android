@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.ServiceMessageId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.database.model.ServiceMessageId;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 import org.whispersystems.signalservice.api.messages.SignalServiceContent;
 
 import java.util.Collection;

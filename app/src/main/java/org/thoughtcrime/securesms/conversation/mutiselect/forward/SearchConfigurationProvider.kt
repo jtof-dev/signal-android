@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation.mutiselect.forward
+package org.mycrimes.insecuretests.conversation.mutiselect.forward
 
 import androidx.fragment.app.FragmentManager
-import org.thoughtcrime.securesms.contacts.paged.ArbitraryRepository
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchState
+import org.mycrimes.insecuretests.contacts.paged.ArbitraryRepository
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchState
 
 /**
  * Allows a parent of MultiselectForwardFragment to provide a custom search page configuration.

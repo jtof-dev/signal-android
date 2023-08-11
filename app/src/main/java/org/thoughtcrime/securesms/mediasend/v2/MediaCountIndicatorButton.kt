@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.mycrimes.insecuretests.mediasend.v2
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 class MediaCountIndicatorButton @JvmOverloads constructor(
   context: Context,

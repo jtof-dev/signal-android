@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.payments;
+package org.mycrimes.insecuretests.payments;
 
 import androidx.annotation.NonNull;
 
 import com.google.protobuf.ByteString;
 
-import org.thoughtcrime.securesms.payments.proto.MobileCoinLedger;
+import org.mycrimes.insecuretests.payments.proto.MobileCoinLedger;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.ArrayList;

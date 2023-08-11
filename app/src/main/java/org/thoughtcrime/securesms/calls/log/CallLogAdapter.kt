@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.mycrimes.insecuretests.calls.log
 
 import android.content.res.ColorStateList
 import android.text.style.TextAppearanceSpan
@@ -7,22 +7,22 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.widget.TextViewCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.databinding.CallLogAdapterItemBinding
-import org.thoughtcrime.securesms.databinding.CallLogCreateCallLinkItemBinding
-import org.thoughtcrime.securesms.databinding.ConversationListItemClearFilterBinding
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.SearchUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter
-import org.thoughtcrime.securesms.util.setRelativeDrawables
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.CallTable
+import org.mycrimes.insecuretests.database.MessageTypes
+import org.mycrimes.insecuretests.databinding.CallLogAdapterItemBinding
+import org.mycrimes.insecuretests.databinding.CallLogCreateCallLinkItemBinding
+import org.mycrimes.insecuretests.databinding.ConversationListItemClearFilterBinding
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.SearchUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingViewHolder
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.PagingMappingAdapter
+import org.mycrimes.insecuretests.util.setRelativeDrawables
+import org.mycrimes.insecuretests.util.visible
 import java.util.Locale
 
 /**

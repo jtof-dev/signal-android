@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.menu
+package org.mycrimes.insecuretests.components.menu
 
 import android.content.Context
 import android.graphics.Rect
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.PopupWindow
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.ViewUtil
 
 /**
  * A custom context menu that will show next to an anchor view and display several options. Basically a PopupMenu with custom UI and positioning rules.

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import com.google.android.gms.wallet.WalletConstants
 import org.signal.donations.GooglePayApi
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.BuildConfig
+import org.mycrimes.insecuretests.BuildConfig
 
 object Environment {
   const val IS_STAGING: Boolean = BuildConfig.BUILD_ENVIRONMENT_TYPE == "Staging"

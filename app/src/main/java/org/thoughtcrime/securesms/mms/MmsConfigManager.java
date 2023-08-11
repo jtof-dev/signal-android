@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 
 import android.content.Context;
@@ -9,8 +9,8 @@ import androidx.annotation.WorkerThread;
 
 import com.android.mms.service_alt.MmsConfig;
 
-import org.thoughtcrime.securesms.util.dualsim.SubscriptionInfoCompat;
-import org.thoughtcrime.securesms.util.dualsim.SubscriptionManagerCompat;
+import org.mycrimes.insecuretests.util.dualsim.SubscriptionInfoCompat;
+import org.mycrimes.insecuretests.util.dualsim.SubscriptionManagerCompat;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.components.settings.conversation.preferences
+package org.mycrimes.insecuretests.components.settings.conversation.preferences
 
 import android.database.Cursor
 import android.view.View
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ThreadPhotoRailView
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.mms.GlideApp
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ThreadPhotoRailView
+import org.mycrimes.insecuretests.components.settings.PreferenceModel
+import org.mycrimes.insecuretests.database.MediaTable
+import org.mycrimes.insecuretests.mms.GlideApp
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 
 /**
  * Renders the shared media photo rail.

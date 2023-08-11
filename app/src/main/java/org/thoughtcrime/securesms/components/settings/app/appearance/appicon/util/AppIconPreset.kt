@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util
+package org.mycrimes.insecuretests.components.settings.app.appearance.appicon.util
 
 import android.content.ComponentName
 import android.content.Context
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 enum class AppIconPreset(private val componentName: String, @DrawableRes val iconPreviewResId: Int, @StringRes val labelResId: Int) {
   DEFAULT(".RoutingActivity", R.drawable.ic_app_icon_default_top_preview, R.string.app_name),
@@ -27,6 +27,6 @@ enum class AppIconPreset(private val componentName: String, @DrawableRes val ico
 
   fun getComponentName(context: Context): ComponentName {
     val applicationContext = context.applicationContext
-    return ComponentName(applicationContext, "org.thoughtcrime.securesms" + componentName)
+    return ComponentName(applicationContext, "org.mycrimes.insecuretests" + componentName)
   }
 }

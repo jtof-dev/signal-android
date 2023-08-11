@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import android.content.Context;
 import android.os.Build.VERSION;
@@ -12,7 +12,7 @@ import com.google.android.mms.pdu_alt.RetrieveConf;
 import com.google.android.mms.pdu_alt.SendConf;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
+import org.mycrimes.insecuretests.transport.UndeliverableMessageException;
 
 import java.io.IOException;
 

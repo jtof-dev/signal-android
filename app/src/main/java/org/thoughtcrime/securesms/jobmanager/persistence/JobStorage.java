@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.persistence;
+package org.mycrimes.insecuretests.jobmanager.persistence;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

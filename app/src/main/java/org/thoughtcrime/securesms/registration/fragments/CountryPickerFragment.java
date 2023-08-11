@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments;
+package org.mycrimes.insecuretests.registration.fragments;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -19,9 +19,9 @@ import androidx.loader.app.LoaderManager;
 import androidx.loader.content.Loader;
 import androidx.navigation.fragment.NavHostFragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.loaders.CountryListLoader;
-import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.loaders.CountryListLoader;
+import org.mycrimes.insecuretests.registration.viewmodel.RegistrationViewModel;
 
 import java.util.ArrayList;
 import java.util.Map;

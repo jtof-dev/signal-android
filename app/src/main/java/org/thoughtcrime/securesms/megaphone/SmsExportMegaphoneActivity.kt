@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.megaphone
+package org.mycrimes.insecuretests.megaphone
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.SmsRemovalInformationFragmentBinding
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.exporter.flow.SmsExportActivity
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.PassphraseRequiredActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.databinding.SmsRemovalInformationFragmentBinding
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.exporter.flow.SmsExportActivity
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.CommunicationActions
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme
+import org.mycrimes.insecuretests.util.DynamicTheme
+import org.mycrimes.insecuretests.util.visible
 import java.util.Locale
 
 class SmsExportMegaphoneActivity : PassphraseRequiredActivity() {

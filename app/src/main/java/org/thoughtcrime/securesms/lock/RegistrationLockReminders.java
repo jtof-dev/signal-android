@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.lock;
+package org.mycrimes.insecuretests.lock;
 
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.util.NavigableSet;
 import java.util.TreeSet;

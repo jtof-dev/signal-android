@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.secondary
+package org.mycrimes.insecuretests.registration.secondary
 
 import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.IdentityKeyPair
@@ -6,7 +6,7 @@ import org.signal.libsignal.protocol.ecc.Curve
 import org.signal.libsignal.protocol.ecc.ECPublicKey
 import org.signal.libsignal.protocol.kdf.HKDF
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
+import org.mycrimes.insecuretests.crypto.IdentityKeyUtil
 import org.whispersystems.signalservice.api.util.UuidUtil
 import org.whispersystems.signalservice.internal.crypto.PrimaryProvisioningCipher
 import org.whispersystems.signalservice.internal.push.ProvisioningProtos

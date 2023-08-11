@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import android.annotation.SuppressLint
 import android.content.ContentResolver
@@ -25,10 +25,10 @@ import io.reactivex.rxjava3.core.Single
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.mms.PartAuthority
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.mms.PartAuthority
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException

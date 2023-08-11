@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.transfer;
+package org.mycrimes.insecuretests.payments.preferences.transfer;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -13,12 +13,12 @@ import androidx.navigation.Navigation;
 
 import org.signal.core.util.logging.Log;
 import org.signal.qr.QrScannerView;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXModelBlocklist;
-import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mediasend.camerax.CameraXModelBlocklist;
+import org.mycrimes.insecuretests.payments.MobileCoinPublicAddress;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.disposables.Disposable;

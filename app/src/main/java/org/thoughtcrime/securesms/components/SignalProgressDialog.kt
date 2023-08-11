@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.app.ProgressDialog
 import android.content.Context

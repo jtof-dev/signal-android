@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 import android.app.Application
 import android.database.MatrixCursor

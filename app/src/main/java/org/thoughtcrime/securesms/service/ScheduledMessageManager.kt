@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service
+package org.mycrimes.insecuretests.service
 
 import android.app.Application
 import android.app.PendingIntent
@@ -8,13 +8,13 @@ import android.content.Intent
 import androidx.annotation.WorkerThread
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.IndividualSendJob
-import org.thoughtcrime.securesms.jobs.PushGroupSendJob
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.conversation.ConversationIntents
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.IndividualSendJob
+import org.mycrimes.insecuretests.jobs.PushGroupSendJob
+import org.mycrimes.insecuretests.recipients.RecipientId
 import kotlin.time.Duration.Companion.seconds
 
 /**

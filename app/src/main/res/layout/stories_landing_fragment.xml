@@ -43,9 +43,9 @@
             android:layout_gravity="bottom"
             android:clipChildren="false"
             android:clipToPadding="false"
-            app:layout_behavior="org.thoughtcrime.securesms.util.views.SlideUpWithSnackbarBehavior">
+            app:layout_behavior="org.mycrimes.insecuretests.util.views.SlideUpWithSnackbarBehavior">
 
-            <org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton
+            <org.mycrimes.insecuretests.components.registration.PulsingFloatingActionButton
                 android:id="@+id/camera_fab_shared_element_target"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
                 app:srcCompat="@drawable/ic_camera_outline_24"
                 app:tint="@color/signal_colorOnSurface" />
 
-            <org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton
+            <org.mycrimes.insecuretests.components.registration.PulsingFloatingActionButton
                 android:id="@+id/camera_fab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

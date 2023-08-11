@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage
+package org.mycrimes.insecuretests.profiles.manage
 
 import org.whispersystems.signalservice.internal.push.ReserveUsernameResponse
 

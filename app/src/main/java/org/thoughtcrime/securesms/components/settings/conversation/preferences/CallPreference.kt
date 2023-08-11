@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.components.settings.conversation.preferences
+package org.mycrimes.insecuretests.components.settings.conversation.preferences
 
 import androidx.annotation.DrawableRes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.databinding.ConversationSettingsCallPreferenceItemBinding
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.CallTable
+import org.mycrimes.insecuretests.database.MessageTypes
+import org.mycrimes.insecuretests.database.model.MessageRecord
+import org.mycrimes.insecuretests.databinding.ConversationSettingsCallPreferenceItemBinding
+import org.mycrimes.insecuretests.util.DateUtils
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingViewHolder
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
 import java.util.Locale
 
 /**

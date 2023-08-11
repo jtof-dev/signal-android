@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package org.mycrimes.insecuretests.profiles.edit;
 
 import android.animation.Animator;
 import android.content.Context;
@@ -26,34 +26,34 @@ import org.signal.core.util.EditTextUtil;
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.Avatars;
-import org.thoughtcrime.securesms.avatar.picker.AvatarPickerFragment;
-import org.thoughtcrime.securesms.databinding.ProfileCreateFragmentBinding;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ParcelableGroupId;
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.profiles.edit.pnp.WhoCanSeeMyPhoneNumberFragment;
-import org.thoughtcrime.securesms.profiles.manage.EditProfileNameFragment;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.avatar.Avatars;
+import org.mycrimes.insecuretests.avatar.picker.AvatarPickerFragment;
+import org.mycrimes.insecuretests.databinding.ProfileCreateFragmentBinding;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.ParcelableGroupId;
+import org.mycrimes.insecuretests.keyvalue.PhoneNumberPrivacyValues;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.mediasend.Media;
+import org.mycrimes.insecuretests.mms.GlideApp;
+import org.mycrimes.insecuretests.profiles.edit.pnp.WhoCanSeeMyPhoneNumberFragment;
+import org.mycrimes.insecuretests.profiles.manage.EditProfileNameFragment;
+import org.mycrimes.insecuretests.providers.BlobProvider;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.util.text.AfterTextChanged;
 
 import java.io.IOException;
 import java.io.InputStream;
 
-import static org.thoughtcrime.securesms.profiles.edit.EditProfileActivity.EXCLUDE_SYSTEM;
-import static org.thoughtcrime.securesms.profiles.edit.EditProfileActivity.GROUP_ID;
-import static org.thoughtcrime.securesms.profiles.edit.EditProfileActivity.NEXT_BUTTON_TEXT;
-import static org.thoughtcrime.securesms.profiles.edit.EditProfileActivity.NEXT_INTENT;
-import static org.thoughtcrime.securesms.profiles.edit.EditProfileActivity.SHOW_TOOLBAR;
+import static org.mycrimes.insecuretests.profiles.edit.EditProfileActivity.EXCLUDE_SYSTEM;
+import static org.mycrimes.insecuretests.profiles.edit.EditProfileActivity.GROUP_ID;
+import static org.mycrimes.insecuretests.profiles.edit.EditProfileActivity.NEXT_BUTTON_TEXT;
+import static org.mycrimes.insecuretests.profiles.edit.EditProfileActivity.NEXT_INTENT;
+import static org.mycrimes.insecuretests.profiles.edit.EditProfileActivity.SHOW_TOOLBAR;
 
 /**
  * Used for profile creation during registration.

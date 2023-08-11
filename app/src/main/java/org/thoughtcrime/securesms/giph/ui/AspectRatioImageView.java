@@ -15,7 +15,7 @@
  *
  */
 
-package org.thoughtcrime.securesms.giph.ui;
+package org.mycrimes.insecuretests.giph.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.direct
+package org.mycrimes.insecuretests.stories.viewer.reply.direct
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -11,21 +11,21 @@ import androidx.fragment.app.viewModels
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.keyboard.KeyboardPage
-import org.thoughtcrime.securesms.keyboard.KeyboardPagerViewModel
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageViewModel
-import org.thoughtcrime.securesms.stories.viewer.reply.composer.StoryReplyComposer
-import org.thoughtcrime.securesms.util.Dialogs
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.KeyboardEntryDialogFragment
+import org.mycrimes.insecuretests.components.emoji.EmojiEventListener
+import org.mycrimes.insecuretests.components.emoji.MediaKeyboard
+import org.mycrimes.insecuretests.keyboard.KeyboardPage
+import org.mycrimes.insecuretests.keyboard.KeyboardPagerViewModel
+import org.mycrimes.insecuretests.keyboard.emoji.EmojiKeyboardPageFragment
+import org.mycrimes.insecuretests.keyboard.emoji.search.EmojiSearchFragment
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.stories.viewer.page.StoryViewerPageViewModel
+import org.mycrimes.insecuretests.stories.viewer.reply.composer.StoryReplyComposer
+import org.mycrimes.insecuretests.util.Dialogs
+import org.mycrimes.insecuretests.util.ViewUtil
 
 /**
  * Dialog displayed when the user decides to send a private reply to a story.

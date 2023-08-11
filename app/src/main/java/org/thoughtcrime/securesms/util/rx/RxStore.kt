@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.rx
+package org.mycrimes.insecuretests.util.rx
 
 import androidx.annotation.CheckResult
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers

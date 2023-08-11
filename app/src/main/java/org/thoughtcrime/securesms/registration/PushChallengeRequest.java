@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration;
+package org.mycrimes.insecuretests.registration;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
@@ -7,7 +7,7 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 
 import java.io.IOException;

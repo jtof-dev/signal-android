@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation.mutiselect
+package org.mycrimes.insecuretests.conversation.mutiselect
 
 import android.view.View
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.Colorizable
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Playable
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.conversation.colors.Colorizable
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4Playable
 
 interface Multiselectable : Colorizable, GiphyMp4Playable {
   val conversationMessage: ConversationMessage

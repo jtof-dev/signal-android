@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.delete
+package org.mycrimes.insecuretests.delete
 
 import android.content.Context
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Dialog which shows one of two states:

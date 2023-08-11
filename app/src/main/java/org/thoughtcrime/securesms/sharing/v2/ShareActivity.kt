@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.v2
+package org.mycrimes.insecuretests.sharing.v2
 
 import android.app.Activity
 import android.content.Intent
@@ -19,23 +19,23 @@ import org.signal.core.util.getParcelableArrayListCompat
 import org.signal.core.util.getParcelableArrayListExtraCompat
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFullScreenDialogFragment
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity.Companion.share
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.MultiShareDialogs
-import org.thoughtcrime.securesms.sharing.MultiShareSender
-import org.thoughtcrime.securesms.sharing.MultiShareSender.MultiShareSendResultCollection
-import org.thoughtcrime.securesms.sharing.interstitial.ShareInterstitialActivity
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
+import org.mycrimes.insecuretests.MainActivity
+import org.mycrimes.insecuretests.PassphraseRequiredActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.conversation.ConversationIntents
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragment
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import org.mycrimes.insecuretests.conversation.mutiselect.forward.MultiselectForwardFullScreenDialogFragment
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionActivity.Companion.share
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.sharing.MultiShareDialogs
+import org.mycrimes.insecuretests.sharing.MultiShareSender
+import org.mycrimes.insecuretests.sharing.MultiShareSender.MultiShareSendResultCollection
+import org.mycrimes.insecuretests.sharing.interstitial.ShareInterstitialActivity
+import org.mycrimes.insecuretests.util.ConversationUtil
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme
 import java.util.Optional
 
 class ShareActivity : PassphraseRequiredActivity(), MultiselectForwardFragment.Callback {

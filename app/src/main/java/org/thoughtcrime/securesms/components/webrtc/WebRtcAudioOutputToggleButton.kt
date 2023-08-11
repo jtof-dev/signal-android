@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.mycrimes.insecuretests.components.webrtc
 
 import android.content.Context
 import android.content.ContextWrapper
@@ -13,7 +13,7 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.fragment.app.FragmentActivity
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * A UI button that triggers a picker dialog/bottom sheet allowing the user to select the audio output for the ongoing call.

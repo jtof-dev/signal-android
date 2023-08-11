@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc.state;
+package org.mycrimes.insecuretests.service.webrtc.state;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,19 +7,19 @@ import com.annimon.stream.OptionalLong;
 
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.components.sensors.Orientation;
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.ringrtc.Camera;
-import org.thoughtcrime.securesms.ringrtc.CameraState;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.WebRtcActionProcessor;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
+import org.mycrimes.insecuretests.components.sensors.Orientation;
+import org.mycrimes.insecuretests.components.webrtc.BroadcastVideoSink;
+import org.mycrimes.insecuretests.components.webrtc.EglBaseWrapper;
+import org.mycrimes.insecuretests.events.CallParticipant;
+import org.mycrimes.insecuretests.events.CallParticipantId;
+import org.mycrimes.insecuretests.events.WebRtcViewModel;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.ringrtc.Camera;
+import org.mycrimes.insecuretests.ringrtc.CameraState;
+import org.mycrimes.insecuretests.ringrtc.RemotePeer;
+import org.mycrimes.insecuretests.service.webrtc.WebRtcActionProcessor;
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager;
 import org.webrtc.PeerConnection;
 
 import java.util.Collection;

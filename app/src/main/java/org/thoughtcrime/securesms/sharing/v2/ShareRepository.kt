@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.v2
+package org.mycrimes.insecuretests.sharing.v2
 
 import android.Manifest
 import android.content.Context
@@ -12,17 +12,17 @@ import androidx.core.util.toKotlinPair
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.FeatureFlags
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.UriUtil
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.attachments.UriAttachment
+import org.mycrimes.insecuretests.conversation.MessageSendType
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mms.MediaConstraints
+import org.mycrimes.insecuretests.providers.BlobProvider
+import org.mycrimes.insecuretests.util.FeatureFlags
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.UriUtil
+import org.mycrimes.insecuretests.util.Util
 import java.io.IOException
 import java.io.InputStream
 import java.util.Optional

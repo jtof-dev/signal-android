@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package org.mycrimes.insecuretests.profiles.manage;
 
 import android.content.Context;
 
@@ -8,8 +8,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.profiles.ProfileName;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
 import org.signal.core.util.StringUtil;
 
 public final class EditProfileNameViewModel extends ViewModel {

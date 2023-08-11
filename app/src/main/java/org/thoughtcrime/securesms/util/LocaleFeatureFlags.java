@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
@@ -7,9 +7,9 @@ import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.mms.PushMediaConstraints;
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.mms.PushMediaConstraints;
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 import java.util.Arrays;
 import java.util.HashMap;

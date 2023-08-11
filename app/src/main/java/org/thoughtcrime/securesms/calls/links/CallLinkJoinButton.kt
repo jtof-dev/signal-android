@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links
+package org.mycrimes.insecuretests.calls.links
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.LinearLayoutCompat
 import com.google.android.material.button.MaterialButton
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 class CallLinkJoinButton @JvmOverloads constructor(
   context: Context,

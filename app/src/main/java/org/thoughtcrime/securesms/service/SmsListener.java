@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -24,9 +24,9 @@ import android.provider.Telephony;
 import android.telephony.SmsMessage;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.SmsReceiveJob;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.SmsReceiveJob;
+import org.mycrimes.insecuretests.util.Util;
 
 public class SmsListener extends BroadcastReceiver {
 

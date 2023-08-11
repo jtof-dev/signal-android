@@ -105,7 +105,7 @@
                   app:layout_constraintTop_toBottomOf="@id/toolbar"
                   tools:visibility="visible">
 
-        <org.thoughtcrime.securesms.components.ContactFilterView
+        <org.mycrimes.insecuretests.components.ContactFilterView
             android:id="@+id/contact_filter_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
                   android:layout_width="match_parent"
                   android:layout_height="0dp"
                   android:layout_weight="1"
-                  android:name="org.thoughtcrime.securesms.ContactSelectionListFragment"
+                  android:name="org.mycrimes.insecuretests.ContactSelectionListFragment"
                   tools:layout="@layout/contact_selection_list_fragment"/>
 
         <LinearLayout android:layout_width="match_parent"

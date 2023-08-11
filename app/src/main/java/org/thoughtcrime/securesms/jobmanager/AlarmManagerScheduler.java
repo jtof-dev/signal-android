@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.mycrimes.insecuretests.jobmanager;
 
 import android.app.AlarmManager;
 import android.app.Application;
@@ -13,8 +13,8 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
 
 import java.util.List;
 import java.util.UUID;

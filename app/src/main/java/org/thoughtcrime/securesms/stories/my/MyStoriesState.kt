@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.my
+package org.mycrimes.insecuretests.stories.my
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.MessageRecord
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.database.model.MessageRecord
 
 data class MyStoriesState(
   val distributionSets: List<DistributionSet> = emptyList()

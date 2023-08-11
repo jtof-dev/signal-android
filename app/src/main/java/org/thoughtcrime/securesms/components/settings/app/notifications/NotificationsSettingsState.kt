@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications
+package org.mycrimes.insecuretests.components.settings.app.notifications
 
 import android.net.Uri
 

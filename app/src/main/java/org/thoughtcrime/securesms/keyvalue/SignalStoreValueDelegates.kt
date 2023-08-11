@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.mycrimes.insecuretests.keyvalue
 
 import org.signal.core.util.LongSerializer
 import kotlin.reflect.KProperty

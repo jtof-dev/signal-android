@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <org.thoughtcrime.securesms.stories.StoryTextPostView
+        <org.mycrimes.insecuretests.stories.StoryTextPostView
             android:id="@+id/story_text_post"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

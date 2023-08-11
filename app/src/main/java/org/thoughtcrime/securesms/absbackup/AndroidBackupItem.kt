@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.absbackup
+package org.mycrimes.insecuretests.absbackup
 
 /**
  * Abstracts away the implementation of pieces of data we want to hand off to various backup services.

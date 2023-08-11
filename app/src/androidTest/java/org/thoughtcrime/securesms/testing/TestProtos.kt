@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package org.mycrimes.insecuretests.testing
 
 import com.google.protobuf.ByteString
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey

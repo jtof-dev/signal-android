@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.app.chats
+package org.mycrimes.insecuretests.components.settings.app.chats
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.components.settings.app.chats.sms.SmsSettingsRepository
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.ThrottledDebouncer
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.components.settings.app.chats.sms.SmsSettingsRepository
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.BackupUtil
+import org.mycrimes.insecuretests.util.ConversationUtil
+import org.mycrimes.insecuretests.util.ThrottledDebouncer
+import org.mycrimes.insecuretests.util.Util
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class ChatsSettingsViewModel @JvmOverloads constructor(
   private val repository: ChatsSettingsRepository = ChatsSettingsRepository(),

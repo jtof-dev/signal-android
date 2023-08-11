@@ -11,7 +11,7 @@
     android:paddingHorizontal="16dp"
     android:paddingVertical="12dp">
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/badge"
         android:layout_width="40dp"
         android:layout_height="40dp"

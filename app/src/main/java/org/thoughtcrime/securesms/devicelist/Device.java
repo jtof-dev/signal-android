@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicelist;
+package org.mycrimes.insecuretests.devicelist;
 
 public class Device {
 

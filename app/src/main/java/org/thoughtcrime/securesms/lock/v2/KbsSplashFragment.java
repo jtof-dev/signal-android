@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.mycrimes.insecuretests.lock.v2;
 
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
@@ -18,11 +18,11 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.pin.PinOptOutDialog;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.pin.PinOptOutDialog;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
 
 public final class KbsSplashFragment extends Fragment {
 

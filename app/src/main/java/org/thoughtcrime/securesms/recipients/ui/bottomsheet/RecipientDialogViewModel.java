@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.bottomsheet;
+package org.mycrimes.insecuretests.recipients.ui.bottomsheet;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,27 +18,27 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.BlockUnblockDialog;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.conversation.ConversationSettingsActivity;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.database.model.StoryViewState;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.ui.addtogroup.AddToGroupsActivity;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.recipients.RecipientUtil;
-import org.thoughtcrime.securesms.stories.StoryViewerArgs;
-import org.thoughtcrime.securesms.stories.viewer.StoryViewerActivity;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
-import org.thoughtcrime.securesms.verify.VerifyIdentityActivity;
+import org.mycrimes.insecuretests.BlockUnblockDialog;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.settings.conversation.ConversationSettingsActivity;
+import org.mycrimes.insecuretests.database.GroupTable;
+import org.mycrimes.insecuretests.database.model.IdentityRecord;
+import org.mycrimes.insecuretests.database.model.StoryViewState;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.LiveGroup;
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason;
+import org.mycrimes.insecuretests.groups.ui.GroupErrors;
+import org.mycrimes.insecuretests.groups.ui.addtogroup.AddToGroupsActivity;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.recipients.RecipientUtil;
+import org.mycrimes.insecuretests.stories.StoryViewerArgs;
+import org.mycrimes.insecuretests.stories.viewer.StoryViewerActivity;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil;
+import org.mycrimes.insecuretests.verify.VerifyIdentityActivity;
 
 import java.util.Objects;
 

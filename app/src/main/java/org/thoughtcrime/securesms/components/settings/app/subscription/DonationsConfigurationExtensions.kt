@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package org.mycrimes.insecuretests.components.settings.app.subscription
 
 import org.signal.core.util.money.FiatMoney
 import org.signal.core.util.money.PlatformCurrencyUtil
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.Badge
+import org.mycrimes.insecuretests.badges.Badges
+import org.mycrimes.insecuretests.badges.models.Badge
 import org.whispersystems.signalservice.internal.push.DonationsConfiguration
 import org.whispersystems.signalservice.internal.push.DonationsConfiguration.BOOST_LEVEL
 import org.whispersystems.signalservice.internal.push.DonationsConfiguration.GIFT_LEVEL

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation.preferences
+package org.mycrimes.insecuretests.components.settings.conversation.preferences
 
 import android.content.ClipData
 import android.content.Context
@@ -6,16 +6,16 @@ import android.text.SpannableStringBuilder
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.PreferenceModel
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.ContextUtil
+import org.mycrimes.insecuretests.util.ServiceUtil
+import org.mycrimes.insecuretests.util.SpanUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 
 /**
  * Renders name, description, about, etc. for a given group or recipient.

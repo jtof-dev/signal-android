@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.mycrimes.insecuretests.components.emoji;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,13 +18,13 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
-import org.thoughtcrime.securesms.emoji.EmojiPageCache;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
-import org.thoughtcrime.securesms.util.DeviceProperties;
-import org.thoughtcrime.securesms.util.FutureTaskListener;
+import org.mycrimes.insecuretests.components.emoji.parsing.EmojiDrawInfo;
+import org.mycrimes.insecuretests.components.emoji.parsing.EmojiParser;
+import org.mycrimes.insecuretests.emoji.EmojiPageCache;
+import org.mycrimes.insecuretests.emoji.EmojiSource;
+import org.mycrimes.insecuretests.emoji.JumboEmoji;
+import org.mycrimes.insecuretests.util.DeviceProperties;
+import org.mycrimes.insecuretests.util.FutureTaskListener;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;

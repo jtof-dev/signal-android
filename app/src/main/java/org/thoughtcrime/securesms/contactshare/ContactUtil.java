@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.mycrimes.insecuretests.contactshare;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -21,16 +21,16 @@ import com.google.i18n.phonenumbers.Phonenumber.PhoneNumber;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings;
-import org.thoughtcrime.securesms.contactshare.Contact.Email;
-import org.thoughtcrime.securesms.contactshare.Contact.Phone;
-import org.thoughtcrime.securesms.contactshare.Contact.PostalAddress;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.SpanUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.EmojiStrings;
+import org.mycrimes.insecuretests.contactshare.Contact.Email;
+import org.mycrimes.insecuretests.contactshare.Contact.Phone;
+import org.mycrimes.insecuretests.contactshare.Contact.PostalAddress;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.SpanUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;

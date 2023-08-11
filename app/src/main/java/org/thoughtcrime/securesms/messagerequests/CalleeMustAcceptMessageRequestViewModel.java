@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.messagerequests;
+package org.mycrimes.insecuretests.messagerequests;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 public class CalleeMustAcceptMessageRequestViewModel extends ViewModel {
 

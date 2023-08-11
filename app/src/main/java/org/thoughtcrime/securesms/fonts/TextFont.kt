@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.fonts
+package org.mycrimes.insecuretests.fonts
 
 import android.graphics.Typeface
 import androidx.annotation.DrawableRes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.database.model.databaseprotos.StoryTextPost
 
 /**
  * Describes which font the user wishes to render content in.

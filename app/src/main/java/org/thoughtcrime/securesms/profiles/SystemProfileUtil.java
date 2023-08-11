@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.mycrimes.insecuretests.profiles;
 
 
 import android.accounts.Account;
@@ -15,11 +15,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.mycrimes.insecuretests.mms.MediaConstraints;
+import org.mycrimes.insecuretests.util.BitmapDecodingException;
+import org.mycrimes.insecuretests.util.BitmapUtil;
+import org.mycrimes.insecuretests.util.concurrent.ListenableFuture;
+import org.mycrimes.insecuretests.util.concurrent.SettableFuture;
 
 public class SystemProfileUtil {
 

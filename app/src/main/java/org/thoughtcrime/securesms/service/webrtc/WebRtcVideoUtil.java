@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.mycrimes.insecuretests.service.webrtc;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.ringrtc.Camera;
-import org.thoughtcrime.securesms.ringrtc.CameraEventListener;
-import org.thoughtcrime.securesms.ringrtc.CameraState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
+import org.mycrimes.insecuretests.components.webrtc.BroadcastVideoSink;
+import org.mycrimes.insecuretests.components.webrtc.EglBaseWrapper;
+import org.mycrimes.insecuretests.ringrtc.Camera;
+import org.mycrimes.insecuretests.ringrtc.CameraEventListener;
+import org.mycrimes.insecuretests.ringrtc.CameraState;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceState;
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceStateBuilder;
 import org.webrtc.CapturerObserver;
 import org.webrtc.VideoFrame;
 import org.webrtc.VideoSink;

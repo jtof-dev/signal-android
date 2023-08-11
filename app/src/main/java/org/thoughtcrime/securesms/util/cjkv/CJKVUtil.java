@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.cjkv;
+package org.mycrimes.insecuretests.util.cjkv;
 
 import androidx.annotation.Nullable;
 

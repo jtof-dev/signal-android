@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

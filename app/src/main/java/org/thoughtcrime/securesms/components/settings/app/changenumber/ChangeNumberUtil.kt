@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.mycrimes.insecuretests.components.settings.app.changenumber
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.NavHostFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.registration.fragments.CaptchaFragment
-import org.thoughtcrime.securesms.registration.viewmodel.BaseRegistrationViewModel
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.AppSettingsActivity
+import org.mycrimes.insecuretests.registration.fragments.CaptchaFragment
+import org.mycrimes.insecuretests.registration.viewmodel.BaseRegistrationViewModel
 
 /**
  * Helpers for various aspects of the change number flow.

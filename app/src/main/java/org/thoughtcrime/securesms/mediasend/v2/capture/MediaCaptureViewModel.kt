@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package org.mycrimes.insecuretests.mediasend.v2.capture
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -7,8 +7,8 @@ import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.util.rx.RxStore
 import java.io.FileDescriptor
 import java.util.Optional
 

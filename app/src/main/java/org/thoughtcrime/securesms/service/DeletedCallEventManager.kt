@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service
+package org.mycrimes.insecuretests.service
 
 import android.app.Application
 import android.content.BroadcastReceiver
@@ -6,8 +6,8 @@ import android.content.Context
 import android.content.Intent
 import androidx.annotation.WorkerThread
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
 import java.util.concurrent.TimeUnit
 
 /**

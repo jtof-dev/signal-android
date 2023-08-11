@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.payments.backup.entry;
+package org.mycrimes.insecuretests.payments.backup.entry;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.payments.Mnemonic;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.Store;
+import org.mycrimes.insecuretests.payments.Mnemonic;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.util.livedata.Store;
 import org.whispersystems.signalservice.api.payments.PaymentsConstants;
 
 public class PaymentsRecoveryEntryViewModel extends ViewModel {

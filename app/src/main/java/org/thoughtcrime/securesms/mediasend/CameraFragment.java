@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.mycrimes.insecuretests.mediasend;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,9 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.camera.view.video.ExperimentalVideo;
 import androidx.fragment.app.Fragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXUtil;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mediasend.camerax.CameraXUtil;
+import org.mycrimes.insecuretests.mms.MediaConstraints;
 
 import java.io.FileDescriptor;
 import java.util.Optional;

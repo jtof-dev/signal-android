@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.emoji
+package org.mycrimes.insecuretests.emoji
 
 import android.net.Uri
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.components.emoji.Emoji
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.StaticEmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiTree
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ScreenDensity
+import org.mycrimes.insecuretests.components.emoji.Emoji
+import org.mycrimes.insecuretests.components.emoji.EmojiPageModel
+import org.mycrimes.insecuretests.components.emoji.StaticEmojiPageModel
+import org.mycrimes.insecuretests.components.emoji.parsing.EmojiDrawInfo
+import org.mycrimes.insecuretests.components.emoji.parsing.EmojiTree
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.ScreenDensity
 import java.io.InputStream
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.atomic.AtomicReference

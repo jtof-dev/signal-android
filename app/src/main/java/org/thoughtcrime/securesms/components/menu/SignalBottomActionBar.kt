@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.menu
+package org.mycrimes.insecuretests.components.menu
 
 import android.content.Context
 import android.util.AttributeSet
@@ -11,8 +11,8 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.ViewUtil
 
 /**
  * A bar that displays a set of action buttons. Intended as a replacement for ActionModes, this gives you a simple interface to add a bunch of actions, and

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.payments.preferences.model;
+package org.mycrimes.insecuretests.payments.preferences.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeState;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.mycrimes.insecuretests.payments.preferences.PaymentsHomeState;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel;
 
 public class IntroducingPayments implements MappingModel<IntroducingPayments> {
   private PaymentsHomeState.PaymentsState paymentsState;

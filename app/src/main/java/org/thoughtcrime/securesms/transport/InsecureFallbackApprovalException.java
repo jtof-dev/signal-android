@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.transport;
+package org.mycrimes.insecuretests.transport;
 
 public class InsecureFallbackApprovalException extends Exception {
   public InsecureFallbackApprovalException(String detailMessage) {

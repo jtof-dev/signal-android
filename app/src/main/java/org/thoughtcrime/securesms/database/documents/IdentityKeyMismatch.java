@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.documents;
+package org.mycrimes.insecuretests.database.documents;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -19,9 +19,9 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.IdentityKey;
 import org.signal.libsignal.protocol.InvalidKeyException;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.Base64;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.Base64;
 
 import java.io.IOException;
 import java.util.Objects;

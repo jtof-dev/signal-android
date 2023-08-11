@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages;
+package org.mycrimes.insecuretests.messages;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,16 +8,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.service.DelayedNotificationController;
-import org.thoughtcrime.securesms.service.GenericForegroundService;
-import org.thoughtcrime.securesms.util.PowerManagerCompat;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.WakeLockUtil;
+import org.mycrimes.insecuretests.ApplicationContext;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint;
+import org.mycrimes.insecuretests.service.DelayedNotificationController;
+import org.mycrimes.insecuretests.service.GenericForegroundService;
+import org.mycrimes.insecuretests.util.PowerManagerCompat;
+import org.mycrimes.insecuretests.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.WakeLockUtil;
 
 import java.io.Closeable;
 import java.util.concurrent.Semaphore;

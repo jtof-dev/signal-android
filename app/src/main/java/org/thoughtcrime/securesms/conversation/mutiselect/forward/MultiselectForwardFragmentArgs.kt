@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.mutiselect.forward
+package org.mycrimes.insecuretests.conversation.mutiselect.forward
 
 import android.content.Context
 import android.net.Uri
@@ -10,21 +10,21 @@ import kotlinx.parcelize.Parcelize
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.color.ViewColorSet
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.MessageStyler
-import org.thoughtcrime.securesms.conversation.mutiselect.Multiselect
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.hasSharedContact
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.color.ViewColorSet
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.conversation.MessageStyler
+import org.mycrimes.insecuretests.conversation.mutiselect.Multiselect
+import org.mycrimes.insecuretests.conversation.mutiselect.MultiselectPart
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mms.PartAuthority
+import org.mycrimes.insecuretests.sharing.MultiShareArgs
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.MediaUtil
+import org.mycrimes.insecuretests.util.hasSharedContact
 import java.util.Optional
 import java.util.function.Consumer
 

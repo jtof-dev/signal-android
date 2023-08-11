@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.appearance.appicon
+package org.mycrimes.insecuretests.components.settings.app.appearance.appicon
 
 import android.content.Context
 import androidx.compose.animation.core.CubicBezierEasing
@@ -51,11 +51,11 @@ import kotlinx.collections.immutable.toImmutableList
 import org.signal.core.ui.Scaffolds
 import org.signal.core.ui.theme.SignalTheme
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconPreset
-import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconUtility
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.app.appearance.appicon.util.AppIconPreset
+import org.mycrimes.insecuretests.components.settings.app.appearance.appicon.util.AppIconUtility
+import org.mycrimes.insecuretests.compose.ComposeFragment
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 class AppIconSelectionFragment : ComposeFragment() {
   private lateinit var appIconUtility: AppIconUtility

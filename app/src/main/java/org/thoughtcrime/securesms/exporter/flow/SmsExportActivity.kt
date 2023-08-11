@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.exporter.flow
+package org.mycrimes.insecuretests.exporter.flow
 
 import android.content.Context
 import android.content.Intent
@@ -9,10 +9,10 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.util.WindowUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.FragmentWrapperActivity
+import org.mycrimes.insecuretests.notifications.NotificationIds
+import org.mycrimes.insecuretests.util.WindowUtil
 
 class SmsExportActivity : FragmentWrapperActivity() {
 

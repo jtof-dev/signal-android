@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks
+package org.mycrimes.insecuretests.components.settings.app.usernamelinks
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.height
@@ -21,7 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Shows a QRCode that represents the provided data. Includes a Signal logo in the middle.

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.contacts.paged.collections
+package org.mycrimes.insecuretests.contacts.paged.collections
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchData
 
 class ContactSearchCollectionTest {
 

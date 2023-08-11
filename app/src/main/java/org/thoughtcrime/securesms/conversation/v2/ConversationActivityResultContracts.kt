@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import android.content.Context
 import android.content.Intent
@@ -11,14 +11,14 @@ import android.net.Uri
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.core.content.IntentCompat
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.contactshare.ContactShareEditActivity
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaSendActivityResult
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.contactshare.Contact
+import org.mycrimes.insecuretests.contactshare.ContactShareEditActivity
+import org.mycrimes.insecuretests.conversation.MessageSendType
+import org.mycrimes.insecuretests.conversation.colors.ChatColors
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mediasend.MediaSendActivityResult
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionActivity
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 /**
  * This encapsulates the logic for interacting with other activities used throughout a conversation. The gist

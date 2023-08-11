@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
+import org.mycrimes.insecuretests.attachments.Attachment;
 
 public class MmsSlide extends ImageSlide {
 

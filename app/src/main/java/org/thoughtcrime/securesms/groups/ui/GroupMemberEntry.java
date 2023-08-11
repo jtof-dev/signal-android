@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.groups.ui;
+package org.mycrimes.insecuretests.groups.ui;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
 
 import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.DefaultValueLiveData;
 
 import java.util.Collection;
 import java.util.Objects;

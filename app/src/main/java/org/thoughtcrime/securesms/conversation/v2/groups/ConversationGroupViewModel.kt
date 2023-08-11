@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package org.mycrimes.insecuretests.conversation.v2.groups
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -12,14 +12,14 @@ import io.reactivex.rxjava3.subjects.BehaviorSubject
 import io.reactivex.rxjava3.subjects.Subject
 import org.signal.core.util.Result
 import org.signal.core.util.concurrent.subscribeWithSubject
-import org.thoughtcrime.securesms.conversation.v2.ConversationRecipientRepository
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.groups.v2.GroupBlockJoinRequestResult
-import org.thoughtcrime.securesms.groups.v2.GroupManagementRepository
-import org.thoughtcrime.securesms.profiles.spoofing.ReviewUtil
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.conversation.v2.ConversationRecipientRepository
+import org.mycrimes.insecuretests.database.GroupTable
+import org.mycrimes.insecuretests.database.model.GroupRecord
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason
+import org.mycrimes.insecuretests.groups.v2.GroupBlockJoinRequestResult
+import org.mycrimes.insecuretests.groups.v2.GroupManagementRepository
+import org.mycrimes.insecuretests.profiles.spoofing.ReviewUtil
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Manages group state and actions for conversations.

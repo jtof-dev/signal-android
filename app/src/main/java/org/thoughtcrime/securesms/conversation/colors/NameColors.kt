@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.conversation.colors
+package org.mycrimes.insecuretests.conversation.colors
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
 import com.annimon.stream.Stream
 import org.signal.core.util.MapUtil
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette.Names.all
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.LiveGroup
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry.FullMember
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DefaultValueLiveData
+import org.mycrimes.insecuretests.conversation.colors.ChatColorsPalette.Names.all
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.groups.LiveGroup
+import org.mycrimes.insecuretests.groups.ui.GroupMemberEntry.FullMember
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.DefaultValueLiveData
 import java.util.Optional
 
 object NameColors {

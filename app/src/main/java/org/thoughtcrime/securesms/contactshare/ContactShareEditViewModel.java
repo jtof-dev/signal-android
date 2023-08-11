@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.mycrimes.insecuretests.contactshare;
 
 import android.net.Uri;
 
@@ -10,8 +10,8 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.contactshare.Contact.Name;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.contactshare.Contact.Name;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
 
 import java.util.ArrayList;
 import java.util.List;

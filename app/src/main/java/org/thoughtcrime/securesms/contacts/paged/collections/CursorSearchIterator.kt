@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged.collections
+package org.mycrimes.insecuretests.contacts.paged.collections
 
 import android.database.Cursor
 

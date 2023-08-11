@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invited;
+package org.mycrimes.insecuretests.groups.ui.invitesandrequests.invited;
 
 import android.content.Context;
 import android.widget.Toast;
@@ -9,10 +9,10 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.groups.ui.GroupMemberEntry;
+import org.mycrimes.insecuretests.util.DefaultValueLiveData;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.ArrayList;

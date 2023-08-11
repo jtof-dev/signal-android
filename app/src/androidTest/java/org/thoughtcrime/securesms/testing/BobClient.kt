@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package org.mycrimes.insecuretests.testing
 
 import org.signal.core.util.readToSingleInt
 import org.signal.core.util.select
@@ -16,13 +16,13 @@ import org.signal.libsignal.protocol.state.SessionRecord
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord
 import org.signal.libsignal.protocol.util.KeyHelper
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil
-import org.thoughtcrime.securesms.database.OneTimePreKeyTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SignedPreKeyTable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testing.FakeClientHelpers.toEnvelope
+import org.mycrimes.insecuretests.crypto.ProfileKeyUtil
+import org.mycrimes.insecuretests.crypto.UnidentifiedAccessUtil
+import org.mycrimes.insecuretests.database.OneTimePreKeyTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.SignedPreKeyTable
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.testing.FakeClientHelpers.toEnvelope
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.SignalSessionLock
 import org.whispersystems.signalservice.api.crypto.SignalServiceCipher

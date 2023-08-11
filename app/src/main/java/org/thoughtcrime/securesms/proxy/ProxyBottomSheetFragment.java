@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.proxy;
+package org.mycrimes.insecuretests.proxy;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -17,13 +17,13 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.preferences.EditProxyViewModel;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.preferences.EditProxyViewModel;
+import org.mycrimes.insecuretests.util.BottomSheetUtil;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton;
 
 /**
  * A bottom sheet shown in response to a deep link. Allows a user to set a proxy.

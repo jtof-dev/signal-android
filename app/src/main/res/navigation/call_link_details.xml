@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/callLinkDetailsFragment"
-        android:name="org.thoughtcrime.securesms.calls.links.details.CallLinkDetailsFragment"
+        android:name="org.mycrimes.insecuretests.calls.links.details.CallLinkDetailsFragment"
         android:label="call_link_details">
         <action
             android:id="@+id/action_callLinkDetailsFragment_to_editCallLinkNameDialogFragment"
@@ -14,13 +14,13 @@
 
         <argument
             android:name="room_id"
-            app:argType="org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId"
+            app:argType="org.mycrimes.insecuretests.service.webrtc.links.CallLinkRoomId"
             app:nullable="false" />
     </fragment>
 
     <dialog
         android:id="@+id/editCallLinkNameDialogFragment"
-        android:name="org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment"
+        android:name="org.mycrimes.insecuretests.calls.links.EditCallLinkNameDialogFragment"
         android:label="edit_call_link_name_dialog">
         <argument
             android:name="name"

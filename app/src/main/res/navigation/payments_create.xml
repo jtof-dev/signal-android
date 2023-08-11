@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/createPaymentFragment"
-        android:name="org.thoughtcrime.securesms.payments.create.CreatePaymentFragment"
+        android:name="org.mycrimes.insecuretests.payments.create.CreatePaymentFragment"
         tools:layout="@layout/create_payment_fragment">
 
         <argument
             android:name="payee"
-            app:argType="org.thoughtcrime.securesms.payments.preferences.model.PayeeParcelable"
+            app:argType="org.mycrimes.insecuretests.payments.preferences.model.PayeeParcelable"
             app:nullable="false" />
 
         <argument
@@ -42,17 +42,17 @@
 
     <fragment
         android:id="@+id/editPaymentNoteFragment"
-        android:name="org.thoughtcrime.securesms.payments.create.EditNoteFragment"
+        android:name="org.mycrimes.insecuretests.payments.create.EditNoteFragment"
         tools:layout="@layout/edit_note_fragment" />
 
     <dialog
         android:id="@+id/confirmPaymentFragment"
-        android:name="org.thoughtcrime.securesms.payments.confirm.ConfirmPaymentFragment"
+        android:name="org.mycrimes.insecuretests.payments.confirm.ConfirmPaymentFragment"
         tools:layout="@layout/confirm_payment_fragment">
 
         <argument
             android:name="createPaymentDetails"
-            app:argType="org.thoughtcrime.securesms.payments.CreatePaymentDetails"
+            app:argType="org.mycrimes.insecuretests.payments.CreatePaymentDetails"
             app:nullable="false" />
 
         <argument

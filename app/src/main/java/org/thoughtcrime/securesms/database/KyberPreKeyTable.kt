@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.content.Context
 import org.signal.core.util.delete
@@ -14,7 +14,7 @@ import org.signal.libsignal.protocol.state.KyberPreKeyRecord
 import org.whispersystems.signalservice.api.push.ServiceId
 
 /**
- * A table for storing data related to [org.thoughtcrime.securesms.crypto.storage.SignalKyberPreKeyStore].
+ * A table for storing data related to [org.mycrimes.insecuretests.crypto.storage.SignalKyberPreKeyStore].
  */
 class KyberPreKeyTable(context: Context, databaseHelper: SignalDatabase) : DatabaseTable(context, databaseHelper) {
   companion object {

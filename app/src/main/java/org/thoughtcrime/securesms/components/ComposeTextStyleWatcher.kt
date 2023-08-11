@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.text.Annotation
 import android.text.Editable
@@ -7,8 +7,8 @@ import android.text.Spanned
 import android.text.TextUtils
 import android.text.TextWatcher
 import org.signal.core.util.StringUtil
-import org.thoughtcrime.securesms.conversation.MessageStyler
-import org.thoughtcrime.securesms.conversation.MessageStyler.isSupportedStyle
+import org.mycrimes.insecuretests.conversation.MessageStyler
+import org.mycrimes.insecuretests.conversation.MessageStyler.isSupportedStyle
 
 /**
  * Formatting should only grow when appending until a white space character is entered/pasted.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview.mediarail
+package org.mycrimes.insecuretests.mediapreview.mediarail
 
 import android.graphics.drawable.Drawable
 import android.view.View
@@ -7,14 +7,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.target.Target
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ThumbnailView
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mms.GlideRequests
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ThumbnailView
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mms.GlideRequests
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.util.visible
 import java.util.concurrent.atomic.AtomicInteger
 
 /**

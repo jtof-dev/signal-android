@@ -43,7 +43,7 @@
         app:layout_constraintStart_toEndOf="@id/media_overview_text"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.thoughtcrime.securesms.components.AudioView
+        <org.mycrimes.insecuretests.components.AudioView
             android:id="@+id/audio"
             android:layout_width="48dp"
             android:layout_height="48dp"

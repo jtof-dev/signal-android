@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.Context;
 import android.text.style.ClickableSpan;
@@ -7,9 +7,9 @@ import android.view.View;
 import androidx.annotation.NonNull;
 
 import org.signal.libsignal.protocol.IdentityKey;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.verify.VerifyIdentityActivity;
+import org.mycrimes.insecuretests.database.documents.IdentityKeyMismatch;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.verify.VerifyIdentityActivity;
 
 public class VerifySpan extends ClickableSpan {
 

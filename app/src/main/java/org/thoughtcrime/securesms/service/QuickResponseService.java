@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -7,11 +7,11 @@ import android.text.TextUtils;
 import android.widget.Toast;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.OutgoingMessage;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.util.Rfc5724Uri;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.OutgoingMessage;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.sms.MessageSender;
+import org.mycrimes.insecuretests.util.Rfc5724Uri;
 
 import java.net.URISyntaxException;
 import java.net.URLDecoder;

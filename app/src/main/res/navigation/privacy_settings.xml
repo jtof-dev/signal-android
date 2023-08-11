@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/privacySettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.PrivacySettingsFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.privacy.PrivacySettingsFragment"
         android:label="privacy_settings_fragment">
 
         <argument
@@ -47,17 +47,17 @@
 
     <activity
         android:id="@+id/blockedUsersActivity"
-        android:name="org.thoughtcrime.securesms.blocked.BlockedUsersActivity"
+        android:name="org.mycrimes.insecuretests.blocked.BlockedUsersActivity"
         android:label="blocked_users_activity" />
 
     <fragment
         android:id="@+id/advancedPrivacySettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.advanced.AdvancedPrivacySettingsFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.privacy.advanced.AdvancedPrivacySettingsFragment"
         android:label="advanced_privacy_settings_fragment" />
 
     <fragment
         android:id="@+id/phoneNumberPrivacySettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.pnp.PhoneNumberPrivacySettingsFragment"
+        android:name="org.mycrimes.insecuretests.components.settings.app.privacy.pnp.PhoneNumberPrivacySettingsFragment"
         android:label="phone_number_privacy_settings_fragment" />
 
     <include app:graph="@navigation/app_settings_expire_timer" />

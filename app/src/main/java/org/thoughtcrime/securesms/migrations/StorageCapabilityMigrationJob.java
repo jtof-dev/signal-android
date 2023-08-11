@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.MultiDeviceKeysUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceStorageSyncRequestJob;
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob;
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob;
-import org.thoughtcrime.securesms.jobs.StorageForcePushJob;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.JobManager;
+import org.mycrimes.insecuretests.jobs.MultiDeviceKeysUpdateJob;
+import org.mycrimes.insecuretests.jobs.MultiDeviceStorageSyncRequestJob;
+import org.mycrimes.insecuretests.jobs.RefreshAttributesJob;
+import org.mycrimes.insecuretests.jobs.RefreshOwnProfileJob;
+import org.mycrimes.insecuretests.jobs.StorageForcePushJob;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 /**
  * This does a couple things:

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.net;
+package org.mycrimes.insecuretests.net;
 
 import android.os.AsyncTask;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.io.InputStream;
 import java.util.Optional;

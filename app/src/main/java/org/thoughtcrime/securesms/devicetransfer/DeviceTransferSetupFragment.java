@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer;
+package org.mycrimes.insecuretests.devicetransfer;
 
 import android.Manifest;
 import android.content.ActivityNotFoundException;
@@ -33,13 +33,13 @@ import org.signal.core.util.logging.Log;
 import org.signal.devicetransfer.DeviceToDeviceTransferService;
 import org.signal.devicetransfer.TransferStatus;
 import org.signal.devicetransfer.WifiDirect;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.logsubmit.SubmitDebugLogActivity;
+import org.mycrimes.insecuretests.permissions.Permissions;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.SpanUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;

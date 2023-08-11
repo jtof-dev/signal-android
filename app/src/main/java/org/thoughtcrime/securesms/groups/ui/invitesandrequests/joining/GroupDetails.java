@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package org.mycrimes.insecuretests.groups.ui.invitesandrequests.joining;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

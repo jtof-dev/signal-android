@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package org.mycrimes.insecuretests.conversation.colors.ui
 
 import androidx.lifecycle.LiveData
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.database.ChatColorsTable
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor
+import org.mycrimes.insecuretests.conversation.colors.ChatColors
+import org.mycrimes.insecuretests.conversation.colors.ChatColorsPalette
+import org.mycrimes.insecuretests.database.ChatColorsTable
+import org.mycrimes.insecuretests.database.DatabaseObserver
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.util.concurrent.SerialMonoLifoExecutor
 import java.util.concurrent.Executor
 
 class ChatColorsOptionsLiveData : LiveData<List<ChatColors>>() {

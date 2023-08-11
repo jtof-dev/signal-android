@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide.cache
+package org.mycrimes.insecuretests.glide.cache
 
 import org.signal.glide.common.io.Reader
 import java.io.IOException

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.mycrimes.insecuretests.mediasend;
 
 import android.Manifest;
 import android.animation.ValueAnimator;
@@ -25,13 +25,13 @@ import androidx.fragment.app.Fragment;
 import com.bumptech.glide.util.Executors;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXModePolicy;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.MemoryFileDescriptor;
-import org.thoughtcrime.securesms.video.VideoUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mediasend.camerax.CameraXModePolicy;
+import org.mycrimes.insecuretests.permissions.Permissions;
+import org.mycrimes.insecuretests.util.ContextUtil;
+import org.mycrimes.insecuretests.util.Debouncer;
+import org.mycrimes.insecuretests.util.MemoryFileDescriptor;
+import org.mycrimes.insecuretests.video.VideoUtil;
 
 import java.io.FileDescriptor;
 import java.io.IOException;

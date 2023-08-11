@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -22,8 +22,8 @@ import com.google.android.material.shape.MaterialShapeDrawable;
 import com.google.android.material.shape.ShapeAppearanceModel;
 
 import org.signal.core.util.DimensionUnit;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideApp;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.GlideApp;
 
 /**
  * Class for creating simple tooltips to show throughout the app. Utilizes a popup window so you

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter.mapping;
+package org.mycrimes.insecuretests.util.adapter.mapping;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.util.NoCrossfadeChangeDefaultAnimator;
+import org.mycrimes.insecuretests.util.NoCrossfadeChangeDefaultAnimator;
 
 import java.util.HashMap;
 import java.util.List;

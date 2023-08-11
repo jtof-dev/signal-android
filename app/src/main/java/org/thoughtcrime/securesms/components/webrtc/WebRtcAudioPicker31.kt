@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.mycrimes.insecuretests.components.webrtc
 
 import android.content.Context
 import android.content.DialogInterface
@@ -7,10 +7,10 @@ import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.FragmentActivity
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.webrtc.audio.AudioDeviceMapping
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.webrtc.audio.AudioDeviceMapping
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager
 
 /**
  * This launches the bottom sheet on Android 12+ devices for selecting which audio device to use during a call.

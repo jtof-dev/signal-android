@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dualsim
+package org.mycrimes.insecuretests.util.dualsim
 
 import android.content.Context
 import android.content.pm.PackageManager.FEATURE_TELEPHONY_RADIO_ACCESS

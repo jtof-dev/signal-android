@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.mycrimes.insecuretests.video.videoconverter;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.media.MediaInput;
+import org.mycrimes.insecuretests.media.MediaInput;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

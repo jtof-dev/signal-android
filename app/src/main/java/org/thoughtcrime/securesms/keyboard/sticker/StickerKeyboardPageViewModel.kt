@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package org.mycrimes.insecuretests.keyboard.sticker
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyboard.sticker.KeyboardStickerPackListAdapter.StickerPack
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.keyboard.sticker.KeyboardStickerPackListAdapter.StickerPack
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList
+import org.mycrimes.insecuretests.util.livedata.LiveDataUtil
 
 private const val NO_SELECTED_PAGE = "no_selected_page"
 

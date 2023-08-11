@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.permissions;
+package org.mycrimes.insecuretests.permissions;
 
 
 import android.content.pm.PackageManager;

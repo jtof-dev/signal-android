@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package org.mycrimes.insecuretests.testing
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase as AndroidSQLiteDatabase

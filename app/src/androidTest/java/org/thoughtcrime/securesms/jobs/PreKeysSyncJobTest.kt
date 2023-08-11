@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import okhttp3.mockwebserver.MockResponse
@@ -8,18 +8,18 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.libsignal.protocol.ecc.Curve
-import org.thoughtcrime.securesms.crypto.storage.PreKeyMetadataStore
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testing.Get
-import org.thoughtcrime.securesms.testing.Put
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.assertIs
-import org.thoughtcrime.securesms.testing.assertIsNot
-import org.thoughtcrime.securesms.testing.parsedRequestBody
-import org.thoughtcrime.securesms.testing.success
+import org.mycrimes.insecuretests.crypto.storage.PreKeyMetadataStore
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.dependencies.InstrumentationApplicationDependencyProvider
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.testing.Get
+import org.mycrimes.insecuretests.testing.Put
+import org.mycrimes.insecuretests.testing.SignalActivityRule
+import org.mycrimes.insecuretests.testing.assertIs
+import org.mycrimes.insecuretests.testing.assertIsNot
+import org.mycrimes.insecuretests.testing.parsedRequestBody
+import org.mycrimes.insecuretests.testing.success
 import org.whispersystems.signalservice.api.push.SignedPreKeyEntity
 import org.whispersystems.signalservice.internal.push.PreKeyState
 import org.whispersystems.signalservice.internal.push.PreKeyStatus

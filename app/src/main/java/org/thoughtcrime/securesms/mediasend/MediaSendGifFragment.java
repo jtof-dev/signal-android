@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.mycrimes.insecuretests.mediasend;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.mms.GlideApp;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mms.DecryptableStreamUriLoader;
+import org.mycrimes.insecuretests.mms.GlideApp;
 
 public class MediaSendGifFragment extends Fragment implements MediaSendPageFragment {
 

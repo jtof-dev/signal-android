@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.paypal
 
 import android.net.Uri
 import android.os.Parcelable

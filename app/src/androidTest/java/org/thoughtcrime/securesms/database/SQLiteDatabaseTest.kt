@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import junit.framework.Assert.assertFalse

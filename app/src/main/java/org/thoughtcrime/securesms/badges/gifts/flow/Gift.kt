@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.gifts.flow
+package org.mycrimes.insecuretests.badges.gifts.flow
 
 import org.signal.core.util.money.FiatMoney
 

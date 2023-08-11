@@ -1,6 +1,6 @@
 @file:JvmName("SafeNavigation")
 
-package org.thoughtcrime.securesms.util.navigation
+package org.mycrimes.insecuretests.util.navigation
 
 import android.content.res.Resources
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.navigation.NavController
 import androidx.navigation.NavDirections
 import androidx.navigation.NavOptions
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
 
 private const val TAG = "SafeNavigation"
 

@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms
+package org.mycrimes.insecuretests
 
 import android.content.Context
 import android.view.View
 import android.widget.TextView
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchAdapter
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchConfiguration
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchData
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder
 
 class ContactSelectionListAdapter(
   context: Context,
@@ -92,7 +92,7 @@ class ContactSelectionListAdapter(
     }
   }
 
-  class ArbitraryRepository : org.thoughtcrime.securesms.contacts.paged.ArbitraryRepository {
+  class ArbitraryRepository : org.mycrimes.insecuretests.contacts.paged.ArbitraryRepository {
 
     enum class ArbitraryRow(val code: String) {
       NEW_GROUP("new-group"),

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview.mediarail
+package org.mycrimes.insecuretests.mediapreview.mediarail
 
 import android.graphics.Rect
 import android.view.View

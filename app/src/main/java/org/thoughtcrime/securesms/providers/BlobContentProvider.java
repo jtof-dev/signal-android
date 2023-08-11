@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package org.mycrimes.insecuretests.providers;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -11,9 +11,9 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.util.MemoryFileUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.util.MemoryFileUtil;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -46,9 +46,9 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 import androidx.lifecycle.Lifecycle;
 
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.mycrimes.insecuretests.util.concurrent.ListenableFuture;
+import org.mycrimes.insecuretests.util.concurrent.SettableFuture;
+import org.mycrimes.insecuretests.util.views.Stub;
 
 public final class ViewUtil {
 

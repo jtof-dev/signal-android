@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.documents;
+package org.mycrimes.insecuretests.database.documents;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.color;
+package org.mycrimes.insecuretests.color;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -7,13 +7,13 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.ThemeUtil;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.thoughtcrime.securesms.util.ThemeUtil.isDarkTheme;
+import static org.mycrimes.insecuretests.util.ThemeUtil.isDarkTheme;
 
 public enum MaterialColor {
   CRIMSON    (R.color.conversation_crimson,     R.color.conversation_crimson_tint,     R.color.conversation_crimson_shade,     "red"),

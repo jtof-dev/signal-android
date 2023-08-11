@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="52dp">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/reactions_bottom_view_recipient_avatar"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/reactions_bottom_view_recipient_badge"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -25,7 +25,7 @@
         app:layout_constraintStart_toStartOf="@id/reactions_bottom_view_recipient_avatar"
         app:layout_constraintTop_toTopOf="@id/reactions_bottom_view_recipient_avatar" />
 
-    <org.thoughtcrime.securesms.components.FromTextView
+    <org.mycrimes.insecuretests.components.FromTextView
         android:id="@+id/reactions_bottom_view_recipient_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@tools:sample/full_names" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/reactions_bottom_view_recipient_emoji"
         android:layout_width="wrap_content"
         android:layout_height="0dp"

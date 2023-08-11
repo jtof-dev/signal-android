@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,9 +7,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.ConversationAdapter.StickyHeaderViewHolder;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversation.ConversationAdapter.StickyHeaderViewHolder;
+import org.mycrimes.insecuretests.util.StickyHeaderDecoration;
 
 class LastSeenHeader extends StickyHeaderDecoration {
 

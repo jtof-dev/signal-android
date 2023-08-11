@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import android.app.Application;
 import android.content.ContentValues;
@@ -14,12 +14,12 @@ import net.zetetic.database.sqlcipher.SQLiteOpenHelper;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.DatabaseSecret;
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider;
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
+import org.mycrimes.insecuretests.crypto.DatabaseSecret;
+import org.mycrimes.insecuretests.crypto.DatabaseSecretProvider;
+import org.mycrimes.insecuretests.jobmanager.persistence.ConstraintSpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.DependencySpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.FullSpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.JobSpec;
 import org.signal.core.util.CursorUtil;
 
 import java.nio.charset.StandardCharsets;

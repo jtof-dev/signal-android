@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.events
+package org.mycrimes.insecuretests.events
 
 import com.annimon.stream.OptionalLong
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.createLocal
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import org.mycrimes.insecuretests.components.webrtc.BroadcastVideoSink
+import org.mycrimes.insecuretests.events.CallParticipant.Companion.createLocal
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.service.webrtc.state.WebRtcServiceState
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager
 import org.webrtc.PeerConnection
 
 class WebRtcViewModel(state: WebRtcServiceState) {

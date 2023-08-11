@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.mycrimes.insecuretests.preferences;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -21,23 +21,23 @@ import com.annimon.stream.Stream;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.BaseSettingsAdapter;
-import org.thoughtcrime.securesms.components.settings.BaseSettingsFragment;
-import org.thoughtcrime.securesms.components.settings.CustomizableSingleSelectSetting;
-import org.thoughtcrime.securesms.components.settings.SingleSelectSetting;
-import org.thoughtcrime.securesms.components.settings.app.wrapped.SettingsWrapperFragment;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration;
-import org.thoughtcrime.securesms.keyvalue.SettingsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mediaoverview.MediaOverviewActivity;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.preferences.widgets.StoragePreferenceCategory;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.settings.BaseSettingsAdapter;
+import org.mycrimes.insecuretests.components.settings.BaseSettingsFragment;
+import org.mycrimes.insecuretests.components.settings.CustomizableSingleSelectSetting;
+import org.mycrimes.insecuretests.components.settings.SingleSelectSetting;
+import org.mycrimes.insecuretests.components.settings.app.wrapped.SettingsWrapperFragment;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.ThreadTable;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.keyvalue.KeepMessagesDuration;
+import org.mycrimes.insecuretests.keyvalue.SettingsValues;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.mediaoverview.MediaOverviewActivity;
+import org.mycrimes.insecuretests.permissions.Permissions;
+import org.mycrimes.insecuretests.preferences.widgets.StoragePreferenceCategory;
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList;
 
 import java.text.NumberFormat;
 

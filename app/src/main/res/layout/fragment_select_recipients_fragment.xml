@@ -8,7 +8,7 @@
 
     <include layout="@layout/dsl_settings_toolbar" />
 
-    <org.thoughtcrime.securesms.components.ContactFilterView
+    <org.mycrimes.insecuretests.components.ContactFilterView
         android:id="@+id/contact_filter_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/contact_selection_list_fragment"
-        android:name="org.thoughtcrime.securesms.ContactSelectionListFragment"
+        android:name="org.mycrimes.insecuretests.ContactSelectionListFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="12dp"
@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contact_filter_edit_text" />
 
-    <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+    <org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
         android:id="@+id/select_recipients_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

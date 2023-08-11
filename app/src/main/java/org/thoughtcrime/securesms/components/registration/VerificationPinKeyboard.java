@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration;
+package org.mycrimes.insecuretests.components.registration;
 
 
 import android.content.Context;
@@ -18,11 +18,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.NumericKeyboardView;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.NumericKeyboardView;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.concurrent.ListenableFuture;
+import org.mycrimes.insecuretests.util.concurrent.SettableFuture;
 
 public class VerificationPinKeyboard extends FrameLayout {
 

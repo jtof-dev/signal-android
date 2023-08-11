@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package org.mycrimes.insecuretests.backup;
 
 public class BackupEvent {
   public enum Type {

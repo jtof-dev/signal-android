@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.mycrimes.insecuretests.database;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,7 +12,7 @@ import com.mobilecoin.lib.RistrettoPublic;
 import com.mobilecoin.lib.Transaction;
 import com.mobilecoin.lib.exceptions.SerializationException;
 
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
+import org.mycrimes.insecuretests.payments.proto.PaymentMetaData;
 
 import java.util.List;
 import java.util.Set;

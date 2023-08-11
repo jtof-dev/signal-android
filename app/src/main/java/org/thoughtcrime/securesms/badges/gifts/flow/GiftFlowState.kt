@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.badges.gifts.flow
+package org.mycrimes.insecuretests.badges.gifts.flow
 
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.recipients.Recipient
 import java.util.Currency
 
 /**

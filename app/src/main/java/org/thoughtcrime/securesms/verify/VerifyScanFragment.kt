@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify
+package org.mycrimes.insecuretests.verify
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,11 +11,11 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.qr.QrScannerView
 import org.signal.qr.kitkat.ScanListener
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ShapeScrim
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXModelBlocklist
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ShapeScrim
+import org.mycrimes.insecuretests.mediasend.camerax.CameraXModelBlocklist
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.fragments.findListener
 
 /**
  * QR Scanner for identity verification

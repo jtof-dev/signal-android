@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.dialogs
+package org.mycrimes.insecuretests.stories.dialogs
 
 import android.app.Application
 import android.content.Context
@@ -17,15 +17,15 @@ import org.mockito.kotlin.verify
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mms.ImageSlide
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.mycrimes.insecuretests.attachments.AttachmentId
+import org.mycrimes.insecuretests.database.FakeMessageRecords
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.database.model.databaseprotos.StoryTextPost
+import org.mycrimes.insecuretests.linkpreview.LinkPreview
+import org.mycrimes.insecuretests.mms.ImageSlide
+import org.mycrimes.insecuretests.mms.PartAuthority
+import org.mycrimes.insecuretests.mms.SlideDeck
+import org.mycrimes.insecuretests.util.MediaUtil
 import org.whispersystems.util.Base64
 import java.util.Optional
 

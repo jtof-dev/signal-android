@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.thoughtcrime.securesms.conversation.AttachmentKeyboard
+    <org.mycrimes.insecuretests.conversation.AttachmentKeyboard
         android:id="@+id/attachment_keyboard"
         android:layout_width="0dp"
         android:layout_height="0dp"

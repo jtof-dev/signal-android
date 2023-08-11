@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import android.content.Context;
 import android.net.Uri;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.attachments.Attachment;
+import org.mycrimes.insecuretests.util.MediaUtil;
 
 public class GifSlide extends ImageSlide {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.mycrimes.insecuretests.video.exo;
 
 import android.content.Context;
 import android.net.Uri;

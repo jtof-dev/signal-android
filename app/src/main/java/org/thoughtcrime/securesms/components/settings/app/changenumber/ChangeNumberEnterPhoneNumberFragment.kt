@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.mycrimes.insecuretests.components.settings.app.changenumber
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -9,17 +9,17 @@ import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.LabeledEditText
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.getViewModel
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberViewModel.ContinueStatus
-import org.thoughtcrime.securesms.databinding.FragmentChangeNumberEnterPhoneNumberBinding
-import org.thoughtcrime.securesms.registration.fragments.CountryPickerFragment
-import org.thoughtcrime.securesms.registration.fragments.CountryPickerFragmentArgs
-import org.thoughtcrime.securesms.registration.util.ChangeNumberInputController
-import org.thoughtcrime.securesms.util.Dialogs
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.LabeledEditText
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberUtil.getViewModel
+import org.mycrimes.insecuretests.components.settings.app.changenumber.ChangeNumberViewModel.ContinueStatus
+import org.mycrimes.insecuretests.databinding.FragmentChangeNumberEnterPhoneNumberBinding
+import org.mycrimes.insecuretests.registration.fragments.CountryPickerFragment
+import org.mycrimes.insecuretests.registration.fragments.CountryPickerFragmentArgs
+import org.mycrimes.insecuretests.registration.util.ChangeNumberInputController
+import org.mycrimes.insecuretests.util.Dialogs
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 private const val OLD_NUMBER_COUNTRY_SELECT = "old_number_country"
 private const val NEW_NUMBER_COUNTRY_SELECT = "new_number_country"

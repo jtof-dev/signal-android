@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.mms
+package org.mycrimes.insecuretests.mms
 
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.database.model.Mention
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.messages.SignalServiceDataMessage
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos
 

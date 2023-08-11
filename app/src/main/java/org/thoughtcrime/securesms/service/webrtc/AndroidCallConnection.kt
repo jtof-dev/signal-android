@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc
+package org.mycrimes.insecuretests.service.webrtc
 
 import android.content.Context
 import android.content.Intent
@@ -6,13 +6,13 @@ import android.telecom.CallAudioState
 import android.telecom.Connection
 import androidx.annotation.RequiresApi
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.WebRtcCallActivity
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.webrtc.CallNotificationBuilder
-import org.thoughtcrime.securesms.webrtc.audio.AudioManagerCommand
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import org.mycrimes.insecuretests.WebRtcCallActivity
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.permissions.Permissions
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.webrtc.CallNotificationBuilder
+import org.mycrimes.insecuretests.webrtc.audio.AudioManagerCommand
+import org.mycrimes.insecuretests.webrtc.audio.SignalAudioManager
 
 /**
  * Signal implementation for the telecom system connection. Provides an interaction point for the system to

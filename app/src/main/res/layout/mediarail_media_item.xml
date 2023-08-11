@@ -9,7 +9,7 @@
     android:layout_margin="4dp"
     android:animateLayoutChanges="true">
 
-    <org.thoughtcrime.securesms.components.ThumbnailView
+    <org.mycrimes.insecuretests.components.ThumbnailView
         android:id="@+id/rail_item_image"
         android:layout_width="@dimen/media_rail_thumbnail_size"
         android:layout_height="@dimen/media_rail_thumbnail_size"

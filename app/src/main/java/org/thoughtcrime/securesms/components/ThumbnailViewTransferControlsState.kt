@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.view.View.OnClickListener
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.util.views.Stub
+import org.mycrimes.insecuretests.mms.Slide
+import org.mycrimes.insecuretests.util.views.Stub
 
 /**
  * State object for transfer controls.

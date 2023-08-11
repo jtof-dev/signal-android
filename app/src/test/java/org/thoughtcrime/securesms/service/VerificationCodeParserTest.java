@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.thoughtcrime.securesms.BaseUnitTest;
+import org.mycrimes.insecuretests.BaseUnitTest;
 
 import java.util.Arrays;
 import java.util.Collection;

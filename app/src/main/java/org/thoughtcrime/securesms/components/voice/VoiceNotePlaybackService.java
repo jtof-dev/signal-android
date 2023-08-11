@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice;
+package org.mycrimes.insecuretests.components.voice;
 
 import android.app.Notification;
 import android.content.BroadcastReceiver;
@@ -29,16 +29,16 @@ import com.google.android.exoplayer2.ui.PlayerNotificationManager;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil;
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewedUpdateJob;
-import org.thoughtcrime.securesms.jobs.SendViewedReceiptJob;
-import org.thoughtcrime.securesms.jobs.UnableToStartException;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import org.mycrimes.insecuretests.database.MessageTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.MessageId;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.ForegroundServiceUtil;
+import org.mycrimes.insecuretests.jobs.MultiDeviceViewedUpdateJob;
+import org.mycrimes.insecuretests.jobs.SendViewedReceiptJob;
+import org.mycrimes.insecuretests.jobs.UnableToStartException;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.service.KeyCachingService;
 
 import java.util.Collections;
 import java.util.List;
@@ -48,8 +48,8 @@ import java.util.List;
  */
 public class VoiceNotePlaybackService extends MediaBrowserServiceCompat {
 
-  public static final String ACTION_NEXT_PLAYBACK_SPEED = "org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackService.action.next_playback_speed";
-  public static final String ACTION_SET_AUDIO_STREAM    = "org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackService.action.set_audio_stream";
+  public static final String ACTION_NEXT_PLAYBACK_SPEED = "org.mycrimes.insecuretests.components.voice.VoiceNotePlaybackService.action.next_playback_speed";
+  public static final String ACTION_SET_AUDIO_STREAM    = "org.mycrimes.insecuretests.components.voice.VoiceNotePlaybackService.action.set_audio_stream";
 
   private static final String TAG                 = Log.tag(VoiceNotePlaybackService.class);
   private static final String EMPTY_ROOT_ID       = "empty-root-id";

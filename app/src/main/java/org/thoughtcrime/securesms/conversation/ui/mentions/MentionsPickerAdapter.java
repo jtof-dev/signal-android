@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.conversation.ui.mentions;
+package org.mycrimes.insecuretests.conversation.ui.mentions;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder;
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder.EventListener;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel;
+import org.mycrimes.insecuretests.util.viewholders.RecipientViewHolder;
+import org.mycrimes.insecuretests.util.viewholders.RecipientViewHolder.EventListener;
 
 import java.util.List;
 

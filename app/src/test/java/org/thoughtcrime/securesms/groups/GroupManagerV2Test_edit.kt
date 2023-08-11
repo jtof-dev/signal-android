@@ -1,6 +1,6 @@
 @file:Suppress("ClassName")
 
-package org.thoughtcrime.securesms.groups
+package org.mycrimes.insecuretests.groups
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -26,16 +26,16 @@ import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import org.signal.storageservice.protos.groups.Member
 import org.signal.storageservice.protos.groups.local.DecryptedGroup
 import org.signal.storageservice.protos.groups.local.DecryptedMember
-import org.thoughtcrime.securesms.SignalStoreRule
-import org.thoughtcrime.securesms.TestZkGroupServer
-import org.thoughtcrime.securesms.database.GroupStateTestData
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.member
-import org.thoughtcrime.securesms.groups.v2.GroupCandidateHelper
-import org.thoughtcrime.securesms.groups.v2.processing.GroupsV2StateProcessor
-import org.thoughtcrime.securesms.logging.CustomSignalProtocolLogger
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
+import org.mycrimes.insecuretests.SignalStoreRule
+import org.mycrimes.insecuretests.TestZkGroupServer
+import org.mycrimes.insecuretests.database.GroupStateTestData
+import org.mycrimes.insecuretests.database.GroupTable
+import org.mycrimes.insecuretests.database.model.databaseprotos.member
+import org.mycrimes.insecuretests.groups.v2.GroupCandidateHelper
+import org.mycrimes.insecuretests.groups.v2.processing.GroupsV2StateProcessor
+import org.mycrimes.insecuretests.logging.CustomSignalProtocolLogger
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.testutil.SystemOutLogger
 import org.whispersystems.signalservice.api.groupsv2.ClientZkOperations
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Api
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Operations

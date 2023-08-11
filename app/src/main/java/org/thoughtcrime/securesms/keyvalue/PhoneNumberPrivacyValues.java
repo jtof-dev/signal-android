@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.mycrimes.insecuretests.util.FeatureFlags;
 
 import java.util.Arrays;
 import java.util.Collection;

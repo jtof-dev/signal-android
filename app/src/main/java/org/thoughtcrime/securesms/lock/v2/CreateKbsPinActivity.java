@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.mycrimes.insecuretests.lock.v2;
 
 
 import android.content.Context;
@@ -10,12 +10,12 @@ import androidx.annotation.Nullable;
 import androidx.navigation.NavGraph;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.PassphrasePromptActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.DynamicRegistrationTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.mycrimes.insecuretests.BaseActivity;
+import org.mycrimes.insecuretests.PassphrasePromptActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.service.KeyCachingService;
+import org.mycrimes.insecuretests.util.DynamicRegistrationTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
 
 public class CreateKbsPinActivity extends BaseActivity {
 

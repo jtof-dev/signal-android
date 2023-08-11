@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.crypto;
+package org.mycrimes.insecuretests.crypto;
 
 import androidx.annotation.NonNull;
 
@@ -23,7 +23,7 @@ import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidMessageException;
 import org.signal.libsignal.protocol.ecc.Curve;
 import org.signal.libsignal.protocol.ecc.ECPrivateKey;
-import org.thoughtcrime.securesms.util.Base64;
+import org.mycrimes.insecuretests.util.Base64;
 import org.signal.core.util.Hex;
 
 import java.io.IOException;

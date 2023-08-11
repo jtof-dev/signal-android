@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.mycrimes.insecuretests.video.videoconverter;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -18,8 +18,8 @@ import androidx.annotation.RequiresApi;
 import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.MemoryUnitFormat;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.MemoryUnitFormat;
 
 import java.util.Locale;
 import java.util.Objects;

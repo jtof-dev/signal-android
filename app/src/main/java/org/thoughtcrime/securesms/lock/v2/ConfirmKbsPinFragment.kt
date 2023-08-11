@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2
+package org.mycrimes.insecuretests.lock.v2
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -8,13 +8,13 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.lock.v2.ConfirmKbsPinViewModel.SaveAnimation
-import org.thoughtcrime.securesms.megaphone.Megaphones
-import org.thoughtcrime.securesms.registration.RegistrationUtil
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.SpanUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.lock.v2.ConfirmKbsPinViewModel.SaveAnimation
+import org.mycrimes.insecuretests.megaphone.Megaphones
+import org.mycrimes.insecuretests.registration.RegistrationUtil
+import org.mycrimes.insecuretests.storage.StorageSyncHelper
+import org.mycrimes.insecuretests.util.SpanUtil
 
 internal class ConfirmKbsPinFragment : BaseKbsPinFragment<ConfirmKbsPinViewModel>() {
 

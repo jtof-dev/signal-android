@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.views
+package org.mycrimes.insecuretests.stories.viewer.views
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.viewModels
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageViewModel
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.mycrimes.insecuretests.stories.viewer.page.StoryViewerPageViewModel
 import kotlin.math.roundToInt
 
 /**

@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.payments.preferences.viewholder;
+package org.mycrimes.insecuretests.payments.preferences.viewholder;
 
 import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.Group;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeAdapter;
-import org.thoughtcrime.securesms.payments.preferences.model.IntroducingPayments;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.preferences.PaymentsHomeAdapter;
+import org.mycrimes.insecuretests.payments.preferences.model.IntroducingPayments;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder;
+import org.mycrimes.insecuretests.util.views.LearnMoreTextView;
 
 public class IntroducingPaymentViewHolder extends MappingViewHolder<IntroducingPayments> {
 

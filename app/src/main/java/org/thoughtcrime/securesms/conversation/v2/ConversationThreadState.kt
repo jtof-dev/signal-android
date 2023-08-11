@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import org.signal.paging.ObservablePagedData
-import org.thoughtcrime.securesms.conversation.ConversationData
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationElementKey
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.conversation.ConversationData
+import org.mycrimes.insecuretests.conversation.v2.data.ConversationElementKey
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
 
 /**
  * Represents the content that will be displayed in the conversation

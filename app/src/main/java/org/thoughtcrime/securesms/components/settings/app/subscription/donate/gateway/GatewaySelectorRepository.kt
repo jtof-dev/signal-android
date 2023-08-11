@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.gateway
 
 import io.reactivex.rxjava3.core.Single
-import org.thoughtcrime.securesms.components.settings.app.subscription.getAvailablePaymentMethods
+import org.mycrimes.insecuretests.components.settings.app.subscription.getAvailablePaymentMethods
 import org.whispersystems.signalservice.api.services.DonationsService
 import java.util.Locale
 

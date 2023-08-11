@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.mycrimes.insecuretests.jobmanager;
 
 import android.app.Application;
 
@@ -10,12 +10,12 @@ import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage;
-import org.thoughtcrime.securesms.util.Debouncer;
+import org.mycrimes.insecuretests.jobmanager.persistence.ConstraintSpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.DependencySpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.FullSpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.JobSpec;
+import org.mycrimes.insecuretests.jobmanager.persistence.JobStorage;
+import org.mycrimes.insecuretests.util.Debouncer;
 
 import java.util.ArrayList;
 import java.util.Collection;

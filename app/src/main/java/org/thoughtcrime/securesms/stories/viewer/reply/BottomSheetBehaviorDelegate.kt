@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply
+package org.mycrimes.insecuretests.stories.viewer.reply
 
 import android.view.View
 

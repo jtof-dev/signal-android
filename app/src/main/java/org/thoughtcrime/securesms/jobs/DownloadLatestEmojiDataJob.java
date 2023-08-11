@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.mycrimes.insecuretests.jobs;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,24 +10,24 @@ import com.annimon.stream.IntPair;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.emoji.EmojiData;
-import org.thoughtcrime.securesms.emoji.EmojiDownloader;
-import org.thoughtcrime.securesms.emoji.EmojiFiles;
-import org.thoughtcrime.securesms.emoji.EmojiImageRequest;
-import org.thoughtcrime.securesms.emoji.EmojiJsonRequest;
-import org.thoughtcrime.securesms.emoji.EmojiPageCache;
-import org.thoughtcrime.securesms.emoji.EmojiRemote;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.AutoDownloadEmojiConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.FileUtils;
-import org.thoughtcrime.securesms.util.ScreenDensity;
+import org.mycrimes.insecuretests.components.emoji.EmojiPageModel;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.emoji.EmojiData;
+import org.mycrimes.insecuretests.emoji.EmojiDownloader;
+import org.mycrimes.insecuretests.emoji.EmojiFiles;
+import org.mycrimes.insecuretests.emoji.EmojiImageRequest;
+import org.mycrimes.insecuretests.emoji.EmojiJsonRequest;
+import org.mycrimes.insecuretests.emoji.EmojiPageCache;
+import org.mycrimes.insecuretests.emoji.EmojiRemote;
+import org.mycrimes.insecuretests.emoji.EmojiSource;
+import org.mycrimes.insecuretests.emoji.JumboEmoji;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.impl.AutoDownloadEmojiConstraint;
+import org.mycrimes.insecuretests.jobmanager.impl.NetworkConstraint;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.FileUtils;
+import org.mycrimes.insecuretests.util.ScreenDensity;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.logsubmit
+package org.mycrimes.insecuretests.logsubmit
 
 import android.content.Context
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.Util
 
 /**
  * Prints off the current SMS settings

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings
+package org.mycrimes.insecuretests.components.settings
 
 import android.content.Context
 import android.os.Build
@@ -11,9 +11,9 @@ import androidx.annotation.LayoutRes
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.WindowUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.mycrimes.insecuretests.util.WindowUtil
 
 abstract class DSLSettingsBottomSheetFragment(
   @LayoutRes private val layoutId: Int = R.layout.dsl_settings_bottom_sheet,

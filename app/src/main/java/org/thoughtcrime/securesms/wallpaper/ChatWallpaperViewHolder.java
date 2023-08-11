@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.mycrimes.insecuretests.wallpaper;
 
 import android.util.DisplayMetrics;
 import android.view.View;
@@ -11,11 +11,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.exoplayer2.ui.AspectRatioFrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.DisplayMetricsUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.Factory;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.DisplayMetricsUtil;
+import org.mycrimes.insecuretests.util.adapter.mapping.Factory;
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder;
 
 class ChatWallpaperViewHolder extends MappingViewHolder<ChatWallpaperSelectionMappingModel> {
 

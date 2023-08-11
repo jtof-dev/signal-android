@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.self.featured
+package org.mycrimes.insecuretests.badges.self.featured
 
 enum class SelectFeaturedBadgeEvent {
   NO_BADGE_SELECTED,

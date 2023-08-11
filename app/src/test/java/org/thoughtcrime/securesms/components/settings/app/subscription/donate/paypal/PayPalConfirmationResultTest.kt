@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.paypal
 
 import android.app.Application
 import org.junit.Assert.assertEquals
@@ -7,7 +7,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.components.settings.app.subscription.PayPalRepository
+import org.mycrimes.insecuretests.components.settings.app.subscription.PayPalRepository
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class)

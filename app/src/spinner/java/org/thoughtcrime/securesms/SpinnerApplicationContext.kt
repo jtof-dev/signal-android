@@ -1,27 +1,27 @@
-package org.thoughtcrime.securesms
+package org.mycrimes.insecuretests
 
 import android.content.ContentValues
 import android.os.Build
 import org.signal.spinner.Spinner
 import org.signal.spinner.Spinner.DatabaseConfig
-import org.thoughtcrime.securesms.database.DatabaseMonitor
-import org.thoughtcrime.securesms.database.GV2Transformer
-import org.thoughtcrime.securesms.database.GV2UpdateTransformer
-import org.thoughtcrime.securesms.database.IsStoryTransformer
-import org.thoughtcrime.securesms.database.JobDatabase
-import org.thoughtcrime.securesms.database.KeyValueDatabase
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase
-import org.thoughtcrime.securesms.database.LogDatabase
-import org.thoughtcrime.securesms.database.MegaphoneDatabase
-import org.thoughtcrime.securesms.database.MessageBitmaskColumnTransformer
-import org.thoughtcrime.securesms.database.MessageRangesTransformer
-import org.thoughtcrime.securesms.database.ProfileKeyCredentialTransformer
-import org.thoughtcrime.securesms.database.QueryMonitor
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.TimestampTransformer
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.AppSignatureUtil
+import org.mycrimes.insecuretests.database.DatabaseMonitor
+import org.mycrimes.insecuretests.database.GV2Transformer
+import org.mycrimes.insecuretests.database.GV2UpdateTransformer
+import org.mycrimes.insecuretests.database.IsStoryTransformer
+import org.mycrimes.insecuretests.database.JobDatabase
+import org.mycrimes.insecuretests.database.KeyValueDatabase
+import org.mycrimes.insecuretests.database.LocalMetricsDatabase
+import org.mycrimes.insecuretests.database.LogDatabase
+import org.mycrimes.insecuretests.database.MegaphoneDatabase
+import org.mycrimes.insecuretests.database.MessageBitmaskColumnTransformer
+import org.mycrimes.insecuretests.database.MessageRangesTransformer
+import org.mycrimes.insecuretests.database.ProfileKeyCredentialTransformer
+import org.mycrimes.insecuretests.database.QueryMonitor
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.TimestampTransformer
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.AppSignatureUtil
 import java.util.Locale
 
 class SpinnerApplicationContext : ApplicationContext() {

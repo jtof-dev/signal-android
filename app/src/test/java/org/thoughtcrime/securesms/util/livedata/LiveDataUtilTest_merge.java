@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.livedata;
+package org.mycrimes.insecuretests.util.livedata;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -6,15 +6,15 @@ import androidx.lifecycle.MutableLiveData;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestRule;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
+import org.mycrimes.insecuretests.util.DefaultValueLiveData;
 
 import java.util.Arrays;
 import java.util.Collections;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
-import static org.thoughtcrime.securesms.util.livedata.LiveDataTestUtil.assertNoValue;
-import static org.thoughtcrime.securesms.util.livedata.LiveDataTestUtil.observeAndGetOneValue;
+import static org.mycrimes.insecuretests.util.livedata.LiveDataTestUtil.assertNoValue;
+import static org.mycrimes.insecuretests.util.livedata.LiveDataTestUtil.observeAndGetOneValue;
 
 public final class LiveDataUtilTest_merge {
 

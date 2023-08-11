@@ -14,7 +14,7 @@
     android:paddingEnd="8dp"
     android:paddingBottom="6dp">
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.mycrimes.insecuretests.components.emoji.EmojiImageView
         android:id="@+id/reactions_bottom_view_emoji_item_emoji"
         android:layout_width="20dp"
         android:layout_height="20dp"

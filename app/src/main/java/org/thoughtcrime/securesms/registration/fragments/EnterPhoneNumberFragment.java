@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments;
+package org.mycrimes.insecuretests.registration.fragments;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -37,23 +37,23 @@ import com.google.i18n.phonenumbers.Phonenumber;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.LifecycleDisposable;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.registration.RegistrationSessionProcessor;
-import org.thoughtcrime.securesms.registration.VerifyAccountRepository.Mode;
-import org.thoughtcrime.securesms.registration.util.RegistrationNumberInputController;
-import org.thoughtcrime.securesms.registration.viewmodel.NumberViewState;
-import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.Dialogs;
-import org.thoughtcrime.securesms.util.PlayServicesUtil;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.dualsim.MccMncProducer;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.mycrimes.insecuretests.LoggingFragment;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.registration.RegistrationSessionProcessor;
+import org.mycrimes.insecuretests.registration.VerifyAccountRepository.Mode;
+import org.mycrimes.insecuretests.registration.util.RegistrationNumberInputController;
+import org.mycrimes.insecuretests.registration.viewmodel.NumberViewState;
+import org.mycrimes.insecuretests.registration.viewmodel.RegistrationViewModel;
+import org.mycrimes.insecuretests.util.CommunicationActions;
+import org.mycrimes.insecuretests.util.Debouncer;
+import org.mycrimes.insecuretests.util.Dialogs;
+import org.mycrimes.insecuretests.util.PlayServicesUtil;
+import org.mycrimes.insecuretests.util.SupportEmailUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.dualsim.MccMncProducer;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton;
 
 import java.util.Locale;
 import java.util.Objects;
@@ -63,8 +63,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.disposables.Disposable;
 
-import static org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView;
-import static org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.showConfirmNumberDialogIfTranslated;
+import static org.mycrimes.insecuretests.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView;
+import static org.mycrimes.insecuretests.registration.fragments.RegistrationViewDelegate.showConfirmNumberDialogIfTranslated;
 
 public final class EnterPhoneNumberFragment extends LoggingFragment implements RegistrationNumberInputController.Callbacks {
 

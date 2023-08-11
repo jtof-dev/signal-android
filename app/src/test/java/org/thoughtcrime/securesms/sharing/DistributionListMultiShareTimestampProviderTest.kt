@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing
+package org.mycrimes.insecuretests.sharing
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

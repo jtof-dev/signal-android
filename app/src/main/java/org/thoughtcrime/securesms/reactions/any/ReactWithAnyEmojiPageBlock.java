@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.reactions.any;
+package org.mycrimes.insecuretests.reactions.any;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel;
+import org.mycrimes.insecuretests.components.emoji.EmojiPageModel;
 
 import java.util.Objects;
 

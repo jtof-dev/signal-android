@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories
+package org.mycrimes.insecuretests.stories
 
 import android.net.Uri
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.blurhash.BlurHash
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 /**
  * Arguments for launching the story viewer, prefilled with sensible defaults.

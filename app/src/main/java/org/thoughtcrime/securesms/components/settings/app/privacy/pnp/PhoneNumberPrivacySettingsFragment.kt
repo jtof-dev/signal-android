@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.pnp
+package org.mycrimes.insecuretests.components.settings.app.privacy.pnp
 
 import android.os.Bundle
 import androidx.compose.foundation.clickable
@@ -22,11 +22,11 @@ import org.signal.core.ui.Dividers
 import org.signal.core.ui.Rows
 import org.signal.core.ui.Scaffolds
 import org.signal.core.ui.Texts
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.compose.StatusBarColorNestedScrollConnection
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberListingMode
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberSharingMode
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.compose.ComposeFragment
+import org.mycrimes.insecuretests.compose.StatusBarColorNestedScrollConnection
+import org.mycrimes.insecuretests.keyvalue.PhoneNumberPrivacyValues.PhoneNumberListingMode
+import org.mycrimes.insecuretests.keyvalue.PhoneNumberPrivacyValues.PhoneNumberSharingMode
 
 class PhoneNumberPrivacySettingsFragment : ComposeFragment() {
 

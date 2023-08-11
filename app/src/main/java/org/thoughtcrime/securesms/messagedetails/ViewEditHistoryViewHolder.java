@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.messagedetails;
+package org.mycrimes.insecuretests.messagedetails;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.databinding.MessageDetailsViewEditHistoryBinding;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.databinding.MessageDetailsViewEditHistoryBinding;
 
 public class ViewEditHistoryViewHolder extends RecyclerView.ViewHolder {
 
-  private final org.thoughtcrime.securesms.databinding.MessageDetailsViewEditHistoryBinding binding;
+  private final org.mycrimes.insecuretests.databinding.MessageDetailsViewEditHistoryBinding binding;
   private final MessageDetailsAdapter.Callbacks                                             callbacks;
 
   public ViewEditHistoryViewHolder(@NonNull MessageDetailsViewEditHistoryBinding binding, @NonNull MessageDetailsAdapter.Callbacks callbacks) {

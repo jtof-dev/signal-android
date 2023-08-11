@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package org.mycrimes.insecuretests.conversation.ui.inlinequery
 
 import android.content.Context
 import android.view.View
@@ -9,9 +9,9 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.components.ComposeText
-import org.thoughtcrime.securesms.util.adapter.mapping.AnyMappingModel
-import org.thoughtcrime.securesms.util.doOnEachLayout
+import org.mycrimes.insecuretests.components.ComposeText
+import org.mycrimes.insecuretests.util.adapter.mapping.AnyMappingModel
+import org.mycrimes.insecuretests.util.doOnEachLayout
 
 /**
  * Controller for inline search results.

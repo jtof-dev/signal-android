@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package org.mycrimes.insecuretests
 
 import android.graphics.Bitmap
 import android.graphics.Canvas

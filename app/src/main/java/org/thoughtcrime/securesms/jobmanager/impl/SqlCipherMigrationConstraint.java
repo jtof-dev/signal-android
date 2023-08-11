@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.mycrimes.insecuretests.jobmanager.impl;
 
 import android.app.Application;
 import android.app.job.JobInfo;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Constraint;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.jobmanager.Constraint;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 public class SqlCipherMigrationConstraint implements Constraint {
 

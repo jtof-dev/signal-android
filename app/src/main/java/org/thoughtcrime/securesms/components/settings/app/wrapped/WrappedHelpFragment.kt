@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.wrapped
+package org.mycrimes.insecuretests.components.settings.app.wrapped
 
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.help.HelpFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.help.HelpFragment
 
 class WrappedHelpFragment : SettingsWrapperFragment() {
   override fun getFragment(): Fragment {

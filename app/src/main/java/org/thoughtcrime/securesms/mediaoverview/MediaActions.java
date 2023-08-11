@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediaoverview;
+package org.mycrimes.insecuretests.mediaoverview;
 
 import android.Manifest;
 import android.content.Context;
@@ -11,13 +11,13 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.AttachmentUtil;
-import org.thoughtcrime.securesms.util.SaveAttachmentTask;
-import org.thoughtcrime.securesms.util.StorageUtil;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.MediaTable;
+import org.mycrimes.insecuretests.permissions.Permissions;
+import org.mycrimes.insecuretests.util.AttachmentUtil;
+import org.mycrimes.insecuretests.util.SaveAttachmentTask;
+import org.mycrimes.insecuretests.util.StorageUtil;
+import org.mycrimes.insecuretests.util.task.ProgressDialogAsyncTask;
 
 import java.util.Collection;
 import java.util.LinkedList;

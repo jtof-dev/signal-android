@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components
+package org.mycrimes.insecuretests.components
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.TextView
 import androidx.core.content.withStyledAttributes
 import com.google.android.material.card.MaterialCardView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * A small card with a circular progress indicator in it. Usable in place

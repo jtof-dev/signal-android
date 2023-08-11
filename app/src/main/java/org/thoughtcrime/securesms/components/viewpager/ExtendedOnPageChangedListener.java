@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.viewpager;
+package org.mycrimes.insecuretests.components.viewpager;
 
 
 import androidx.viewpager.widget.ViewPager;

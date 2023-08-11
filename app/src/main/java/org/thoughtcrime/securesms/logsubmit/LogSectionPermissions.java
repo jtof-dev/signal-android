@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.mycrimes.insecuretests.logsubmit;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -7,7 +7,7 @@ import android.content.pm.PackageManager;
 import androidx.annotation.NonNull;
 
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.BuildConfig;
+import org.mycrimes.insecuretests.BuildConfig;
 
 import java.util.ArrayList;
 import java.util.Collections;

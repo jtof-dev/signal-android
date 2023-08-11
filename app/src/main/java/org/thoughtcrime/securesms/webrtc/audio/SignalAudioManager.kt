@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.webrtc.audio
+package org.mycrimes.insecuretests.webrtc.audio
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -16,12 +16,12 @@ import android.os.Build
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.audio.AudioDeviceUpdatedListener
-import org.thoughtcrime.securesms.audio.SignalBluetoothManager
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.safeUnregisterReceiver
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.audio.AudioDeviceUpdatedListener
+import org.mycrimes.insecuretests.audio.SignalBluetoothManager
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.safeUnregisterReceiver
 import org.whispersystems.signalservice.api.util.Preconditions
 
 private val TAG = Log.tag(SignalAudioManager::class.java)

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.insights;
+package org.mycrimes.insecuretests.insights;
 
 import android.animation.AnimatorSet;
 import android.app.Dialog;
@@ -16,9 +16,9 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ArcProgressBar;
-import org.thoughtcrime.securesms.components.AvatarImageView;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.ArcProgressBar;
+import org.mycrimes.insecuretests.components.AvatarImageView;
 
 public final class InsightsModalDialogFragment extends DialogFragment {
 

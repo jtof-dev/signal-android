@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.migrations
+package org.mycrimes.insecuretests.migrations
 
 import com.bumptech.glide.Glide
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobmanager.Job
+import org.mycrimes.insecuretests.jobmanager.Job
 
 /**
  * Clears the Glide disk cache.

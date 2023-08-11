@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.mycrimes.insecuretests.mediasend.v2.text
 
 import android.text.Editable
 import android.text.TextWatcher
@@ -9,7 +9,7 @@ import android.widget.TextView
 import org.signal.core.util.BreakIteratorCompat
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.EditTextUtil
-import org.thoughtcrime.securesms.util.doOnEachLayout
+import org.mycrimes.insecuretests.util.doOnEachLayout
 
 class TextStoryTextWatcher private constructor(private val textView: TextView) : TextWatcher {
 

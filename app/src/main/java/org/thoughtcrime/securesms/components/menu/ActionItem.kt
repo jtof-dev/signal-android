@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.menu
+package org.mycrimes.insecuretests.components.menu
 
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Represents an action to be rendered via [SignalContextMenu] or [SignalBottomActionBar]

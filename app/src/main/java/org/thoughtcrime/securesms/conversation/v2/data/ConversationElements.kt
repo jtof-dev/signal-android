@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.data
+package org.mycrimes.insecuretests.conversation.v2.data
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.messagerequests.MessageRequestRecipientInfo
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.conversation.ConversationMessage
+import org.mycrimes.insecuretests.messagerequests.MessageRequestRecipientInfo
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
 
 sealed interface ConversationMessageElement {
   val conversationMessage: ConversationMessage

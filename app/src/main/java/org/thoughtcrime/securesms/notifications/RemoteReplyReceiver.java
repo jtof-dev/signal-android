@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms.notifications;
+package org.mycrimes.insecuretests.notifications;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -26,17 +26,17 @@ import android.os.Bundle;
 import androidx.core.app.RemoteInput;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.ParentStoryId;
-import org.thoughtcrime.securesms.database.model.StoryType;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.mms.OutgoingMessage;
-import org.thoughtcrime.securesms.notifications.v2.DefaultMessageNotifier;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.sms.MessageSender;
+import org.mycrimes.insecuretests.database.MessageTable.MarkedMessageInfo;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.ParentStoryId;
+import org.mycrimes.insecuretests.database.model.StoryType;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.mms.OutgoingMessage;
+import org.mycrimes.insecuretests.notifications.v2.DefaultMessageNotifier;
+import org.mycrimes.insecuretests.notifications.v2.ConversationId;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.sms.MessageSender;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -48,7 +48,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class RemoteReplyReceiver extends BroadcastReceiver {
 
-  public static final String REPLY_ACTION         = "org.thoughtcrime.securesms.notifications.WEAR_REPLY";
+  public static final String REPLY_ACTION         = "org.mycrimes.insecuretests.notifications.WEAR_REPLY";
   public static final String RECIPIENT_EXTRA      = "recipient_extra";
   public static final String REPLY_METHOD         = "reply_method";
   public static final String EARLIEST_TIMESTAMP   = "earliest_timestamp";

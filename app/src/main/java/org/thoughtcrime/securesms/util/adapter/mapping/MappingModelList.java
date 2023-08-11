@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter.mapping;
+package org.mycrimes.insecuretests.util.adapter.mapping;
 
 import androidx.annotation.NonNull;
 

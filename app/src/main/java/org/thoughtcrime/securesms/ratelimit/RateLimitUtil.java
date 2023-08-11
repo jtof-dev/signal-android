@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package org.mycrimes.insecuretests.ratelimit;
 
 import android.content.Context;
 
@@ -6,11 +6,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobs.PushGroupSendJob;
-import org.thoughtcrime.securesms.jobs.IndividualSendJob;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.JsonJobData;
+import org.mycrimes.insecuretests.jobs.PushGroupSendJob;
+import org.mycrimes.insecuretests.jobs.IndividualSendJob;
 
 import java.util.Set;
 

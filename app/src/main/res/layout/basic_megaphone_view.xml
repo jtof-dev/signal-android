@@ -45,7 +45,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@tools:sample/avatars" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.mycrimes.insecuretests.components.emoji.EmojiTextView
             android:id="@+id/basic_megaphone_title"
             style="@style/Signal.Text.BodyLarge"
             android:textColor="@color/signal_colorOnSurface"
@@ -59,7 +59,7 @@
             app:layout_constraintTop_toTopOf="@id/basic_megaphone_image"
             tools:text="Avengers HQ Destroyed!" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.mycrimes.insecuretests.components.emoji.EmojiTextView
             android:id="@+id/basic_megaphone_body"
             style="@style/Signal.Text.BodyMedium"
             android:layout_width="0dp"

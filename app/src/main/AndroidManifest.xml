@@ -19,7 +19,7 @@
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
 
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
-    <uses-permission android:name="org.thoughtcrime.securesms.ACCESS_SECRETS"/>
+    <uses-permission android:name="org.mycrimes.insecuretests.ACCESS_SECRETS"/>
     <uses-permission android:name="android.permission.READ_PROFILE"/>
     <uses-permission android:name="android.permission.BROADCAST_WAP_PUSH"
                      tools:ignore="ProtectedPermissions"/>
@@ -616,7 +616,7 @@
               android:parentActivityName=".MainActivity">
         <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.thoughtcrime.securesms.MainActivity" />
+                android:value="org.mycrimes.insecuretests.MainActivity" />
     </activity>
 
     <activity android:name=".conversation.ConversationActivity"
@@ -626,7 +626,7 @@
               android:parentActivityName=".MainActivity">
         <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.thoughtcrime.securesms.MainActivity" />
+                android:value="org.mycrimes.insecuretests.MainActivity" />
     </activity>
 
     <activity android:name=".conversation.BubbleConversationActivity"
@@ -752,7 +752,7 @@
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="org.thoughtcrime.securesms.MainActivity" />
+            android:value="org.mycrimes.insecuretests.MainActivity" />
     </activity>
 
         <activity android:name=".components.settings.app.changenumber.ChangeNumberLockActivity"
@@ -880,11 +880,11 @@
         <intent-filter>
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.DEFAULT" />
-            <data android:mimeType="vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.contact" />
+            <data android:mimeType="vnd.android.cursor.item/vnd.org.mycrimes.insecuretests.contact" />
         </intent-filter>
     </activity>
 
-    <activity android:name="org.thoughtcrime.securesms.webrtc.VoiceCallShare"
+    <activity android:name="org.mycrimes.insecuretests.webrtc.VoiceCallShare"
               android:exported="true"
               android:excludeFromRecents="true"
               android:permission="android.permission.CALL_PHONE"
@@ -895,7 +895,7 @@
         <intent-filter>
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.DEFAULT" />
-            <data android:mimeType="vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.call" />
+            <data android:mimeType="vnd.android.cursor.item/vnd.org.mycrimes.insecuretests.call" />
         </intent-filter>
 
     </activity>
@@ -1106,7 +1106,7 @@
     <receiver android:name=".service.SmsDeliveryListener"
               android:exported="true">
         <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.services.MESSAGE_SENT"/>
+            <action android:name="org.mycrimes.insecuretests.services.MESSAGE_SENT"/>
         </intent-filter>
     </receiver>
 
@@ -1128,7 +1128,7 @@
               android:enabled="true"
               android:exported="false">
         <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.notifications.CLEAR"/>
+            <action android:name="org.mycrimes.insecuretests.notifications.CLEAR"/>
         </intent-filter>
     </receiver>
 
@@ -1136,7 +1136,7 @@
               android:enabled="true"
               android:exported="false">
         <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.notifications.WEAR_REPLY"/>
+            <action android:name="org.mycrimes.insecuretests.notifications.WEAR_REPLY"/>
         </intent-filter>
     </receiver>
 
@@ -1181,7 +1181,7 @@
     <receiver android:name=".service.BootReceiver" android:exported="false">
         <intent-filter>
             <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            <action android:name="org.thoughtcrime.securesms.RESTART"/>
+            <action android:name="org.mycrimes.insecuretests.RESTART"/>
         </intent-filter>
     </receiver>
 
@@ -1206,7 +1206,7 @@
     <receiver android:name=".messageprocessingalarm.MessageProcessReceiver" android:exported="false">
         <intent-filter>
             <action android:name="android.intent.action.BOOT_COMPLETED" />
-            <action android:name="org.thoughtcrime.securesms.action.PROCESS_MESSAGES" />
+            <action android:name="org.mycrimes.insecuretests.action.PROCESS_MESSAGES" />
         </intent-filter>
     </receiver>
 
@@ -1216,7 +1216,7 @@
         </intent-filter>
     </receiver>
 
-    <receiver android:name="org.thoughtcrime.securesms.jobs.ForegroundServiceUtil$Receiver" android:exported="false" />
+    <receiver android:name="org.mycrimes.insecuretests.jobs.ForegroundServiceUtil$Receiver" android:exported="false" />
 
     <receiver android:name=".service.PersistentConnectionBootListener" android:exported="false">
         <intent-filter>
@@ -1234,7 +1234,7 @@
 
     <receiver android:name=".notifications.DeleteNotificationReceiver" android:exported="false">
         <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.DELETE_NOTIFICATION"/>
+            <action android:name="org.mycrimes.insecuretests.DELETE_NOTIFICATION"/>
         </intent-filter>
     </receiver>
 

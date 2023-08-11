@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.mycrimes.insecuretests.profiles;
 
 import android.app.Application;
 

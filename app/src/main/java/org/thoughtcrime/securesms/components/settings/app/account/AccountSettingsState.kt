@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.account
+package org.mycrimes.insecuretests.components.settings.app.account
 
 data class AccountSettingsState(
   val hasPin: Boolean,

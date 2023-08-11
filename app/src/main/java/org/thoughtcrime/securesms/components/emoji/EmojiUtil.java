@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.mycrimes.insecuretests.components.emoji;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -6,11 +6,11 @@ import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.emoji.ObsoleteEmoji;
+import org.mycrimes.insecuretests.components.emoji.parsing.EmojiParser;
+import org.mycrimes.insecuretests.emoji.EmojiSource;
+import org.mycrimes.insecuretests.emoji.ObsoleteEmoji;
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.HashSet;
 import java.util.Set;

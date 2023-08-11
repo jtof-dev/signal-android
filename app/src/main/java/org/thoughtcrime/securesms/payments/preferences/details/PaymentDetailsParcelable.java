@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.details;
+package org.mycrimes.insecuretests.payments.preferences.details;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,8 +6,8 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.payments.PaymentParcelable;
+import org.mycrimes.insecuretests.payments.Payment;
+import org.mycrimes.insecuretests.payments.PaymentParcelable;
 
 import java.util.Objects;
 import java.util.UUID;

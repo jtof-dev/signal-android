@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.sync
+package org.mycrimes.insecuretests.contacts.sync
 
 import android.content.Context
 import androidx.annotation.WorkerThread
@@ -6,18 +6,18 @@ import org.signal.contacts.SystemContactsRepository
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.contacts.sync.FuzzyPhoneNumberHelper.InputResult
-import org.thoughtcrime.securesms.contacts.sync.FuzzyPhoneNumberHelper.OutputResult
-import org.thoughtcrime.securesms.database.RecipientTable.CdsV2Result
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.RetrieveProfileJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.BuildConfig
+import org.mycrimes.insecuretests.contacts.sync.FuzzyPhoneNumberHelper.InputResult
+import org.mycrimes.insecuretests.contacts.sync.FuzzyPhoneNumberHelper.OutputResult
+import org.mycrimes.insecuretests.database.RecipientTable.CdsV2Result
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.RetrieveProfileJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.phonenumbers.PhoneNumberFormatter
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.FeatureFlags
 import org.whispersystems.signalservice.api.push.ACI
 import org.whispersystems.signalservice.api.push.exceptions.CdsiInvalidTokenException
 import org.whispersystems.signalservice.api.push.exceptions.CdsiResourceExhaustedException

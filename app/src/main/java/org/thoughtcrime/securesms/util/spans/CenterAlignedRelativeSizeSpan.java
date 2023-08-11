@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.spans;
+package org.mycrimes.insecuretests.util.spans;
 
 
 import android.text.TextPaint;

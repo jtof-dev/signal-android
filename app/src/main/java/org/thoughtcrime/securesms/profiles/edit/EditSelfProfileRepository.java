@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package org.mycrimes.insecuretests.profiles.edit;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -9,21 +9,21 @@ import androidx.core.util.Consumer;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.MultiDeviceProfileContentUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceProfileKeyUpdateJob;
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.profiles.ProfileMediaConstraints;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.profiles.SystemProfileUtil;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.registration.RegistrationUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.mycrimes.insecuretests.conversation.colors.AvatarColor;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.MultiDeviceProfileContentUpdateJob;
+import org.mycrimes.insecuretests.jobs.MultiDeviceProfileKeyUpdateJob;
+import org.mycrimes.insecuretests.jobs.ProfileUploadJob;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.profiles.AvatarHelper;
+import org.mycrimes.insecuretests.profiles.ProfileMediaConstraints;
+import org.mycrimes.insecuretests.profiles.ProfileName;
+import org.mycrimes.insecuretests.profiles.SystemProfileUtil;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.registration.RegistrationUtil;
+import org.mycrimes.insecuretests.util.concurrent.ListenableFuture;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.io.ByteArrayInputStream;

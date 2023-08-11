@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mediaoverview;
+package org.mycrimes.insecuretests.mediaoverview;
 
 import android.content.Context;
 import android.net.Uri;
@@ -35,24 +35,24 @@ import com.annimon.stream.Stream;
 import com.codewaves.stickyheadergrid.StickyHeaderGridAdapter;
 
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.components.AudioView;
-import org.thoughtcrime.securesms.components.ThumbnailView;
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.MediaTable.MediaRecord;
-import org.thoughtcrime.securesms.database.loaders.GroupedThreadMediaLoader.GroupedThreadMedia;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewCache;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.livedata.LiveDataPair;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.attachments.AttachmentId;
+import org.mycrimes.insecuretests.components.AudioView;
+import org.mycrimes.insecuretests.components.ThumbnailView;
+import org.mycrimes.insecuretests.components.voice.VoiceNotePlaybackState;
+import org.mycrimes.insecuretests.database.MediaTable;
+import org.mycrimes.insecuretests.database.MediaTable.MediaRecord;
+import org.mycrimes.insecuretests.database.loaders.GroupedThreadMediaLoader.GroupedThreadMedia;
+import org.mycrimes.insecuretests.mediapreview.MediaPreviewCache;
+import org.mycrimes.insecuretests.mms.AudioSlide;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.mms.Slide;
+import org.mycrimes.insecuretests.recipients.LiveRecipient;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.DateUtils;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.livedata.LiveDataPair;
 
 import java.util.Collection;
 import java.util.HashMap;

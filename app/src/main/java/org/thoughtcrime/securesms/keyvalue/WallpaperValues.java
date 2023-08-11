@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,10 +9,10 @@ import androidx.annotation.Nullable;
 import com.google.protobuf.InvalidProtocolBufferException;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperFactory;
-import org.thoughtcrime.securesms.wallpaper.WallpaperStorage;
+import org.mycrimes.insecuretests.database.model.databaseprotos.Wallpaper;
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaper;
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaperFactory;
+import org.mycrimes.insecuretests.wallpaper.WallpaperStorage;
 
 import java.util.Collections;
 import java.util.List;

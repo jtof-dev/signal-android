@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package org.mycrimes.insecuretests.stories.viewer.post
 
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.mms.VideoSlide
-import org.thoughtcrime.securesms.video.VideoPlayer
+import org.mycrimes.insecuretests.mms.VideoSlide
+import org.mycrimes.insecuretests.video.VideoPlayer
 
 /**
  * Render logic for story video posts

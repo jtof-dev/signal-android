@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.mycrimes.insecuretests.keyvalue;
 
 import android.preference.PreferenceManager;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme;
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingChangeNumberMetadata;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.impl.ChangeNumberConstraintObserver;
+import org.mycrimes.insecuretests.components.settings.app.usernamelinks.UsernameQrCodeColorScheme;
+import org.mycrimes.insecuretests.database.model.databaseprotos.PendingChangeNumberMetadata;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.impl.ChangeNumberConstraintObserver;
 
 import java.util.Collections;
 import java.util.List;

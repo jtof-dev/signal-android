@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.mycrimes.insecuretests.database.loaders;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.util.AbstractCursorLoader;
+import org.mycrimes.insecuretests.util.AbstractCursorLoader;
 
 public abstract class MediaLoader extends AbstractCursorLoader {
 

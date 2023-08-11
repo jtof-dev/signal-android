@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.any;
+package org.mycrimes.insecuretests.reactions.any;
 
 import android.text.TextUtils;
 
@@ -7,19 +7,19 @@ import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter;
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.emoji.EmojiCategory;
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiCategoryMappingModel;
-import org.thoughtcrime.securesms.keyboard.emoji.RecentsMappingModel;
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchRepository;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.reactions.ReactionsRepository;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
+import org.mycrimes.insecuretests.components.emoji.EmojiPageModel;
+import org.mycrimes.insecuretests.components.emoji.EmojiPageViewGridAdapter;
+import org.mycrimes.insecuretests.components.emoji.RecentEmojiPageModel;
+import org.mycrimes.insecuretests.database.model.MessageId;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.emoji.EmojiCategory;
+import org.mycrimes.insecuretests.keyboard.emoji.EmojiCategoryMappingModel;
+import org.mycrimes.insecuretests.keyboard.emoji.RecentsMappingModel;
+import org.mycrimes.insecuretests.keyboard.emoji.search.EmojiSearchRepository;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.reactions.ReactionsRepository;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList;
 
 import java.util.List;
 import java.util.stream.Collectors;

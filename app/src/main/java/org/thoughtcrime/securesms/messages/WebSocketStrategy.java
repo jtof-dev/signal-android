@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.messages;
+package org.mycrimes.insecuretests.messages;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.Stopwatch;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobmanager.JobTracker;
-import org.thoughtcrime.securesms.jobs.MarkerJob;
-import org.thoughtcrime.securesms.jobs.PushProcessMessageJob;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.JobManager;
+import org.mycrimes.insecuretests.jobmanager.JobTracker;
+import org.mycrimes.insecuretests.jobs.MarkerJob;
+import org.mycrimes.insecuretests.jobs.PushProcessMessageJob;
 
 import java.util.Optional;
 import java.util.Set;

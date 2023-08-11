@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.conversation.ConversationUpdateItem
+<org.mycrimes.insecuretests.conversation.ConversationUpdateItem
     xmlns:android="http://schemas.android.com/apk/res/android"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -24,7 +24,7 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp">
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.mycrimes.insecuretests.components.emoji.EmojiTextView
             android:id="@+id/conversation_update_body"
             style="@style/Signal.Text.BodySmall"
             android:layout_width="wrap_content"
@@ -45,4 +45,4 @@
 
     </LinearLayout>
 
-</org.thoughtcrime.securesms.conversation.ConversationUpdateItem>
+</org.mycrimes.insecuretests.conversation.ConversationUpdateItem>

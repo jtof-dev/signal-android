@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.mycrimes.insecuretests.webrtc;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -10,14 +10,14 @@ import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
 
 import org.signal.core.util.PendingIntentFlags;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.WebRtcCallActivity;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.webrtc.WebRtcCallService;
-import org.thoughtcrime.securesms.util.ConversationUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.mycrimes.insecuretests.MainActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.WebRtcCallActivity;
+import org.mycrimes.insecuretests.notifications.NotificationChannels;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.service.webrtc.WebRtcCallService;
+import org.mycrimes.insecuretests.util.ConversationUtil;
+import org.mycrimes.insecuretests.util.ServiceUtil;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.core.Single;

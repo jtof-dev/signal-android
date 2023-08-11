@@ -29,7 +29,7 @@
         app:layout_constraintStart_toStartOf="@id/emoji_toggle"
         app:layout_constraintTop_toTopOf="@id/add_a_message_input" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiToggle
+    <org.mycrimes.insecuretests.components.emoji.EmojiToggle
         android:id="@+id/emoji_toggle"
         android:layout_width="wrap_content"
         android:layout_height="36dp"
@@ -43,7 +43,7 @@
         app:layout_constraintBottom_toTopOf="@id/emoji_drawer_stub"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <org.thoughtcrime.securesms.components.ComposeText
+    <org.mycrimes.insecuretests.components.ComposeText
         android:id="@+id/add_a_message_input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -8,9 +8,9 @@ import net.zetetic.database.sqlcipher.SQLiteOpenHelper
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.crypto.DatabaseSecret
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider
-import org.thoughtcrime.securesms.database.model.LocalMetricsEvent
+import org.mycrimes.insecuretests.crypto.DatabaseSecret
+import org.mycrimes.insecuretests.crypto.DatabaseSecretProvider
+import org.mycrimes.insecuretests.database.model.LocalMetricsEvent
 import java.util.concurrent.TimeUnit
 
 /**

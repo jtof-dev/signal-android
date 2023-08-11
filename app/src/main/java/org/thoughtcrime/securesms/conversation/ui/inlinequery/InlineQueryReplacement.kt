@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package org.mycrimes.insecuretests.conversation.ui.inlinequery
 
 import android.content.Context
 

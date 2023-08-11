@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.managegroup.dialogs;
+package org.mycrimes.insecuretests.groups.ui.managegroup.dialogs;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,8 +13,8 @@ import androidx.core.util.Consumer;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.RecipientTable.MentionSetting;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.RecipientTable.MentionSetting;
 
 public final class GroupMentionSettingDialog {
 

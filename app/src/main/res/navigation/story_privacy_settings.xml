@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/storiesPrivacySettingsFragment"
-        android:name="org.thoughtcrime.securesms.stories.settings.story.StoriesPrivacySettingsFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.story.StoriesPrivacySettingsFragment"
         android:label="stories_privacy_settings_fragment">
 
         <argument
@@ -31,7 +31,7 @@
 
             <argument
                 android:name="distribution_list_id"
-                app:argType="org.thoughtcrime.securesms.database.model.DistributionListId"
+                app:argType="org.mycrimes.insecuretests.database.model.DistributionListId"
                 app:nullable="false" />
 
         </action>
@@ -45,19 +45,19 @@
 
             <argument
                 android:name="group_id"
-                app:argType="org.thoughtcrime.securesms.groups.ParcelableGroupId"
+                app:argType="org.mycrimes.insecuretests.groups.ParcelableGroupId"
                 app:nullable="false" />
         </action>
     </fragment>
 
     <fragment
         android:id="@+id/groupStorySettingsFragment"
-        android:name="org.thoughtcrime.securesms.stories.settings.group.GroupStorySettingsFragment"
+        android:name="org.mycrimes.insecuretests.stories.settings.group.GroupStorySettingsFragment"
         android:label="group_story_settings_fragment">
 
         <argument
             android:name="group_id"
-            app:argType="org.thoughtcrime.securesms.groups.ParcelableGroupId"
+            app:argType="org.mycrimes.insecuretests.groups.ParcelableGroupId"
             app:nullable="false" />
 
     </fragment>

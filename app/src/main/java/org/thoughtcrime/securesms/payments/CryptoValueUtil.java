@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.payments;
+package org.mycrimes.insecuretests.payments;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.CryptoValue;
+import org.mycrimes.insecuretests.database.model.databaseprotos.CryptoValue;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.math.BigInteger;

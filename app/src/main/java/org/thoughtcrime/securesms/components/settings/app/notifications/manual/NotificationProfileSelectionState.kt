@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.manual
+package org.mycrimes.insecuretests.components.settings.app.notifications.manual
 
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
+import org.mycrimes.insecuretests.notifications.profiles.NotificationProfile
 import java.time.LocalDateTime
 
 data class NotificationProfileSelectionState(

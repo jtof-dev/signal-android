@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.help
+package org.mycrimes.insecuretests.components.settings.app.help
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -25,8 +25,8 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.ui.Scaffolds
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.compose.ComposeFragment
 
 class LicenseFragment : ComposeFragment() {
   private val TAG = Log.tag(LicenseFragment::class.java)

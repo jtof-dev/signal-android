@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package org.mycrimes.insecuretests.devicetransfer.olddevice;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import androidx.fragment.app.FragmentManager;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.DeviceTransferBlockingInterceptor;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.net.DeviceTransferBlockingInterceptor;
 
 /**
  * Blocking dialog shown on old devices after a successful transfer to prevent use unless

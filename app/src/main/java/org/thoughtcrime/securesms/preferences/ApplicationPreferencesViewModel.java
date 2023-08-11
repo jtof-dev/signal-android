@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.mycrimes.insecuretests.preferences;
 
 import android.content.Context;
 
@@ -11,10 +11,10 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.preferences.widgets.StorageGraphView;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.MediaTable;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.preferences.widgets.StorageGraphView;
 
 import java.util.Arrays;
 

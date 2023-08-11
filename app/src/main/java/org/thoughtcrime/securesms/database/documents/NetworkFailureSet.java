@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.documents;
+package org.mycrimes.insecuretests.database.documents;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

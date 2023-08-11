@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.view.View
 import android.view.ViewTreeObserver
@@ -6,9 +6,9 @@ import androidx.core.view.doOnPreDraw
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.components.menu.SignalBottomActionBar
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture.Listener
+import org.mycrimes.insecuretests.components.menu.SignalBottomActionBar
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.concurrent.ListenableFuture.Listener
 import java.util.concurrent.ExecutionException
 
 class SignalBottomActionBarController(

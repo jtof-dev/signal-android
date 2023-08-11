@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.mycrimes.insecuretests.mediasend.v2
 
 import android.Manifest
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.permissions.Permissions
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 class MediaSelectionNavigator(
   private val toCamera: Int = -1,

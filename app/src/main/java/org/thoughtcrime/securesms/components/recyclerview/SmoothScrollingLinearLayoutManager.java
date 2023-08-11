@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.recyclerview;
+package org.mycrimes.insecuretests.components.recyclerview;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

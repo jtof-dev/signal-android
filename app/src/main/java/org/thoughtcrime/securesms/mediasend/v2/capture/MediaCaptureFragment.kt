@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package org.mycrimes.insecuretests.mediasend.v2.capture
 
 import android.os.Bundle
 import android.view.View
@@ -11,17 +11,17 @@ import app.cash.exhaustive.Exhaustive
 import io.reactivex.rxjava3.core.Flowable
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.CameraFragment
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator.Companion.requestPermissionsForGallery
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.mediasend.CameraFragment
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mediasend.v2.HudCommand
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionNavigator
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionNavigator.Companion.requestPermissionsForGallery
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel
+import org.mycrimes.insecuretests.mms.MediaConstraints
+import org.mycrimes.insecuretests.permissions.Permissions
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 import java.io.FileDescriptor
 import java.util.Optional
 import java.util.concurrent.TimeUnit

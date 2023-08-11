@@ -60,7 +60,7 @@
 
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiEditText
+    <org.mycrimes.insecuretests.components.emoji.EmojiEditText
         android:id="@+id/emoji_search_entry"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

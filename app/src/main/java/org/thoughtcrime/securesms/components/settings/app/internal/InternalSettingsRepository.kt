@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.components.settings.app.internal
+package org.mycrimes.insecuretests.components.settings.app.internal
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.addStyle
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.emoji.EmojiFiles
-import org.thoughtcrime.securesms.jobs.AttachmentDownloadJob
-import org.thoughtcrime.securesms.jobs.CreateReleaseChannelJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.v2.ConversationId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.releasechannel.ReleaseChannel
+import org.mycrimes.insecuretests.database.MessageTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.addStyle
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.emoji.EmojiFiles
+import org.mycrimes.insecuretests.jobs.AttachmentDownloadJob
+import org.mycrimes.insecuretests.jobs.CreateReleaseChannelJob
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.notifications.v2.ConversationId
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.releasechannel.ReleaseChannel
 
 class InternalSettingsRepository(context: Context) {
 

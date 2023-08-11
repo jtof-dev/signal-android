@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.mycrimes.insecuretests.keyvalue
 
 import com.google.protobuf.InvalidProtocolBufferException
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.model.databaseprotos.ChatColor
+import org.mycrimes.insecuretests.conversation.colors.ChatColors
+import org.mycrimes.insecuretests.database.model.databaseprotos.ChatColor
 
 internal class ChatColorsValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.my
+package org.mycrimes.insecuretests.stories.settings.my
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -7,11 +7,11 @@ import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyMode
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class MyStorySettingsViewModel @JvmOverloads constructor(private val repository: MyStorySettingsRepository = MyStorySettingsRepository()) : ViewModel() {
   private val store = Store(MyStorySettingsState(hasUserPerformedManualSelection = SignalStore.storyValues().userHasBeenNotifiedAboutStories))

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.models
+package org.mycrimes.insecuretests.components.settings.app.subscription.models
 
-import org.thoughtcrime.securesms.databinding.PaypalButtonBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.mycrimes.insecuretests.databinding.PaypalButtonBinding
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingFactory
+import org.mycrimes.insecuretests.util.adapter.mapping.BindingViewHolder
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModel
 
 object PayPalButton {
   fun register(mappingAdapter: MappingAdapter) {

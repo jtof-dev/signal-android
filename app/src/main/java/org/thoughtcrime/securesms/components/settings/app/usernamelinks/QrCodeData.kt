@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks
+package org.mycrimes.insecuretests.components.settings.app.usernamelinks
 
 import androidx.annotation.WorkerThread
 import com.google.zxing.BarcodeFormat

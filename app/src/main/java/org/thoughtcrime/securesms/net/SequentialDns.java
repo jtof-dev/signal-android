@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.net;
+package org.mycrimes.insecuretests.net;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.util.NetworkUtil;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.util.NetworkUtil;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

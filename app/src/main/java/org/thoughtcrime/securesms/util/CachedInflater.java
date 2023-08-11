@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -16,7 +16,7 @@ import androidx.asynclayoutinflater.view.AsyncLayoutInflater;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
+import org.mycrimes.insecuretests.util.concurrent.SerialExecutor;
 
 import java.util.Collections;
 import java.util.HashMap;

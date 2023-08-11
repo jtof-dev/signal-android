@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.registration.secondary
+package org.mycrimes.insecuretests.registration.secondary
 
 import com.google.protobuf.ByteString
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.instanceOf
 import org.hamcrest.Matchers.`is`
 import org.junit.Test
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
+import org.mycrimes.insecuretests.crypto.IdentityKeyUtil
+import org.mycrimes.insecuretests.crypto.ProfileKeyUtil
 import org.whispersystems.signalservice.internal.crypto.PrimaryProvisioningCipher
 import org.whispersystems.signalservice.internal.push.ProvisioningProtos
 import org.whispersystems.signalservice.internal.push.ProvisioningProtos.ProvisionMessage

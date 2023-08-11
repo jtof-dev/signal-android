@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.app.Application
 import android.text.SpannableStringBuilder
@@ -8,7 +8,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.ParameterizedRobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.util.UrlClickHandler
+import org.mycrimes.insecuretests.util.UrlClickHandler
 
 @Suppress("ClassName")
 @RunWith(ParameterizedRobolectricTestRunner::class)

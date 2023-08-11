@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.mycrimes.insecuretests.jobmanager.impl;
 
 import android.app.job.JobInfo;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.Constraint;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobmanager.Constraint;
 
 /**
  * A constraint that is met once we have pulled down and decrypted all messages from the websocket
- * during initial load. See {@link org.thoughtcrime.securesms.messages.IncomingMessageObserver}.
+ * during initial load. See {@link org.mycrimes.insecuretests.messages.IncomingMessageObserver}.
  */
 public final class DecryptionsDrainedConstraint implements Constraint {
 

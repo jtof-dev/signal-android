@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.wrapped
+package org.mycrimes.insecuretests.components.settings.app.wrapped
 
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.preferences.AdvancedPinPreferenceFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.preferences.AdvancedPinPreferenceFragment
 
 class WrappedAdvancedPinPreferenceFragment : SettingsWrapperFragment() {
   override fun getFragment(): Fragment {

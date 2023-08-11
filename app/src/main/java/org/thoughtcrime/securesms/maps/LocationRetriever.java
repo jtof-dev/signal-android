@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.mycrimes.insecuretests.maps;
 
 import android.Manifest;
 import android.content.Context;
@@ -16,7 +16,7 @@ import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.ServiceUtil;
 
 /**
  * A lifecycle-safe way to retrieve a single location update. If a cached location is available,

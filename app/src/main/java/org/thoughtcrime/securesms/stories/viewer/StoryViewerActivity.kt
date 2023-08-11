@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package org.mycrimes.insecuretests.stories.viewer
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -18,16 +18,16 @@ import org.signal.core.util.dp
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.sp
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaController
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewStateCache
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewStateViewModel
-import org.thoughtcrime.securesms.util.FullscreenHelper
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.mycrimes.insecuretests.PassphraseRequiredActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.voice.VoiceNoteMediaController
+import org.mycrimes.insecuretests.components.voice.VoiceNoteMediaControllerOwner
+import org.mycrimes.insecuretests.stories.StoryViewerArgs
+import org.mycrimes.insecuretests.stories.viewer.page.StoryViewStateCache
+import org.mycrimes.insecuretests.stories.viewer.page.StoryViewStateViewModel
+import org.mycrimes.insecuretests.util.FullscreenHelper
+import org.mycrimes.insecuretests.util.ServiceUtil
+import org.mycrimes.insecuretests.util.ViewUtil
 import kotlin.math.max
 import kotlin.math.min
 

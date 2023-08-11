@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.sms;
+package org.mycrimes.insecuretests.sms;
 
 import androidx.annotation.NonNull;
 
 import com.google.protobuf.ByteString;
 
 import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
-import org.thoughtcrime.securesms.mms.MessageGroupContext;
+import org.mycrimes.insecuretests.mms.MessageGroupContext;
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil;
 
 import java.util.Optional;

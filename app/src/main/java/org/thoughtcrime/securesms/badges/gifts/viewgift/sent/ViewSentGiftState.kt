@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.badges.gifts.viewgift.sent
+package org.mycrimes.insecuretests.badges.gifts.viewgift.sent
 
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.recipients.Recipient
 
 data class ViewSentGiftState(
   val recipient: Recipient? = null,

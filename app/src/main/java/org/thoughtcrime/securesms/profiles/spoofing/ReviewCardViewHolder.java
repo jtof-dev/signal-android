@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package org.mycrimes.insecuretests.profiles.spoofing;
 
 import android.content.Context;
 import android.view.View;
@@ -11,9 +11,9 @@ import androidx.annotation.PluralsRes;
 import androidx.annotation.StringRes;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.util.SpanUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.util.SpanUtil;
 
 class ReviewCardViewHolder extends RecyclerView.ViewHolder {
 

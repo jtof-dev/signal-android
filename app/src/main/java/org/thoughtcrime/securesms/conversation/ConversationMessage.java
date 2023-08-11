@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.content.Context;
 import android.text.SpannableString;
@@ -8,17 +8,17 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.Conversions;
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
-import org.thoughtcrime.securesms.conversation.mutiselect.Multiselect;
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectCollection;
-import org.thoughtcrime.securesms.database.BodyRangeUtil;
-import org.thoughtcrime.securesms.database.MentionUtil;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
+import org.mycrimes.insecuretests.components.mention.MentionAnnotation;
+import org.mycrimes.insecuretests.conversation.mutiselect.Multiselect;
+import org.mycrimes.insecuretests.conversation.mutiselect.MultiselectCollection;
+import org.mycrimes.insecuretests.database.BodyRangeUtil;
+import org.mycrimes.insecuretests.database.MentionUtil;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.Mention;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.MessageRecordUtil;
 
 import java.security.MessageDigest;
 import java.util.Collections;

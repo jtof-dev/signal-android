@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util.task;
+package org.mycrimes.insecuretests.util.task;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
 import androidx.annotation.CallSuper;
 
-import org.thoughtcrime.securesms.components.SignalProgressDialog;
+import org.mycrimes.insecuretests.components.SignalProgressDialog;
 
 import java.lang.ref.WeakReference;
 

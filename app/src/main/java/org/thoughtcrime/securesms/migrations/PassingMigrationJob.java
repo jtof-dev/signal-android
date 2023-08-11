@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.migrations;
+package org.mycrimes.insecuretests.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.jobmanager.Job;
+import org.mycrimes.insecuretests.jobmanager.Job;
 
 /**
  * A migration job that always passes. Not useful on it's own, but you can register it's factory for jobs that

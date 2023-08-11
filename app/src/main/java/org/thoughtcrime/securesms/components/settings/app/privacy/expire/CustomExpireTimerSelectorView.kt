@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package org.mycrimes.insecuretests.components.settings.app.privacy.expire
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.Gravity
 import android.widget.LinearLayout
 import android.widget.NumberPicker
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 import java.util.concurrent.TimeUnit
 
 /**

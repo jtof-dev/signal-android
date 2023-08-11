@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage;
+package org.mycrimes.insecuretests.storage;
 
 import com.annimon.stream.Stream;
 
@@ -10,9 +10,9 @@ import org.mockito.MockedStatic;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.storage.StorageSyncHelper.IdDifferenceResult;
-import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.storage.StorageSyncHelper.IdDifferenceResult;
+import org.mycrimes.insecuretests.util.FeatureFlags;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.storage.SignalAccountRecord;
 import org.whispersystems.signalservice.api.storage.SignalContactRecord;
@@ -34,9 +34,9 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.thoughtcrime.securesms.testutil.TestHelpers.assertContentsEqual;
-import static org.thoughtcrime.securesms.testutil.TestHelpers.byteArray;
-import static org.thoughtcrime.securesms.testutil.TestHelpers.byteListOf;
+import static org.mycrimes.insecuretests.testutil.TestHelpers.assertContentsEqual;
+import static org.mycrimes.insecuretests.testutil.TestHelpers.byteArray;
+import static org.mycrimes.insecuretests.testutil.TestHelpers.byteListOf;
 
 public final class StorageSyncHelperTest {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package org.mycrimes.insecuretests.conversation.ui.inlinequery
 
 import android.content.Context
 import android.graphics.Rect
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import android.view.ViewOutlineProvider
 import android.widget.PopupWindow
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.AnyMappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.AnyMappingModel
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
 
 class InlineQueryResultsPopup(
   val anchor: View,

@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/symbol_link_24"
         app:tint="@color/signal_colorOnPrimaryContainer" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/call_link_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         app:layout_constraintStart_toEndOf="@+id/call_link_icon"
         app:layout_constraintTop_toTopOf="@+id/call_link_icon" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/call_link_description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

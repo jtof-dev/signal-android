@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.revealable;
+package org.mycrimes.insecuretests.revealable;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
+import org.mycrimes.insecuretests.database.AttachmentTable;
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord;
 
 import java.util.concurrent.TimeUnit;
 

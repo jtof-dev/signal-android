@@ -1,22 +1,22 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 import android.content.Context
 import android.database.Cursor
 import org.signal.core.util.CursorUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.ContactRepository
-import org.thoughtcrime.securesms.contacts.paged.collections.ContactSearchIterator
-import org.thoughtcrime.securesms.database.DistributionListTables
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.StorySend
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.ContactRepository
+import org.mycrimes.insecuretests.contacts.paged.collections.ContactSearchIterator
+import org.mycrimes.insecuretests.database.DistributionListTables
+import org.mycrimes.insecuretests.database.GroupTable
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.ThreadTable
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyMode
+import org.mycrimes.insecuretests.database.model.GroupRecord
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.keyvalue.StorySend
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 
 /**
  * Database boundary interface which allows us to safely unit test the data source without

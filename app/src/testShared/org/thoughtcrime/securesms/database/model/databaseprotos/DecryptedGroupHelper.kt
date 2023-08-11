@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model.databaseprotos
+package org.mycrimes.insecuretests.database.model.databaseprotos
 
 import com.google.protobuf.ByteString
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package org.mycrimes.insecuretests.conversationlist
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,7 +7,7 @@ import android.view.View
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.ViewCompat
 import com.google.android.material.appbar.AppBarLayout
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.util.FeatureFlags
 
 class ConversationFilterBehavior(context: Context, attributeSet: AttributeSet) : AppBarLayout.Behavior(context, attributeSet) {
 

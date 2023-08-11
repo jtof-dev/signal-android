@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package org.mycrimes.insecuretests.mediasend
 
 import android.app.Application
 import android.content.Context
@@ -18,9 +18,9 @@ import org.mockito.junit.MockitoRule
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.AttachmentTable.TransformProperties
-import org.thoughtcrime.securesms.testutil.EmptyLogger
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.mycrimes.insecuretests.database.AttachmentTable.TransformProperties
+import org.mycrimes.insecuretests.testutil.EmptyLogger
+import org.mycrimes.insecuretests.util.MediaUtil
 import java.util.Optional
 
 @RunWith(RobolectricTestRunner::class)

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.settings
+package org.mycrimes.insecuretests.stories.settings
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.os.bundleOf
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.settings.DSLSettingsActivity
 
 class StorySettingsActivity : DSLSettingsActivity() {
   companion object {

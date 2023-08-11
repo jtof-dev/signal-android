@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup.confirm;
+package org.mycrimes.insecuretests.payments.backup.confirm;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
@@ -20,10 +20,10 @@ import androidx.navigation.Navigation;
 
 import com.google.android.material.textfield.TextInputLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.text.AfterTextChanged;
 
 public class PaymentsRecoveryPhraseConfirmFragment extends Fragment {
 
@@ -32,7 +32,7 @@ public class PaymentsRecoveryPhraseConfirmFragment extends Fragment {
    */
   private static final int      ERROR_THRESHOLD             = 1;
   public static final  String   RECOVERY_PHRASE_CONFIRMED   = "recovery_phrase_confirmed";
-  public static final  String   REQUEST_KEY_RECOVERY_PHRASE = "org.thoughtcrime.securesms.payments.backup.confirm.RECOVERY_PHRASE";
+  public static final  String   REQUEST_KEY_RECOVERY_PHRASE = "org.mycrimes.insecuretests.payments.backup.confirm.RECOVERY_PHRASE";
 
   private              Drawable validWordCheckMark;
   private              Drawable invalidWordX;

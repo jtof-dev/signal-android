@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package org.mycrimes.insecuretests.scribbles;
 
 import android.animation.Animator;
 import android.content.Context;
@@ -15,13 +15,13 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.media.DecryptableUriMediaInput;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.video.VideoBitRateCalculator;
-import org.thoughtcrime.securesms.video.VideoUtil;
-import org.thoughtcrime.securesms.video.videoconverter.VideoThumbnailsRangeSelectorView;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.media.DecryptableUriMediaInput;
+import org.mycrimes.insecuretests.mms.VideoSlide;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.video.VideoBitRateCalculator;
+import org.mycrimes.insecuretests.video.VideoUtil;
+import org.mycrimes.insecuretests.video.videoconverter.VideoThumbnailsRangeSelectorView;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

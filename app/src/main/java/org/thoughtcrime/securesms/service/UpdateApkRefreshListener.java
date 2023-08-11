@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.service;
+package org.mycrimes.insecuretests.service;
 
 
 import android.content.Context;
 import android.content.Intent;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.UpdateApkJob;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.BuildConfig;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.jobs.UpdateApkJob;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

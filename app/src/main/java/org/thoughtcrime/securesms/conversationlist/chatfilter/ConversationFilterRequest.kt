@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package org.mycrimes.insecuretests.conversationlist.chatfilter
 
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
+import org.mycrimes.insecuretests.conversationlist.model.ConversationFilter
 
 data class ConversationFilterRequest(
   val filter: ConversationFilter,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package org.mycrimes.insecuretests.scribbles;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,18 +11,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.keyboard.KeyboardPage;
-import org.thoughtcrime.securesms.keyboard.sticker.StickerKeyboardPageFragment;
-import org.thoughtcrime.securesms.keyboard.sticker.StickerSearchDialogFragment;
-import org.thoughtcrime.securesms.scribbles.stickers.FeatureSticker;
-import org.thoughtcrime.securesms.scribbles.stickers.ScribbleStickersFragment;
-import org.thoughtcrime.securesms.stickers.StickerEventListener;
-import org.thoughtcrime.securesms.stickers.StickerManagementActivity;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.MediaKeyboard;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.StickerRecord;
+import org.mycrimes.insecuretests.keyboard.KeyboardPage;
+import org.mycrimes.insecuretests.keyboard.sticker.StickerKeyboardPageFragment;
+import org.mycrimes.insecuretests.keyboard.sticker.StickerSearchDialogFragment;
+import org.mycrimes.insecuretests.scribbles.stickers.FeatureSticker;
+import org.mycrimes.insecuretests.scribbles.stickers.ScribbleStickersFragment;
+import org.mycrimes.insecuretests.stickers.StickerEventListener;
+import org.mycrimes.insecuretests.stickers.StickerManagementActivity;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 public final class ImageEditorStickerSelectActivity extends AppCompatActivity implements StickerEventListener, MediaKeyboard.MediaKeyboardListener, StickerKeyboardPageFragment.Callback, ScribbleStickersFragment.Callback {
 

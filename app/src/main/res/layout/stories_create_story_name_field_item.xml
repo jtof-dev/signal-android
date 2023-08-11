@@ -14,7 +14,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiEditText
+        <org.mycrimes.insecuretests.components.emoji.EmojiEditText
             android:id="@+id/edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

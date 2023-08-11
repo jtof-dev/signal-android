@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration
+package org.mycrimes.insecuretests.registration
 
 import android.app.Application
 import io.reactivex.rxjava3.core.Single
@@ -6,13 +6,13 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.AppCapabilities
-import org.thoughtcrime.securesms.gcm.FcmUtil
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.pin.KeyBackupSystemWrongPinException
-import org.thoughtcrime.securesms.push.AccountManagerFactory
-import org.thoughtcrime.securesms.registration.PushChallengeRequest.PushChallengeEvent
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import org.mycrimes.insecuretests.AppCapabilities
+import org.mycrimes.insecuretests.gcm.FcmUtil
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.pin.KeyBackupSystemWrongPinException
+import org.mycrimes.insecuretests.push.AccountManagerFactory
+import org.mycrimes.insecuretests.registration.PushChallengeRequest.PushChallengeEvent
+import org.mycrimes.insecuretests.util.TextSecurePreferences
 import org.whispersystems.signalservice.api.KbsPinData
 import org.whispersystems.signalservice.api.KeyBackupSystemNoDataException
 import org.whispersystems.signalservice.api.SignalServiceAccountManager

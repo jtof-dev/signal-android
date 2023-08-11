@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package org.mycrimes.insecuretests.reactions;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -20,12 +20,12 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.util.FullscreenHelper;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.EmojiImageView;
+import org.mycrimes.insecuretests.database.model.MessageId;
+import org.mycrimes.insecuretests.util.FullscreenHelper;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
 
 import java.util.Objects;
 

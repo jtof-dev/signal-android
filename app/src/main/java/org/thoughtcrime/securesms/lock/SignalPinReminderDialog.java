@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock;
+package org.mycrimes.insecuretests.lock;
 
 import android.content.Context;
 import android.content.Intent;
@@ -28,13 +28,13 @@ import androidx.core.view.ViewCompat;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contactshare.SimpleTextWatcher;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
-import org.thoughtcrime.securesms.lock.v2.KbsConstants;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.contactshare.SimpleTextWatcher;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.lock.v2.CreateKbsPinActivity;
+import org.mycrimes.insecuretests.lock.v2.KbsConstants;
+import org.mycrimes.insecuretests.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 import org.whispersystems.signalservice.api.kbs.PinHashUtil;
 
 import java.util.Objects;

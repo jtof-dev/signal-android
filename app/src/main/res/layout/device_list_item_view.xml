@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.DeviceListItem xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mycrimes.insecuretests.DeviceListItem xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
                                            android:orientation="vertical"
@@ -32,4 +32,4 @@
               android:fontFamily="sans-serif-light"
               android:layout_marginBottom="8dp" />
 
-</org.thoughtcrime.securesms.DeviceListItem>
+</org.mycrimes.insecuretests.DeviceListItem>

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package org.mycrimes.insecuretests.conversation.colors.ui
 
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import org.mycrimes.insecuretests.conversation.colors.ChatColors
+import org.mycrimes.insecuretests.conversation.colors.ChatColorsPalette
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList
+import org.mycrimes.insecuretests.wallpaper.ChatWallpaper
 
 data class ChatColorSelectionState(
   val wallpaper: ChatWallpaper? = null,

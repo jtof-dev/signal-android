@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.mycrimes.insecuretests.keyvalue
 
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Observable
@@ -12,15 +12,15 @@ import org.signal.libsignal.zkgroup.VerificationFailedException
 import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialRequestContext
 import org.signal.libsignal.zkgroup.receipts.ReceiptSerial
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.database.model.databaseprotos.BadgeList
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobs.SubscriptionReceiptRequestResponseJob
-import org.thoughtcrime.securesms.payments.currency.CurrencyUtil
-import org.thoughtcrime.securesms.subscription.LevelUpdateOperation
-import org.thoughtcrime.securesms.subscription.Subscriber
-import org.thoughtcrime.securesms.util.Util
+import org.mycrimes.insecuretests.badges.Badges
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.database.model.databaseprotos.BadgeList
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.jobs.SubscriptionReceiptRequestResponseJob
+import org.mycrimes.insecuretests.payments.currency.CurrencyUtil
+import org.mycrimes.insecuretests.subscription.LevelUpdateOperation
+import org.mycrimes.insecuretests.subscription.Subscriber
+import org.mycrimes.insecuretests.util.Util
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 import org.whispersystems.signalservice.api.subscriptions.IdempotencyKey
 import org.whispersystems.signalservice.api.subscriptions.SubscriberId

@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart;
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
-import org.thoughtcrime.securesms.util.MessageConstraintsUtil;
+import org.mycrimes.insecuretests.conversation.mutiselect.MultiselectPart;
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.database.model.MmsMessageRecord;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.MessageRecordUtil;
+import org.mycrimes.insecuretests.util.MessageConstraintsUtil;
 
 import java.util.Set;
 import java.util.stream.Collectors;

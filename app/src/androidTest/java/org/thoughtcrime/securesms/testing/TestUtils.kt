@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package org.mycrimes.insecuretests.testing
 
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.hasSize

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.conversation;
+package org.mycrimes.insecuretests.conversation;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -41,26 +41,26 @@ import com.google.android.exoplayer2.MediaItem;
 
 import org.signal.core.util.logging.Log;
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.BindableConversationItem;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.colors.Colorizable;
-import org.thoughtcrime.securesms.conversation.colors.Colorizer;
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart;
-import org.thoughtcrime.securesms.conversationlist.model.Conversation;
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Playable;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4PlaybackPolicyEnforcer;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.CachedInflater;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ProjectionList;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.BindableConversationItem;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversation.colors.Colorizable;
+import org.mycrimes.insecuretests.conversation.colors.Colorizer;
+import org.mycrimes.insecuretests.conversation.mutiselect.MultiselectPart;
+import org.mycrimes.insecuretests.conversationlist.model.Conversation;
+import org.mycrimes.insecuretests.database.model.MediaMmsMessageRecord;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4Playable;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4PlaybackPolicyEnforcer;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.CachedInflater;
+import org.mycrimes.insecuretests.util.DateUtils;
+import org.mycrimes.insecuretests.util.Projection;
+import org.mycrimes.insecuretests.util.ProjectionList;
+import org.mycrimes.insecuretests.util.StickyHeaderDecoration;
+import org.mycrimes.insecuretests.util.ThemeUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 import java.util.Calendar;
 import java.util.HashSet;

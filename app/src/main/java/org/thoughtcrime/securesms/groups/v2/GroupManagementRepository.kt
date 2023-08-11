@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2
+package org.mycrimes.insecuretests.groups.v2
 
 import android.content.Context
 import androidx.core.util.Consumer
@@ -8,17 +8,17 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.Result
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException
-import org.thoughtcrime.securesms.groups.GroupChangeException
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupManager
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.contacts.sync.ContactDiscovery
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies
+import org.mycrimes.insecuretests.groups.GroupChangeBusyException
+import org.mycrimes.insecuretests.groups.GroupChangeException
+import org.mycrimes.insecuretests.groups.GroupChangeFailedException
+import org.mycrimes.insecuretests.groups.GroupId
+import org.mycrimes.insecuretests.groups.GroupManager
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
 import java.io.IOException
 
 private val TAG: String = Log.tag(GroupManagementRepository::class.java)

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.mycrimes.insecuretests.mms;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -34,7 +34,7 @@ import org.apache.http.client.methods.HttpPostHC4;
 import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.entity.ByteArrayEntityHC4;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
+import org.mycrimes.insecuretests.transport.UndeliverableMessageException;
 
 import java.io.IOException;
 

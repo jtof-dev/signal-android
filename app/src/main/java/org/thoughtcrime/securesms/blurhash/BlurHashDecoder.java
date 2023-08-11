@@ -18,16 +18,16 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package org.thoughtcrime.securesms.blurhash;
+package org.mycrimes.insecuretests.blurhash;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
 
 import androidx.annotation.Nullable;
 
-import static org.thoughtcrime.securesms.blurhash.BlurHashUtil.linearTosRGB;
-import static org.thoughtcrime.securesms.blurhash.BlurHashUtil.sRGBToLinear;
-import static org.thoughtcrime.securesms.blurhash.BlurHashUtil.signPow;
+import static org.mycrimes.insecuretests.blurhash.BlurHashUtil.linearTosRGB;
+import static org.mycrimes.insecuretests.blurhash.BlurHashUtil.sRGBToLinear;
+import static org.mycrimes.insecuretests.blurhash.BlurHashUtil.signPow;
 
 class BlurHashDecoder {
 

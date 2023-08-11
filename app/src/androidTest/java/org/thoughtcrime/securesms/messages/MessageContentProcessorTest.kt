@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.messages
+package org.mycrimes.insecuretests.messages
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
 import org.junit.Rule
-import org.thoughtcrime.securesms.messages.MessageContentProcessor.ExceptionMetadata
-import org.thoughtcrime.securesms.messages.MessageContentProcessor.MessageState
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.TestProtos
+import org.mycrimes.insecuretests.messages.MessageContentProcessor.ExceptionMetadata
+import org.mycrimes.insecuretests.messages.MessageContentProcessor.MessageState
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.testing.SignalActivityRule
+import org.mycrimes.insecuretests.testing.TestProtos
 import org.whispersystems.signalservice.api.messages.SignalServiceContent
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos
 import org.whispersystems.signalservice.internal.serialize.protos.SignalServiceContentProto

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.sms;
+package org.mycrimes.insecuretests.sms;
 
 import com.google.protobuf.ByteString;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context;
-import org.thoughtcrime.securesms.mms.MessageGroupContext;
+import org.mycrimes.insecuretests.database.model.databaseprotos.DecryptedGroupV2Context;
+import org.mycrimes.insecuretests.mms.MessageGroupContext;
 
 import java.util.Optional;
 

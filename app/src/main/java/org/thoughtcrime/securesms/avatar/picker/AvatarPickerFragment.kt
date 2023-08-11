@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.picker
+package org.mycrimes.insecuretests.avatar.picker
 
 import android.Manifest
 import android.app.Activity
@@ -18,23 +18,23 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarBundler
-import org.thoughtcrime.securesms.avatar.photo.PhotoEditorActivity
-import org.thoughtcrime.securesms.avatar.photo.PhotoEditorFragment
-import org.thoughtcrime.securesms.avatar.text.TextAvatarCreationFragment
-import org.thoughtcrime.securesms.avatar.vector.VectorAvatarCreationFragment
-import org.thoughtcrime.securesms.components.ButtonStripItemView
-import org.thoughtcrime.securesms.components.recyclerview.GridDividerDecoration
-import org.thoughtcrime.securesms.groups.ParcelableGroupId
-import org.thoughtcrime.securesms.mediasend.AvatarSelectionActivity
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.avatar.Avatar
+import org.mycrimes.insecuretests.avatar.AvatarBundler
+import org.mycrimes.insecuretests.avatar.photo.PhotoEditorActivity
+import org.mycrimes.insecuretests.avatar.photo.PhotoEditorFragment
+import org.mycrimes.insecuretests.avatar.text.TextAvatarCreationFragment
+import org.mycrimes.insecuretests.avatar.vector.VectorAvatarCreationFragment
+import org.mycrimes.insecuretests.components.ButtonStripItemView
+import org.mycrimes.insecuretests.components.recyclerview.GridDividerDecoration
+import org.mycrimes.insecuretests.groups.ParcelableGroupId
+import org.mycrimes.insecuretests.mediasend.AvatarSelectionActivity
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.permissions.Permissions
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingAdapter
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Primary Avatar picker fragment, displays current user avatar and a list of recently used avatars and defaults.
@@ -42,9 +42,9 @@ import org.thoughtcrime.securesms.util.visible
 class AvatarPickerFragment : Fragment(R.layout.avatar_picker_fragment) {
 
   companion object {
-    const val REQUEST_KEY_SELECT_AVATAR = "org.thoughtcrime.securesms.avatar.picker.SELECT_AVATAR"
-    const val SELECT_AVATAR_MEDIA = "org.thoughtcrime.securesms.avatar.picker.SELECT_AVATAR_MEDIA"
-    const val SELECT_AVATAR_CLEAR = "org.thoughtcrime.securesms.avatar.picker.SELECT_AVATAR_CLEAR"
+    const val REQUEST_KEY_SELECT_AVATAR = "org.mycrimes.insecuretests.avatar.picker.SELECT_AVATAR"
+    const val SELECT_AVATAR_MEDIA = "org.mycrimes.insecuretests.avatar.picker.SELECT_AVATAR_MEDIA"
+    const val SELECT_AVATAR_CLEAR = "org.mycrimes.insecuretests.avatar.picker.SELECT_AVATAR_CLEAR"
 
     private const val REQUEST_CODE_SELECT_IMAGE = 1
   }

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.core.content.FileProvider;
 
-import org.thoughtcrime.securesms.BuildConfig;
+import org.mycrimes.insecuretests.BuildConfig;
 
 import java.io.File;
 

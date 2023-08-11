@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
+package org.mycrimes.insecuretests.components.settings.app.subscription.donate.stripe
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -14,11 +14,11 @@ import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.navArgs
 import org.signal.donations.StripeIntentAccessor
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationWebViewOnBackPressedCallback
-import org.thoughtcrime.securesms.databinding.DonationWebviewFragmentBinding
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.ViewBinderDelegate
+import org.mycrimes.insecuretests.components.settings.app.subscription.donate.DonationWebViewOnBackPressedCallback
+import org.mycrimes.insecuretests.databinding.DonationWebviewFragmentBinding
+import org.mycrimes.insecuretests.util.visible
 
 /**
  * Full-screen dialog for displaying Stripe 3DS confirmation.

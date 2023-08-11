@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views
+package org.mycrimes.insecuretests.util.views
 
 import android.animation.Animator
 import android.content.Context
@@ -15,8 +15,8 @@ import com.google.android.material.button.MaterialButton
 import com.google.android.material.progressindicator.CircularProgressIndicator
 import com.google.android.material.theme.overlay.MaterialThemeOverlay
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.visible
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.util.visible
 import kotlin.math.max
 
 /**

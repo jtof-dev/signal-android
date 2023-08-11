@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sms;
+package org.mycrimes.insecuretests.sms;
 
 import androidx.annotation.NonNull;
 
@@ -6,9 +6,9 @@ import com.google.protobuf.ByteString;
 
 import org.junit.Test;
 import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context;
-import org.thoughtcrime.securesms.groups.v2.ChangeBuilder;
-import org.thoughtcrime.securesms.mms.MessageGroupContext;
+import org.mycrimes.insecuretests.database.model.databaseprotos.DecryptedGroupV2Context;
+import org.mycrimes.insecuretests.groups.v2.ChangeBuilder;
+import org.mycrimes.insecuretests.mms.MessageGroupContext;
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos;
 
 import java.util.Random;

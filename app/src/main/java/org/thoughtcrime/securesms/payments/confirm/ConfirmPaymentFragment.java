@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.confirm;
+package org.mycrimes.insecuretests.payments.confirm;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -31,23 +31,23 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BiometricDeviceAuthentication;
-import org.thoughtcrime.securesms.BiometricDeviceLockContract;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.CanNotSendPaymentDialog;
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil;
-import org.thoughtcrime.securesms.payments.Payee;
-import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeFragmentDirections;
-import org.thoughtcrime.securesms.payments.preferences.RecipientHasNotEnabledPaymentsDialog;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
+import org.mycrimes.insecuretests.BiometricDeviceAuthentication;
+import org.mycrimes.insecuretests.BiometricDeviceLockContract;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.settings.app.AppSettingsActivity;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.CanNotSendPaymentDialog;
+import org.mycrimes.insecuretests.payments.FiatMoneyUtil;
+import org.mycrimes.insecuretests.payments.Payee;
+import org.mycrimes.insecuretests.payments.preferences.PaymentsHomeFragmentDirections;
+import org.mycrimes.insecuretests.payments.preferences.RecipientHasNotEnabledPaymentsDialog;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.BottomSheetUtil;
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingModelList;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 
 import java.util.concurrent.TimeUnit;

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.conversationlist;
+package org.mycrimes.insecuretests.conversationlist;
 
 import android.annotation.SuppressLint;
 import android.os.AsyncTask;
@@ -33,12 +33,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.util.ConversationUtil;
-import org.thoughtcrime.securesms.util.task.SnackbarAsyncTask;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.registration.PulsingFloatingActionButton;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.util.ConversationUtil;
+import org.mycrimes.insecuretests.util.task.SnackbarAsyncTask;
+import org.mycrimes.insecuretests.util.views.Stub;
 
 import java.util.Set;
 

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.messagedetails;
+package org.mycrimes.insecuretests.messagedetails;
 
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.DeliveryStatusView;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.DeliveryStatusView;
 
 final class RecipientHeaderViewHolder extends RecyclerView.ViewHolder {
   private final TextView           header;

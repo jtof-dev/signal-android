@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.self.none
+package org.mycrimes.insecuretests.badges.self.none
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -7,8 +7,8 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.components.settings.app.subscription.MonthlyDonationRepository
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class BecomeASustainerViewModel(subscriptionsRepository: MonthlyDonationRepository) : ViewModel() {
 

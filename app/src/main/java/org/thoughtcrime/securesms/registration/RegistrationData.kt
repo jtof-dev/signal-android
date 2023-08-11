@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration
+package org.mycrimes.insecuretests.registration
 
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
 

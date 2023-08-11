@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.avatar
+package org.mycrimes.insecuretests.avatar
 
 import android.net.Uri
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Represents an Avatar which the user can choose, edit, and render into a bitmap via the renderer.

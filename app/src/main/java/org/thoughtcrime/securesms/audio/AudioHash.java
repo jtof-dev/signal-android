@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.audio;
+package org.mycrimes.insecuretests.audio;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData;
+import org.mycrimes.insecuretests.database.model.databaseprotos.AudioWaveFormData;
 import org.whispersystems.util.Base64;
 
 import java.io.IOException;

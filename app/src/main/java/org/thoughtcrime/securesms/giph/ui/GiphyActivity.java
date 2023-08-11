@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.ui;
+package org.mycrimes.insecuretests.giph.ui;
 
 
 import android.annotation.SuppressLint;
@@ -12,23 +12,23 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.MessageSendType;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Fragment;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4SaveResult;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4ViewModel;
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity;
-import org.thoughtcrime.securesms.mms.SlideFactory;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.mycrimes.insecuretests.PassphraseRequiredActivity;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversation.MessageSendType;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4Fragment;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4SaveResult;
+import org.mycrimes.insecuretests.giph.mp4.GiphyMp4ViewModel;
+import org.mycrimes.insecuretests.keyboard.emoji.KeyboardPageSearchView;
+import org.mycrimes.insecuretests.mediasend.Media;
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionActivity;
+import org.mycrimes.insecuretests.mms.SlideFactory;
+import org.mycrimes.insecuretests.providers.BlobProvider;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.DynamicNoActionBarTheme;
+import org.mycrimes.insecuretests.util.DynamicTheme;
+import org.mycrimes.insecuretests.util.MediaUtil;
+import org.mycrimes.insecuretests.util.ViewUtil;
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog;
 
 import java.util.Collections;
 import java.util.Objects;

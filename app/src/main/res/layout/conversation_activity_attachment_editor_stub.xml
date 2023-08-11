@@ -9,20 +9,20 @@
     android:visibility="gone"
     tools:viewBindingIgnore="true">
 
-    <org.thoughtcrime.securesms.components.RemovableEditableMediaView
+    <org.mycrimes.insecuretests.components.RemovableEditableMediaView
         android:id="@+id/removable_media_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
-        <org.thoughtcrime.securesms.components.location.SignalMapView
+        <org.mycrimes.insecuretests.components.location.SignalMapView
             android:id="@+id/attachment_location"
             android:layout_width="210dp"
             android:layout_height="210dp"
             android:layout_gravity="center_horizontal"
             android:visibility="gone" />
 
-        <org.thoughtcrime.securesms.components.ThumbnailView
+        <org.mycrimes.insecuretests.components.ThumbnailView
             android:id="@+id/attachment_thumbnail"
             android:layout_width="230dp"
             android:layout_height="150dp"
@@ -34,7 +34,7 @@
             app:minHeight="100dp"
             app:minWidth="100dp" />
 
-        <org.thoughtcrime.securesms.components.AudioView
+        <org.mycrimes.insecuretests.components.AudioView
             android:id="@+id/attachment_audio"
             android:layout_width="210dp"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             app:waveformThumbTint="@color/audio_seek_bar_sent_played_color"
             app:waveformUnplayedBarsColor="@color/audio_seek_bar_sent_unplayed_color" />
 
-        <org.thoughtcrime.securesms.components.DocumentView
+        <org.mycrimes.insecuretests.components.DocumentView
             android:id="@+id/attachment_document"
             android:layout_width="210dp"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             app:doc_captionColor="@color/signal_text_secondary"
             app:doc_titleColor="@color/signal_text_primary" />
 
-    </org.thoughtcrime.securesms.components.RemovableEditableMediaView>
+    </org.mycrimes.insecuretests.components.RemovableEditableMediaView>
 
 </FrameLayout>
 

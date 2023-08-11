@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests;
+package org.mycrimes.insecuretests.messagerequests;
 
 import androidx.annotation.NonNull;
 

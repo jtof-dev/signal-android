@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.megaphone.Megaphones;
+import org.mycrimes.insecuretests.megaphone.Megaphones;
 
 public class MegaphoneRecord {
 

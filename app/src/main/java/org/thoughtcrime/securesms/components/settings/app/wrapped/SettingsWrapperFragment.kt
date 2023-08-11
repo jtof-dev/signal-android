@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.wrapped
+package org.mycrimes.insecuretests.components.settings.app.wrapped
 
 import android.os.Bundle
 import android.view.View
@@ -6,7 +6,7 @@ import androidx.activity.OnBackPressedCallback
 import androidx.annotation.StringRes
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.R
+import org.mycrimes.insecuretests.R
 
 /**
  * Wraps a fragment to give it a Settings style toolbar. This class should be used sparingly, and

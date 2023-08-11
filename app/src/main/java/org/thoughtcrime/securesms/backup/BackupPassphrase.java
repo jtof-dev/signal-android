@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package org.mycrimes.insecuretests.backup;
 
 import android.content.Context;
 import android.os.Build;
@@ -7,8 +7,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.KeyStoreHelper;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.mycrimes.insecuretests.crypto.KeyStoreHelper;
+import org.mycrimes.insecuretests.util.TextSecurePreferences;
 
 /**
  * Allows the getting and setting of the backup passphrase, which is stored encrypted on API >= 23.

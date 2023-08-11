@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.mycrimes.insecuretests.components.emoji;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -29,14 +29,14 @@ import androidx.core.view.ViewKt;
 import androidx.core.widget.TextViewCompat;
 
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
-import org.thoughtcrime.securesms.components.mention.MentionRendererDelegate;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerRendererDelegate;
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.Util;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.emoji.parsing.EmojiParser;
+import org.mycrimes.insecuretests.components.mention.MentionAnnotation;
+import org.mycrimes.insecuretests.components.mention.MentionRendererDelegate;
+import org.mycrimes.insecuretests.components.spoiler.SpoilerRendererDelegate;
+import org.mycrimes.insecuretests.emoji.JumboEmoji;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.util.Util;
 
 import java.util.Arrays;
 import java.util.List;

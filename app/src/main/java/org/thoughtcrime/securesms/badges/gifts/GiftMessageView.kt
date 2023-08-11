@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.gifts
+package org.mycrimes.insecuretests.badges.gifts
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -11,12 +11,12 @@ import androidx.core.content.res.use
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.google.android.material.button.MaterialButton
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.badges.gifts.Gifts.formatExpiry
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.mms.GlideRequests
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.badges.BadgeImageView
+import org.mycrimes.insecuretests.badges.gifts.Gifts.formatExpiry
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge
+import org.mycrimes.insecuretests.mms.GlideRequests
+import org.mycrimes.insecuretests.recipients.Recipient
 
 /**
  * Displays a gift badge sent to or received from a user, and allows the user to

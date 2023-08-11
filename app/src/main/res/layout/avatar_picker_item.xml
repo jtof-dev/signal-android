@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mycrimes.insecuretests.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,7 +17,7 @@
         tools:backgroundTint="#C2DCE9"
         tools:tint="@color/signal_inverse_primary" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/avatar_picker_item_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -44,4 +44,4 @@
         app:srcCompat="@drawable/ic_compose_solid_24"
         app:tint="@color/core_white" />
 
-</org.thoughtcrime.securesms.components.SquareFrameLayout>
+</org.mycrimes.insecuretests.components.SquareFrameLayout>

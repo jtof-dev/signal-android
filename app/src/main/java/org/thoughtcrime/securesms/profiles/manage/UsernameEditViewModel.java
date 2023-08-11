@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package org.mycrimes.insecuretests.profiles.manage;
 
 import android.text.TextUtils;
 
@@ -6,11 +6,11 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.UsernameUtil;
-import org.thoughtcrime.securesms.util.UsernameUtil.InvalidReason;
-import org.thoughtcrime.securesms.util.rx.RxStore;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.UsernameUtil;
+import org.mycrimes.insecuretests.util.UsernameUtil.InvalidReason;
+import org.mycrimes.insecuretests.util.rx.RxStore;
 
 import java.util.Objects;
 import java.util.Optional;

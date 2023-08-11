@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.migrations
+package org.mycrimes.insecuretests.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.keyvalue.SettingsValues
+import org.mycrimes.insecuretests.keyvalue.SignalStore
 import java.util.Random
 
 internal class BackupJitterMigrationJob(parameters: Parameters = Parameters.Builder().build()) : MigrationJob(parameters) {

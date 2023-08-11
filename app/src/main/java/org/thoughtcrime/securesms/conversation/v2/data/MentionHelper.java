@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.conversation.v2.data;
+package org.mycrimes.insecuretests.conversation.v2.data;
 
 import android.content.Context;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.mycrimes.insecuretests.database.SignalDatabase;
+import org.mycrimes.insecuretests.database.model.Mention;
+import org.mycrimes.insecuretests.database.model.MessageRecord;
 
 import java.util.Collection;
 import java.util.HashMap;

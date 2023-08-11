@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.tabs
+package org.mycrimes.insecuretests.stories.viewer.reply.tabs
 
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.viewer.reply.group.StoryGroupReplyFragment
-import org.thoughtcrime.securesms.stories.viewer.views.StoryViewsFragment
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.stories.viewer.reply.group.StoryGroupReplyFragment
+import org.mycrimes.insecuretests.stories.viewer.views.StoryViewsFragment
 
 class StoryViewsAndRepliesPagerAdapter(
   fragment: Fragment,

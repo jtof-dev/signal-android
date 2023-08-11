@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:viewBindingIgnore="true">
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <org.mycrimes.insecuretests.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
@@ -15,7 +15,7 @@
         app:navigationIcon="@drawable/ic_arrow_left_24"
         app:titleTextAppearance="@style/Signal.Text.TitleLarge" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiEditText
+    <org.mycrimes.insecuretests.components.emoji.EmojiEditText
         android:id="@+id/search_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

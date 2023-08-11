@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments
+package org.mycrimes.insecuretests.registration.fragments
 
 import android.os.Bundle
 import android.text.InputType
@@ -12,18 +12,18 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.PinRestoreEntryFragmentBinding
-import org.thoughtcrime.securesms.lock.v2.KbsConstants
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType
-import org.thoughtcrime.securesms.registration.VerifyResponseWithRegistrationLockProcessor
-import org.thoughtcrime.securesms.registration.viewmodel.ReRegisterWithPinViewModel
-import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SupportEmailUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.mycrimes.insecuretests.LoggingFragment
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.databinding.PinRestoreEntryFragmentBinding
+import org.mycrimes.insecuretests.lock.v2.KbsConstants
+import org.mycrimes.insecuretests.lock.v2.PinKeyboardType
+import org.mycrimes.insecuretests.registration.VerifyResponseWithRegistrationLockProcessor
+import org.mycrimes.insecuretests.registration.viewmodel.ReRegisterWithPinViewModel
+import org.mycrimes.insecuretests.registration.viewmodel.RegistrationViewModel
+import org.mycrimes.insecuretests.util.CommunicationActions
+import org.mycrimes.insecuretests.util.SupportEmailUtil
+import org.mycrimes.insecuretests.util.ViewUtil
+import org.mycrimes.insecuretests.util.navigation.safeNavigate
 
 /**
  * Using a recovery password or restored KBS token attempt to register in the skip flow.

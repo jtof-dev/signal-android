@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package org.mycrimes.insecuretests.video;
 
 /**
  * Calculates a target quality output for a video to fit within a specified size.

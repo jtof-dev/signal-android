@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.mycrimes.insecuretests.lock.v2;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
@@ -7,8 +7,8 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.lock.v2.ConfirmKbsPinRepository.PinSetResult;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
+import org.mycrimes.insecuretests.lock.v2.ConfirmKbsPinRepository.PinSetResult;
+import org.mycrimes.insecuretests.util.DefaultValueLiveData;
 
 final class ConfirmKbsPinViewModel extends ViewModel implements BaseKbsPinViewModel {
 

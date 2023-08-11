@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup;
+package org.mycrimes.insecuretests.payments.backup;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import androidx.navigation.Navigation;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.util.text.AfterTextChanged;
 import org.whispersystems.signalservice.api.payments.PaymentsConstants;
 
 public class PaymentsRecoveryPasteFragment extends Fragment {

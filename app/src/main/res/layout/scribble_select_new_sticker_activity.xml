@@ -7,6 +7,6 @@
     android:id="@+id/emoji_drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:name="org.thoughtcrime.securesms.scribbles.stickers.ScribbleStickersFragment"
+    android:name="org.mycrimes.insecuretests.scribbles.stickers.ScribbleStickersFragment"
     android:background="@color/core_grey_90"
     app:tabs_gravity="top" />

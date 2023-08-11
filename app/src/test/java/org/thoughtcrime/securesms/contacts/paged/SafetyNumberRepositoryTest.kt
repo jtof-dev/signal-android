@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 import android.app.Application
 import io.reactivex.rxjava3.core.Single
@@ -21,15 +21,15 @@ import org.mockito.quality.Strictness
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
-import org.thoughtcrime.securesms.crypto.storage.SignalIdentityKeyStore
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.RecipientDatabaseTestUtils
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
-import org.thoughtcrime.securesms.util.IdentityUtil
+import org.mycrimes.insecuretests.crypto.IdentityKeyUtil
+import org.mycrimes.insecuretests.crypto.storage.SignalIdentityKeyStore
+import org.mycrimes.insecuretests.database.IdentityTable
+import org.mycrimes.insecuretests.database.RecipientDatabaseTestUtils
+import org.mycrimes.insecuretests.database.model.IdentityRecord
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.testutil.SystemOutLogger
+import org.mycrimes.insecuretests.util.IdentityUtil
 import org.whispersystems.signalservice.api.push.ACI
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import org.whispersystems.signalservice.api.services.ProfileService

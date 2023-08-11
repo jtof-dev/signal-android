@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.attachments;
+package org.mycrimes.insecuretests.attachments;
 
 import android.net.Uri;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.audio.AudioHash;
-import org.thoughtcrime.securesms.blurhash.BlurHash;
-import org.thoughtcrime.securesms.database.AttachmentTable.TransformProperties;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
+import org.mycrimes.insecuretests.audio.AudioHash;
+import org.mycrimes.insecuretests.blurhash.BlurHash;
+import org.mycrimes.insecuretests.database.AttachmentTable.TransformProperties;
+import org.mycrimes.insecuretests.mms.PartAuthority;
+import org.mycrimes.insecuretests.stickers.StickerLocator;
 
 import java.util.Comparator;
 

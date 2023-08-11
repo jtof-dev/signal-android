@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package org.mycrimes.insecuretests.conversationlist
 
 /**
  * Compares two display names, preferring the one which includes the given [highlightSubstring].

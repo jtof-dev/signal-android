@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.search
+package org.mycrimes.insecuretests.components.settings.app.internal.search
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
@@ -18,9 +18,9 @@ import io.reactivex.rxjava3.subjects.BehaviorSubject
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.toImmutableList
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.RecipientRecord
+import org.mycrimes.insecuretests.database.RecipientTable
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.database.model.RecipientRecord
 import java.util.concurrent.TimeUnit
 
 class InternalSearchViewModel : ViewModel() {

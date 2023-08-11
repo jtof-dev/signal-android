@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.sharablegrouplink.qr;
+package org.mycrimes.insecuretests.recipients.ui.sharablegrouplink.qr;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -19,13 +19,13 @@ import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.qr.QrView;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.qr.QrCodeUtil;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.components.qr.QrView;
+import org.mycrimes.insecuretests.groups.GroupId;
+import org.mycrimes.insecuretests.providers.BlobProvider;
+import org.mycrimes.insecuretests.qr.QrCodeUtil;
+import org.mycrimes.insecuretests.util.BottomSheetUtil;
+import org.mycrimes.insecuretests.util.ThemeUtil;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

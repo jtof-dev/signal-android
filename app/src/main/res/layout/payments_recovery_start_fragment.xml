@@ -56,7 +56,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/payments_recovery_start_fragment_image" />
 
-            <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+            <org.mycrimes.insecuretests.util.views.LearnMoreTextView
                 android:id="@+id/payments_recovery_start_fragment_message"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

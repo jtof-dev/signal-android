@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.my
+package org.mycrimes.insecuretests.stories.my
 
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
+import org.mycrimes.insecuretests.components.FragmentWrapperActivity
 
 class MyStoriesActivity : FragmentWrapperActivity() {
   override fun getFragment(): Fragment {

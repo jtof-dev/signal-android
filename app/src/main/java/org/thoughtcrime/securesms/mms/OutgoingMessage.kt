@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.mms
+package org.mycrimes.insecuretests.mms
 
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch
-import org.thoughtcrime.securesms.database.documents.NetworkFailure
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.sms.GroupV2UpdateMessageUtil
+import org.mycrimes.insecuretests.attachments.Attachment
+import org.mycrimes.insecuretests.contactshare.Contact
+import org.mycrimes.insecuretests.database.ThreadTable
+import org.mycrimes.insecuretests.database.documents.IdentityKeyMismatch
+import org.mycrimes.insecuretests.database.documents.NetworkFailure
+import org.mycrimes.insecuretests.database.model.Mention
+import org.mycrimes.insecuretests.database.model.ParentStoryId
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.database.model.databaseprotos.DecryptedGroupV2Context
+import org.mycrimes.insecuretests.database.model.databaseprotos.GiftBadge
+import org.mycrimes.insecuretests.linkpreview.LinkPreview
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.sms.GroupV2UpdateMessageUtil
 
 /**
  * Represents all the data needed for an outgoing message.

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.database
+package org.mycrimes.insecuretests.database
 
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.database.model.DistributionListId
+import org.mycrimes.insecuretests.database.model.DistributionListRecord
+import org.mycrimes.insecuretests.database.model.StoryType
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.ACI
 import java.util.UUID
 

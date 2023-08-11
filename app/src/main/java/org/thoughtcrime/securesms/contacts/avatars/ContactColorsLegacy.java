@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.mycrimes.insecuretests.contacts.avatars;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.color.MaterialColor;
+import org.mycrimes.insecuretests.color.MaterialColor;
 
 /**
  * Used for migrating legacy colors to modern colors. For normal color generation, use

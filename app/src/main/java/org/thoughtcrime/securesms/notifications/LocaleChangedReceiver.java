@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.notifications;
+package org.mycrimes.insecuretests.notifications;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.thoughtcrime.securesms.jobs.EmojiSearchIndexDownloadJob;
+import org.mycrimes.insecuretests.jobs.EmojiSearchIndexDownloadJob;
 
 public class LocaleChangedReceiver extends BroadcastReceiver {
 

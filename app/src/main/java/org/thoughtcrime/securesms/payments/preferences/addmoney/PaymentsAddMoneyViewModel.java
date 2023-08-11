@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.addmoney;
+package org.mycrimes.insecuretests.payments.preferences.addmoney;
 
 import android.net.Uri;
 
@@ -10,7 +10,7 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
+import org.mycrimes.insecuretests.util.AsynchronousCallback;
 import org.signal.core.util.StringUtil;
 
 final class PaymentsAddMoneyViewModel extends ViewModel {

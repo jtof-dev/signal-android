@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.new
+package org.mycrimes.insecuretests.calls.new
 
 import android.content.Context
 import android.content.Intent
@@ -11,17 +11,17 @@ import androidx.core.view.MenuProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.util.concurrent.SimpleTask
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.ContactSelectionActivity
-import org.thoughtcrime.securesms.ContactSelectionListFragment
-import org.thoughtcrime.securesms.InviteActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery.refresh
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog
+import org.mycrimes.insecuretests.ContactSelectionActivity
+import org.mycrimes.insecuretests.ContactSelectionListFragment
+import org.mycrimes.insecuretests.InviteActivity
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.contacts.ContactSelectionDisplayMode
+import org.mycrimes.insecuretests.contacts.sync.ContactDiscovery.refresh
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.CommunicationActions
+import org.mycrimes.insecuretests.util.views.SimpleProgressDialog
 import java.io.IOException
 import java.util.Optional
 import java.util.function.Consumer

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.reminder
+package org.mycrimes.insecuretests.components.reminder
 
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.FeatureFlags
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.FeatureFlags
 
 /**
  * Displays a reminder message when the local username gets out of sync with

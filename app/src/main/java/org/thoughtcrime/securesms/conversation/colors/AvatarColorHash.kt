@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.colors
+package org.mycrimes.insecuretests.conversation.colors
 
-import org.thoughtcrime.securesms.groups.GroupId
+import org.mycrimes.insecuretests.groups.GroupId
 
 /**
  * Stolen from iOS. Utilizes a simple hash to map different characteristics to an avatar color index.

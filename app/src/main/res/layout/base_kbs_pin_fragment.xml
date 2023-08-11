@@ -32,7 +32,7 @@
             app:layout_constraintTop_toBottomOf="@id/kbs_pin_toolbar"
             tools:text="@string/CreateKbsPinFragment__create_your_pin" />
 
-        <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+        <org.mycrimes.insecuretests.util.views.LearnMoreTextView
             android:id="@+id/edit_kbs_pin_description"
             style="@style/Signal.Text.BodyLarge"
             android:layout_width="match_parent"
@@ -108,7 +108,7 @@
             tools:layout_editor_absoluteX="32dp"
             tools:text="Create Alphanumeric Pin" />
 
-        <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+        <org.mycrimes.insecuretests.util.views.CircularProgressMaterialButton
             android:id="@+id/edit_kbs_pin_confirm"
             style="@style/Signal.Widget.Button.Large.Tonal"
             android:layout_width="wrap_content"

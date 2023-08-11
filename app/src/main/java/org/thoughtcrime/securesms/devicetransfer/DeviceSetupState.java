@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.devicetransfer;
+package org.mycrimes.insecuretests.devicetransfer;
 
 import androidx.annotation.NonNull;
 
-import static org.thoughtcrime.securesms.devicetransfer.SetupStep.VERIFY;
+import static org.mycrimes.insecuretests.devicetransfer.SetupStep.VERIFY;
 
 /**
  * State representation of the current {@link SetupStep} in the setup flow and

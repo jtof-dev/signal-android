@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.video;
+package org.mycrimes.insecuretests.video;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -40,10 +40,10 @@ import com.google.android.exoplayer2.ui.PlayerControlView;
 import com.google.android.exoplayer2.ui.PlayerView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewPlayerControlView;
-import org.thoughtcrime.securesms.mms.VideoSlide;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.mediapreview.MediaPreviewPlayerControlView;
+import org.mycrimes.insecuretests.mms.VideoSlide;
 
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;

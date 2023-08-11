@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.mycrimes.insecuretests.logsubmit;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase;
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase.EventMetrics;
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase.SplitMetrics;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.database.LocalMetricsDatabase;
+import org.mycrimes.insecuretests.database.LocalMetricsDatabase.EventMetrics;
+import org.mycrimes.insecuretests.database.LocalMetricsDatabase.SplitMetrics;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
 
 import java.util.List;
 

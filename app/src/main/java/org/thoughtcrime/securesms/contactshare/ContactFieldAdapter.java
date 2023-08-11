@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.mycrimes.insecuretests.contactshare;
 
 import android.content.Context;
 import android.net.Uri;
@@ -17,17 +17,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contactshare.Contact.Phone;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.contactshare.Contact.Phone;
+import org.mycrimes.insecuretests.mms.GlideRequests;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Avatar;
-import static org.thoughtcrime.securesms.contactshare.Contact.Email;
-import static org.thoughtcrime.securesms.contactshare.Contact.PostalAddress;
+import static org.mycrimes.insecuretests.contactshare.Contact.Avatar;
+import static org.mycrimes.insecuretests.contactshare.Contact.Email;
+import static org.mycrimes.insecuretests.contactshare.Contact.PostalAddress;
 
 class ContactFieldAdapter extends RecyclerView.Adapter<ContactFieldAdapter.ContactFieldViewHolder> {
 

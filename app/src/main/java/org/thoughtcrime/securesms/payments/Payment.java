@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.payments;
+package org.mycrimes.insecuretests.payments;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.annimon.stream.ComparatorCompat;
 
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.payments.proto.PaymentMetaData;
+import org.mycrimes.insecuretests.recipients.Recipient;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.Comparator;

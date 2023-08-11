@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.mycrimes.insecuretests;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,8 +22,8 @@ import android.os.Bundle;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.SelectedContact;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.contacts.SelectedContact;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.List;

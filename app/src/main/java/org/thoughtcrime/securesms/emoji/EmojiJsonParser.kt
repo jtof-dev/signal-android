@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.emoji
+package org.mycrimes.insecuretests.emoji
 
 import android.net.Uri
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.signal.core.util.Hex
-import org.thoughtcrime.securesms.components.emoji.CompositeEmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.Emoji
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.StaticEmojiPageModel
+import org.mycrimes.insecuretests.components.emoji.CompositeEmojiPageModel
+import org.mycrimes.insecuretests.components.emoji.Emoji
+import org.mycrimes.insecuretests.components.emoji.EmojiPageModel
+import org.mycrimes.insecuretests.components.emoji.StaticEmojiPageModel
 import java.io.InputStream
 import java.nio.charset.Charset
 

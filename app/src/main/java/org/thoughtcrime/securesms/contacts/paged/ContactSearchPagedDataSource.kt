@@ -1,27 +1,27 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
 import android.database.Cursor
 import org.signal.core.util.requireLong
 import org.signal.paging.PagedDataSource
-import org.thoughtcrime.securesms.contacts.ContactRepository
-import org.thoughtcrime.securesms.contacts.paged.collections.ContactSearchCollection
-import org.thoughtcrime.securesms.contacts.paged.collections.ContactSearchIterator
-import org.thoughtcrime.securesms.contacts.paged.collections.CursorSearchIterator
-import org.thoughtcrime.securesms.contacts.paged.collections.StoriesSearchCollection
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.ThreadRecord
-import org.thoughtcrime.securesms.keyvalue.StorySend
-import org.thoughtcrime.securesms.phonenumbers.NumberUtil
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.search.MessageResult
-import org.thoughtcrime.securesms.search.MessageSearchResult
-import org.thoughtcrime.securesms.search.SearchRepository
-import org.thoughtcrime.securesms.search.ThreadSearchResult
-import org.thoughtcrime.securesms.util.FeatureFlags
-import org.thoughtcrime.securesms.util.UsernameUtil
+import org.mycrimes.insecuretests.contacts.ContactRepository
+import org.mycrimes.insecuretests.contacts.paged.collections.ContactSearchCollection
+import org.mycrimes.insecuretests.contacts.paged.collections.ContactSearchIterator
+import org.mycrimes.insecuretests.contacts.paged.collections.CursorSearchIterator
+import org.mycrimes.insecuretests.contacts.paged.collections.StoriesSearchCollection
+import org.mycrimes.insecuretests.database.GroupTable
+import org.mycrimes.insecuretests.database.model.DistributionListPrivacyMode
+import org.mycrimes.insecuretests.database.model.GroupRecord
+import org.mycrimes.insecuretests.database.model.ThreadRecord
+import org.mycrimes.insecuretests.keyvalue.StorySend
+import org.mycrimes.insecuretests.phonenumbers.NumberUtil
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.search.MessageResult
+import org.mycrimes.insecuretests.search.MessageSearchResult
+import org.mycrimes.insecuretests.search.SearchRepository
+import org.mycrimes.insecuretests.search.ThreadSearchResult
+import org.mycrimes.insecuretests.util.FeatureFlags
+import org.mycrimes.insecuretests.util.UsernameUtil
 import java.util.concurrent.TimeUnit
 
 /**

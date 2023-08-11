@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.registration.viewmodel
+package org.mycrimes.insecuretests.registration.viewmodel
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.subjects.BehaviorSubject
-import org.thoughtcrime.securesms.pin.TokenData
+import org.mycrimes.insecuretests.pin.TokenData
 
 /**
  * Used during re-registration flow when pin entry is required to skip SMS verification. Mostly tracks

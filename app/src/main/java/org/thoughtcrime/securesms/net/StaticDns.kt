@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.net
+package org.mycrimes.insecuretests.net
 
 import okhttp3.Dns
 import java.net.InetAddress

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.dependencies
+package org.mycrimes.insecuretests.dependencies
 
 import android.app.Application
 import okhttp3.ConnectionSpec
@@ -14,16 +14,16 @@ import org.mockito.kotlin.any
 import org.mockito.kotlin.doReturn
 import org.mockito.kotlin.mock
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.KbsEnclave
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess
-import org.thoughtcrime.securesms.push.SignalServiceTrustStore
-import org.thoughtcrime.securesms.recipients.LiveRecipientCache
-import org.thoughtcrime.securesms.testing.Get
-import org.thoughtcrime.securesms.testing.Verb
-import org.thoughtcrime.securesms.testing.runSync
-import org.thoughtcrime.securesms.testing.success
-import org.thoughtcrime.securesms.util.Base64
+import org.mycrimes.insecuretests.BuildConfig
+import org.mycrimes.insecuretests.KbsEnclave
+import org.mycrimes.insecuretests.push.SignalServiceNetworkAccess
+import org.mycrimes.insecuretests.push.SignalServiceTrustStore
+import org.mycrimes.insecuretests.recipients.LiveRecipientCache
+import org.mycrimes.insecuretests.testing.Get
+import org.mycrimes.insecuretests.testing.Verb
+import org.mycrimes.insecuretests.testing.runSync
+import org.mycrimes.insecuretests.testing.success
+import org.mycrimes.insecuretests.util.Base64
 import org.whispersystems.signalservice.api.KeyBackupService
 import org.whispersystems.signalservice.api.SignalServiceAccountManager
 import org.whispersystems.signalservice.api.push.TrustStore

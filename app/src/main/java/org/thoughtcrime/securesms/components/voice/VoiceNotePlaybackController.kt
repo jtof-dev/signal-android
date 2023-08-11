@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package org.mycrimes.insecuretests.components.voice
 
 import android.media.AudioManager
 import android.os.Bundle

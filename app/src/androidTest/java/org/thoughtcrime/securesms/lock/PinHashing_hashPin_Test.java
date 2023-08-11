@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock;
+package org.mycrimes.insecuretests.lock;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 

@@ -12,7 +12,7 @@
     android:paddingEnd="8dp"
     android:paddingBottom="8dp">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.mycrimes.insecuretests.components.AvatarImageView
         android:id="@+id/recipient_view_avatar"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@tools:sample/avatars" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.mycrimes.insecuretests.badges.BadgeImageView
         android:id="@+id/recipient_view_badge"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="@id/recipient_view_avatar"
         app:layout_constraintTop_toTopOf="@id/recipient_view_avatar" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.mycrimes.insecuretests.components.emoji.EmojiTextView
         android:id="@+id/recipient_view_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

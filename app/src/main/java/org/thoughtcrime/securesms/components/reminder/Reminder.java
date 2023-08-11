@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.mycrimes.insecuretests.components.reminder;
 
 import android.content.Context;
 import android.view.View.OnClickListener;

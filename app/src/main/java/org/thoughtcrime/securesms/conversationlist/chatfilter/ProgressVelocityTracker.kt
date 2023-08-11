@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package org.mycrimes.insecuretests.conversationlist.chatfilter
 
 import androidx.annotation.FloatRange
 import org.whispersystems.signalservice.api.util.Preconditions

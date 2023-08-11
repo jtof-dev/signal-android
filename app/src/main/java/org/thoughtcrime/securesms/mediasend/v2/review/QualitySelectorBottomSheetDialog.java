@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.review;
+package org.mycrimes.insecuretests.mediasend.v2.review;
 
 import android.os.Bundle;
 import android.view.ContextThemeWrapper;
@@ -14,13 +14,13 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionState;
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
-import org.thoughtcrime.securesms.util.views.CheckedLinearLayout;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionState;
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel;
+import org.mycrimes.insecuretests.mms.SentMediaQuality;
+import org.mycrimes.insecuretests.util.BottomSheetUtil;
+import org.mycrimes.insecuretests.util.WindowUtil;
+import org.mycrimes.insecuretests.util.views.CheckedLinearLayout;
 
 /**
  * Dialog for selecting media quality, tightly coupled with {@link MediaSelectionViewModel}.

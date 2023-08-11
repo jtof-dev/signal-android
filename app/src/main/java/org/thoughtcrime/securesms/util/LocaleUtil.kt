@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util
+package org.mycrimes.insecuretests.util
 
 import androidx.core.os.LocaleListCompat
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.dynamiclanguage.LanguageString
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.util.dynamiclanguage.LanguageString
 import java.util.Locale
 
 object LocaleUtil {

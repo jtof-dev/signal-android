@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.net;
+package org.mycrimes.insecuretests.net;
 
 import android.os.Build;
 
-import org.thoughtcrime.securesms.BuildConfig;
+import org.mycrimes.insecuretests.BuildConfig;
 
 /**
  * The user agent that should be used by default -- includes app name, version, etc.

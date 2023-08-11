@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.sms
+package org.mycrimes.insecuretests.components.settings.app.chats.sms
 
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.mycrimes.insecuretests.database.MessageTable
+import org.mycrimes.insecuretests.database.SignalDatabase
 
 class SmsSettingsRepository(
   private val smsDatabase: MessageTable = SignalDatabase.messages,

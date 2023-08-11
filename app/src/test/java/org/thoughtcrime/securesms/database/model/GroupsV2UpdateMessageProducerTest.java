@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package org.mycrimes.insecuretests.database.model;
 
 import android.app.Application;
 import android.text.Spannable;
@@ -24,8 +24,8 @@ import org.signal.storageservice.protos.groups.local.DecryptedGroup;
 import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
 import org.signal.storageservice.protos.groups.local.DecryptedMember;
 import org.signal.storageservice.protos.groups.local.DecryptedPendingMember;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
 import org.whispersystems.signalservice.api.push.ACI;
 import org.whispersystems.signalservice.api.push.PNI;
 import org.whispersystems.signalservice.api.push.ServiceId;
@@ -48,8 +48,8 @@ import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 import static org.signal.core.util.StringUtil.isolateBidi;
-import static org.thoughtcrime.securesms.groups.v2.ChangeBuilder.changeBy;
-import static org.thoughtcrime.securesms.groups.v2.ChangeBuilder.changeByUnknown;
+import static org.mycrimes.insecuretests.groups.v2.ChangeBuilder.changeBy;
+import static org.mycrimes.insecuretests.groups.v2.ChangeBuilder.changeByUnknown;
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;
 

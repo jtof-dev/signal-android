@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database.model
+package org.mycrimes.insecuretests.database.model
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.mycrimes.insecuretests.recipients.RecipientId
 import org.whispersystems.signalservice.api.crypto.ContentHint
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos
 
 /**
- * Model class for reading from the [org.thoughtcrime.securesms.database.MessageSendLogTables].
+ * Model class for reading from the [org.mycrimes.insecuretests.database.MessageSendLogTables].
  */
 data class MessageLogEntry(
   val recipientId: RecipientId,

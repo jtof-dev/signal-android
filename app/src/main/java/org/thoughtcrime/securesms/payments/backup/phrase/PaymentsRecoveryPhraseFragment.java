@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup.phrase;
+package org.mycrimes.insecuretests.payments.backup.phrase;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -23,12 +23,12 @@ import com.annimon.stream.Stream;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.PendingIntentFlags;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.Mnemonic;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.Mnemonic;
+import org.mycrimes.insecuretests.util.ServiceUtil;
+import org.mycrimes.insecuretests.util.Util;
+import org.mycrimes.insecuretests.util.navigation.SafeNavigation;
 
 import java.util.Arrays;
 import java.util.Comparator;

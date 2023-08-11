@@ -17,7 +17,7 @@
         android:src="@drawable/bottom_sheet_handle"
         tools:ignore="ContentDescription" />
 
-    <org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
+    <org.mycrimes.insecuretests.keyboard.emoji.KeyboardPageSearchView
         android:id="@+id/react_with_any_emoji_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
         android:layout_weight="1"
         android:minHeight="1000dp">
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiPageView
+        <org.mycrimes.insecuretests.components.emoji.EmojiPageView
             android:id="@+id/react_with_any_emoji_page_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

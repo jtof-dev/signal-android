@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.mycrimes.insecuretests.mediasend.v2
 
 import android.content.Context
 import android.net.Uri
@@ -24,22 +24,22 @@ import io.reactivex.rxjava3.subjects.Subject
 import org.signal.core.util.BreakIteratorCompat
 import org.signal.core.util.getParcelableArrayListCompat
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.conversation.MessageStyler
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaSendActivityResult
-import org.thoughtcrime.securesms.mediasend.VideoEditorFragment
-import org.thoughtcrime.securesms.mediasend.v2.review.AddMessageCharacterCount
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.scribbles.ImageEditorFragment
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.components.mention.MentionAnnotation
+import org.mycrimes.insecuretests.contacts.paged.ContactSearchKey
+import org.mycrimes.insecuretests.conversation.MessageSendType
+import org.mycrimes.insecuretests.conversation.MessageStyler
+import org.mycrimes.insecuretests.mediasend.Media
+import org.mycrimes.insecuretests.mediasend.MediaSendActivityResult
+import org.mycrimes.insecuretests.mediasend.VideoEditorFragment
+import org.mycrimes.insecuretests.mediasend.v2.review.AddMessageCharacterCount
+import org.mycrimes.insecuretests.mms.MediaConstraints
+import org.mycrimes.insecuretests.mms.SentMediaQuality
+import org.mycrimes.insecuretests.providers.BlobProvider
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.scribbles.ImageEditorFragment
+import org.mycrimes.insecuretests.stories.Stories
+import org.mycrimes.insecuretests.util.Util
+import org.mycrimes.insecuretests.util.livedata.Store
 import java.util.Collections
 
 /**

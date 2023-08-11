@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package org.mycrimes.insecuretests.profiles.spoofing;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.ProfileChangeDetails;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.mycrimes.insecuretests.database.model.databaseprotos.ProfileChangeDetails;
+import org.mycrimes.insecuretests.recipients.Recipient;
 
 /**
  * Represents a card showing user details for a recipient under review.

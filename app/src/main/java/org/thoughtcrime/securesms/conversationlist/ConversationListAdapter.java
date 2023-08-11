@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist;
+package org.mycrimes.insecuretests.conversationlist;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,14 +14,14 @@ import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.BindableConversationListItem;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversationlist.model.Conversation;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationReader;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.CachedInflater;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.mycrimes.insecuretests.BindableConversationListItem;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.conversationlist.model.Conversation;
+import org.mycrimes.insecuretests.conversationlist.model.ConversationReader;
+import org.mycrimes.insecuretests.conversationlist.model.ConversationSet;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.util.CachedInflater;
+import org.mycrimes.insecuretests.util.ViewUtil;
 
 import java.util.HashSet;
 import java.util.List;

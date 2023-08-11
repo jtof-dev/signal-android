@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.badges.view
+package org.mycrimes.insecuretests.badges.view
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.disposables.CompositeDisposable
-import org.thoughtcrime.securesms.badges.BadgeRepository
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.badges.BadgeRepository
+import org.mycrimes.insecuretests.badges.models.Badge
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.util.livedata.Store
 
 class ViewBadgeViewModel(
   private val startBadge: Badge?,

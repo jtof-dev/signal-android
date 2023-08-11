@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.mycrimes.insecuretests.components;
 
 
 import android.content.Context;
@@ -16,13 +16,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewCache;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.database.CursorRecyclerViewAdapter;
+import org.mycrimes.insecuretests.database.MediaTable;
+import org.mycrimes.insecuretests.mediapreview.MediaPreviewCache;
+import org.mycrimes.insecuretests.mms.GlideRequests;
+import org.mycrimes.insecuretests.mms.Slide;
+import org.mycrimes.insecuretests.util.MediaUtil;
 
 public class ThreadPhotoRailView extends FrameLayout {
 

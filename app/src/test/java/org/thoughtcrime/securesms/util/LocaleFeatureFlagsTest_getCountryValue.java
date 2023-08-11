@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.mycrimes.insecuretests.util;
 
 import androidx.annotation.NonNull;
 
@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.testutil.EmptyLogger;
+import org.mycrimes.insecuretests.testutil.EmptyLogger;
 
 import java.util.Arrays;
 import java.util.Collection;

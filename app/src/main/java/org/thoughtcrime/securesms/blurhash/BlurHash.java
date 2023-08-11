@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.blurhash;
+package org.mycrimes.insecuretests.blurhash;
 
 import android.os.Parcel;
 import android.os.Parcelable;

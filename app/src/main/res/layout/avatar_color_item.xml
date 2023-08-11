@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mycrimes.insecuretests.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,4 +18,4 @@
         app:srcCompat="@drawable/avatar_color_item_ring"
         tools:backgroundTint="#C2DCE9" />
 
-</org.thoughtcrime.securesms.components.SquareFrameLayout>
+</org.mycrimes.insecuretests.components.SquareFrameLayout>

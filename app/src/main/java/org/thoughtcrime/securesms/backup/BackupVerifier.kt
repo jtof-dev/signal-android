@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.backup
+package org.mycrimes.insecuretests.backup
 
 import org.greenrobot.eventbus.EventBus
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.proto.Attachment
-import org.thoughtcrime.securesms.backup.proto.Avatar
-import org.thoughtcrime.securesms.backup.proto.BackupFrame
-import org.thoughtcrime.securesms.backup.proto.Sticker
+import org.mycrimes.insecuretests.backup.proto.Attachment
+import org.mycrimes.insecuretests.backup.proto.Avatar
+import org.mycrimes.insecuretests.backup.proto.BackupFrame
+import org.mycrimes.insecuretests.backup.proto.Sticker
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

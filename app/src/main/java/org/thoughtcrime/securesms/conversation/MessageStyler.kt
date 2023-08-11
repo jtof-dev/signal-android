@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.mycrimes.insecuretests.conversation
 
 import android.graphics.Typeface
 import android.text.Annotation
@@ -8,9 +8,9 @@ import android.text.style.CharacterStyle
 import android.text.style.StrikethroughSpan
 import android.text.style.StyleSpan
 import android.text.style.TypefaceSpan
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.util.PlaceholderURLSpan
+import org.mycrimes.insecuretests.components.spoiler.SpoilerAnnotation
+import org.mycrimes.insecuretests.database.model.databaseprotos.BodyRangeList
+import org.mycrimes.insecuretests.util.PlaceholderURLSpan
 
 /**
  * Helper for parsing and applying styles. Most notably with [BodyRangeList].

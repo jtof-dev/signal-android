@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.addtogroup;
+package org.mycrimes.insecuretests.groups.ui.addtogroup;
 
 import android.app.Application;
 
@@ -7,15 +7,15 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.v2.GroupAddMembersResult;
-import org.thoughtcrime.securesms.groups.v2.GroupManagementRepository;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.dependencies.ApplicationDependencies;
+import org.mycrimes.insecuretests.groups.ui.GroupChangeFailureReason;
+import org.mycrimes.insecuretests.groups.ui.GroupErrors;
+import org.mycrimes.insecuretests.groups.v2.GroupAddMembersResult;
+import org.mycrimes.insecuretests.groups.v2.GroupManagementRepository;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.recipients.RecipientId;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
 
 import java.util.Collections;
 import java.util.List;

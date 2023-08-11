@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.mycrimes.insecuretests.jobs
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import okhttp3.mockwebserver.MockResponse
@@ -9,14 +9,14 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.libsignal.usernames.Username
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testing.Get
-import org.thoughtcrime.securesms.testing.Put
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.failure
-import org.thoughtcrime.securesms.testing.success
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.dependencies.InstrumentationApplicationDependencyProvider
+import org.mycrimes.insecuretests.keyvalue.SignalStore
+import org.mycrimes.insecuretests.testing.Get
+import org.mycrimes.insecuretests.testing.Put
+import org.mycrimes.insecuretests.testing.SignalActivityRule
+import org.mycrimes.insecuretests.testing.failure
+import org.mycrimes.insecuretests.testing.success
 import org.whispersystems.signalservice.internal.push.ReserveUsernameResponse
 import org.whispersystems.signalservice.internal.push.WhoAmIResponse
 import org.whispersystems.util.Base64UrlSafe

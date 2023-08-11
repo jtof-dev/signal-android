@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.migrations
+package org.mycrimes.insecuretests.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.OptimizeMessageSearchIndexJob
+import org.mycrimes.insecuretests.jobmanager.Job
+import org.mycrimes.insecuretests.jobs.OptimizeMessageSearchIndexJob
 
 /**
  * Kicks off a job to optimize the message search index.

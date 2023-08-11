@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package org.mycrimes.insecuretests.stories.viewer.reply.group
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -13,13 +13,13 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageViewModel
-import org.thoughtcrime.securesms.stories.viewer.reply.BottomSheetBehaviorDelegate
-import org.thoughtcrime.securesms.stories.viewer.reply.reaction.OnReactionSentView
-import org.thoughtcrime.securesms.util.BottomSheetUtil.requireCoordinatorLayout
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.mycrimes.insecuretests.recipients.RecipientId
+import org.mycrimes.insecuretests.stories.viewer.page.StoryViewerPageViewModel
+import org.mycrimes.insecuretests.stories.viewer.reply.BottomSheetBehaviorDelegate
+import org.mycrimes.insecuretests.stories.viewer.reply.reaction.OnReactionSentView
+import org.mycrimes.insecuretests.util.BottomSheetUtil.requireCoordinatorLayout
 import kotlin.math.min
 import kotlin.math.roundToInt
 

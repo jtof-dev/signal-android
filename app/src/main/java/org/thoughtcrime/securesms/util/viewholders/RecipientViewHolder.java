@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.viewholders;
+package org.mycrimes.insecuretests.util.viewholders;
 
 import android.view.View;
 import android.widget.TextView;
@@ -7,13 +7,13 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.adapter.mapping.Factory;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.badges.BadgeImageView;
+import org.mycrimes.insecuretests.components.AvatarImageView;
+import org.mycrimes.insecuretests.recipients.Recipient;
+import org.mycrimes.insecuretests.util.adapter.mapping.Factory;
+import org.mycrimes.insecuretests.util.adapter.mapping.LayoutFactory;
+import org.mycrimes.insecuretests.util.adapter.mapping.MappingViewHolder;
 
 public class RecipientViewHolder<T extends RecipientMappingModel<T>> extends MappingViewHolder<T> {
 

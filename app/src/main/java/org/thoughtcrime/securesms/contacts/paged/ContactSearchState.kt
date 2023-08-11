@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.mycrimes.insecuretests.contacts.paged
 
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
+import org.mycrimes.insecuretests.conversationlist.chatfilter.ConversationFilterRequest
 
 /**
  * Simple search state for contacts.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.videos
+package org.mycrimes.insecuretests.mediasend.v2.videos
 
 import android.net.Uri
 import android.os.Bundle
@@ -6,12 +6,12 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.VideoEditorFragment
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.stories.Stories
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.mediasend.VideoEditorFragment
+import org.mycrimes.insecuretests.mediasend.v2.HudCommand
+import org.mycrimes.insecuretests.mediasend.v2.MediaSelectionViewModel
+import org.mycrimes.insecuretests.mms.MediaConstraints
+import org.mycrimes.insecuretests.stories.Stories
 
 private const val VIDEO_EDITOR_TAG = "video.editor.fragment"
 

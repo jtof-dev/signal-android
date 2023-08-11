@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage
+package org.mycrimes.insecuretests.crypto.storage
 
 /**
  * Allows storing various metadata around prekey state.

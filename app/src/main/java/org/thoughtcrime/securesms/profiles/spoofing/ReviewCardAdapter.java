@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package org.mycrimes.insecuretests.profiles.spoofing;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -8,8 +8,8 @@ import androidx.annotation.PluralsRes;
 import androidx.annotation.StringRes;
 import androidx.recyclerview.widget.ListAdapter;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.AlwaysChangedDiffUtil;
+import org.mycrimes.insecuretests.R;
+import org.mycrimes.insecuretests.util.adapter.AlwaysChangedDiffUtil;
 
 import java.util.Objects;
 

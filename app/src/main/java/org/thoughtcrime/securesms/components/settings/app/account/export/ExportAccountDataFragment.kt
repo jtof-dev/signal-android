@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.account.export
+package org.mycrimes.insecuretests.components.settings.app.account.export
 
 import android.os.Bundle
 import android.view.View
@@ -41,10 +41,10 @@ import org.signal.core.ui.Scaffolds
 import org.signal.core.ui.Texts
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SpanUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.compose.ComposeFragment
+import org.mycrimes.insecuretests.util.CommunicationActions
+import org.mycrimes.insecuretests.util.SpanUtil
 
 class ExportAccountDataFragment : ComposeFragment() {
 

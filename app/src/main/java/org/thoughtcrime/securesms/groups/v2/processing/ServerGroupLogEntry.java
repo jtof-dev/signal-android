@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2.processing;
+package org.mycrimes.insecuretests.groups.v2.processing;
 
 import androidx.annotation.Nullable;
 

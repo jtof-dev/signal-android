@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.manage
+package org.mycrimes.insecuretests.components.settings.app.subscription.manage
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -11,13 +11,13 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.settings.app.subscription.MonthlyDonationRepository
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.JobTracker
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.subscription.LevelUpdate
-import org.thoughtcrime.securesms.util.InternetConnectionObserver
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.mycrimes.insecuretests.components.settings.app.subscription.MonthlyDonationRepository
+import org.mycrimes.insecuretests.database.SignalDatabase
+import org.mycrimes.insecuretests.jobmanager.JobTracker
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.subscription.LevelUpdate
+import org.mycrimes.insecuretests.util.InternetConnectionObserver
+import org.mycrimes.insecuretests.util.livedata.Store
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 
 class ManageDonationsViewModel(

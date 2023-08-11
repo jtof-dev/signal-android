@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:padding="?attr/dialogPreferredPadding">
 
-    <org.thoughtcrime.securesms.util.views.CheckedLinearLayout
+    <org.mycrimes.insecuretests.util.views.CheckedLinearLayout
         android:id="@+id/quality_selector_dialog_standard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -37,9 +37,9 @@
             android:textAppearance="@style/TextAppearance.Signal.Subtitle"
             android:textColor="@color/signal_text_secondary" />
 
-    </org.thoughtcrime.securesms.util.views.CheckedLinearLayout>
+    </org.mycrimes.insecuretests.util.views.CheckedLinearLayout>
 
-    <org.thoughtcrime.securesms.util.views.CheckedLinearLayout
+    <org.mycrimes.insecuretests.util.views.CheckedLinearLayout
         android:id="@+id/quality_selector_dialog_high"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
             android:textAppearance="@style/TextAppearance.Signal.Subtitle"
             android:textColor="@color/signal_text_secondary" />
 
-    </org.thoughtcrime.securesms.util.views.CheckedLinearLayout>
+    </org.mycrimes.insecuretests.util.views.CheckedLinearLayout>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="0dp"

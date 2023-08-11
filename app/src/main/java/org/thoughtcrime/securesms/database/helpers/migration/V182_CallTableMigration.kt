@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.mycrimes.insecuretests.database.helpers.migration
 
 import android.app.Application
 import net.zetetic.database.sqlcipher.SQLiteDatabase
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.RecipientTable
+import org.mycrimes.insecuretests.database.MessageTable
+import org.mycrimes.insecuretests.database.RecipientTable
 
 /**
  * Adds a new 'timestamp' column to CallTable and copies in the date_sent column data from

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.service.webrtc.state
+package org.mycrimes.insecuretests.service.webrtc.state
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.mycrimes.insecuretests.recipients.Recipient
 import org.webrtc.PeerConnection
 
 /**

@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.payments.deactivate;
+package org.mycrimes.insecuretests.payments.deactivate;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.Balance;
-import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeRepository;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.mycrimes.insecuretests.keyvalue.SignalStore;
+import org.mycrimes.insecuretests.payments.Balance;
+import org.mycrimes.insecuretests.payments.preferences.PaymentsHomeRepository;
+import org.mycrimes.insecuretests.util.SingleLiveEvent;
 import org.whispersystems.signalservice.api.payments.Money;
 
 public class DeactivateWalletViewModel extends ViewModel {

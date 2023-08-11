@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.mycrimes.insecuretests.conversation.v2
 
 import android.content.Context
 import android.text.method.LinkMovementMethod
@@ -15,12 +15,12 @@ import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.google.android.material.button.MaterialButton
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.messagerequests.MessageRequestState
-import org.thoughtcrime.securesms.messagerequests.MessageRequestViewModel
-import org.thoughtcrime.securesms.messagerequests.MessageRequestsBottomView
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.SpanUtil
+import org.mycrimes.insecuretests.R
+import org.mycrimes.insecuretests.messagerequests.MessageRequestState
+import org.mycrimes.insecuretests.messagerequests.MessageRequestViewModel
+import org.mycrimes.insecuretests.messagerequests.MessageRequestsBottomView
+import org.mycrimes.insecuretests.recipients.Recipient
+import org.mycrimes.insecuretests.util.SpanUtil
 
 /**
  * A one-stop-view for all your conversation input disabled needs.
