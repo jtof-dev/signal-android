@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1004867972156",
+    "project_id": "signal-server-363702",
+    "storage_bucket": "signal-server-363702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004867972156:android:098b17cecba21a25dde739",
+        "android_client_info": {
+          "package_name": "org.mycrimes.insecuretests"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004867972156-gkmbh47agrtcekhkan1p1r45vj03qc65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeBtbPztrnYqD2rhESjDk2BwvC-KNxmpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004867972156-gkmbh47agrtcekhkan1p1r45vj03qc65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
