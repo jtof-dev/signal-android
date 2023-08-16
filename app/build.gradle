@@ -210,15 +210,15 @@ android {
         buildConfigField "org.mycrimes.insecuretests.KbsEnclave[]", "KBS_FALLBACKS", "new org.mycrimes.insecuretests.KbsEnclave[] { new org.mycrimes.insecuretests.KbsEnclave(\"0cedba03535b41b67729ce9924185f831d7767928a1d1689acb689bc079c375f\", " +
                                                                                                                                                                              "\"187d2739d22be65e74b65f0055e74d31310e4267e5fac2b1246cc8beba81af39\", " +
                                                                                                                                                                              "\"ee19f1965b1eefa3dc4204eb70c04f397755f771b8c1909d080c04dad2a6a9ba\") }"
-        buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BbxzgZ7cz7bQpQ+UAXHWNF/e3Crxf9JkHuvgGhGygb83\""
+        buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"Bbu9xTw8KZ4c740W6OQklV1llrr6Uo2J8cPL5fnZcNxk\""
         buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"AEIUAJEo2RQIRtTu0gTQDZ/p+um2+4U+iUDOtDp4hZwbbr9G/95M8pT/M4sdFEMQk4xM3IKSF3SsHPbNozFzKjxQg9WkwJIWZ9YdqNrz2YsDDN3NL44Py6qS3cQnP+oMVuayYeN9lXKF2r6jGjCiOdIlGp1zMc89W36eZQWirR5vWsGZo0eOxIOkkb1LU5wxiAGk++DOOrcJdn9VIaZBm1X68T0QaeCmnxgTJXQkNjmb62VVBZCRGl5WOy5LkaDHZvQ2r0ZAZMqnVxjfAF9IY3CvqDYErBsyEqVq7wDtd4JHCtlSRmU00hTX16wwlkApbZI3bzVQgVpZt+uhXTG6vCJ+vxjaS18JY51V99zG3+vDM9jqjdsAAvyYDVTN+/HQRb4ydKu01s08mFRNlaMu9o1E8/7kOqaUS1NlXl+/pv1lXHli2xllhQYWIHGK6L6ivLZsaCCBtUP6DsZGo9HMvybMn1HePxew21URCCGCcIW/BWnDnUVe9VqKfM7n37SeYPqg7Bx9NnvUaXtiBeT26BD+QJUmL27P2jcV5zw2DLhm\""
         buildConfigField "String", "GENERIC_SERVER_PUBLIC_PARAMS", "\"AByD873dTilmOSG0TjKrvpeaKEsUmIO8Vx9BeMmftwUs9v7ikPwM8P3OHyT0+X3EUMZrSe9VUp26Wai51Q9I8mdk0hX/yo7CeFGJyzoOqn8e/i4Ygbn5HoAyXJx5eXfIbqpc0bIxzju4H/HOQeOpt6h742qii5u/cbwOhFZCsMIbElZTaeU+BWMBQiZHIGHT5IE0qCordQKZ5iPZom0HeFa8Yq0ShuEyAl0WINBiY6xE3H/9WnvzXBbMuuk//eRxXgzO8ieCeK8FwQNxbfXqZm6Ro1cMhCOF3u7xoX83QhpN\""
         buildConfigField "String[]", "LANGUAGES", "new String[]{\"" + autoResConfig().collect { s -> s.replace('-r', '_') }.join('", "') + '"}'
         buildConfigField "int", "CANONICAL_VERSION_CODE", "$canonicalVersionCode"
         buildConfigField "String", "DEFAULT_CURRENCIES", "\"EUR,AUD,GBP,CAD,CNY\""
         buildConfigField "String", "GIPHY_API_KEY", "\"3o6ZsYH6U6Eri53TXy\""
-        buildConfigField "String", "SIGNAL_CAPTCHA_URL", "\"https://signalcaptchas.org/registration/generate.html\"" // You might be able to piggyback off Signal
-        buildConfigField "String", "RECAPTCHA_PROOF_URL", "\"https://signalcaptchas.org/challenge/generate.html\"" // You might be able to piggyback off Signal
+        buildConfigField "String", "SIGNAL_CAPTCHA_URL", "\"https://chat.middleman.foo/signalcaptchas\"" // You might be able to piggyback off Signal
+        buildConfigField "String", "RECAPTCHA_PROOF_URL", "\"https://chat.middleman.foo/signalcaptchas\"" // You might be able to piggyback off Signal
 
         buildConfigField "String", "BUILD_DISTRIBUTION_TYPE", "\"unset\""
         buildConfigField "String", "BUILD_ENVIRONMENT_TYPE", "\"unset\""
@@ -388,12 +388,12 @@ android {
             buildConfigField "org.mycrimes.insecuretests.KbsEnclave[]", "KBS_FALLBACKS", "new org.mycrimes.insecuretests.KbsEnclave[] { new org.mycrimes.insecuretests.KbsEnclave(\"dd6f66d397d9e8cf6ec6db238e59a7be078dd50e9715427b9c89b409ffe53f99\", " +
                                                                                                                                                                                  "\"4200003414528c151e2dccafbc87aa6d3d66a5eb8f8c05979a6e97cb33cd493a\", " +
                                                                                                                                                                                  "\"ee19f1965b1eefa3dc4204eb70c04f397755f771b8c1909d080c04dad2a6a9ba\") }"
-            buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BbqY1DzohE4NUZoVF+L18oUPrK3kILllLEJh2UnPSsEx\""
+            buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"Bbu9xTw8KZ4c740W6OQklV1llrr6Uo2J8cPL5fnZcNxk\""
             buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"ABSY21VckQcbSXVNCGRYJcfWHiAMZmpTtTELcDmxgdFbtp/bWsSxZdMKzfCp8rvIs8ocCU3B37fT3r4Mi5qAemeGeR2X+/YmOGR5ofui7tD5mDQfstAI9i+4WpMtIe8KC3wU5w3Inq3uNWVmoGtpKndsNfwJrCg0Hd9zmObhypUnSkfYn2ooMOOnBpfdanRtrvetZUayDMSC5iSRcXKpdlukrpzzsCIvEwjwQlJYVPOQPj4V0F4UXXBdHSLK05uoPBCQG8G9rYIGedYsClJXnbrgGYG3eMTG5hnx4X4ntARBgELuMWWUEEfSK0mjXg+/2lPmWcTZWR9nkqgQQP0tbzuiPm74H2wMO4u1Wafe+UwyIlIT9L7KLS19Aw8r4sPrXZSSsOZ6s7M1+rTJN0bI5CKY2PX29y5Ok3jSWufIKcgKOnWoP67d5b2du2ZVJjpjfibNIHbT/cegy/sBLoFwtHogVYUewANUAXIaMPyCLRArsKhfJ5wBtTminG/PAvuBdJ70Z/bXVPf8TVsR292zQ65xwvWTejROW6AZX6aqucUj\""
             buildConfigField "String", "GENERIC_SERVER_PUBLIC_PARAMS", "\"AHILOIrFPXX9laLbalbA9+L1CXpSbM/bTJXZGZiuyK1JaI6dK5FHHWL6tWxmHKYAZTSYmElmJ5z2A5YcirjO/yfoemE03FItyaf8W1fE4p14hzb5qnrmfXUSiAIVrhaXVwIwSzH6RL/+EO8jFIjJ/YfExfJ8aBl48CKHgu1+A6kWynhttonvWWx6h7924mIzW0Czj2ROuh4LwQyZypex4GuOPW8sgIT21KNZaafgg+KbV7XM1x1tF3XA17B4uGUaDbDw2O+nR1+U5p6qHPzmJ7ggFjSN6Utu+35dS1sS0P9N\""
             buildConfigField "String", "MOBILE_COIN_ENVIRONMENT", "\"testnet\""
-            buildConfigField "String", "SIGNAL_CAPTCHA_URL", "\"https://signalcaptchas.org/staging/registration/generate.html\""
-            buildConfigField "String", "RECAPTCHA_PROOF_URL", "\"https://signalcaptchas.org/staging/challenge/generate.html\""
+            buildConfigField "String", "SIGNAL_CAPTCHA_URL", "\"https://chat.middleman.foo/signalcaptchas\""
+            buildConfigField "String", "RECAPTCHA_PROOF_URL", "\"https://chat.middleman.foo/signalcaptchas\""
 
             buildConfigField "String", "BUILD_ENVIRONMENT_TYPE", "\"Staging\""
             buildConfigField "String", "STRIPE_PUBLISHABLE_KEY", "\"pk_test_sngOd8FnXNkpce9nPXawKrJD00kIDngZkD\""
