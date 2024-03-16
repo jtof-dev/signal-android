@@ -1,11 +1,11 @@
 # Signal-Android Full Installation Guide
 
-- An older fork of [Signal-Android](https://github.com/signalapp/Signal-Android) that works with [my fork of Signal-Server](https://github.com/JJTofflemire/Signal-Server) 
+- An older fork of [Signal-Android](https://github.com/signalapp/Signal-Android) that works with [my fork of Signal-Server](https://github.com/jtof-dev/Signal-Server) 
   - Running the newest version of signalapp's Android app with my fork of Signal-Server should be fine, but this repository is here as a redundancy
 
 ## Useful Resources
 
-- [Signal-Server installation instructions](https://github.com/JJTofflemire/Signal-Server)
+- [Signal-Server installation instructions](https://github.com/jtof-dev/Signal-Server)
 - [sample-build.gradle](app/sample-build.gradle) (with notes)
 
 ## Dependencies
@@ -19,7 +19,7 @@
 Clone this repo with:
 
 ```
-git clone https://github.com/JJTofflemire/Signal-Android
+git clone https://github.com/jtof-dev/Signal-Android
 ```
 
 Open Android Studio and hit `Open` in the new project prompt or in the top left go to `File` > `Open Folder` > select `Signal-Android`
@@ -54,7 +54,7 @@ buildConfigField "String", "SIGNAL_URL", "\"https://chat.your.domain\""
 buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"your-public-key\""
 ```
 
-- On lines 218-219, you need to enter your own `hcaptcha` webpage (signal's won't work) - the [nginx-certbot docker image](https://github.com/JJTofflemire/Signal-Docker/tree/main/nginx-certbot) should bundle it at `chat.your.domain/signalcatpchas`, or else you can check out the source at [JJTofflemire/signalcaptchas](https://github.com/JJTofflemire/signalcaptchas)
+- On lines 218-219, you need to enter your own `hcaptcha` webpage (signal's won't work) - the [nginx-certbot docker image](https://github.com/jtof-dev/Signal-Docker/tree/main/nginx-certbot) should bundle it at `chat.your.domain/signalcatpchas`, or else you can check out the source at [jtof-dev/signalcaptchas](https://github.com/jtof-dev/signalcaptchas)
 
 ```
 buildConfigField "String", "SIGNAL_CAPTCHA_URL", "\"https://signalcaptchas.org/registration/generate.html\""
